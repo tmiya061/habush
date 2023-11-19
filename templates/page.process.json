@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "process": {
+      "type": "custom-process"
+    }
+  },
+  "order": ["process"]
+}

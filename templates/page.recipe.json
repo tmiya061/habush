@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "recipe": {
+      "type": "custom-recipe"
+    }
+  },
+  "order": ["recipe"]
+}

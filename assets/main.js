@@ -603,10 +603,10 @@ if ( window.document.body.id === 'top' ) {
       // 画像を表示するHTMLを生成
       const html = randomImages.map(image => `
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
       `).join('');
   
@@ -624,10 +624,10 @@ if ( window.document.body.id === 'top' ) {
       // 画像を表示するHTMLを生成
       const html = randomImages.map(image => `
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
       `).join('');
       // HTMLを画像コンテナに設定
@@ -649,16 +649,16 @@ if ( window.document.body.id === 'top' ) {
       const html = randomImages.map(image => `
       <div class="process__img">
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
       </div>
       `).join('');
@@ -677,16 +677,16 @@ if ( window.document.body.id === 'top' ) {
       const html = randomImages.map(image => `
       <div class="process__img">
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
         <div class="img">
-          <img src='./assets/images/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
+          <img src='//a6a0eb.myshopify.com/cdn/shop/files/${image}' alt='材料の画像' width='343' height='243' loading='lazy'>
         </div>
       </div>
       `).join('');

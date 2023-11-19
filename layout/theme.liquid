@@ -254,7 +254,6 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
-    <link rel="stylesheet" href="{{ 'add.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'animate.min.css' | asset_url }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ 'main.min.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'reset.min.css' | asset_url }}">
@@ -262,6 +261,7 @@
     <link rel="stylesheet" href="{{ 'slick.min.css' | asset_url }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ 'swiper-min.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'swiper-bundle.min.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'add.css' | asset_url }}">
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -292,7 +292,10 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body
+    id="{% if template == 'index' %}top{% endif %}"
+    class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}"
+  >
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -302,13 +305,13 @@
     {%- endif -%}
 
     {% sections 'header-group' %}
+    <div id="luxy" class="js-luxy">
+      <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+        {{ content_for_layout }}
+      </main>
 
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
-    </main>
-
-    {% sections 'footer-group' %}
-
+      {% sections 'footer-group' %}
+    </div>
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
@@ -358,15 +361,15 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <script src="{{ 'swiper.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'ls.unveilhooks.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'lazysizes.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'wow.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'rellax.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'main.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'luxy.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'jquery.easeScroll.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'luxy.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'rellax.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'wow.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'main.js' | asset_url }}" defer="defer"></script>
   </body>
 </html>
