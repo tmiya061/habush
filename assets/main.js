@@ -177,42 +177,42 @@ $(".loop-reverse").slick({
 
 
 // オープニング
-// if ( window.document.body.id === 'top' ) {
-//   $(window).on('load', function () {
-//     setTimeout(function () {
-//       $('#luxy').css('max-height', 'none');
-//       $('#opening-wrapper').fadeOut(600);
-//     }, 400);
-//   });
-// }
+if ( window.document.body.id === 'top' ) {
+  $(window).on('load', function () {
+    setTimeout(function () {
+      $('#luxy').css('max-height', 'none');
+      $('#opening-wrapper').fadeOut(600);
+    }, 400);
+  });
+}
 
-$(function () {
-  var webStorage = function () {
-    if (sessionStorage.getItem('access')) {
-      /*
-        2回目以降アクセス時の処理
-      */
-        $('#opening-wrapper').addClass('js-none');
-    } else {
-      /*
-        初回アクセス時の処理
-      */
-        $(window).on('load', function () {
-          setTimeout(function () {
-            $('#luxy').css('max-height', 'none');
-            $('#opening-wrapper').fadeOut(600);
-          }, 400);
-        });
-    }
-  }
-  webStorage();
-});
+// $(function () {
+//   var webStorage = function () {
+//     if (sessionStorage.getItem('access')) {
+//       /*
+//         2回目以降アクセス時の処理
+//       */
+//         $('#opening-wrapper').addClass('js-none');
+//     } else {
+//       /*
+//         初回アクセス時の処理
+//       */
+//         $(window).on('load', function () {
+//           setTimeout(function () {
+//             $('#luxy').css('max-height', 'none');
+//             $('#opening-wrapper').fadeOut(600);
+//           }, 400);
+//         });
+//     }
+//   }
+//   webStorage();
+// });
 
-$(window).on('ready', function() {
-    $(window).on('load', function () {
-      $('.preload-main').addClass('js-none');
-    });
-});
+// $(window).on('ready', function() {
+//     $(window).on('load', function () {
+//       $('.preload-main').addClass('js-none');
+//     });
+// });
 
 
 
