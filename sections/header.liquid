@@ -5,7 +5,7 @@
 </div>
 <header class="">
   <div class="header-container d-flex">
-    <a href="{{ shop.url }}" class="symbol animate__animated animate__fadeIn animate__delay-1s">
+    <a href="/" class="symbol animate__animated animate__fadeIn animate__delay-1s">
       <picture>
         <source srcset="{{ 'symbol.webp' | file_url }}" type="image/webp">
         <img src="{{ 'symbol.png' | file_url }}?1" alt="" width="70">
@@ -24,8 +24,24 @@
       </div>
     </div>
     <div class="sns-icons animate__animated animate__fadeIn animate__delay-1s">
-      <a href="">
+      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         <img src="{{ 'cart-icon.svg' | file_url }}" alt="カート" width="25">
+        <!-- {%- liquid
+          if cart == empty
+            render 'icon-cart-empty'
+          else
+            render 'icon-cart'
+          endif
+        -%} -->
+        <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
+        {%- if cart != empty -%}
+          <div class="cart-count-bubble">
+            {%- if cart.item_count < 100 -%}
+              <span aria-hidden="true">{{ cart.item_count }}</span>
+            {%- endif -%}
+            <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
+          </div>
+        {%- endif -%}
       </a>
       <!-- <a href="https://www.instagram.com/habush.jp/" target="_blank" rel="noopener noreferrer" class="ig-icon">
         <img src="{{ 'ig-icon.svg' | file_url }}" alt="" width="25">

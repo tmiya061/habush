@@ -154,7 +154,7 @@
         "image_available": "ギャラリービューで画像 ({{ index }}) が利用できるようになりました"
       },
       "view_full_details": "詳細を表示する",
-      "include_taxes": "税込",
+      "include_taxes": "税込 送料別",
       "shipping_policy_html": "<a href=\"{{ link }}\">配送料<\/a>はチェックアウト時に計算されます。",
       "choose_options": "オプションを選択",
       "choose_product_options": "{{ product_name }}のオプションを選択する",

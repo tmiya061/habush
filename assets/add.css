@@ -2,6 +2,37 @@
 /*----------------------------------
     共通パーツ
 -----------------------------------*/
+.header__icon, .header__icon--cart .icon {
+  width: 6rem;
+  height: 6rem;
+}
+.header__icon img, .header__icon--cart .icon img {
+  width: 60%;
+}
+.header__icon .cart-count-bubble, .header__icon--cart .icon .cart-count-bubble {
+  bottom: unset;
+  left: unset;
+  right: 0.8rem;
+  top: 0.8rem;
+}
+@media screen and (max-width: 768px) {
+  .header__icon, .header__icon--cart .icon {
+    width: 4.4rem;
+    height: 4.4rem;
+  }
+  .header__icon img, .header__icon--cart .icon img {
+    width: 80%;
+  }
+  .header__icon .cart-count-bubble, .header__icon--cart .icon .cart-count-bubble {
+    right: 0.4rem;
+    top: 0.4rem;
+  }
+}
+
+header .sns-icons {
+  margin-top: 0;
+}
+
 @media (min-width: 769px) {
   #kv {
     margin-top: 35vh;
@@ -725,6 +756,7 @@ picture {
 }
 
 #js-mouse__topRecipe {
+  position: absolute;
   width: 0;
   height: 0;
   top: -60px;
@@ -754,7 +786,7 @@ picture {
   width: 120px;
   height: 120px;
   transform: translate(0, 0);
-  z-index: 9999;
+  z-index: 9999999;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1946,11 +1978,11 @@ cart-remove-button .icon-remove path {
     商品一覧ページ
 -----------------------------------*/
 .content-for-layout {
-  margin-top: 0rem;
+  margin-top: 10rem;
 }
 @media screen and (max-width: 768px) {
   .content-for-layout {
-    margin-top: 0rem;
+    margin-top: 10rem;
   }
 }
 
