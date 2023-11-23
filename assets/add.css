@@ -1597,6 +1597,8 @@ picture {
   width: 100%;
   height: 100%;
   position: relative;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ababab;
   position: relative;
 }
 .underProducts__fv .underProduct_fv_img {
@@ -1612,6 +1614,9 @@ picture {
   margin-top: -5.5rem;
 }
 @media screen and (max-width: 768px) {
+  .underProducts__fv {
+    padding-bottom: 15px;
+  }
   .underProducts__fv .underProduct_fv_img {
     aspect-ratio: 390/630;
     max-height: 630px;
@@ -1970,7 +1975,6 @@ cart-remove-button .icon-remove path {
 }
 
 .price__container .price__regular {
-  color: #ababab !important;
   font-size: 2rem;
 }
 
