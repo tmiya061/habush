@@ -5,7 +5,7 @@ var w = $(window).width();
 $(window).on('load scroll', function () {
   s = $(this).scrollTop();
 });
-$(function () {
+jQuery(function($) {
   // スクロール
   $('a[href^="#"]').click(function () {
     var speed = 1500;
@@ -511,7 +511,7 @@ if ( window.document.body.id === 'underRecipe' ) {
   });
 
 
-  $(function () {
+  jQuery(function($) {
     $(document).ready(function(){
       var list = $('.underRecipe__swiper-thumb-wrap');
       var containerA = $('.underRecipe__swiper-container');
@@ -535,13 +535,12 @@ if ( window.document.body.id === 'underRecipe' ) {
         }
       });
     });
-
   });
 }
 
 
 
-$(function () {
+jQuery(function($) {
 
   const mouse = $("#js-mouse__topProcess");
   $(document).on("mousemove",function(e){
@@ -744,7 +743,7 @@ document.addEventListener('DOMContentLoaded', function () {
         disableOnInteraction: true, //ユーザーの操作時に止める
         reverseDirection: false, //自動再生を逆向きにする
       },
-      speed: 1000, //表示切り替えのスピード
+      speed: 6000, //表示切り替えのスピード
       effect: "slide", //切り替えのmotion (※1)
       centeredSlides: true, //中央寄せ
       allowTouchMove: false, // スワイプで表示の切り替えを無効に
@@ -755,7 +754,7 @@ document.addEventListener('DOMContentLoaded', function () {
             spaceBetween: 10,
         },
         375: {
-            slidesPerView: 2.4,
+            slidesPerView: 2.2,
             spaceBetween: 15,
         },
         600: {
@@ -767,7 +766,7 @@ document.addEventListener('DOMContentLoaded', function () {
             spaceBetween: 20,
         },
         1500: {
-            slidesPerView: auto,
+            slidesPerView: 6,
             spaceBetween: 20,
         },
       }

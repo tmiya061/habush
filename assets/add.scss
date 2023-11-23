@@ -72,6 +72,14 @@ header .header-text-wrap {
     }    
 }
 
+.footer-menu-bar-item p {
+    transition: all  0.3s ease;
+}
+
+.footer-menu-bar-item:hover p {
+    color: #272727;
+}
+
 //footerのリンク追加
 
 .footer-menu-bar-item.goods {
@@ -98,6 +106,51 @@ picture {
 #opening-wrapper.js-none {
     display: none !important;
 }
+
+.footer-menu-bar-item {
+    p {
+        color: #fff;
+    }
+}
+
+#story .copy {
+    top: -200px !important;
+}
+
+/* modal-04 */
+#modal-04 .c-modal_content {
+padding: 50px 0;
+}
+
+#modal-04 .mark {
+width: 28px;
+display: block;
+margin: 0 auto 20px;
+}
+
+#modal-04 h3 {
+font-size: 1.6rem;
+margin-bottom: 60px;
+text-align: center;
+}
+
+#modal-04 ul {
+gap: 20px 40px;
+}
+
+
+@media screen and (min-width: 769px) {
+    #modal-04 .c-modal_content {
+        padding: 100px 0;
+    }
+
+    #modal-04 h3 {
+        font-size: 2.0rem;
+        margin-bottom: 80px;
+    }
+}
+
+
 
 /*----------------------------------
     Top Product
@@ -151,29 +204,29 @@ picture {
 }
 
 #product2 .item {
-margin: 0 auto;
+    margin: 0 auto;
 }
 
 #product2 .info .head {
-font-size: 1.1rem;
-letter-spacing: 0.2em;
-margin-bottom: 75px;
+    font-size: 1.1rem;
+    letter-spacing: 0.2em;
+    margin-bottom: 75px;
 }
 
 #product2 .info .price {
-font-size: 1.2rem;
-margin-bottom: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
 #product2 .info .price .en {
-font-size: 2rem;
-margin-right: 5px;
+    font-size: 2rem;
+    margin-right: 5px;
 }
 
 #product2 .info .detail {
-font-size: 1.4rem;
-line-height: calc(24 / 14);
-margin-bottom: 50px;
+    font-size: 1.4rem;
+    line-height: calc(24 / 14);
+    margin-bottom: 50px;
 }
 
 #product2 .info .memo {
@@ -1068,8 +1121,6 @@ margin-bottom: 50px;
     }
 }
 
-
-
 .underRecipe__swiper-container {
     position: relative;
     overflow: hidden;
@@ -1381,8 +1432,6 @@ margin-bottom: 50px;
 }
 
 
-
-
 .underRecipe__swiper-text-wrap {
     max-width: 1060px;
     padding: 0 0 0 30px;
@@ -1472,6 +1521,22 @@ margin-bottom: 50px;
             max-height: 630px;
         }
     }
+
+    position: relative;
+    .swiper-container {
+        margin-top: -50px;
+        opacity: .7;
+        @include mq(sp) {
+            margin-top: -2.8rem;
+        }
+    }
+    .swiper-wrapper {
+        transition-timing-function: linear;
+    }
+    .swiper-slide {
+        margin-right: 0;
+    }
+
 }
 
 
@@ -1782,9 +1847,9 @@ cart-remove-button .icon-remove {
 -----------------------------------*/
 
 .content-for-layout {
-    margin-top: 10rem;
+    margin-top: 0rem;
     @include mq(sp) {
-        margin-top: 6rem;
+        margin-top: 0rem;
     }
 }
 
