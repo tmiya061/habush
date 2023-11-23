@@ -178,41 +178,43 @@ $(".loop-reverse").slick({
 
 // オープニング
 // if ( window.document.body.id === 'top' ) {
-//   $(window).on('load', function () {
-//     setTimeout(function () {
-//       $('#luxy').css('max-height', 'none');
-//       $('#opening-wrapper').fadeOut(600);
-//     }, 400);
-//   });
+  $(window).on('load', function () {
+    setTimeout(function () {
+      $('#luxy').css('max-height', 'none');
+      $('#opening-wrapper').fadeOut(600);
+    }, 400);
+  });
 // }
 
-$(function () {
-  var webStorage = function () {
-    if (sessionStorage.getItem('access')) {
-      /*
-        2回目以降アクセス時の処理
-      */
-        $('#opening-wrapper').addClass('js-none');
-    } else {
-      /*
-        初回アクセス時の処理
-      */
-        $(window).on('load', function () {
-          setTimeout(function () {
-            $('#luxy').css('max-height', 'none');
-            $('#opening-wrapper').fadeOut(600);
-          }, 400);
-        });
-    }
-  }
-  webStorage();
-});
+// $(function () {
+//   var webStorage = function () {
+//     if (sessionStorage.getItem('access')) {
+//       /*
+//         2回目以降アクセス時の処理
+//       */
+//         $('#opening-wrapper').addClass('js-none');
+//     } else {
+//       /*
+//         初回アクセス時の処理
+//       */
+//         $(window).on('load', function () {
+//           setTimeout(function () {
+//             $('#luxy').css('max-height', 'none');
+//             $('#opening-wrapper').fadeOut(600);
+//           }, 400);
+//         });
+//     }
+//   }
+//   webStorage();
 
-$(window).on('ready', function() {
-    $(window).on('load', function () {
-      $('.preload-main').addClass('js-none');
-    });
-});
+
+//   $(window).on('ready', function() {
+//       $(window).on('load', function () {
+//         $('.preload-main').addClass('js-none');
+//       });
+//   });
+// });
+
 
 
 
@@ -430,8 +432,27 @@ function saveSlideAttribute(link) {
 }
 
 if ( window.document.body.id === 'underRecipe' ) {
-  document.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener("DOMContentLoaded", function () {
+    var parallaxElements = document.querySelectorAll('.parallax');
 
+    function updateParallax() {
+      parallaxElements.forEach(function (element) {
+        var scrollPosition = window.scrollY;
+        var translateY = scrollPosition * .05 + 'px'; // 調整可能な係数
+
+        element.style.transform = 'translate(-50%, calc(-50% + ' + translateY + ' ))';
+      });
+    }
+    // 初回実行
+    updateParallax();
+    // スクロール時に実行
+    window.addEventListener('scroll', function () {
+      updateParallax();
+    });
+  });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
     const mySwiper3 = new Swiper('.underRecipe__swiper', { //名前を変える
       loop: true, //最後→最初に戻るループ再生を有効に
       autoplay: { 
@@ -713,6 +734,43 @@ if ( window.document.body.id === 'top' ) {
 }
 
 
-
-
+document.addEventListener('DOMContentLoaded', function () {
+  // product swiper 
+  const mySwiperProduct = new Swiper('.product-fv-text', { 
+      loop: true, //最後→最初に戻るループ再生を有効に
+      autoplay: { 
+        delay: 0, //何秒ごとにスライドを動かすか
+        stopOnLastSlide: false, //最後のスライドで自動再生を終了させるか
+        disableOnInteraction: true, //ユーザーの操作時に止める
+        reverseDirection: false, //自動再生を逆向きにする
+      },
+      speed: 1000, //表示切り替えのスピード
+      effect: "slide", //切り替えのmotion (※1)
+      centeredSlides: true, //中央寄せ
+      allowTouchMove: false, // スワイプで表示の切り替えを無効に
+      slidesPerView: 4.2, // 一度に表示する枚数
+      breakpoints: { //画面幅による表示枚数と余白の指定
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        375: {
+            slidesPerView: 2.4,
+            spaceBetween: 15,
+        },
+        600: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+        },
+        1025: {
+            slidesPerView: 4.2,
+            spaceBetween: 20,
+        },
+        1500: {
+            slidesPerView: auto,
+            spaceBetween: 20,
+        },
+      }
+  });
+});
 
