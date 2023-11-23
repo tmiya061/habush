@@ -5,7 +5,7 @@
 </div>
 <header class="">
   <div class="header-container d-flex">
-    <a href="#" class="symbol animate__animated animate__fadeIn animate__delay-1s">
+    <a href="{{ shop.url }}" class="symbol animate__animated animate__fadeIn animate__delay-1s">
       <picture>
         <source srcset="{{ 'symbol.webp' | file_url }}" type="image/webp">
         <img src="{{ 'symbol.png' | file_url }}?1" alt="" width="70">
@@ -24,7 +24,10 @@
       </div>
     </div>
     <div class="sns-icons animate__animated animate__fadeIn animate__delay-1s">
-      <a href="https://www.instagram.com/habush.jp/" target="_blank" rel="noopener noreferrer" class="ig-icon">
+      <a href="">
+        <img src="{{ 'cart-icon.svg' | file_url }}" alt="カート" width="25">
+      </a>
+      <!-- <a href="https://www.instagram.com/habush.jp/" target="_blank" rel="noopener noreferrer" class="ig-icon">
         <img src="{{ 'ig-icon.svg' | file_url }}" alt="" width="25">
       </a>
       <a href="https://twitter.com/habush_jp" target="_blank" rel="noopener noreferrer" class="twitter-icon">
@@ -37,7 +40,7 @@
         class="tiktok-icon"
       >
         <img src="{{ 'tiktok-icon.svg' | file_url }}" alt="" width="18">
-      </a>
+      </a> -->
     </div>
     <div class="menu animate__animated animate__fadeIn animate__delay-1s">
       <span id="nav_toggle">
@@ -47,12 +50,12 @@
       </span>
       <nav class="g-nav">
         <ul>
-          <li><a href="#product">PRODUCT</a></li>
-          <li><a href="#story-main">BRAND STORY</a></li>
-          <li><a href="./process.html">PROCESS</a></li>
-          <li><a href="./recipe.html">RECIPE</a></li>
-          <li><a href="#sns">SNS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="{{ shop.url }}#product">PRODUCT</a></li>
+          <li><a href="{{ shop.url }}#story-main">BRAND STORY</a></li>
+          <li><a href="/pages/process">PROCESS</a></li>
+          <li><a href="/pages/recipe">RECIPE</a></li>
+          <li><a href="{{ shop.url }}#sns">SNS</a></li>
+          <li><a href="{{ shop.url }}#contact">CONTACT</a></li>
         </ul>
       </nav>
     </div>
