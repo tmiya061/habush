@@ -38,7 +38,7 @@ header .sns-icons {
     margin-top: 35vh;
   }
 }
-.header-container .symbol {
+.symbol {
   position: fixed;
   z-index: 100;
   top: 50px;
@@ -46,7 +46,7 @@ header .sns-icons {
   mix-blend-mode: difference;
 }
 @media screen and (max-width: 768px) {
-  .header-container .symbol {
+  .symbol {
     top: 20px;
     left: 20px;
   }
@@ -804,6 +804,7 @@ picture {
   left: -60px;
   overflow: hidden;
   border-radius: 50%;
+  position: absolute;
 }
 #js-mouse__topProcess::after {
   content: "";
@@ -826,7 +827,6 @@ picture {
   position: fixed;
   width: 120px;
   height: 120px;
-  transform: translate(0, 0);
   z-index: 9999;
   display: flex;
   justify-content: center;
@@ -1323,6 +1323,20 @@ picture {
   width: 40%;
   height: auto;
   aspect-ratio: 555/832;
+  animation-name: fade-picture;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-timing-function: ease;
+  opacity: 0;
+}
+@keyframes fade-picture {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .underRecipe__swiper-container .picture img {
   width: 100%;
@@ -1337,6 +1351,14 @@ picture {
     height: auto;
     aspect-ratio: 290/440;
   }
+}
+.underRecipe__swiper-container .picture.parallax {
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease-out;
+}
+.underRecipe__swiper-container .picture.parallax img {
+  width: 100%;
+  height: auto;
 }
 .underRecipe__swiper-container .swiper-button-prev {
   left: 85px;

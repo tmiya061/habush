@@ -304,6 +304,7 @@
     {%- endif -%}
 
     {% sections 'header-group' %}
+    
     <div id="luxy" class="js-luxy">
       <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
         {{ content_for_layout }}
@@ -315,6 +316,45 @@
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
     </ul>
+
+    {% if template == 'page.recipe' %}
+    <ul class="underRecipe__swiper-thumb-wrap">
+      <li class="underRecipe__swiper-thumb is-active" data-slide="0">
+        <img src="{{ 'recipe-thum1.png' | file_url }}" alt="ブラックコーヒーの画像" width="95" height="95">
+      </li>
+      <li class="underRecipe__swiper-thumb" data-slide="1">
+        <img src="{{ 'recipe-thum2.png' | file_url }}" alt="ブラックコーヒーの画像" width="95" height="95">
+      </li>
+      <li class="underRecipe__swiper-thumb" data-slide="2">
+        <img src="{{ 'recipe-thum3.png' | file_url }}" alt="トニックウォーターの画像" width="95" height="95">
+      </li>
+      <li class="underRecipe__swiper-thumb" data-slide="3">
+        <img src="{{ 'recipe-thum4.png' | file_url }}" alt="エナジードリンクの画像" width="95" height="95">
+      </li>
+      <li class="underRecipe__swiper-thumb" data-slide="4">
+        <img src="{{ 'recipe-thum5.png' | file_url }}" alt="さんぴん茶の画像" width="95" height="95">
+      </li>
+      <li class="underRecipe__swiper-thumb" data-slide="5">
+        <img src="{{ 'recipe-thum6.png' | file_url }}" alt="牛乳の画像" width="95" height="95">
+      </li>
+      <li class="underRecipe__swiper-thumb" data-slide="6">
+        <img src="{{ 'recipe-thum7.png' | file_url }}" alt="飲むヨーグルトの画像" width="95" height="95">
+      </li>
+      <li class="underRecipe__swiper-thumb" data-slide="7">
+        <img src="{{ 'recipe-thum8.png' | file_url }}" alt="グレープフルーツの画像" width="95" height="95">
+      </li>
+    </ul>
+    {% endif %}
+    {% if template == 'index' %}
+      <div id="js-mouse__topProcess">VIEW</div>
+      <div id="js-mouse__topRecipe">DRAG</div>
+    {% endif %}
+    <div class="follow_btn modal_btn" data-target="modal-03"></div>
+
+
+
+
+
 
     <script>
       window.shopUrl = '{{ request.origin }}';
