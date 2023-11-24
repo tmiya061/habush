@@ -178,13 +178,36 @@ $(".loop-reverse").slick({
 
 // オープニング
 // if ( window.document.body.id === 'top' ) {
-  $(window).on('load', function () {
-    setTimeout(function () {
-      $('#luxy').css('max-height', 'none');
-      $('#opening-wrapper').fadeOut(600);
-    }, 400);
-  });
+  // $(window).on('load', function () {
+  //   setTimeout(function () {
+  //     $('#luxy').css('max-height', 'none');
+  //     $('#opening-wrapper').fadeOut(600);
+  //   }, 400);
+  // });
 // }
+jQuery(function($) {
+    var webStorage = function () {
+        if (sessionStorage.getItem('access')) {
+            /*
+                2回目以降アクセス時の処理
+            */
+                $('#opening-wrapper').hide();
+        } else {
+            /*
+                初回アクセス時の処理
+            */
+            $(window).on('load', function () {
+              setTimeout(function () {
+                $('#luxy').css('max-height', 'none');
+                $('#opening-wrapper').fadeOut(600);
+              }, 400);
+            });
+        }
+    }
+    webStorage();
+});
+
+
 
 // $(function () {
 //   var webStorage = function () {
@@ -192,17 +215,12 @@ $(".loop-reverse").slick({
 //       /*
 //         2回目以降アクセス時の処理
 //       */
-//         $('#opening-wrapper').addClass('js-none');
+        
 //     } else {
 //       /*
 //         初回アクセス時の処理
 //       */
-//         $(window).on('load', function () {
-//           setTimeout(function () {
-//             $('#luxy').css('max-height', 'none');
-//             $('#opening-wrapper').fadeOut(600);
-//           }, 400);
-//         });
+
 //     }
 //   }
 //   webStorage();

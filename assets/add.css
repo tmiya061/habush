@@ -38,7 +38,7 @@ header .sns-icons {
     margin-top: 35vh;
   }
 }
-.symbol {
+.header-container .symbol {
   position: fixed;
   z-index: 100;
   top: 50px;
@@ -46,7 +46,7 @@ header .sns-icons {
   mix-blend-mode: difference;
 }
 @media screen and (max-width: 768px) {
-  .symbol {
+  .header-container .symbol {
     top: 20px;
     left: 20px;
   }
