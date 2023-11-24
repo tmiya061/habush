@@ -1,9 +1,11 @@
+{% if template == 'index' %}
 <div id="opening-wrapper">
   <p class="animate__animated animate__zoomIn2">
     <img src="{{ 'logo_n.png' | file_url }}?1" alt="HABUSH" width="192">
   </p>
 </div>
-<header class="">
+{% endif %}
+<header class="{% if template == 'page.recipe' %}preload-main{% endif %} {% if template == 'page.process' %}preload-main{% endif %}">
   <div class="header-container d-flex">
     <a href="/" class="symbol animate__animated animate__fadeIn animate__delay-1s">
       <picture>

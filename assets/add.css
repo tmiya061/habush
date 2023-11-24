@@ -2,6 +2,13 @@
 /*----------------------------------
     共通パーツ
 -----------------------------------*/
+.preload-main {
+  opacity: 0;
+}
+.preload-main.js-none {
+  opacity: 1;
+}
+
 .header__icon, .header__icon--cart .icon {
   width: 6rem;
   height: 6rem;

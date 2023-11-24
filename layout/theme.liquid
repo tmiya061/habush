@@ -306,7 +306,7 @@
     {% sections 'header-group' %}
 
     <div id="luxy" class="js-luxy">
-      <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      <main id="MainContent" class="{% if template == 'page.recipe' %}preload-main{% endif %} {% if template == 'page.process' %}preload-main{% endif %} content-for-layout focus-none" role="main" tabindex="-1">
         {{ content_for_layout }}
       </main>
       {% sections 'footer-group' %}

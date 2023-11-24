@@ -205,6 +205,10 @@ jQuery(function($) {
         }
     }
     webStorage();
+
+    $(window).on('load', function () {
+      $('.preload-main').addClass('js-none');
+    });
 });
 
 
@@ -226,11 +230,7 @@ jQuery(function($) {
 //   webStorage();
 
 
-//   $(window).on('ready', function() {
-//       $(window).on('load', function () {
-//         $('.preload-main').addClass('js-none');
-//       });
-//   });
+
 // });
 
 
