@@ -772,7 +772,7 @@ document.addEventListener('DOMContentLoaded', function () {
             spaceBetween: 10,
         },
         375: {
-            slidesPerView: 2.2,
+            slidesPerView: 2.6,
             spaceBetween: 15,
         },
         600: {
