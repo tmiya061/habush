@@ -19,6 +19,13 @@ $breakpoints: (
     共通パーツ
 -----------------------------------*/
 
+.cart__warnings {
+    padding: 80px 0 180px !important;
+    @include mq(sp) {
+        padding: 3rem 0 10rem !important;
+    }
+}
+
 .preload-main {
     opacity: 0;
     &.js-none {
@@ -86,10 +93,16 @@ header .header-text-wrap {
 
 .follow_btn {
     background-image:url(/assets/cta.png);
+    @include mq(sp) {
+        background-image:url(/assets/cta_sp.png);
+    }
 }
 .follow_btn:hover {
     background-image:url(/assets/cta.png);
     opacity: .7;
+    @include mq(sp) {
+        background-image:url(/assets/cta_sp.png);
+    }
 }
 @include mq(pc) {
     .story-kv {
@@ -205,9 +218,90 @@ gap: 20px 40px;
 
 
 
+
 /*----------------------------------
     Top Product
 -----------------------------------*/
+.purchase_btn {
+    clip-path: polygon(92.8% 0, 100% 33%, 100% 100%, 0 100%, 0 0);
+    position: relative;
+    overflow: hidden;
+    transition: all  0.3s ease;
+    height: 50px;
+    background: #fff;
+    span {
+        transition: all  0.3s ease;
+        position: relative;
+        z-index: 2;
+    }
+    &::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        left: 1px;
+        top: 1px;
+        width: calc(100% - 2px);
+        height: calc(100% - 2px);
+        background: #272727;
+        clip-path: polygon(92.8% 0, 100% 33%, 100% 100%, 0 100%, 0 0);
+        opacity: 0;
+        transition: all  0.3s ease;
+        overflow: hidden;
+    }
+    @media(hover: hover) {
+        &:hover {
+            span {
+                color: #fff;
+            }
+            &::after {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+
+// .purchase_btn::before {
+//     clip-path: polygon(92.8% 0, 100% 33%, 100% 100%, 0 100%, 0 0);
+//     overflow: hidden;
+// }
+// .purchase_btn::after {
+//     display: none;
+// }
+
+@include mq(sp) {
+    .purchase_btn {
+        font-size: 1.4rem !important;
+    }
+}
+
+#product .info .memo-main, #product2 .info .memo-main  {
+    line-height: calc(24 / 14);
+    font-size: 14px;
+    margin-bottom: 45px;
+    @include mq(sp) {
+        line-height: calc(28 / 13);
+        font-size: 1.3rem;
+        margin-bottom: 3.6rem;
+    }
+}
+#product .info .price {
+    color: #fff;
+}
+#product .info .detail {
+    color: #fff;
+}
+#product2 .info .price {
+    color: #fff;
+}
+#product2 .info .detail {
+    color: #fff;
+}
+
+#product .info .head {
+    white-space: nowrap;
+}
 #product2 {
     padding: 135px 0 90px;
     position: relative;
