@@ -180,7 +180,7 @@ picture {
 }
 
 #story .copy {
-    top: -200px !important;
+    top: -160px !important;
     @include mq(sp) {
         top: -140px !important;
     }

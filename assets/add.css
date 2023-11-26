@@ -179,7 +179,7 @@ picture {
 }
 
 #story .copy {
-  top: -200px !important;
+  top: -160px !important;
 }
 @media screen and (max-width: 768px) {
   #story .copy {
