@@ -181,6 +181,11 @@ picture {
 #story .copy {
   top: -200px !important;
 }
+@media screen and (max-width: 768px) {
+  #story .copy {
+    top: -140px !important;
+  }
+}
 
 /* modal-04 */
 #modal-04 .c-modal_content {
@@ -2037,7 +2042,7 @@ picture {
 
 body, .color-background-1, .color-background-2, .color-inverse, .color-accent-1, .color-accent-2 {
   background: #272727;
-  color: #ababab;
+  color: #fff;
 }
 
 .title-wrapper-with-link a {
