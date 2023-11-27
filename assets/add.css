@@ -1845,7 +1845,7 @@ picture {
 }
 
 .product__description {
-  color: #ababab;
+  color: #fff;
   font-size: 14px;
   line-height: 1.7142857143;
   font-feature-settings: normal;
@@ -1873,7 +1873,7 @@ picture {
 }
 .quantity {
   background: #272727;
-  border: 1px solid #ababab;
+  border: 1px solid #fff;
 }
 @media screen and (max-width: 768px) {
   .quantity {
@@ -1882,11 +1882,11 @@ picture {
 }
 
 .quantity__input {
-  color: #ababab;
+  color: #fff;
 }
 
 .quantity__button svg path {
-  fill: #ababab;
+  fill: #fff;
 }
 
 .quantity__button:focus, .quantity__input:focus {
@@ -2015,22 +2015,22 @@ picture {
 }
 
 .product__accordion {
-  border-top: 1px solid #ababab !important;
+  border-top: 1px solid #fff !important;
 }
 .accordion + .accordion {
-  border-bottom: 1px solid #ababab !important;
+  border-bottom: 1px solid #fff !important;
 }
 
 .accordion__title {
   font-size: 14px;
   line-height: 1.7142857143;
-  color: #ababab;
+  color: #fff;
 }
 
 .accordion__content .metafield-multi_line_text_field {
   font-size: 14px;
   line-height: 1.7142857143;
-  color: #ababab;
+  color: #fff;
 }
 
 /*----------------------------------
@@ -2046,13 +2046,13 @@ body, .color-background-1, .color-background-2, .color-inverse, .color-accent-1,
 }
 
 .title-wrapper-with-link a {
-  color: #ababab;
+  color: #fff;
   transition: all 0.3s ease;
 }
 @media (hover: hover) {
   .title-wrapper-with-link a:hover {
     opacity: 0.7;
-    color: #ababab !important;
+    color: #fff !important;
   }
 }
 
@@ -2062,15 +2062,15 @@ body, .color-background-1, .color-background-2, .color-inverse, .color-accent-1,
 
 @media screen and (max-width: 768px) {
   .cart-items thead tr {
-    border-bottom: 1px solid #ababab !important;
+    border-bottom: 1px solid #fff !important;
   }
 }
 @media screen and (min-width: 750px) {
   .cart__items {
-    border-bottom: 1px solid #ababab !important;
+    border-bottom: 1px solid #fff !important;
   }
   .cart-items th {
-    border-bottom: 1px solid #ababab !important;
+    border-bottom: 1px solid #fff !important;
   }
 }
 .quantity {
@@ -2089,7 +2089,7 @@ body, .color-background-1, .color-background-2, .color-inverse, .color-accent-1,
 }
 .cart-item__price-wrapper span {
   font-size: 3.2rem !important;
-  color: #ababab !important;
+  color: #fff !important;
 }
 @media screen and (max-width: 768px) {
   .cart-item__price-wrapper span {
@@ -2102,7 +2102,7 @@ cart-remove-button .icon-remove {
   height: 3rem !important;
 }
 cart-remove-button .icon-remove path {
-  fill: #ababab;
+  fill: #fff;
 }
 @media screen and (max-width: 768px) {
   cart-remove-button .icon-remove {
@@ -2112,7 +2112,7 @@ cart-remove-button .icon-remove path {
 }
 
 .title.title--primary, .cart-item__name, .totals__total {
-  color: #ababab;
+  color: #fff;
 }
 
 .cart__checkout-button {
@@ -2176,11 +2176,11 @@ cart-remove-button .icon-remove path {
 }
 
 .collection-hero__title {
-  color: #ababab;
+  color: #fff;
 }
 
 .facet-filters__field, .facet-filters__label, .facet-filters__sort {
-  color: #ababab !important;
+  color: #fff !important;
 }
 .facet-filters__field:focus-visible, .facet-filters__label:focus-visible, .facet-filters__sort:focus-visible {
   outline: none !important;
@@ -2188,11 +2188,11 @@ cart-remove-button .icon-remove path {
 }
 
 .card-information {
-  color: #ababab;
+  color: #fff;
 }
 
 .mobile-facets__open-wrapper.focus-offset span {
-  color: #ababab;
+  color: #fff;
 }
 
 .price__container .price__regular {
@@ -2200,15 +2200,40 @@ cart-remove-button .icon-remove path {
 }
 
 .card__heading.h5 a {
-  color: #ababab !important;
+  color: #fff !important;
   font-size: 3.2rem;
 }
 
 .facets__form .facets__heading, .facets__form .facets__summary {
-  color: #ababab;
+  color: #fff;
   transition: all 0.3s ease;
 }
 .facets__form .facets__disclosure[open] .facets__summary, .facets__form .facets__summary:hover {
-  color: #ababab;
+  color: #fff;
   opacity: 0.7;
+}
+
+/*----------------------------------
+    料金箇所
+-----------------------------------*/
+.price__sale {
+  color: #fff;
+}
+
+.price--on-sale .price-item--regular {
+  color: #fff !important;
+}
+
+.badge.price__badge-sale.color-accent-2 {
+  margin-bottom: 0 !important;
+}
+
+.product .price__container {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (min-width: 750px) {
+  .tax-note {
+    width: 21rem !important;
+  }
 }/*# sourceMappingURL=add.css.map */
