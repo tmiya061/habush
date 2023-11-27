@@ -2140,3 +2140,22 @@ cart-remove-button .icon-remove {
         width: 21rem !important;
     }
 }
+
+.price-item--sale {
+    font-size: 20px !important;
+}
+
+.badge.price__badge-sale.color-accent-2 {
+    margin-top: 3px;
+}
+
+#product .info .price {
+    margin-bottom: 0 !important;
+}
+
+.product__price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    column-gap: 10px;
+}

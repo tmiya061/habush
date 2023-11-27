@@ -1,3 +1,5 @@
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+
 <main>
   <section id="kv">
     <div class="kv-inner">
@@ -73,19 +75,18 @@
             <p class="head en for-sp">Price - Info</p>
             <div class="flex-item">
 
-              <!-- <div class="no-js-hidden product__price" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+              <div class="no-js-hidden product__price" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
-                  product: product,
+                  product: all_products['habush'],
                   use_variant: true,
                   show_badges: true,
-                  price_class: 'price--large'
                 -%}
                 {%- if cart.taxes_included -%}
                 <span class="product-tax-in">({{ 'products.product.include_taxes' | t }})</span>
                 {%- endif -%}
-              </div> -->
+              </div>
 
-              <p class="price"><span class="en">¥4,400</span>(税込)</p>
+              <!-- <p class="price"><span class="en">¥4,400</span>(税込)</p> -->
               <p class="detail">
                 内容量 500ml<br>
                 アルコール度数 35度
