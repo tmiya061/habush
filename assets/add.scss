@@ -90,18 +90,17 @@ header .header-text-wrap {
     }
 }
 
-
 .follow_btn {
-    background-image:url(/assets/cta.png);
+    background-image:url(/assets/cta-new.png);
     @include mq(sp) {
-        background-image:url(/assets/cta_sp.png);
+        background-image:url(/assets/cta-new_sp.png);
     }
 }
 .follow_btn:hover {
-    background-image:url(/assets/cta.png);
+    background-image:url(/assets/cta-new.png);
     opacity: .7;
     @include mq(sp) {
-        background-image:url(/assets/cta_sp.png);
+        background-image:url(/assets/cta-new_sp.png);
     }
 }
 @include mq(pc) {
