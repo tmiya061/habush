@@ -19,8 +19,8 @@
 }
 
 .header__icon, .header__icon--cart .icon {
-  width: 6rem;
-  height: 6rem;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 .header__icon img, .header__icon--cart .icon img {
   width: 60%;
@@ -33,15 +33,15 @@
 }
 @media screen and (max-width: 768px) {
   .header__icon, .header__icon--cart .icon {
-    width: 4.4rem;
-    height: 4.4rem;
+    width: 4rem;
+    height: 4rem;
   }
   .header__icon img, .header__icon--cart .icon img {
     width: 80%;
   }
   .header__icon .cart-count-bubble, .header__icon--cart .icon .cart-count-bubble {
-    right: 0.4rem;
-    top: 0.4rem;
+    right: 0rem;
+    top: 0rem;
   }
 }
 
@@ -64,7 +64,7 @@ header .header-text-wrap {
 
 @media (min-width: 769px) {
   #kv {
-    margin-top: 35vh;
+    margin-top: 45vh;
   }
 }
 .header-container .symbol {
@@ -183,7 +183,7 @@ picture {
 }
 @media screen and (max-width: 768px) {
   #story .copy {
-    top: -140px !important;
+    top: -50px !important;
   }
 }
 
@@ -388,12 +388,12 @@ picture {
     margin: auto;
   }
   #product .flex {
-    -moz-column-gap: 90px;
-         column-gap: 90px;
+    -moz-column-gap: 60px;
+         column-gap: 60px;
   }
   #product2 .flex {
-    -moz-column-gap: 90px;
-         column-gap: 90px;
+    -moz-column-gap: 60px;
+         column-gap: 60px;
   }
   #product2 .memo {
     max-width: 420px;
@@ -410,6 +410,33 @@ picture {
     margin: auto;
   }
 }
+@media screen and (max-width: 768px) {
+  #product .info .memo {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #product .info .price {
+    width: 90px;
+  }
+}
+.product-tax-in {
+  display: block;
+  white-space: nowrap;
+  width: 50px;
+}
+@media screen and (max-width: 768px) {
+  .product-tax-in {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 487px) {
+  .product-tax-in {
+    margin-bottom: 10px;
+  }
+}
+
 @media screen and (min-width: 769px) {
   #product2 {
     padding: 170px 0;
@@ -699,6 +726,7 @@ picture {
   display: block;
   padding: 60px 60px 60px;
   border-right: 1px solid #fff;
+  width: 100%;
 }
 .recipe__slide .picture {
   width: 100%;
@@ -891,6 +919,7 @@ picture {
   left: -60px;
   overflow: hidden;
   border-radius: 50%;
+  font-size: 12px;
 }
 #js-mouse__topRecipe::after {
   content: "";
@@ -933,6 +962,7 @@ picture {
   overflow: hidden;
   border-radius: 50%;
   position: absolute;
+  font-size: 12px;
 }
 #js-mouse__topProcess::after {
   content: "";
@@ -970,14 +1000,14 @@ picture {
     下層　Process
 -----------------------------------*/
 .under__kv {
-  margin-top: 0 !important;
-  padding-top: 380px;
+  margin-top: calc(35vh - 140px) !important;
+  padding-top: 160px;
   margin-bottom: 150px;
-  overflow: hidden;
 }
 @media screen and (max-width: 768px) {
   .under__kv {
-    padding: 125px 0 0 0;
+    margin-top: 0 !important;
+    padding: 0;
     overflow: visible;
     margin-bottom: 60px;
   }
@@ -1004,7 +1034,7 @@ picture {
   padding-top: 30px;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  width: 100%;
+  width: 71.4285%;
   height: auto;
   aspect-ratio: 1000/830;
 }
@@ -1274,7 +1304,8 @@ picture {
 }
 @media (min-width: 769px) {
   .under__kv.recipe {
-    padding-top: 220px;
+    margin-top: calc(35vh - 98px) !important;
+    padding-top: 0;
   }
 }
 
@@ -1980,7 +2011,7 @@ picture {
     font-size: 2rem;
   }
   .product__price {
-    margin-top: 1rem !important;
+    margin-top: 0rem !important;
     margin-bottom: 3.6rem !important;
   }
   .product-form__input {

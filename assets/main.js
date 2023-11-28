@@ -283,6 +283,7 @@ if (!_ua.Mobile && !_ua.Tablet) {
 // top recipe スライダー
 //========================
 
+if ( window.document.body.id === 'top' ) {
 const recipeSwiper = new Swiper('.recipe__container', { //名前を変える
   loop: true, //最後→最初に戻るループ再生を有効に
   autoplay: { 
@@ -318,19 +319,17 @@ const recipeSwiper = new Swiper('.recipe__container', { //名前を変える
       slidesPerView: 2.5,
       speed: 6000, //表示切り替えのスピード
     },
-    1400: {
-      slidesPerView: 3.18,
+    1300: {
+      slidesPerView: 4.3,
       speed: 6000, //表示切り替えのスピード
     },
     1600: {
-      slidesPerView: 4,
+      slidesPerView: 5,
       speed: 6000, //表示切り替えのスピード
     }
   }
 });
 
-
-if ( window.document.body.id === 'top' ) {
   
   const swiperContainer = document.querySelector('.recipe__container');
   
@@ -473,12 +472,12 @@ if ( window.document.body.id === 'underRecipe' ) {
   document.addEventListener('DOMContentLoaded', function () {
     const mySwiper3 = new Swiper('.underRecipe__swiper', { //名前を変える
       loop: true, //最後→最初に戻るループ再生を有効に
-      autoplay: { 
-        delay: 5000, //何秒ごとにスライドを動かすか
-        stopOnLastSlide: false, //最後のスライドで自動再生を終了させるか
-        disableOnInteraction: true, //ユーザーの操作時に止める
-        reverseDirection: false, //自動再生を逆向きにする
-      },
+      // autoplay: { 
+      //   delay: 5000, //何秒ごとにスライドを動かすか
+      //   stopOnLastSlide: false, //最後のスライドで自動再生を終了させるか
+      //   disableOnInteraction: true, //ユーザーの操作時に止める
+      //   reverseDirection: false, //自動再生を逆向きにする
+      // },
       fadeEffect: {
         crossFade: true
       },

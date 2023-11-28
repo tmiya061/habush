@@ -34,8 +34,8 @@ $breakpoints: (
 }
 
 .header__icon, .header__icon--cart .icon {
-    width: 6rem;
-    height: 6rem;
+    width: 5.5rem;
+    height: 5.5rem;
     img {
         width: 60%;
     }
@@ -46,14 +46,14 @@ $breakpoints: (
         top: 0.8rem;
     }
     @include mq(sp) {
-        width: 4.4rem;
-        height: 4.4rem;
+        width: 4rem;
+        height: 4rem;
         img {
             width: 80%;
         }
         .cart-count-bubble {
-            right: 0.4rem;
-            top: 0.4rem;
+            right: 0rem;
+            top: 0rem;
         }
     }
 }
@@ -75,7 +75,7 @@ header .header-text-wrap {
 
 @include mq(pc) {
     #kv {
-        margin-top: 35vh;
+        margin-top: 45vh;
     }    
 }
 .header-container .symbol {
@@ -181,7 +181,7 @@ picture {
 #story .copy {
     top: -160px !important;
     @include mq(sp) {
-        top: -140px !important;
+        top: -50px !important;
     }
 }
 
@@ -398,10 +398,10 @@ gap: 20px 40px;
         margin: auto;
     }
     #product .flex {
-        column-gap: 90px;
+        column-gap: 60px;
     }
     #product2 .flex {
-        column-gap: 90px;
+        column-gap: 60px;
     }
     #product2 .memo {
         max-width: 420px;
@@ -418,6 +418,30 @@ gap: 20px 40px;
     .purchase_btn {
         width: 200px;
         margin: auto;
+    }
+}
+
+#product .info .memo {
+    @include mq(sp) {
+        white-space: nowrap;
+    }
+}
+
+@include mq(sp) {
+    #product .info .price {
+        width: 90px;
+    }
+}
+
+.product-tax-in {
+    display: block;
+    white-space: nowrap;
+    width: 50px;
+    @include mq(sp) {
+        font-size: 12px;
+        @media screen and (max-width: 487px) {
+            margin-bottom: 10px;
+        }
     }
 }
 
@@ -718,6 +742,7 @@ gap: 20px 40px;
     display: block;
     padding: 60px 60px 60px;
     border-right: 1px solid #fff;
+    width: 100%;
     .picture {
         width: 100%;
         height: auto;
@@ -875,6 +900,8 @@ gap: 20px 40px;
     left: -60px;
     overflow: hidden;
     border-radius: 50%;
+    font-size: 12px;
+
     &::after {
         content: '';
         position: absolute;
@@ -918,6 +945,8 @@ gap: 20px 40px;
     overflow: hidden;
     border-radius: 50%;
     position: absolute;
+    font-size: 12px;
+
     &::after {
         content: '';
         position: absolute;
@@ -959,12 +988,13 @@ gap: 20px 40px;
 
 //kv ==================
 .under__kv {
-    margin-top: 0 !important;
-    padding-top: 380px;
+    margin-top: calc(35vh - 140px) !important;
+    padding-top: 160px;
     margin-bottom: 150px;
-    overflow: hidden;
+    //overflow: hidden;
     @include mq(sp) {
-        padding: 125px 0 0 0;
+        margin-top: 0 !important;
+        padding: 0;
         overflow: visible;
         margin-bottom: 60px;
     }
@@ -987,7 +1017,7 @@ gap: 20px 40px;
         padding-top: 30px;
         margin-left: 0 !important;
         margin-right: 0 !important;
-        width: calc(100%);
+        width: calc(71.4285%);
         height: auto;
         aspect-ratio: 1000 / 830;
         picture {
@@ -1224,7 +1254,8 @@ gap: 20px 40px;
 .under__kv.recipe {
     overflow: visible;
     @include mq(pc) {
-        padding-top: 220px;
+        margin-top: calc(35vh - 98px) !important;
+        padding-top: 0;
     }
 }
 
@@ -1881,7 +1912,7 @@ gap: 20px 40px;
         }
     }
     .product__price {
-        margin-top: 1rem !important;
+        margin-top: 0rem !important;
         margin-bottom: 3.6rem !important;
     }
     .product-form__input  {
