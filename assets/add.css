@@ -425,6 +425,7 @@ picture {
   display: block;
   white-space: nowrap;
   width: 50px;
+  font-size: 14px;
 }
 @media screen and (max-width: 768px) {
   .product-tax-in {
