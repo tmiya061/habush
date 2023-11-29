@@ -471,7 +471,7 @@ if ( window.document.body.id === 'underRecipe' ) {
   });
 
 
-  document.addEventListener('DOMContentLoaded', function () {
+
     const mySwiper3 = new Swiper('.underRecipe__swiper', { //名前を変える
       loop: true, //最後→最初に戻るループ再生を有効に
       // autoplay: { 
@@ -527,7 +527,7 @@ if ( window.document.body.id === 'underRecipe' ) {
       $('.underRecipe__swiper-thumb').removeClass('is-active');
       $(this).addClass('is-active');
     });
-  });
+
 
 
   jQuery(function($) {
