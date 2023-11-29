@@ -142,38 +142,40 @@ new Swiper('.kv-list', {
   },
 });
 
-$(".loop-normal").slick({
-  autoplay: true, // 自動でスクロール
-  autoplaySpeed: 0, // 自動再生のスライド切り替えまでの時間を設定
-  speed: 5000, // スライドが流れる速度を設定
-  cssEase: "linear", // スライドの流れ方を等速に設定
-  swipe: false, // 操作による切り替えはさせない
-  centerMode: true,
-  variableWidth: true,
-  arrows: false, // 矢印非表示
-  pauseOnFocus: true, // スライダーをフォーカスした時にスライドを停止させるか
-  pauseOnHover: true, // スライダーにマウスホバーした時にスライドを停止させるか
-  useTransform: false,
-  // lazyLoad: 'progressive',
+
+document.addEventListener('DOMContentLoaded', function () {
+  $(".loop-normal").slick({
+    autoplay: true, // 自動でスクロール
+    autoplaySpeed: 0, // 自動再生のスライド切り替えまでの時間を設定
+    speed: 5000, // スライドが流れる速度を設定
+    cssEase: "linear", // スライドの流れ方を等速に設定
+    swipe: false, // 操作による切り替えはさせない
+    centerMode: true,
+    variableWidth: true,
+    arrows: false, // 矢印非表示
+    pauseOnFocus: true, // スライダーをフォーカスした時にスライドを停止させるか
+    pauseOnHover: true, // スライダーにマウスホバーした時にスライドを停止させるか
+    useTransform: false,
+    // lazyLoad: 'progressive',
+  });
+  
+  
+  $(".loop-reverse").slick({
+    autoplay: true, // 自動でスクロール
+    autoplaySpeed: 0, // 自動再生のスライド切り替えまでの時間を設定
+    speed: 5000, // スライドが流れる速度を設定
+    cssEase: "linear", // スライドの流れ方を等速に設定
+    swipe: false, // 操作による切り替えはさせない
+    centerMode: true,
+    variableWidth: true,
+    arrows: false, // 矢印非表示
+    pauseOnFocus: false, // スライダーをフォーカスした時にスライドを停止させるか
+    pauseOnHover: false, // スライダーにマウスホバーした時にスライドを停止させるか
+    useTransform: false,
+    rtl: true,
+    // lazyLoad: 'progressive',
+  });
 });
-
-
-$(".loop-reverse").slick({
-  autoplay: true, // 自動でスクロール
-  autoplaySpeed: 0, // 自動再生のスライド切り替えまでの時間を設定
-  speed: 5000, // スライドが流れる速度を設定
-  cssEase: "linear", // スライドの流れ方を等速に設定
-  swipe: false, // 操作による切り替えはさせない
-  centerMode: true,
-  variableWidth: true,
-  arrows: false, // 矢印非表示
-  pauseOnFocus: false, // スライダーをフォーカスした時にスライドを停止させるか
-  pauseOnHover: false, // スライダーにマウスホバーした時にスライドを停止させるか
-  useTransform: false,
-  rtl: true,
-  // lazyLoad: 'progressive',
-});
-
 
 
 // オープニング
@@ -605,6 +607,8 @@ jQuery(function($) {
 // top process 画像切り替わり
 //========================
 
+
+document.addEventListener('DOMContentLoaded', function () {
 if ( window.document.body.id === 'top' ) {
   
   // 13枚の画像のファイル名を配列で用意
@@ -748,7 +752,7 @@ if ( window.document.body.id === 'top' ) {
   }, 5000);
 
 }
-
+});
 
 document.addEventListener('DOMContentLoaded', function () {
   // product swiper 
