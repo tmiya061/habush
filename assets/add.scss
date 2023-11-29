@@ -399,6 +399,7 @@ gap: 20px 40px;
     }
     #product .flex {
         column-gap: 60px;
+        justify-content: space-between;
     }
     #product2 .flex {
         column-gap: 60px;
@@ -426,16 +427,9 @@ gap: 20px 40px;
         white-space: nowrap;
     }
 }
-@include mq(sp) {
-    #product .info .price {
-        width: 90px;
-    }
-}
 
 .product-tax-in {
-    display: block;
     white-space: nowrap;
-    width: 50px;
     font-size: 14px;
     @include mq(sp) {
         font-size: 12px;
@@ -2147,8 +2141,14 @@ cart-remove-button .icon-remove {
     料金箇所
 -----------------------------------*/
 
-.price__sale {
+.price--on-sale .price__sale {
+    display: flex;
+    align-items: center;
     color: #fff;
+    
+    .price-item.price-item--sale{
+        margin-right: 5px;
+    }
 }
 
 .price--on-sale .price-item--regular {
@@ -2158,7 +2158,9 @@ cart-remove-button .icon-remove {
 .badge.price__badge-sale.color-accent-2 {
     margin-bottom: 0 !important;
 }
-
+.price__badge-sale{
+    margin-right: 1rem;
+}
 .product .price__container {
     margin-bottom: 0 !important;
 }
@@ -2180,7 +2182,14 @@ cart-remove-button .icon-remove {
 #product .info .price {
     margin-bottom: 0 !important;
 }
-
+@media screen and (max-width: 750px) {
+    #product{
+        .price--on-sale .price__sale {
+        flex-wrap: wrap;
+        width: 160px;
+        }
+    }
+}
 .product__price {
     display: flex;
     align-items: center;
@@ -2197,29 +2206,20 @@ cart-remove-button .icon-remove {
     border: rgb(141, 1, 1);
     color: #fff;
 }
-
-.price-item--regular {
-    margin: 0 8rem 0 0 !important;
+.price{
+    &__sale{
+        .price__break{
+            display: none;
+        }
+    }
 }
 
-.badge {
-    position: absolute;
-    top: calc(50% - 3px);
-    transform: translateY(-50%);
-    left: 6.5rem;
+.price-item--regular {
+    margin: 0 1rem 0 0 !important;
 }
 
 .price--on-sale {
     position: relative;
-}
-
-@media screen and (max-width: 1042px) {
-    .badge {
-        left: 9rem;
-    }
-    .price--on-sale {
-        width: 17rem;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -2227,21 +2227,18 @@ cart-remove-button .icon-remove {
         left: 9rem;
         white-space: nowrap;
     }
-    .price--on-sale {
-        width: 22rem;
+
+    .price{
+        &__sale{
+            .price__break{
+                display: block;
+            }
+        }
     }
-    .product-inner .flex-item {
-        width: 21.5rem;
-    }
-    .product-inner .product__price {
-        justify-content: space-between;
-    }
+    
 }
 
 @media screen and (max-width: 450px) {
-    .badge {
-        left: 8rem;
-    }
     .product-inner .sp-flex {
         column-gap: 10px !important;
     }
