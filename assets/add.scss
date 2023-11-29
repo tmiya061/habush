@@ -439,9 +439,6 @@ gap: 20px 40px;
     font-size: 14px;
     @include mq(sp) {
         font-size: 12px;
-        @media screen and (max-width: 487px) {
-            margin-bottom: 10px;
-        }
     }
 }
 
@@ -2189,4 +2186,63 @@ cart-remove-button .icon-remove {
     align-items: center;
     margin-bottom: 10px;
     column-gap: 10px;
+}
+
+/*----------------------------------
+    セール
+-----------------------------------*/
+
+.price__badge-sale {
+    background: rgb(141, 1, 1);
+    border: rgb(141, 1, 1);
+    color: #fff;
+}
+
+.price-item--regular {
+    margin: 0 8rem 0 0 !important;
+}
+
+.badge {
+    position: absolute;
+    top: calc(50% - 3px);
+    transform: translateY(-50%);
+    left: 6.5rem;
+}
+
+.price--on-sale {
+    position: relative;
+}
+
+@media screen and (max-width: 1042px) {
+    .badge {
+        left: 9rem;
+    }
+    .price--on-sale {
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .badge {
+        left: 9rem;
+        white-space: nowrap;
+    }
+    .price--on-sale {
+        width: 22rem;
+    }
+    .product-inner .flex-item {
+        width: 21.5rem;
+    }
+    .product-inner .product__price {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .badge {
+        left: 8rem;
+    }
+    .product-inner .sp-flex {
+        column-gap: 10px !important;
+    }
 }
