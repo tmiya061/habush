@@ -93,6 +93,7 @@ header .header-text-wrap {
 }
 
 .follow_btn {
+    display: inline-block !important;
     background-image:url(cta-new.png);
     @include mq(sp) {
         background-image:url(cta-new_sp.png);
@@ -220,6 +221,45 @@ gap: 20px 40px;
     }
 }
 
+/* modal-05 */
+#modal-05 .c-modal_content {
+padding: 50px 0;
+}
+
+#modal-05 .mark {
+width: 28px;
+display: block;
+margin: 0 auto 20px;
+}
+
+#modal-05 h3 {
+font-size: 1.6rem;
+margin-bottom: 60px;
+text-align: center;
+}
+
+#modal-05 ul {
+gap: 20px 40px;
+}
+
+
+@media screen and (min-width: 769px) {
+    #modal-05 .c-modal_content {
+        padding: 100px 0;
+    }
+
+    #modal-05 h3 {
+        font-size: 2.0rem;
+        margin-bottom: 80px;
+    }
+}
+
+/*----------------------------------
+    modal - close btn
+-----------------------------------*/
+.c-modal_content {
+    
+}
 
 
 
@@ -238,6 +278,17 @@ gap: 20px 40px;
         position: relative;
         z-index: 2;
     }
+    margin-bottom: 40px;
+    &.--black {
+        margin-bottom: 0;
+        span {
+            color: #fff;
+        }
+        &::after {
+            opacity: 1;
+        }
+    }
+
     &::after {
         position: absolute;
         z-index: 1;
@@ -254,12 +305,20 @@ gap: 20px 40px;
     }
     @media(hover: hover) {
         &:hover {
-            span {
-                color: #fff;
-            }
-            &::after {
-                opacity: 1;
-            }
+            opacity: .7;
+            // span {
+            //     color: #fff;
+            // }
+            // &::after {
+            //     opacity: 1;
+            // }
+            // &.--black span {
+            //     color: #272727;
+            // }
+
+            // &.--black::after {
+            //     opacity: 0;
+            // }
         }
     }
 }
