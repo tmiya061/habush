@@ -1915,12 +1915,13 @@ gap: 20px 40px;
     }
     @media(hover: hover) {
         &:hover {
-            span {
-                color: #fff;
-            }
-            &::after {
-                opacity: 1;
-            }
+            opacity: .7;
+            // span {
+            //     color: #fff;
+            // }
+            // &::after {
+            //     opacity: 1;
+            // }
         }
     }
 }
@@ -2304,3 +2305,27 @@ cart-remove-button .icon-remove {
         column-gap: 10px !important;
     }
 }
+
+/*----------------------------------
+    recipe popup
+-----------------------------------*/
+.custom-product__link{
+    margin-bottom: 0 !important;
+}
+
+.custom-product__link a {
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+    img {
+        width: 12px;
+        height: 12px;
+    }
+    transition: all  0.3s ease;
+    @media(hover: hover) {
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
+

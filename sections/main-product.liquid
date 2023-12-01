@@ -227,6 +227,12 @@
                   {{ product.description }}
                 </div>
               {%- endif -%}
+            <div class="custom-product__link">
+              <a href="/pages/recipe">
+                <span>HABUSHレシピはこちら</span>&nbsp;&nbsp;
+                <img src="{{ 'icon-arrow-white.png' | file_url }}" alt="矢印のアイコン" width="20" height="20" loading="lazy">
+              </a>
+            </div>
             {%- when 'sku' -%}
               <p
                 class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -238,6 +244,7 @@
               </p>
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
+
             {%- when 'collapsible_tab' -%}
               <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -432,23 +439,10 @@
                   </volume-pricing>
                 {%- endif -%}
               </div>
-            {%- when 'popup' -%}
-              <modal-opener
-                class="product-popup-modal__opener no-js-hidden quick-add-hidden"
-                data-modal="#PopupModal-{{ block.id }}"
-                {{ block.shopify_attributes }}
-              >
-                <button
-                  id="ProductPopup-{{ block.id }}"
-                  class="product-popup-modal__button link"
-                  type="button"
-                  aria-haspopup="dialog"
-                >
-                  {{ block.settings.text | default: block.settings.page.title }}
-                </button>
-              </modal-opener>
+
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">
-                {{- block.settings.text -}}
+                {{- block.settings.text -}}&nbsp;&nbsp;
+                <img src="{{ 'icon-arrow-white.png' | file_url }}" alt="矢印のアイコン" width="20" height="20" loading="lazy">
               </a>
             {%- when 'share' -%}
               <!-- {% assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin %}
