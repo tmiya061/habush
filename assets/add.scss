@@ -1776,8 +1776,8 @@ gap: 20px 40px;
     .underProduct_fv_img {
         width: 100%;
         height: auto;
-        aspect-ratio: 1400 / 260;
-        max-height: 260px;
+        aspect-ratio: 1400 / 340;
+        max-height: 340px;
         object-fit: cover;
     }
     .loop-list {
@@ -1787,8 +1787,8 @@ gap: 20px 40px;
     @include mq(sp) {
         padding-bottom: 15px;
         .underProduct_fv_img {
-            aspect-ratio: 390 / 180;
-            max-height: 180px;
+            aspect-ratio: 390 / 225;
+            max-height: 225px;
         }
     }
 
