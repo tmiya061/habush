@@ -278,9 +278,15 @@ gap: 20px 40px;
         position: relative;
         z-index: 2;
     }
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
+    @include mq(sp) {
+        margin-bottom: 20px !important;
+    }
     &.--black {
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
+        @include mq(sp) {
+            margin-bottom: 0 !important;
+        }
         span {
             color: #fff;
         }
@@ -2317,9 +2323,10 @@ cart-remove-button .icon-remove {
     display: flex;
     align-items: center;
     text-decoration: none !important;
+    font-size: 15px;
     img {
-        width: 12px;
-        height: 12px;
+        width: 11px;
+        height: 11px;
     }
     transition: all  0.3s ease;
     @media(hover: hover) {
