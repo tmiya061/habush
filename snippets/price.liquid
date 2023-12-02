@@ -82,6 +82,12 @@
           {{ money_price }}
         </span>
       {%- endif -%}
+      {%- if template == 'index' %}
+      {%- if cart.taxes_included -%}
+        <span class="product-tax-in">({{ 'products.product.include_taxes' | t }})</span>
+      {%- endif -%}
+    {%- endif -%}
+
     </div>
     <div class="price__sale">
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
