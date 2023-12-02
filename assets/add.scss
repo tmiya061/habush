@@ -273,6 +273,10 @@ gap: 20px 40px;
     transition: all  0.3s ease;
     height: 50px;
     background: #fff;
+    &.--disable{
+        opacity: 0.5;
+        pointer-events: none;
+    }
     span {
         transition: all  0.3s ease;
         position: relative;
@@ -2228,6 +2232,9 @@ cart-remove-button .icon-remove {
 }
 .price__badge-sale{
     margin-right: 1rem;
+}
+.price__badge-sold-out{
+    margin-left: 1rem;
 }
 .product .price__container {
     margin-bottom: 0 !important;
