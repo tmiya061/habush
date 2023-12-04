@@ -93,7 +93,7 @@ header .header-text-wrap {
 }
 
 .follow_btn {
-    display: inline-block !important;
+    display: none;
     background-image:url(cta-new.png);
     @include mq(sp) {
         background-image:url(cta-new_sp.png);

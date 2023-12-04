@@ -111,17 +111,16 @@ jQuery(function($) {
   };
 
   // 追従ボタンの設定
-  // $(window).on('load scroll', function () {
-  //   p = $('#kv').offset().top,
-  //     h = $('#kv').height(),
-  //     fp = $('footer').offset().top,
-  //     fh = $('footer').height();
-  //   if (s > p + (h / 2) && s < fp - (fh / 2)) {
-  //     $('.follow_btn').fadeIn();
-  //   } else {
-  //     $('.follow_btn').fadeIn();
-  //   }
-  // });
+  $(window).on('scroll', function () {
+    var s = $(window).scrollTop() + $(window).innerHeight();
+    var fp = $('footer').offset().top;
+    if ( s < fp) {
+      $('.follow_btn').fadeIn();
+    } else {
+      $('.follow_btn').fadeOut();
+    }
+  });
+
 });
 // バナースライド
 new Swiper('.kv-list', {
