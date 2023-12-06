@@ -515,7 +515,7 @@ if ( window.document.body.id === 'underRecipe' ) {
   
   if (isNaN(slideValue)) {
     // もしslideValueが数字でない場合、またはnull、undefinedの場合はデフォルトで0を設定
-    slideValue = 0;
+    slideValue = 1;
   }
 
     $(window).on('load', function() {
