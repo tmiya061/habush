@@ -268,6 +268,23 @@ gap: 20px 40px;
 /*----------------------------------
     Top Product
 -----------------------------------*/
+.bnr-gift{
+    position: absolute;
+    top: -180px;
+    left: 50%;
+    max-width: 90%;
+    width: 1050px;
+    transform: translate(-50%);
+    display: block;
+    
+    @include mq(sp) {
+        width: 80%;
+        top: -30px;
+    }
+    img{
+        width: 100%;
+    }
+}
 .purchase_btn {
     clip-path: polygon(92.8% 0, 100% 33%, 100% 100%, 0 100%, 0 0);
     position: relative;

@@ -565,10 +565,11 @@ header nav ul li a {
 ================================== */
 #product {
   padding: 135px 0 90px;
+  margin-top: 300px;
   position: relative;
   background: var(--base-background-color);
 }
-
+@media screen and (max-width:768px){#product{margin-top: 100px;}}
 #product .product-inner {
   position: relative;
   z-index: 99;
