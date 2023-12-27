@@ -1,6 +1,8 @@
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
+{{ 'topics.min.css' | asset_url | stylesheet_tag }}
+
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -16,39 +18,52 @@
   }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 6 -%}
-  <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {{ blog.title | escape }}
-    </h1>
-
-    <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
-      {%- for article in blog.articles -%}
-        <div
-          class="blog-articles__article article{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {% if settings.animations_reveal_on_scroll %}
-            data-cascade
-            style="--animation-order: {{ forloop.index }};"
-          {% endif %}
-        >
-          {%- render 'article-card',
-            article: article,
-            media_height: section.settings.image_height,
-            media_aspect_ratio: article.image.aspect_ratio,
-            show_image: section.settings.show_image,
-            show_date: section.settings.show_date,
-            show_author: section.settings.show_author,
-            show_excerpt: true
-          -%}
+<main class="preload-main">
+  <section id="kv" class="under__kv c_topic__fv">
+    <div class="kv-inner">
+      <!-- <h1 class="logo animate__animated animate__kvLogoSlideInUp animate__delay-1s wow rellax" data-rellax-speed="1"> -->
+      <h1 class="logo animate__animated">
+        <img src="{{ 'TOPICS.png' | file_url }}" alt="TOPICS" width="270">
+      </h1>
+      <div class="c_topic__wrap">
+        <div class="c_topic__sidebar">
+          <a href="/blogs/{{ blog.handle }}" class="{% if current_tags == blank %}current{% endif %}">ALL</a>
+          {% for tag in blog.all_tags %}
+            <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handle }}" class="{% if current_tags contains tag %}current{% endif %}">{{ tag | split: '-' | last }}</a>
+          {% endfor %}
         </div>
-      {%- endfor -%}
+        <div class="c_topic__items">
+          {%- paginate blog.articles by 1 -%}
+          {%- for article in blog.articles -%}
+          <a class="c_topic__item" href="{{ article.url }}">
+            <div class="c_topic__item-meta">
+              <time>
+                {{ article.published_at | date: '%Y.%m.%d' }}
+              </time>
+              {% for tag in article.tags limit: 1 %}
+                <p class="c_topNews__item-tag">
+                  {{ tag }}
+                </p>
+              {% endfor %}
+            </div>
+            <p class="c_topNews__item-title">
+              <span>
+                {{article.title}}
+                <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
+              </span>
+            </p>
+          </a>
+          {%- endfor -%}
+          {%- if paginate.pages > 1 -%}
+          {%- render 'pagination', paginate: paginate -%}
+          {%- endif -%}
+          {%- endpaginate -%}
+        </div>
+      </div>
     </div>
+  </section>
 
-    {%- if paginate.pages > 1 -%}
-      {%- render 'pagination', paginate: paginate -%}
-    {%- endif -%}
-  </div>
-{%- endpaginate -%}
+</main>
 
 {% schema %}
 {

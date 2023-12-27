@@ -55,7 +55,7 @@ jQuery(function($) {
   $('#nav_toggle').on('click', function () {
     $('.menu, #nav_toggle, .g-nav, .nav-open-mask').toggleClass('show');
   });
-  $('nav ul li a, .nav-open-mask').on('click', function () {
+  $('.g-nav ul li a, .nav-open-mask').on('click', function () {
     $('.menu, #nav_toggle, .g-nav, .nav-open-mask').toggleClass('show');
   });
 
