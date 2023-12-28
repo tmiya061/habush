@@ -51,6 +51,7 @@
     </div>
   </section>
   <section id="product">
+    <a class="bnr-gift" href="/products/horidays"><img src="{{ 'bnr-gift.png' | file_url }}" type="image/png" alt="ギフトバナー" class="lazyload" width="179"></a>
     <div class="section-container">
       <div class="product-inner justify-content-between align-items-center wow animate__animated animate__fadeInUp">
         <h2 class="logo">
@@ -539,6 +540,24 @@
       </div>
     </div>
   </section>
+
+  <!-- <section id="topic">
+    <div class="section-container justify-content-between">
+      <div class="left-content wow animate__animated animate__fadeInUp">
+        <h2 class="head">
+          <img src="{{ 'TOPICS.png' | file_url }}" alt="TOPICS" width="270">
+        </h2>
+        <a href="#c_topicAll" class="{% if current_tags == blank %}current{% endif %}">ALL</a>
+        {% for tag in blog.all_tags %}
+          <a href="#c_topic" class="{% if current_tags contains tag %}current{% endif %}">{{ tag }}</a>
+        {% endfor %}
+      </div>
+      <div class="right-content wow animate__animated animate__fadeInUp">
+
+      </div>
+    </div>
+  </section> -->
+
   {% comment %}
     <section id="contact">
       <form method="post" action="mail.php">

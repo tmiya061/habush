@@ -26,7 +26,13 @@
 }
 
 .totals__total-value {
-  font-size: 1.8rem;
+  font-size: 3.2rem;
+}
+@media all and (max-width: 750px) {
+  .totals__total-value {
+    font-size: 2rem;
+  }
+
 }
 .totals__total-value span{
   padding-left: 0.5rem;

@@ -45,6 +45,15 @@
                 </p>
               {% endfor %}
             </div>
+            {% comment %}NEWラベル用{% endcomment %}
+            {%- assign published_date = article.published_at | date: '%s' -%}
+            {%- assign current_date = 'today' | date: '%s' -%}
+            {%- assign passed_days_from_publish = current_date | minus: published_date | divided_by: 86400 -%}
+
+            {%- if passed_days_from_publish <= 7 -%}
+                <span class="c_new_label">NEW</span>
+            {%- endif -%}
+
             <h2 class="c_topic__single-title">
               {{ article.title }}
             </h2>

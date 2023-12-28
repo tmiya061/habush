@@ -116,6 +116,9 @@ $breakpoints: (
     align-items: center;
     column-gap: 10px;
     margin-bottom: 10px;
+    @include mq(sp) {
+        margin-bottom: 20px;
+    }
 
     time {
         font-size: 12px;
@@ -133,7 +136,7 @@ $breakpoints: (
     font-size: 16px;
     line-height: calc(38 / 16);
     letter-spacing: 0.04em;
-    span {
+    .text {
         display: inline-block;
         position: relative;
         .arrow {
@@ -148,7 +151,7 @@ $breakpoints: (
     @include mq(sp) {
         font-size: 13px;
         line-height: calc(23 / 13);
-        span {
+        .text {
             display: block;
             width: calc(100% - 20px);
             .arrow {
@@ -227,6 +230,18 @@ $breakpoints: (
     }
 }
 
+.c_new_label {
+    padding: 3px 5px;
+    background: #ec6941;
+    font-size: 12px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-right: 15px;
+    @include mq(sp) {
+        margin-bottom: 10px;
+    }
+}
+
 .c_topic__single-img {
     width: 100%;
     height: auto;
@@ -239,6 +254,7 @@ $breakpoints: (
         margin-bottom: 70px;
     }
 }
+
 
 .c_topic__single-content {
     p {
@@ -273,22 +289,10 @@ $breakpoints: (
     }
     p {
         a {
-            &:first-of-type {
-                margin-top: 50px;
-            }
             position: relative;
             display: block;
             width: fit-content;
-            &::after {
-                content: '';
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                left: calc(100% + 20px);
-                background: url(https://cdn.shopify.com/s/files/1/0844/4264/4775/files/arrow-up.png?v=1703682709) no-repeat center center / cover;
-                width: 12px;
-                height: 12px;
-            }
+            text-decoration: underline;
         }
     }
 }
@@ -323,3 +327,4 @@ $breakpoints: (
         }
     }
 }
+

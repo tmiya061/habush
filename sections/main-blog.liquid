@@ -29,7 +29,7 @@
         <div class="c_topic__sidebar">
           <a href="/blogs/{{ blog.handle }}" class="{% if current_tags == blank %}current{% endif %}">ALL</a>
           {% for tag in blog.all_tags %}
-            <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handle }}" class="{% if current_tags contains tag %}current{% endif %}">{{ tag | split: '-' | last }}</a>
+            <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handle }}" class="{% if current_tags contains tag %}current{% endif %}">{{ tag }}</a>
           {% endfor %}
         </div>
         <div class="c_topic__items">
@@ -47,7 +47,14 @@
               {% endfor %}
             </div>
             <p class="c_topNews__item-title">
-              <span>
+              {%- assign published_date = article.published_at | date: '%s' -%}
+              {%- assign current_date = 'today' | date: '%s' -%}
+              {%- assign passed_days_from_publish = current_date | minus: published_date | divided_by: 86400 -%}
+  
+              {%- if passed_days_from_publish <= 7 -%}
+                  <span class="c_new_label">NEW</span>
+              {%- endif -%}
+              <span class="text">
                 {{article.title}}
                 <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
               </span>

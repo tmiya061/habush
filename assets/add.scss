@@ -268,6 +268,23 @@ gap: 20px 40px;
 /*----------------------------------
     Top Product
 -----------------------------------*/
+.bnr-gift{
+    position: absolute;
+    top: -180px;
+    left: 50%;
+    max-width: 90%;
+    width: 1050px;
+    transform: translate(-50%);
+    display: block;
+    
+    @include mq(sp) {
+        width: 80%;
+        top: -30px;
+    }
+    img{
+        width: 100%;
+    }
+}
 .purchase_btn {
     clip-path: polygon(92.8% 0, 100% 33%, 100% 100%, 0 100%, 0 0);
     position: relative;
@@ -2172,6 +2189,9 @@ cart-remove-button .icon-remove {
 
 .collection-hero__title {
     color: #fff;
+    @include mq(sp) {
+        margin-bottom: 4rem;
+    }
 }
 
 .facet-filters__field, .facet-filters__label, .facet-filters__sort {
@@ -2291,6 +2311,7 @@ cart-remove-button .icon-remove {
     }
 }
 
+
 .price-item--regular {
     margin: 0 1rem 0 0 !important;
 }
@@ -2355,6 +2376,11 @@ cart-remove-button .icon-remove {
     line-height: 0.9;
     text-align: center;
     margin-bottom: 11rem !important;
+    @include mq(sp) {
+        font-size: 24px;
+        line-height: 1;
+        margin-bottom: 6rem !important;
+    }
 }
 .collection-hero__description.rte {
     display: none;
@@ -2370,9 +2396,12 @@ cart-remove-button .icon-remove {
     row-gap: 80px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
     li {
         width: 100%;
+    }
+    @include mq(sp) {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 60px;
     }
 }
 .grid--2-col-desktop .grid__item {
@@ -2393,11 +2422,23 @@ cart-remove-button .icon-remove {
 
 .card__information {
     position: relative;
+    @include mq(sp) {
+        padding-top: 2.5rem !important;
+    }
+}
+
+.c_topic-title {
+    font-size: 22px;
+    line-height: 2;
+}
+
+.card-information > *:not(.visually-hidden:first-child) + *:not(.rating):not(.card__information-volume-pricing-note) {
+    margin-top: 0 !important;
 }
 
 .c_card__link-more {
     position: absolute;
-    bottom: 3rem;
+    bottom: 1.6rem;
     right: 0;
     font-size: 16px;
     line-height: 1;
@@ -2405,8 +2446,20 @@ cart-remove-button .icon-remove {
     display: flex;
     align-items: center;
     column-gap: 30px;
+    @include mq(sp) {
+        bottom: 2rem;
+    }
     .arrow {
         width: 12px;
         height: 12px;
     }
+}
+
+
+/*----------------------------------
+    top topic
+-----------------------------------*/
+
+#topic {
+    padding: 190px 0 120px;
 }

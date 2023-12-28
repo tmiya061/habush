@@ -258,6 +258,25 @@ picture {
 /*----------------------------------
     Top Product
 -----------------------------------*/
+.bnr-gift {
+  position: absolute;
+  top: -180px;
+  left: 50%;
+  max-width: 90%;
+  width: 1050px;
+  transform: translate(-50%);
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .bnr-gift {
+    width: 80%;
+    top: -30px;
+  }
+}
+.bnr-gift img {
+  width: 100%;
+}
+
 .purchase_btn {
   -webkit-clip-path: polygon(92.8% 0, 100% 33%, 100% 100%, 0 100%, 0 0);
           clip-path: polygon(92.8% 0, 100% 33%, 100% 100%, 0 100%, 0 0);
@@ -2255,6 +2274,11 @@ cart-remove-button .icon-remove path {
 .collection-hero__title {
   color: #fff;
 }
+@media screen and (max-width: 768px) {
+  .collection-hero__title {
+    margin-bottom: 4rem;
+  }
+}
 
 .facet-filters__field, .facet-filters__label, .facet-filters__sort {
   color: #fff !important;
@@ -2422,6 +2446,13 @@ cart-remove-button .icon-remove path {
   text-align: center;
   margin-bottom: 11rem !important;
 }
+@media screen and (max-width: 768px) {
+  .collection-hero__title {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 6rem !important;
+  }
+}
 
 .collection-hero__description.rte {
   display: none;
@@ -2441,6 +2472,12 @@ cart-remove-button .icon-remove path {
 }
 .product-grid.grid li {
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .product-grid.grid {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 60px;
+  }
 }
 
 .grid--2-col-desktop .grid__item {
@@ -2462,10 +2499,24 @@ cart-remove-button .icon-remove path {
 .card__information {
   position: relative;
 }
+@media screen and (max-width: 768px) {
+  .card__information {
+    padding-top: 2.5rem !important;
+  }
+}
+
+.c_topic-title {
+  font-size: 22px;
+  line-height: 2;
+}
+
+.card-information > *:not(.visually-hidden:first-child) + *:not(.rating):not(.card__information-volume-pricing-note) {
+  margin-top: 0 !important;
+}
 
 .c_card__link-more {
   position: absolute;
-  bottom: 3rem;
+  bottom: 1.6rem;
   right: 0;
   font-size: 16px;
   line-height: 1;
@@ -2475,7 +2526,19 @@ cart-remove-button .icon-remove path {
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
+@media screen and (max-width: 768px) {
+  .c_card__link-more {
+    bottom: 2rem;
+  }
+}
 .c_card__link-more .arrow {
   width: 12px;
   height: 12px;
+}
+
+/*----------------------------------
+    top topic
+-----------------------------------*/
+#topic {
+  padding: 190px 0 120px;
 }/*# sourceMappingURL=add.css.map */

@@ -512,6 +512,11 @@ if ( window.document.body.id === 'underRecipe' ) {
     // 遷移先のページでlocalStorageからslide属性を取得
     const str = localStorage.getItem('slideAttribute');
     var slideValue = parseInt(str, 10) + 1;
+  
+  if (isNaN(slideValue)) {
+    // もしslideValueが数字でない場合、またはnull、undefinedの場合はデフォルトで0を設定
+    slideValue = 1;
+  }
 
     $(window).on('load', function() {
       mySwiper3.slideTo(slideValue);
