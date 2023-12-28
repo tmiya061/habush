@@ -20,6 +20,7 @@
 }
 @media screen and (max-width: 768px) {
   .c_topic__fv {
+    margin-top: 165px !important;
     margin-bottom: 140px;
   }
 }
@@ -47,6 +48,10 @@
 
 .c_topic__sidebar {
   width: 100px;
+  height: auto;
+  position: sticky;
+  top: 40px;
+  right: 0;
 }
 .c_topic__sidebar a {
   display: inline-block;
@@ -263,13 +268,16 @@
     padding: 45px 0 45px;
   }
 }
-.c_topic__single-content a {
+.c_topic__single-content p a {
   position: relative;
   display: block;
   width: -moz-fit-content;
   width: fit-content;
 }
-.c_topic__single-content a::after {
+.c_topic__single-content p a:first-of-type {
+  margin-top: 50px;
+}
+.c_topic__single-content p a::after {
   content: "";
   position: absolute;
   top: 50%;

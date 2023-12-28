@@ -40,6 +40,7 @@ $breakpoints: (
     margin-top: 35vh;
     margin-bottom: 195px;
     @include mq(sp) {
+        margin-top: 165px !important;
         margin-bottom: 140px;
     }
 }
@@ -64,6 +65,10 @@ $breakpoints: (
 
 .c_topic__sidebar {
     width: 100px;
+    height: auto;
+    position: sticky;
+    top: 40px;
+    right: 0;
     a {
         display: inline-block;
         font-size: 18px;
@@ -266,19 +271,24 @@ $breakpoints: (
             padding: 45px 0 45px;
         }
     }
-    a {
-        position: relative;
-        display: block;
-        width: fit-content;
-        &::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            left: calc(100% + 20px);
-            background: url(https://cdn.shopify.com/s/files/1/0844/4264/4775/files/arrow-up.png?v=1703682709) no-repeat center center / cover;
-            width: 12px;
-            height: 12px;
+    p {
+        a {
+            &:first-of-type {
+                margin-top: 50px;
+            }
+            position: relative;
+            display: block;
+            width: fit-content;
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: calc(100% + 20px);
+                background: url(https://cdn.shopify.com/s/files/1/0844/4264/4775/files/arrow-up.png?v=1703682709) no-repeat center center / cover;
+                width: 12px;
+                height: 12px;
+            }
         }
     }
 }

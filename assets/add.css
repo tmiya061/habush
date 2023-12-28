@@ -2411,4 +2411,71 @@ cart-remove-button .icon-remove path {
   .custom-product__link a:hover {
     opacity: 0.7;
   }
+}
+
+/*----------------------------------
+    product - archive
+-----------------------------------*/
+.collection-hero__title {
+  font-size: 40px;
+  line-height: 0.9;
+  text-align: center;
+  margin-bottom: 11rem !important;
+}
+
+.collection-hero__description.rte {
+  display: none;
+}
+
+.facets-wrapper {
+  display: none !important;
+}
+
+.product-grid.grid {
+  width: 100%;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.product-grid.grid li {
+  width: 100%;
+}
+
+.grid--2-col-desktop .grid__item {
+  width: 100%;
+  max-width: 100%;
+}
+.grid--2-col-desktop .grid__item img {
+  max-width: 628px;
+}
+
+.card__heading.h5 a {
+  font-size: 2.4rem;
+}
+
+.product-tax-in {
+  font-size: 12px;
+}
+
+.card__information {
+  position: relative;
+}
+
+.c_card__link-more {
+  position: absolute;
+  bottom: 3rem;
+  right: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.c_card__link-more .arrow {
+  width: 12px;
+  height: 12px;
 }/*# sourceMappingURL=add.css.map */
