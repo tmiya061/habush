@@ -73,6 +73,12 @@ $breakpoints: (
         display: inline-block;
         font-size: 18px;
         line-height: calc(32 / 18);
+        margin-bottom: 5px;
+        &.current {
+            background: #fff;
+            color: #000;
+            pointer-events: none;
+        }
     }
     @include mq(sp) {
         width: 240px;
@@ -133,19 +139,26 @@ $breakpoints: (
 }
 
 .c_topNews__item-title {
+    @include mq(pc) {
+        display: flex;
+        align-items: flex-start;        
+    }
     font-size: 16px;
-    line-height: calc(38 / 16);
+    line-height: calc(33 / 16);
     letter-spacing: 0.04em;
     .text {
         display: inline-block;
         position: relative;
         .arrow {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            left: calc(100% + 20px);
+            display: inline-block;
+            margin-left: 10px;
             width: 14px;
             height: 14px;
+        }
+    }
+    .c_new_label {
+        @include mq(pc) {
+            margin-top: 3px;
         }
     }
     @include mq(sp) {
@@ -153,9 +166,15 @@ $breakpoints: (
         line-height: calc(23 / 13);
         .text {
             display: block;
-            width: calc(100% - 20px);
+            width: 90%;
+            position: relative;
             .arrow {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
                 left: calc(100% + 4px);
+                width: 11px;
+                height: 11px;
             }
         }
     }
@@ -238,7 +257,11 @@ $breakpoints: (
     display: inline-block;
     margin-right: 15px;
     @include mq(sp) {
+        display: block;
+        width: fit-content;
         margin-bottom: 10px;
+        font-size: 10px;
+        padding: 2px 4px;
     }
 }
 

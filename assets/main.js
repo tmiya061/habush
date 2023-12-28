@@ -798,3 +798,18 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+//top topic
+if ( window.document.body.id === 'top' ) {
+jQuery(function($) {
+  $('.c_topTopic__tag-wrap p').on('click', function () {
+      $('.c_topTopic__tag-wrap p').removeClass('current');
+      $(this).addClass('current');
+      $('.c_topTopic__wrap').fadeOut(0);
+      $($(this).attr('href')).fadeIn(500);
+      return false;
+  });
+
+
+});
+
+}

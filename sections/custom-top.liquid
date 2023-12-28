@@ -541,22 +541,102 @@
     </div>
   </section>
 
-  <!-- <section id="topic">
-    <div class="section-container justify-content-between">
+  <section id="topic">
+    <div class="section-container justify-content-between c_topTopic__container">
       <div class="left-content wow animate__animated animate__fadeInUp">
         <h2 class="head">
           <img src="{{ 'TOPICS.png' | file_url }}" alt="TOPICS" width="270">
         </h2>
-        <a href="#c_topicAll" class="{% if current_tags == blank %}current{% endif %}">ALL</a>
-        {% for tag in blog.all_tags %}
-          <a href="#c_topic" class="{% if current_tags contains tag %}current{% endif %}">{{ tag }}</a>
-        {% endfor %}
+        <div class="c_topTopic__tag-wrap">
+          <p href="#c_topicAll" class="current">ALL</p>
+          {% assign tag_index = 1 %}
+          {% for tag in blogs['topic'].all_tags %}
+            <p href="#c_topic{{ tag_index }}" class="{% if current_tags contains tag %}current{% endif %}">{{ tag }}</p>
+            {% assign tag_index = tag_index | plus: 1 %}
+          {% endfor %}
+        </div>
       </div>
       <div class="right-content wow animate__animated animate__fadeInUp">
+        <div class="c_topTopic__wrap js-open" id="c_topicAll">
+          {% for article in blogs['topic'].articles limit: 3 %}
+          {% for tag in article.tags limit: 1 %}
+            <a class="c_topic__item" href="{{ article.url }}">
+              <div class="c_topic__item-meta">
+                <time>
+                  {{ article.published_at | date: '%Y.%m.%d' }}
+                </time>
+                  <p class="tag">
+                    [{{ tag }}]
+                  </p>
+              </div>
+              <p class="c_topNews__item-title">
+                {%- assign published_date = article.published_at | date: '%s' -%}
+                {%- assign current_date = 'today' | date: '%s' -%}
+                {%- assign passed_days_from_publish = current_date | minus: published_date | divided_by: 86400 -%}
+                {%- if passed_days_from_publish <= 7 -%}
+                    <span class="c_new_label">NEW</span>
+                {%- endif -%}
+                <span class="text">
+                  {{article.title}}
+                  <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
+                </span>
+              </p>
+            </a>
+            {% endfor %}
+          {% endfor %}
+          <div class="c_topTopic__more">
+            <a href="/blogs/topic">
+              <span>MORE</span>
+              <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
+            </a>
+          </div>
+        </div>
+
+        {% assign tag_wrap_index = 1 %}
+        {% for topic_tag in blogs['topic'].all_tags %}
+        <div class="c_topTopic__wrap" id="c_topic{{ tag_wrap_index }}">
+          {% for article in blogs['topic'].articles limit: 3 %}
+          {% for tag in article.tags %}
+          {% if article.tags contains topic_tag %}
+            <a class="c_topic__item" href="{{ article.url }}">
+              <div class="c_topic__item-meta">
+                <time>
+                  {{ article.published_at | date: '%Y.%m.%d' }}
+                </time>
+                <p class="tag">
+                  [{{ tag }}]
+                </p>
+              </div>
+              <p class="c_topNews__item-title">
+                {%- assign published_date = article.published_at | date: '%s' -%}
+                {%- assign current_date = 'today' | date: '%s' -%}
+                {%- assign passed_days_from_publish = current_date | minus: published_date | divided_by: 86400 -%}
+                {%- if passed_days_from_publish <= 7 -%}
+                    <span class="c_new_label">NEW</span>
+                {%- endif -%}
+                <span class="text">
+                  {{article.title}}
+                  <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
+                </span>
+              </p>
+            </a>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+          <div class="c_topTopic__more">
+            <a href="/blogs/topic/tagged/{{ topic_tag | handle }}">
+              <span>MORE</span>
+              <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
+            </a>
+          </div>
+        </div>
+        {% assign tag_wrap_index = tag_wrap_index | plus: 1 %}
+        {% endfor %}
+
 
       </div>
     </div>
-  </section> -->
+  </section>
 
   {% comment %}
     <section id="contact">
