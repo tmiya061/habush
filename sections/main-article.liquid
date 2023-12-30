@@ -28,9 +28,9 @@
       </h1>
       <div class="c_topic__wrap">
         <div class="c_topic__sidebar single">
-          <a href="/blogs/{{ blog.handle }}" class="{% if current_tags == blank %}current{% endif %}">ALL</a>
+          <a href="/blogs/{{ blog.handle }}">ALL</a>
           {% for tag in blog.all_tags %}
-            <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handle }}" class="{% if current_tags contains tag %}current{% endif %}">{{ tag | split: '-' | last }}</a>
+            <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handle }}">{{ tag }}</a>
           {% endfor %}
         </div>
         <div class="c_topic__items">

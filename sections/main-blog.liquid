@@ -33,7 +33,7 @@
           {% endfor %}
         </div>
         <div class="c_topic__items">
-          {%- paginate blog.articles by 1 -%}
+          {%- paginate blog.articles by 4 -%}
           {%- for article in blog.articles -%}
           <a class="c_topic__item" href="{{ article.url }}">
             <div class="c_topic__item-meta">

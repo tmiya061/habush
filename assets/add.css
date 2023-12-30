@@ -2506,8 +2506,13 @@ cart-remove-button .icon-remove path {
 }
 
 .c_topic-title {
-  font-size: 22px;
-  line-height: 2;
+  font-size: 24px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .c_topic-title {
+    font-size: 20px;
+  }
 }
 
 .card-information > *:not(.visually-hidden:first-child) + *:not(.rating):not(.card__information-volume-pricing-note) {
@@ -2516,7 +2521,7 @@ cart-remove-button .icon-remove path {
 
 .c_card__link-more {
   position: absolute;
-  bottom: 1.6rem;
+  bottom: 2.4rem;
   right: 0;
   font-size: 16px;
   line-height: 1;
@@ -2529,11 +2534,18 @@ cart-remove-button .icon-remove path {
 @media screen and (max-width: 768px) {
   .c_card__link-more {
     bottom: 2rem;
+    font-size: 12px;
   }
 }
 .c_card__link-more .arrow {
   width: 12px;
   height: 12px;
+}
+@media screen and (max-width: 768px) {
+  .c_card__link-more .arrow {
+    width: 10px;
+    height: 10px;
+  }
 }
 
 /*----------------------------------
@@ -2594,6 +2606,7 @@ cart-remove-button .icon-remove path {
   margin-top: 200px;
 }
 .c_topTopic__tag-wrap p {
+  font-family: var(--en-font-family);
   width: -moz-fit-content;
   width: fit-content;
   font-size: 16px;
@@ -2740,5 +2753,14 @@ cart-remove-button .icon-remove path {
 @media screen and (max-width: 768px) {
   .c_topTopic__more {
     margin-top: 30px;
+  }
+}
+
+.collection-hero__title {
+  margin-top: 140px !important;
+}
+@media screen and (max-width: 768px) {
+  .collection-hero__title {
+    margin-bottom: 35px !important;
   }
 }/*# sourceMappingURL=add.css.map */

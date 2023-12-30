@@ -69,11 +69,13 @@ $breakpoints: (
     position: sticky;
     top: 40px;
     right: 0;
+    font-family: var(--en-font-family);
     a {
         display: inline-block;
         font-size: 18px;
         line-height: calc(32 / 18);
         margin-bottom: 5px;
+        padding: 1px 8px 1px 4px;
         &.current {
             background: #fff;
             color: #000;
@@ -103,11 +105,13 @@ $breakpoints: (
 }
 
 .c_topic__item {
-    border-top: 1px solid #fff;
     padding: 35px 0;
     display: block;
+    border-bottom: 1px solid #fff;
+    &:first-of-type {
+        border-top: 1px solid #fff;
+    }
     &:last-of-type {
-        border-bottom: 1px solid #fff;
         &.single {
             border-bottom: none;
         }
@@ -123,7 +127,7 @@ $breakpoints: (
     column-gap: 10px;
     margin-bottom: 10px;
     @include mq(sp) {
-        margin-bottom: 20px;
+        margin-bottom: 13px;
     }
 
     time {
@@ -144,7 +148,7 @@ $breakpoints: (
         align-items: flex-start;        
     }
     font-size: 16px;
-    line-height: calc(33 / 16);
+    line-height: calc(24 / 16);
     letter-spacing: 0.04em;
     .text {
         display: inline-block;
@@ -152,13 +156,14 @@ $breakpoints: (
         .arrow {
             display: inline-block;
             margin-left: 10px;
-            width: 14px;
-            height: 14px;
+            margin-bottom: 2px;
+            width: 13px;
+            height: 13px;
         }
     }
     .c_new_label {
         @include mq(pc) {
-            margin-top: 3px;
+            margin-top: -1px;
         }
     }
     @include mq(sp) {
@@ -188,6 +193,13 @@ $breakpoints: (
 /*----------------------------------
     pagination
 -----------------------------------*/
+
+.pagination-wrapper {
+    margin-top: 11rem !important;
+    @include mq(sp) {
+        margin-top: 7rem !important;
+    }
+}
 
 .pagination__list {
     justify-content: start !important;
