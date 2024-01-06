@@ -367,6 +367,15 @@ gap: 20px 40px;
         font-size: 1.4rem !important;
     }
 }
+// バナー設置の際下記のコメントアウト外す
+/* #product {
+    margin-top: 300px;
+}
+@media screen and (max-width:768px){
+    #product{
+        margin-top: 100px;
+    }
+} */
 
 #product .info .memo-main, #product2 .info .memo-main  {
     line-height: calc(24 / 14);
