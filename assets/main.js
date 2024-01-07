@@ -55,7 +55,7 @@ jQuery(function($) {
   $('#nav_toggle').on('click', function () {
     $('.menu, #nav_toggle, .g-nav, .nav-open-mask').toggleClass('show');
   });
-  $('nav ul li a, .nav-open-mask').on('click', function () {
+  $('.g-nav ul li a, .nav-open-mask').on('click', function () {
     $('.menu, #nav_toggle, .g-nav, .nav-open-mask').toggleClass('show');
   });
 
@@ -798,3 +798,18 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+//top topic
+if ( window.document.body.id === 'top' ) {
+jQuery(function($) {
+  $('.c_topTopic__tag-wrap p').on('click', function () {
+      $('.c_topTopic__tag-wrap p').removeClass('current');
+      $(this).addClass('current');
+      $('.c_topTopic__wrap').fadeOut(0);
+      $($(this).attr('href')).fadeIn(500);
+      return false;
+  });
+
+
+});
+
+}
