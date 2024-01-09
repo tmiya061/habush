@@ -594,11 +594,14 @@
 
         {% assign tag_wrap_index = 1 %}
         {% for topic_tag in blogs['topic'].all_tags %}
-        <div class="c_topTopic__wrap" id="c_topic{{ tag_wrap_index }}">
-          {% for article in blogs['topic'].articles limit: 3 %}
-          {% for tag in article.tags %}
-          {% if article.tags contains topic_tag %}
-            <a class="c_topic__item" href="{{ article.url }}">
+          <div class="c_topTopic__wrap" id="c_topic{{ tag_wrap_index }}">
+            {% assign article_count = 0 %}
+            {% for article in blogs['topic'].articles %}
+              {% for tag in article.tags %}
+                {% if article.tags contains topic_tag %}
+                  {% assign article_count = article_count | plus: 1 %}
+                  {% if article_count <= 3 %}
+                    <a class="c_topic__item" href="{{ article.url }}">
               <div class="c_topic__item-meta">
                 <time>
                   {{ article.published_at | date: '%Y.%m.%d' }}
@@ -621,18 +624,21 @@
               </p>
             </a>
           {% endif %}
-          {% endfor %}
-          {% endfor %}
-          <div class="c_topTopic__more">
-            <a href="/blogs/topic/tagged/{{ topic_tag | handle }}">
-              <span>MORE</span>
-              <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
-            </a>
-          </div>
-        </div>
-        {% assign tag_wrap_index = tag_wrap_index | plus: 1 %}
-        {% endfor %}
-
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    
+    {% if article_count > 3 %}
+      <div class="c_topTopic__more">
+        <a href="/blogs/topic/tagged/{{ topic_tag | handle }}">
+          <span>MORE</span>
+          <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
+        </a>
+      </div>
+    {% endif %}
+  </div>
+  {% assign tag_wrap_index = tag_wrap_index | plus: 1 %}
+{% endfor %}
 
       </div>
     </div>

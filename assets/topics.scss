@@ -118,6 +118,9 @@ $breakpoints: (
     &:last-of-type {
         &.single {
             border-bottom: none;
+            &:hover {
+                opacity: 1;
+            }
         }
     }
     @include mq(sp) {
