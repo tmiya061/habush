@@ -1071,6 +1071,50 @@ gap: 20px 40px;
         opacity: 1;
     }
 }
+#js-mouse__collectionProducts {
+    width: 0;
+    height: 0;
+    top: -60px; 
+    left: -60px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 12px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: 9999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+        background-color:rgba(#fff, .2);
+        //filter: blur(5px);
+        transition: all  0.3s ease;
+    }
+}
+#js-mouse__collectionProducts.js-hover {
+    pointer-events: none;
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    //transform: translate(0,0);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &::after {
+        width: 120px;
+        height: 120px;
+        opacity: 1;
+    }
+}
 
 /*----------------------------------
     下層　Process
@@ -1788,8 +1832,6 @@ gap: 20px 40px;
     products - single
 -----------------------------------*/
 
-
-
 .page-width {
     padding: 0 5rem;
     max-width: 1400px;
@@ -2198,6 +2240,9 @@ cart-remove-button .icon-remove {
 
 .collection-hero__title {
     color: #fff;
+    @include mq(sp) {
+        margin-bottom: 4rem;
+    }
 }
 
 .facet-filters__field, .facet-filters__label, .facet-filters__sort {
@@ -2317,6 +2362,7 @@ cart-remove-button .icon-remove {
     }
 }
 
+
 .price-item--regular {
     margin: 0 1rem 0 0 !important;
 }
@@ -2371,3 +2417,316 @@ cart-remove-button .icon-remove {
     }
 }
 
+
+/*----------------------------------
+    product - archive
+-----------------------------------*/
+
+.collection-hero__title {
+    font-size: 40px;
+    line-height: 0.9;
+    text-align: center;
+    margin-bottom: 11rem !important;
+    @include mq(sp) {
+        font-size: 24px;
+        line-height: 1;
+        margin-bottom: 6rem !important;
+    }
+}
+.collection-hero__description.rte {
+    display: none;
+}
+
+.facets-wrapper {
+    display: none !important;
+}
+.product-grid-container .card-wrapper:hover {
+    cursor: none;
+}
+.product-grid-container .c_topic-title {
+    font-family: "游ゴシック","Yu Gothic","游ゴシック体","YuGothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Meiryo UI","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+.product-grid.grid {
+    width: 100%;
+    column-gap: 50px;
+    row-gap: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    li {
+        width: 100%;
+    }
+    @include mq(sp) {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 60px;
+    }
+}
+.grid--2-col-desktop .grid__item {
+    width: 100%;
+    max-width: 100%;
+    img {
+        max-width: 628px;
+    }
+}
+
+.card__heading.h5 a {
+    font-size: 2.4rem;
+}
+
+.product-tax-in {
+    font-size: 12px;
+}
+
+.card__information {
+    position: relative;
+    @include mq(sp) {
+        padding-top: 2.5rem !important;
+    }
+}
+
+.c_topic-title {
+    font-size: 24px;
+    line-height: 1.5;
+    @include mq(sp) {
+        font-size: 20px;
+    }
+}
+
+.card-information > *:not(.visually-hidden:first-child) + *:not(.rating):not(.card__information-volume-pricing-note) {
+    margin-top: 0 !important;
+}
+
+.c_card__link-more {
+    position: absolute;
+    bottom: 2.4rem;
+    right: 0;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    @include mq(sp) {
+        bottom: 2rem;
+        font-size: 12px;
+    }
+    .arrow {
+        width: 12px;
+        height: 12px;
+        @include mq(sp) {
+            width: 10px;
+            height: 10px;
+        }
+    }
+}
+
+
+/*----------------------------------
+    top topic
+-----------------------------------*/
+
+#topic {
+    padding: 190px 0 120px;
+    @include mq(sp) {
+        padding: 80px 0 50px;
+    }
+
+    .head {
+        width: 192px;
+        @include mq(sp) {
+            width: 106px;
+        }
+    }
+}
+
+.c_topTopic__wrap {
+    display: none;
+    &.js-open {
+        display: block;
+    }
+}
+
+.c_topTopic__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 40px;
+
+    .left-content {
+        width: 200px;
+    }
+    .right-content {
+        width: 516px;
+    }
+    @include mq(sp) {
+        display: block;
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        .left-content {
+            width: 100%;
+        }
+        .right-content {
+            width: 100%;
+        }
+    }
+}
+
+.c_topTopic__tag-wrap {
+    margin-top: 200px;
+    p {
+        font-family: var(--en-font-family);
+        width: fit-content;
+        font-size: 16px;
+        line-height: calc(22 / 16);
+        padding: 0px 4px;
+        margin-bottom: 6px;
+        &.current {
+            background: #fff;
+            color: #000;
+            pointer-events: none;
+        }
+        &:hover {
+            opacity: 0.7;
+        }
+        transition: all  0.3s ease;
+        @media(hover: hover) {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    @include mq(sp) {
+        margin-top: 40px;
+        min-width: 105px;
+        width: fit-content;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+}
+
+.c_topic__item {
+    display: block;
+    padding: 30px 0;
+    border-bottom: 1px solid #fff;
+    &:first-of-type {
+        border-top: 1px solid #fff;
+    }
+    &:hover {
+        opacity: 0.7;
+    }
+    @include mq(sp) {
+        padding: 20px 0;
+    }
+}
+.c_topic__item.title-only {
+    pointer-events: none;
+    .arrow {
+        display: none !important;
+    }
+}
+
+.c_topic__item-meta {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 8px;
+    time {
+        font-size: 12px;
+        color: #ababab;
+    }
+    .tag {
+        font-size: 12px;
+        color: #ababab;
+    }
+}
+
+.c_topNews__item-title {
+    @include mq(pc) {
+        display: flex;
+        align-items: flex-start;        
+    }
+    font-size: 16px;
+    line-height: calc(33 / 16);
+    letter-spacing: 0.04em;
+    .text {
+        display: inline-block;
+        position: relative;
+        .arrow {
+            display: inline-block;
+            margin-left: 10px;
+            width: 14px;
+            height: 14px;
+        }
+    }
+    @include mq(pc) {
+        .c_new_label {
+            margin-top: 5px;
+        }        
+    }
+    @include mq(sp) {
+        font-size: 13px;
+        line-height: calc(23 / 13);
+        .text {
+            display: block;
+            width: calc(100% - 25px);
+            .arrow {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: calc(100% + 4px);
+                width: 11px;
+                height: 11px;
+            }
+        }
+    }
+}
+
+.c_new_label {
+    padding: 3px 5px;
+    background: #ec6941;
+    font-size: 12px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-right: 15px;
+    @include mq(sp) {
+        display: block;
+        width: fit-content;
+        margin-bottom: 10px;
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+}
+
+.c_topTopic__more {
+    margin-top: 60px;
+    text-align: right;
+    a {
+        width: 90px;
+        margin-left: auto;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        column-gap: 20px;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+    span {
+        font-size: 16px;
+    }
+    .arrow {
+        width: 12px;
+        height: 12px;
+    }
+    @include mq(sp) {
+        margin-top: 30px;
+
+    }
+}
+
+.collection-hero__title {
+    margin-top: 140px !important;
+    @include mq(sp) {
+        margin-top: 0 !important;
+        margin-bottom: 35px !important;
+    }
+}

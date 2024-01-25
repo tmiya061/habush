@@ -686,6 +686,9 @@
       <div id="js-mouse__topProcess">VIEW</div>
       <div id="js-mouse__topRecipe">DRAG</div>
     {% endif %}
+    {% if template == 'collection' %}
+      <div id="js-mouse__collectionProducts">INFO</div>
+    {% endif %}
 
     <div class="follow_btn modal_btn" data-target="modal-03"></div>
 
@@ -738,6 +741,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    
     <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'wow.js' | asset_url }}" defer="defer"></script>
@@ -746,3 +750,4 @@
     <script src="{{ 'main.js' | asset_url }}" defer="defer"></script>
   </body>
 </html>
+
