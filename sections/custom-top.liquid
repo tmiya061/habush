@@ -559,15 +559,16 @@
       <div class="right-content wow animate__animated animate__fadeInUp">
         <div class="c_topTopic__wrap js-open" id="c_topicAll">
           {% for article in blogs['topic'].articles limit: 3 %}
-          {% for tag in article.tags limit: 1 %}
-            <a class="c_topic__item" href="{{ article.url }}">
+            <a class="c_topic__item{% if article.metafields.custom.title-only %} title-only{% endif %}" {% if article.metafields.custom.link %}target="_blank" href="{{ article.metafields.custom.link }}"{% else %} href="{{ article.url }}"{% endif %}>
               <div class="c_topic__item-meta">
                 <time>
                   {{ article.published_at | date: '%Y.%m.%d' }}
                 </time>
+                {% if article.tags.size > 0 %}
                   <p class="tag">
-                    [{{ tag }}]
+                    [{{ article.tags.first }}]
                   </p>
+                {% endif %}
               </div>
               <p class="c_topNews__item-title">
                 {%- assign published_date = article.published_at | date: '%s' -%}
@@ -582,7 +583,6 @@
                 </span>
               </p>
             </a>
-            {% endfor %}
           {% endfor %}
           <div class="c_topTopic__more">
             <a href="/blogs/topic">
@@ -591,7 +591,7 @@
             </a>
           </div>
         </div>
-
+        
         {% assign tag_wrap_index = 1 %}
         {% for topic_tag in blogs['topic'].all_tags %}
           <div class="c_topTopic__wrap" id="c_topic{{ tag_wrap_index }}">
@@ -601,7 +601,7 @@
                 {% if article.tags contains topic_tag %}
                   {% assign article_count = article_count | plus: 1 %}
                   {% if article_count <= 3 %}
-                    <a class="c_topic__item" href="{{ article.url }}">
+                    <a class="c_topic__item{% if article.metafields.custom.title-only %} title-only{% endif %}" {% if article.metafields.custom.link %}target="_blank" href="{{ article.metafields.custom.link }}"{% else %} href="{{ article.url }}"{% endif %}>
               <div class="c_topic__item-meta">
                 <time>
                   {{ article.published_at | date: '%Y.%m.%d' }}

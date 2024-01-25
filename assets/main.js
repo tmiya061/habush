@@ -602,6 +602,25 @@ jQuery(function($) {
     }
   });
 
+  const mouse3 = $("#js-mouse__collectionProducts");
+  $(document).on("mousemove",function(e){
+      const x=e.clientX;
+      const y=e.clientY;
+      mouse3.css({
+          //"opacity": "1",
+          "transform": "translate(" + x + "px," + y + "px)",
+      });
+
+  });
+  $(".grid__item").on({
+    "mouseenter": function() {
+        mouse3.addClass("js-hover");
+    },
+    "mouseleave": function() {
+        mouse3.removeClass("js-hover");
+    }
+  });
+
 });
 
 

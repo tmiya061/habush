@@ -230,12 +230,15 @@ $breakpoints: (
     }
 
     .pagination__item {
+        border: none;
         color: #fff;
-        opacity: 1 !important;
-        border: 1px solid #fff;
-        &.pagination__item--current,
         &.pagination__item-arrow {
             border: none;
+        }
+        &.pagination__item--current {
+            color: #fff;
+            opacity: 1 !important;
+            border: 1px solid #fff;
         }
         &::after {
             display: none;

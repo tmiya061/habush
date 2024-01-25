@@ -1071,6 +1071,50 @@ gap: 20px 40px;
         opacity: 1;
     }
 }
+#js-mouse__collectionProducts {
+    width: 0;
+    height: 0;
+    top: -60px; 
+    left: -60px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 12px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: 9999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+        background-color:rgba(#fff, .2);
+        //filter: blur(5px);
+        transition: all  0.3s ease;
+    }
+}
+#js-mouse__collectionProducts.js-hover {
+    pointer-events: none;
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    //transform: translate(0,0);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &::after {
+        width: 120px;
+        height: 120px;
+        opacity: 1;
+    }
+}
 
 /*----------------------------------
     下層　Process
@@ -2396,7 +2440,12 @@ cart-remove-button .icon-remove {
 .facets-wrapper {
     display: none !important;
 }
-
+.product-grid-container .card-wrapper:hover {
+    cursor: none;
+}
+.product-grid-container .c_topic-title {
+    font-family: "游ゴシック","Yu Gothic","游ゴシック体","YuGothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Meiryo UI","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
 .product-grid.grid {
     width: 100%;
     column-gap: 50px;
@@ -2568,6 +2617,12 @@ cart-remove-button .icon-remove {
         padding: 20px 0;
     }
 }
+.c_topic__item.title-only {
+    pointer-events: none;
+    .arrow {
+        display: none !important;
+    }
+}
 
 .c_topic__item-meta {
     display: flex;
@@ -2671,6 +2726,7 @@ cart-remove-button .icon-remove {
 .collection-hero__title {
     margin-top: 140px !important;
     @include mq(sp) {
+        margin-top: 0 !important;
         margin-bottom: 35px !important;
     }
 }
