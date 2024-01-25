@@ -68,60 +68,28 @@
         </div>
         <div class="info">
           <p class="memo-main">
-            サトウキビからつくった59度のアルコールに<br class="for-pc"
-            >浸けて抽出し、香り高い13種類（または8種類）<br class="for-pc"
-            >のハーブ酒（泡盛ベース）と合わせたハブ酒。
+            サトウキビからつくった59度のアルコールに<br class="for-pc">
+            浸けて抽出し、香り高い13種類（または8種類）<br class="for-pc">
+            のハーブ酒（泡盛ベース）と合わせたハブ酒。
           </p>
           <div class="sp-flex justify-content-center flex">
             <p class="head en for-sp">Price - Info</p>
             <div class="flex-item">
-              <div class="no-js-hidden product__price" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                {%- render 'price',
+              <div
+                class="no-js-hidden product__price"
+                id="price-{{ section.id }}"
+                role="status"
+                {{ block.shopify_attributes }}
+              >
+                {%-
+                  render 'price',
                   product: all_products['habush'],
                   use_variant: true,
                   show_badges: true,
                 -%}
-          
               </div>
 
               <!-- <p class="price"><span class="en">¥4,400</span>(税込)</p> -->
-              <p class="detail">
-                内容量 500ml<br>
-                アルコール度数 35度
-              </p>
-              <p class="memo">
-                これはお酒です。<br>
-                20歳未満の者の飲酒は法律で<br class="for-sp">禁止されています。
-              </p>
-            </div>
-          </div>
-          {% if all_products['habush'].available %}
-          <p class="purchase_btn modal_btn" data-target="modal-04">
-            <span>
-              カートに入れる&emsp;&RightArrow;
-            </span>
-          </p>
-          {% else %}
-          <p class="purchase_btn modal_btn --disable" data-target="modal-04">
-            <span>
-              売り切れ&emsp;&RightArrow;
-            </span>
-          </p>
-          {% endif %}
-          
-          <p class="purchase_btn --black modal_btn" data-target="modal-05"><span>商品詳細をみる&emsp;&RightArrow;</span></p>
-        </div>
-
-        <!-- <div class="info">
-          <div class="sp-flex justify-content-center flex">
-            <p class="head en">Price - Info</p>
-            <p class="memo">
-              サトウキビからつくった59度のアルコールに<br class="for-pc"
-              >浸けて抽出し、香り高い13種類（または8種類）<br class="for-pc"
-              >のハーブ酒（泡盛ベース）と合わせたハブ酒。
-            </p>
-            <div class="flex-item">
-              <p class="price"><span class="en">¥4,400</span>(送料別)</p>
               <p class="detail">
                 内容量 500ml<br>
                 アルコール度数 35度
@@ -133,8 +101,46 @@
               </p>
             </div>
           </div>
-          <p class="purchase_btn modal_btn" data-target="modal-03">商品詳細をみる →</p>
-        </div> -->
+          {% if all_products.habush.available %}
+            <p class="purchase_btn modal_btn" data-target="modal-04">
+              <span> カートに入れる&emsp;&RightArrow; </span>
+            </p>
+          {% else %}
+            <p class="purchase_btn modal_btn --disable" data-target="modal-04">
+              <span> 売り切れ&emsp;&RightArrow; </span>
+            </p>
+          {% endif %}
+
+          <p class="purchase_btn --black modal_btn" data-target="modal-05">
+            <span>商品詳細をみる&emsp;&RightArrow;</span>
+          </p>
+        </div>
+
+        <!--
+          <div class="info">
+            <div class="sp-flex justify-content-center flex">
+              <p class="head en">Price - Info</p>
+              <p class="memo">
+                サトウキビからつくった59度のアルコールに<br class="for-pc"
+                >浸けて抽出し、香り高い13種類（または8種類）<br class="for-pc"
+                >のハーブ酒（泡盛ベース）と合わせたハブ酒。
+              </p>
+              <div class="flex-item">
+                <p class="price"><span class="en">¥4,400</span>(送料別)</p>
+                <p class="detail">
+                  内容量 500ml<br>
+                  アルコール度数 35度
+                </p>
+                <p class="memo">
+                  これはお酒です。<br>
+                  20歳未満の者の飲酒は法律で<br class="for-sp">
+                  禁止されています。
+                </p>
+              </div>
+            </div>
+            <p class="purchase_btn modal_btn" data-target="modal-03">商品詳細をみる →</p>
+          </div>
+        -->
       </div>
     </div>
     <div class="product-bg">
@@ -150,55 +156,57 @@
     </div>
   </section>
 
-  <!-- <section id="product2">
-    <div class="section-container">
-      <div class="product-inner justify-content-between align-items-center wow animate__animated animate__fadeInUp">
-        <h2 class="logo">
-          <picture class="first">
-            <source srcset="{{ 'logo_n.webp' | file_url }}" type="image/webp">
-            <img src="{{ 'logo_n.png' | file_url }}" type="image/png" alt="HABUSH" class="lazyload" width="179">
-          </picture>
-          <picture class="second">
-            <img src="{{ 'text_limited.png' | file_url }}" type="image/png" alt="HABUSH" class="lazyload" width="118">
-          </picture>
-        </h2>
-        <div class="item">
-          <picture>
-            <source srcset="{{ 'item.webp' | file_url }}" type="image/webp">
-            <img src="{{ 'item.png' | file_url }}" type="image/png" alt="" class="lazyload" width="338">
-          </picture>
-        </div>
-        <div class="info">
-          <p class="memo-main">
-            サトウキビからつくった59度のアルコールに<br class="for-pc">
-            浸けて抽出し、香り高い13種類（または8種類）<br class="for-pc">
-            のハーブ酒（泡盛ベース）と合わせたハブ酒。
-          </p>
-          <div class="sp-flex justify-content-center flex">
-            <p class="head en for-sp">Price - Info</p>
-            <div class="flex-item">
-              <p class="price"><span class="en">¥35,000</span>(送料別)</p>
-              <p class="detail">
-                内容量 500ml<br>
-                アルコール度数 35度
-              </p>
-            </div>
+  <!--
+    <section id="product2">
+      <div class="section-container">
+        <div class="product-inner justify-content-between align-items-center wow animate__animated animate__fadeInUp">
+          <h2 class="logo">
+            <picture class="first">
+              <source srcset="{{ 'logo_n.webp' | file_url }}" type="image/webp">
+              <img src="{{ 'logo_n.png' | file_url }}" type="image/png" alt="HABUSH" class="lazyload" width="179">
+            </picture>
+            <picture class="second">
+              <img src="{{ 'text_limited.png' | file_url }}" type="image/png" alt="HABUSH" class="lazyload" width="118">
+            </picture>
+          </h2>
+          <div class="item">
+            <picture>
+              <source srcset="{{ 'item.webp' | file_url }}" type="image/webp">
+              <img src="{{ 'item.png' | file_url }}" type="image/png" alt="" class="lazyload" width="338">
+            </picture>
           </div>
-          <p class="purchase_btn modal_btn" data-target="modal-04"><span>商品詳細をみる&emsp;&RightArrow;</span></p>
+          <div class="info">
+            <p class="memo-main">
+              サトウキビからつくった59度のアルコールに<br class="for-pc">
+              浸けて抽出し、香り高い13種類（または8種類）<br class="for-pc">
+              のハーブ酒（泡盛ベース）と合わせたハブ酒。
+            </p>
+            <div class="sp-flex justify-content-center flex">
+              <p class="head en for-sp">Price - Info</p>
+              <div class="flex-item">
+                <p class="price"><span class="en">¥35,000</span>(送料別)</p>
+                <p class="detail">
+                  内容量 500ml<br>
+                  アルコール度数 35度
+                </p>
+              </div>
+            </div>
+            <p class="purchase_btn modal_btn" data-target="modal-04"><span>商品詳細をみる&emsp;&RightArrow;</span></p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="product-bg">
-      <picture>
-        <img
-          src="{{ 'product-limited_bg.png' | file_url }}"
-          type="image/png"
-          alt=""
-          class="wow animate__animated animate__zoomIn2 animate__delay-1s lazyload"
-        >
-      </picture>
-    </div>
-  </section> -->
+      <div class="product-bg">
+        <picture>
+          <img
+            src="{{ 'product-limited_bg.png' | file_url }}"
+            type="image/png"
+            alt=""
+            class="wow animate__animated animate__zoomIn2 animate__delay-1s lazyload"
+          >
+        </picture>
+      </div>
+    </section>
+  -->
 
   <section id="story">
     <div class="story-entry">
@@ -550,7 +558,7 @@
         <div class="c_topTopic__tag-wrap">
           <p href="#c_topicAll" class="current">ALL</p>
           {% assign tag_index = 1 %}
-          {% for tag in blogs['topic'].all_tags %}
+          {% for tag in blogs.topic.all_tags %}
             <p href="#c_topic{{ tag_index }}" class="{% if current_tags contains tag %}current{% endif %}">{{ tag }}</p>
             {% assign tag_index = tag_index | plus: 1 %}
           {% endfor %}
@@ -558,16 +566,21 @@
       </div>
       <div class="right-content wow animate__animated animate__fadeInUp">
         <div class="c_topTopic__wrap js-open" id="c_topicAll">
-          {% for article in blogs['topic'].articles limit: 3 %}
-            <a class="c_topic__item{% if article.metafields.custom.title-only %} title-only{% endif %}" {% if article.metafields.custom.link %}target="_blank" href="{{ article.metafields.custom.link }}"{% else %} href="{{ article.url }}"{% endif %}>
+          {% for article in blogs.topic.articles limit: 3 %}
+            <a
+              class="c_topic__item{% if article.metafields.custom.title-only %} title-only{% endif %}"
+              {% if article.metafields.custom.link %}
+                target="_blank" href="{{ article.metafields.custom.link }}"
+              {% else %}
+                href="{{ article.url }}"
+              {% endif %}
+            >
               <div class="c_topic__item-meta">
                 <time>
                   {{ article.published_at | date: '%Y.%m.%d' }}
                 </time>
                 {% if article.tags.size > 0 %}
-                  <p class="tag">
-                    [{{ article.tags.first }}]
-                  </p>
+                  <p class="tag">[{{ article.tags.first }}]</p>
                 {% endif %}
               </div>
               <p class="c_topNews__item-title">
@@ -575,71 +588,80 @@
                 {%- assign current_date = 'today' | date: '%s' -%}
                 {%- assign passed_days_from_publish = current_date | minus: published_date | divided_by: 86400 -%}
                 {%- if passed_days_from_publish <= 7 -%}
-                    <span class="c_new_label">NEW</span>
+                  <span class="c_new_label">NEW</span>
                 {%- endif -%}
                 <span class="text">
-                  {{article.title}}
+                  {{ article.title }}
                   <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
                 </span>
               </p>
             </a>
           {% endfor %}
-          <div class="c_topTopic__more">
-            <a href="/blogs/topic">
-              <span>MORE</span>
-              <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
-            </a>
-          </div>
+          {% if article_count > 3 %}
+            <div class="c_topTopic__more">
+              <a href="/blogs/topic">
+                <span>MORE</span>
+                <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
+              </a>
+            </div>
+          {% endif %}
         </div>
-        
+
         {% assign tag_wrap_index = 1 %}
-        {% for topic_tag in blogs['topic'].all_tags %}
+        {% for topic_tag in blogs.topic.all_tags %}
           <div class="c_topTopic__wrap" id="c_topic{{ tag_wrap_index }}">
             {% assign article_count = 0 %}
-            {% for article in blogs['topic'].articles %}
+            {% for article in blogs.topic.articles %}
               {% for tag in article.tags %}
                 {% if article.tags contains topic_tag %}
                   {% assign article_count = article_count | plus: 1 %}
                   {% if article_count <= 3 %}
-                    <a class="c_topic__item{% if article.metafields.custom.title-only %} title-only{% endif %}" {% if article.metafields.custom.link %}target="_blank" href="{{ article.metafields.custom.link }}"{% else %} href="{{ article.url }}"{% endif %}>
-              <div class="c_topic__item-meta">
-                <time>
-                  {{ article.published_at | date: '%Y.%m.%d' }}
-                </time>
-                <p class="tag">
-                  [{{ tag }}]
-                </p>
-              </div>
-              <p class="c_topNews__item-title">
-                {%- assign published_date = article.published_at | date: '%s' -%}
-                {%- assign current_date = 'today' | date: '%s' -%}
-                {%- assign passed_days_from_publish = current_date | minus: published_date | divided_by: 86400 -%}
-                {%- if passed_days_from_publish <= 7 -%}
-                    <span class="c_new_label">NEW</span>
-                {%- endif -%}
-                <span class="text">
-                  {{article.title}}
-                  <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
-                </span>
-              </p>
-            </a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    
-    {% if article_count > 3 %}
-      <div class="c_topTopic__more">
-        <a href="/blogs/topic/tagged/{{ topic_tag | handle }}">
-          <span>MORE</span>
-          <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
-        </a>
-      </div>
-    {% endif %}
-  </div>
-  {% assign tag_wrap_index = tag_wrap_index | plus: 1 %}
-{% endfor %}
+                    <a
+                      class="c_topic__item{% if article.metafields.custom.title-only %} title-only{% endif %}"
+                      {% if article.metafields.custom.link %}
+                        target="_blank" href="{{ article.metafields.custom.link }}"
+                      {% else %}
+                        href="{{ article.url }}"
+                      {% endif %}
+                    >
+                      <div class="c_topic__item-meta">
+                        <time>
+                          {{ article.published_at | date: '%Y.%m.%d' }}
+                        </time>
+                        <p class="tag">[{{ tag }}]</p>
+                      </div>
+                      <p class="c_topNews__item-title">
+                        {%- assign published_date = article.published_at | date: '%s' -%}
+                        {%- assign current_date = 'today' | date: '%s' -%}
+                        {%- assign passed_days_from_publish = current_date
+                          | minus: published_date
+                          | divided_by: 86400
+                        -%}
+                        {%- if passed_days_from_publish <= 7 -%}
+                          <span class="c_new_label">NEW</span>
+                        {%- endif -%}
+                        <span class="text">
+                          {{ article.title }}
+                          <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
+                        </span>
+                      </p>
+                    </a>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
 
+            {% if article_count > 3 %}
+              <div class="c_topTopic__more">
+                <a href="/blogs/topic/tagged/{{ topic_tag | handle }}">
+                  <span>MORE</span>
+                  <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
+                </a>
+              </div>
+            {% endif %}
+          </div>
+          {% assign tag_wrap_index = tag_wrap_index | plus: 1 %}
+        {% endfor %}
       </div>
     </div>
   </section>
