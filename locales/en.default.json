@@ -2206,7 +2206,33 @@
         "no_rates_for_cart_or_destination_notice": "There is no delivery method available for your cart or address",
         "no_rates_for_country_notice": "No shipping charges were found for this address.",
         "one_time_purchase_shipping": "One-time delivery",
-        "optional_shipping_line_delivery_instructions_label": "Delivery Procedure (Optional)"
+        "optional_shipping_line_delivery_instructions_label": "Delivery Procedure (Optional)",
+        "other_method": {
+          "one": "Other % available{count}Ways",
+          "other": "%{count}other methods are available",
+          "zero": "There are no other methods available"
+        },
+        "please_enter_your_shipping_information_notice": "Please enter your shipping information.",
+        "pre_order_ships_date": "Shipping %{date}",
+        "pre_order_ships_later": "Deliver later",
+        "pre_order_ships_now": "Delivery now",
+        "shipping_address_title": "Delivery destination",
+        "shipping_information_redirect_link": "Please enter your information here",
+        "shipping_information_required_notice": "Shipping information required.{{link}}.",
+        "shipping_line_delivery_instructions": "Enter the necessary information, such as door codes and drop-off instructions.",
+        "shipping_line_delivery_phone": "You may be contacted with the latest delivery information.",
+        "shipping_line_delivery_phone_label": "Mobile number",
+        "shipping_line_phone": "Your delivery company may use your phone number to contact you.",
+        "shipping_line_phone_label": "Mobile phone number (required)",
+        "shipping_method_combinations": {
+          "combination": "%{rest}and %{current}",
+          "with_separator": "%{rest}, %{current},",
+          "without_separator": "%{firstMethod}, %{secondMethod}"
+        },
+        "shipping_method_first_shipment_group_title": {
+          "one": "First shipping",
+          "other": "First shipping"
+        }
       }
     },
     "addresses": {
