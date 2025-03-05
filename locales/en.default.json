@@ -526,13 +526,13 @@
     },
     "checkout": {
       "general": {
-        "page_title": "payment",
+        "page_title": "Payment",
         "error_page_title": "error",
-        "skip_to_content": "Skip to content",
+        "skip_to_content": "Skip and go to content",
         "breadcrumb": "Breadcrumbs",
         "continue_button_label": "continue",
         "complete_purchase_button_label": "Order completed",
-        "pay_now_button_label": "pay now",
+        "pay_now_button_label": "Pay now",
         "authenticate_purchase_button_label": "Verify payment",
         "edit_link_label": "edit",
         "all_rights_reserved": "All rights reserved{shop_name}",
@@ -806,6 +806,50 @@
             "tips_not_allowed_for_b2b": "Chip is not permitted in B2B stores.",
             "tips_not_allowed_for_deferred_purchase_options": "Tips are not available for deferred purchase options yet."
           }
+        },
+        "forwarding_indicator": {
+          "external": "You will be redirected to an external website.",
+          "external_and_new_window": "Open an external website in a new window",
+          "new_window": "Open in new window"
+        },
+        "full_price": "Full price:",
+        "full_title": "{{pageTitle}} - {{shopName}} - Check-out",
+        "google_map_title": "Google Maps",
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}}, and{{lastWord}}",
+            "twoWordConnector": "{{firstWord}}and{{secondWord}}",
+            "wordConnector": "{{previousWords}},{{anotherWord}}"
+          },
+          "narrow": {
+            "lastWordConnector": "{{previousWords}},{{lastWord}}",
+            "twoWordConnector": "{{firstWord}},{{secondWord}}",
+            "wordConnector": "{{previousWords}},{{anotherWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}},or{{lastWord}}",
+            "twoWordConnector": "{{firstWord}}or{{secondWord}}",
+            "wordConnector": "{{previousWords}},{{anotherWord}}"
+          }
+        },
+        "loading": "Loading...",
+        "loading_title": "Check-out - {{shopName}}",
+        "map": {
+          "cluster_title": {
+            "one": "{{number}}Cluster of markers",
+            "other": "{{number}}Cluster of markers"
+          }
+        },
+        "processing": "Under processing...",
+        "qr_code": "QR Code",
+        "remove_item": "%{label}Delete",
+        "remove_tag": "Delete tag",
+        "sheet": {
+          "expand": "Expand"
+        },
+        "stepper": {
+          "decrease": "{{type}}Decrease in",
+          "increase": "{{type}}Increase in"
         }
       },
       "address_management": {
