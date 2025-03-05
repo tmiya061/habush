@@ -1856,7 +1856,31 @@
           "delete": "delete",
           "edit": "edit"
         },
-        "saved_credit_card_cvv_verification": "Please enter the card security code to verify your identity."
+        "saved_credit_card_cvv_verification": "Please enter the card security code to verify your identity.",
+        "saved_credit_card_info": "Last 4 digits",
+        "saved_credit_cards_modal": {
+          "cancel": "cancel",
+          "done": "completion",
+          "view_all_label": "View all saved cards"
+        },
+        "shipping_rate_updated": "The available shipping methods have been updated. Please review your selections before checking out.",
+        "shop_pay_ideal_unavailable_error": "iDEAL cannot be used with this order. Please choose a different payment method.",
+        "shop_pay_installments_label": "Shop Pay installments",
+        "simulated_checkout": "Previews will be released soon",
+        "simulated_express_checkout": "Wallet is not available in editor preview due to region or browser",
+        "sofort_label": "Grandfather RT",
+        "store_credit": {
+          "add_label": "Add store credits",
+          "apply_label": "Apply store credits",
+          "buying_gift_card": "You cannot purchase gift cards using store credits",
+          "label": "Store Credits",
+          "manage_label": "Manage store credits",
+          "no_fixed_selling_plans": "If you choose to purchase deferred payment, you will not be able to use store credits"
+        },
+        "subscription_agreement_cancelled": "Cancellation policy",
+        "subscription_agreement_label": "One or more items in your cart are deferred purchases or subscription purchases. By continuing to pay, you agree that your payment method will be automatically charged at the prices and frequency set forth on this page until your payment method expires or you cancel. All cancellations are subject to a %{cancelled}applies.",
+        "subscription_agreement_label_html": "I understand that I agree to the subscription. The subscription will be terminated or <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Cancelled</a>It will be updated at the listed price and frequency until. ",
+        "subscription_card_update_agreement_label": "Changing your payment method will renew your subscription and recurring payments."
       }
     },
     "addresses": {
