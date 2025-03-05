@@ -2844,7 +2844,31 @@
         "connect_shipping_methods": "{{method1}}and{{method2}}",
         "errors": {
           "detour": {
-            "currency_change": "{{walletName}}You cannot use a different address on your order. Please use your original address or try a different payment method."
+            "currency_change": "{{walletName}}You cannot use a different address on your order. Please use your original address or try a different payment method.",
+            "price_change": "Some item prices have changed.{{walletName}}Please close, check your order, and try again.",
+            "queue": "We were put in a queue to check out.{{walletName}}Please close and continue.",
+            "stock_problems": "Some items are not available.{{walletName}}Please close and try again."
+          },
+          "discount_code": "Coupon code could not be applied. Please check the code and try again.",
+          "formatting": {
+            "first_name_too_long": "There are too many characters in the name",
+            "last_name_too_long": "The last name has too many characters",
+            "name_contains_emojis": "Remove emojis from name",
+            "postal_code_contains_emoji": "Remove emojis from postal code"
+          },
+          "generic": "{{walletName}}Something went wrong with. Please try again or use a different payment method.",
+          "invalid": {
+            "billing_address": "Please enter a valid billing address",
+            "billing_must_match_shipping": "Must match the shipping address",
+            "billing_phone": "Please enter a valid billing address phone number",
+            "billing_zip": "Please enter a valid billing address postcode",
+            "billing_zone": "Please enter the prefecture/state of the valid billing address",
+            "email": "Please enter a valid email address",
+            "emirate": "Please enter a valid Emirate",
+            "phone": "Please enter a valid phone number",
+            "postal_code": "Please enter a valid postal code",
+            "reduction_code": "Please enter a valid coupon code or gift card",
+            "shipping_address": "Please select a valid shipping option"
           }
         }
       }
