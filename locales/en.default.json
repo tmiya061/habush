@@ -2438,7 +2438,43 @@
         "remove_from_cart_button_label": "Delete from cart",
         "removed_from_cart_notice": "It has been removed from cart",
         "return_to_store_label": "Return to store",
-        "sold_out_label": "sold out"
+        "sold_out_label": "sold out",
+        "status_column_header": "situation",
+        "title": "Out of stock",
+        "unfulfillable_product": {
+          "default_message": {
+            "one": "The selected delivery method is no longer available for this item.",
+            "other": "The selected delivery method is no longer available for these items."
+          },
+          "message": {
+            "one": "%{delivery_method}is no longer available for this item.",
+            "other": "%{delivery_method}is no longer available for these items."
+          },
+          "title": "Cannot be delivered"
+        },
+        "unpurchasable_product": {
+          "header": "Some items have been removed from cart",
+          "message": "These items are not available for B2B orders.",
+          "status_column_header": "Not available",
+          "title": "Products that cannot be purchased"
+        },
+        "unpurchasable_product_generic": {
+          "header": "Some items have been removed from cart",
+          "message": "Items cannot be purchased.",
+          "status_column_header": "Cannot purchase",
+          "title": "Products that cannot be purchased"
+        },
+        "unshippable_product": {
+          "header": {
+            "one": "%{count}Items cannot be delivered",
+            "other": "%{count}Items cannot be delivered"
+          },
+          "message": {
+            "one": "This item will be removed from your cart as there is no delivery method available at your address.",
+            "other": "These items will be removed from your cart as there are no delivery methods available at your address."
+          },
+          "status_column_header": "Cannot be delivered"
+        }
       }
     },
     "addresses": {
