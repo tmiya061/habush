@@ -2354,7 +2354,37 @@
         "subscription_pickup": "Subscription pickup",
         "subscription_shipping": "How to ship your subscription",
         "title": "Shipping",
-        "two_day_delivery": "Delivery in 2 days (%{time})"
+        "two_day_delivery": "Delivery in 2 days (%{time})",
+        "waiting_on_pickup_location_notice": "Getting available pickup locations...",
+        "waiting_on_rate_notice": "Loading available shipping fees"
+      },
+      "shipping_errors": {
+        "empty_state": "Available shipping methods will be displayed after entering your shipping address.",
+        "invalid_selected_address": "The selected shipping address is invalid",
+        "invalid_selected_address_with_update_link": "The shipping address you selected is invalid. %{update_address_link}Or choose a different address",
+        "payment_method_not_supported": "%{country}We don't accept this payment method in. Please use a different payment method to ship to this country.",
+        "shipping_method": "The shipping method for your order has been changed. Please check your selections and try again.",
+        "shipping_method_not_available": "Your cart has been updated and any items added cannot be delivered to your address. Delete the item and complete your order.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Items in your cart do not meet the price or weight requirements that are eligible for delivery. Please update your cart and try again.",
+        "shipping_method_not_available_generic": {
+          "one": "Delivery cannot be made to the selected address. Please check your address and re-enter it or select a different address.",
+          "other": "Some items in your cart cannot be delivered to the address you entered. Please check your address, make sure it is accurate before re-entering, or choose a different address."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Added items cannot be shipped to your location. Delete the item and check out or contact our store.",
+          "other": "One or more items added cannot be shipped to your location. Delete the item and check out or contact our store."
+        },
+        "title": "Delivery is not available",
+        "unavailable_selected_address": "Delivery cannot be made to the selected address",
+        "unavailable_selected_address_for_region": "{{region}}We can't ship to. Please select another address to continue"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "checkout_has_expired": "Your checkout has expired. Please close this window and{{shopName}}Try checking out again from",
+          "problem_loading": "I had a problem loading Shop Pay",
+          "try_again_later": "Please check the connection, close this window and try again later."
+        },
+        "return_to_store": "{{shopName}}Return to"
       }
     },
     "addresses": {
