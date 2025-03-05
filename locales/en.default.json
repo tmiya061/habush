@@ -726,8 +726,32 @@
           "message": {
             "one": "This item will be removed from your cart as there is no delivery method available at your address.",
             "other": "These items will be removed from your cart as there are no delivery methods available at your address."
+          },
+          "title": {
+            "one": "%{count}Items cannot be delivered",
+            "other": "%{count}Items cannot be delivered"
           }
         }
+      },
+      "delivery_options": {
+        "free_total_label": "free",
+        "none_method_definition": "No delivery",
+        "pick_up": "In-store pickup",
+        "pick_up_from_store": "Store pickup",
+        "pick_up_immediately": "Ready to pick up in store",
+        "pick_up_in_five_or_more_days": "Preparation usually takes more than 5 days",
+        "pick_up_in_four_hours": "Preparation usually takes 4 hours",
+        "pick_up_in_one_hour": "Preparation usually takes 1 hour",
+        "pick_up_in_twenty_four_hours": "Preparation usually takes 24 hours",
+        "pick_up_in_two_hours": "Preparation usually takes 2 hours",
+        "pick_up_in_two_to_four_days": "Preparation usually takes 2-4 days",
+        "pick_up_in_two_to_four_hours": "You will be ready to receive your order within 4 hours",
+        "pick_up_in_zero_to_two_hours": "You will be ready to pick up in store within 2 hours",
+        "pick_up_locations": "Store location",
+        "pick_up_next_day": "The next day you will be ready to pick up your item in store",
+        "pickup_point_method_definition": "Deliver to designated pickup location",
+        "retail_method_definition": "Retailer delivery",
+        "ship": "shipping"
       }
     },
     "addresses": {
