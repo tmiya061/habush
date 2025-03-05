@@ -350,11 +350,11 @@
     },
     "quick_order_list": {
       "product_total": "Product subtotal",
-      "view_cart": "View cart",
+      "view_cart": "View Cart",
       "each": "{{ money }}/unit",
-      "product": "Product",
-      "variant": "Variant",
-      "variant_total": "Variant total",
+      "product": "merchandise",
+      "variant": "Variations",
+      "variant_total": "Total variations",
       "items_added": {
         "one": "{{ quantity }}items added",
         "other": "{{ quantity }}items added"
@@ -363,10 +363,10 @@
         "one": "{{ quantity }}Items removed",
         "other": "{{ quantity }}Items removed"
       },
-      "product_variants": "Product variants",
-      "total_items": "Total items",
-      "remove_all_items_confirmation": "Remove all {{ quantity }} items from your cart?",
-      "remove_all": "Remove all",
+      "product_variants": "Product variations",
+      "total_items": "Total number of items",
+      "remove_all_items_confirmation": "From Cart{{ quantity }}Do you want to delete all items?",
+      "remove_all": "Delete all",
       "cancel": "cancel"
     }
   },
