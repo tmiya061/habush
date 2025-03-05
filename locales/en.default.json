@@ -1065,8 +1065,48 @@
           "money_order": "Postal money order - {{formattedTransactionAmount}}"
         },
         "payment_type": {
-          "bank_deposit": "Bank transfer"
+          "bank_deposit": "Bank transfer",
+          "cash_on_delivery": "Cash on delivery (COD)",
+          "gift_card": "Gift Card",
+          "manual": "Manual",
+          "money_order": "Postal exchange",
+          "store_credit": "Store Credits"
+        },
+        "shop_pay_installments": {
+          "paid_in_installments": "Payment was made in installments with Shop Pay",
+          "view_schedule": "View schedule"
+        },
+        "status_in_review": "Payment deadline after confirmation",
+        "status_unpaid": "Payment Term: {{date}}",
+        "store_credit_payment_details": "Store Credit - {{formattedTransactionAmount}}",
+        "title": "settlement",
+        "transactions": {
+          "details": "detail",
+          "payment_details": "Payment details",
+          "show_all": "View all",
+          "show_less": "Reduce display"
         }
+      },
+      "pickup": {
+        "pickup": "Receipt",
+        "pickup_location": "Pickup location",
+        "pickup_point": "Designated pickup location"
+      },
+      "refunded_amount": "Refunded",
+      "remaining_amount": "rest",
+      "request_return_failed": "There was a problem processing the request. Please try again.",
+      "returns": {
+        "expand_events_label": "View details",
+        "hide_events_label": "Hide details",
+        "ineligible_return_message": "Items in this order are not eligible for returns.",
+        "ineligible_return_message_when_returned": "Additional items in this order are not eligible for returns.",
+        "print_shipping_label": "Printing a shipping label",
+        "return_and_refund_modal_header": "Refund Policy",
+        "tracking_number": "tracking number:"
+      },
+      "shipment_timeline": {
+        "expand_events_accessibility_label": "View order shipping details",
+        "expand_events_label": "View details"
       }
     }
   }
