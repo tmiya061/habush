@@ -3213,9 +3213,35 @@
         },
         "not_available": "This order is not available",
         "transaction_status": {
-          "error": "error"
+          "error": "error",
+          "failure": "Fail",
+          "pending": "on hold",
+          "success": "success"
         }
+      },
+      "storefront": {
+        "invalid_password": "The password is incorrect. Please try again."
+      },
+      "tags": {
+        "add_articles": "Tags (%{tag}) to narrow your search to articles that also have",
+        "add_products": "Tag %{tag}) to narrow your selection to products that match",
+        "remove_articles": "Tags (%{tag}) to expand your search to articles without",
+        "remove_products": "Tags (%{tag})"
       }
+    },
+    "page_titles": {
+      "account": "account",
+      "addresses": "address",
+      "blog_or_article_with_error": "Error: %{title}",
+      "challenge": "Challenge",
+      "checkpoint": "Checkpoint",
+      "collections": "collection",
+      "create_account": "Create an account",
+      "not_found": "404 t",
+      "order": "order %{name}",
+      "products": "merchandise",
+      "reset_account": "Reset your account",
+      "search": "search"
     }
   },
   "customer_accounts": {
