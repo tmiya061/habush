@@ -2592,7 +2592,33 @@
           "other": "Gift card was sent via text message"
         },
         "gift_card_title": "Gift Card",
-        "in_store_purchase": "Purchase in store"
+        "in_store_purchase": "Purchase in store",
+        "in_transit": "Delivery now",
+        "in_transit_description": "You will be notified of the progress of the order.",
+        "in_transit_description_days": "Your order is %{number}It will arrive within days.",
+        "in_transit_description_today": "Your order arrives today.",
+        "in_transit_description_tomorrow": "Your order will arrive the next day.",
+        "in_transit_title": "Orders are currently being delivered",
+        "let_us_know": "Please let me know",
+        "location_title": "Location",
+        "login": "Login",
+        "login_description": "Your order number will be listed on the receipt you received via email.",
+        "login_description_phone": "Your order number is listed on the receipt sent via text message.",
+        "login_not_customer_html": "%{name}Isn't it? Check it out here %{link}",
+        "login_reorder_link_text": {
+          "one": "Buy this item too",
+          "other": "Buy these products too"
+        },
+        "login_title": "Please log in to view all order details",
+        "manage_order_label": "Manage your orders",
+        "marker": {
+          "current": "The current location of the product",
+          "shipping": "Shipping address"
+        },
+        "missing_shipping_address_banner": {
+          "contact_us": "inquiry",
+          "text_html": "%{contact_us}, add address"
+        }
       }
     },
     "addresses": {
