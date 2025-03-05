@@ -17,7 +17,7 @@
       "login_form_error": "The password is incorrect.",
       "login_form_submit": "Enter the store",
       "admin_link_html": "Are you a store owner?<a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+      "powered_by_shopify_html": "In this shop{{ shopify }}I plan to use"
     },
     "social": {
       "alt_text": {
@@ -27,14 +27,14 @@
       },
       "links": {
         "twitter": "Twitter",
-        "facebook": "Facebook",
-        "pinterest": "Pinterest",
-        "instagram": "Instagram",
-        "tumblr": "Tumblr",
-        "snapchat": "Snapchat",
+        "facebook": "Fat register",
+        "pinterest": "Pin is embarrassing",
+        "instagram": "Ins and others g et al.",
+        "tumblr": "かったんとかないます",
+        "snapchat": "S-p tea t",
         "youtube": "YouTube",
         "vimeo": "Vimeo",
-        "tiktok": "TikTok"
+        "tiktok": "Blood k and k"
       }
     },
     "continue_shopping": "Continue shopping",
@@ -45,8 +45,8 @@
       "previous": "Previous page"
     },
     "search": {
-      "search": "Search",
-      "reset": "Clear search term"
+      "search": "search",
+      "reset": "Clear search terms"
     },
     "cart": {
       "view": "View Cart ({{ count }})",
@@ -56,14 +56,14 @@
     "share": {
       "close": "Close share",
       "copy_to_clipboard": "Copy link",
-      "share_url": "Link",
+      "share_url": "link",
       "success_message": "Link copied to clipboard"
     },
     "slider": {
       "of": "of",
-      "next_slide": "Slide right",
-      "previous_slide": "Slide left",
-      "name": "Slider"
+      "next_slide": "Slide to the right",
+      "previous_slide": "Slide to the left",
+      "name": "slider"
     }
   },
   "newsletter": {
