@@ -1183,8 +1183,44 @@
           "view_order_details": "View order details"
         },
         "column_headers": {
-          "actions_accessibility_label": "action"
-        }
+          "actions_accessibility_label": "action",
+          "items": "item",
+          "order": "order",
+          "products_accessibility_label": "merchandise",
+          "total": "total"
+        },
+        "delivered": "Delivered: {{date}}",
+        "empty_state_order_source_description": "{{email}}Only orders made through will be displayed here.",
+        "empty_state_subtitle": "Go to the store and place your order.",
+        "empty_state_title": "No orders yet",
+        "empty_state_title_for_pending_orders": "There are no pending orders",
+        "estimated_delivery": "Scheduled date:{{date}}",
+        "estimated_shortform": "Scheduled date:{{date}}",
+        "filter": {
+          "apply": "Applicable",
+          "clear_all": "Clear all",
+          "clear_section": "Clear section",
+          "date": {
+            "custom": "custom",
+            "end_date": "End date",
+            "last_30_days": "Last 30 days",
+            "last_365_days": "For the past 12 months",
+            "last_7_days": "Last 7 days",
+            "last_90_days": "Last 90 days",
+            "start_date": "start date",
+            "title": "Order date",
+            "today": "today"
+          }
+        },
+        "filter_title": "Narrow down",
+        "four_images_accessibility_label": "To order:{{lineItemName1}},{{lineItemName2}},{{lineItemName3}},{{lineItemName4}}Includes",
+        "items": {
+          "one": "{{count}}items",
+          "other": "{{count}}items"
+        },
+        "list_view": "Show list view",
+        "more_than_four_products_accessibility_label": "To order:{{lineItemName1}},{{lineItemName2}},{{lineItemName3}}, and{{numberOfAdditionalProducts}}There are more than items.",
+        "more_than_three_products_accessibility_label": "To order:{{lineItemName1}},{{lineItemName2}}, and more products{{numberOfAdditionalProducts}}There are pieces available."
       }
     }
   }
