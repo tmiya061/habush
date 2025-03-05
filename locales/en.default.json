@@ -1730,7 +1730,29 @@
           "manage_label": "Manage gift cards",
           "payment_tag": "Gift Card"
         },
-        "gift_cards_unavailable": "Your gift card is no longer available for this order and has been deleted"
+        "gift_cards_unavailable": "Your gift card is no longer available for this order and has been deleted",
+        "giropay_label": "Guilopay",
+        "google": {
+          "connect": "Click to connect to your Google Pay account",
+          "error_authorizing": "An error occurred while approving payment"
+        },
+        "grabpay_label": "G rab paya",
+        "ideal_label": "Idea L",
+        "kcp_creditcard_label": "KCP Credit Card",
+        "klarna_label": "K",
+        "klarna_pay_later_label": "Pay after using Klarna",
+        "klarna_pay_now_label": "Pay with Klarna now",
+        "klarna_slice_it_label": "Financials using Klarna",
+        "local_payment_method_receiver_notice": "After you place your order, we will inform you of the payment details.{{dueDays}}Please make the payment at an ATM or online within the next day.",
+        "location_billing_address_label": "Location billing address",
+        "location_shipping_address_label": "Location Shipping Address",
+        "markets_pro_disclaimer_label": "Click below to complete your order and receive % from Global-e{markets_pro_terms}and%{privacy_policy}You agree to purchase items from Global-e as the Merchant of Record for this transaction pursuant to this Agreement. Global-e will:{shop_name}is an international fulfillment service provider.",
+        "markets_pro_disclaimer_privacy_policy": "Privacy Policy",
+        "markets_pro_disclaimer_privacy_policy_title": "Privacy Policy of Merchant of Record, responsible for final sales",
+        "markets_pro_disclaimer_terms_and_conditions": "terms of service",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Terms of Use of Merchant of Record, which is responsible for the final sales",
+        "masked_digits_label": "•••• %{last_digits}",
+        "missing_credit_card_error": "Please enter your card details to complete the payment"
       }
     },
     "addresses": {
