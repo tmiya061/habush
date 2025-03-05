@@ -1618,7 +1618,33 @@
         "default_checkbox": "Set as default",
         "default_checkbox_accessibility_label": "Set this payment method as default",
         "edit_payment_method_button": "edit",
-        "edit_payment_method_button_accessibility_label": "{{lastDigits}}Edit payment methods that end in"
+        "edit_payment_method_button_accessibility_label": "{{lastDigits}}Edit payment methods that end in",
+        "invalid_payment_method": "Invalid payment methods",
+        "invalid_payment_method_message": "Please use your new credit card to continue accepting future orders.",
+        "loading_shop_pay": "Loading Shop Pay",
+        "next_payment_due": "Next payment due:{{dueDateInMonthDayYear}}",
+        "payment_details_loading": "Loading payment method details",
+        "payment_method_expired_on": "{{expiryDate}}expired on",
+        "payment_method_expiring_on": "date of expiry:{{expiryDate}}",
+        "payment_method_not_found_error": "No payment method found",
+        "pre_authorized_payments": "Pre-approved settlement",
+        "preauthorized_payments": "Pre-approved payments",
+        "replace_payment_method": "Change payment method",
+        "title": "Payment method details",
+        "total_amount_of_subscription_line_items_left": "And more{{total}}pcs",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "total{{totalItems}}items,{{totalItemsToDisplay}}Showing items."
+      },
+      "store_credit": {
+        "accesibility_label": "Store Credit - {{formattedBalance}}",
+        "details_modal": {
+          "amount_label": "Amount",
+          "balance_label": "balance",
+          "date_label": "date",
+          "event_label": "event",
+          "events": {
+            "adjustment": "Adjustment"
+          }
+        }
       }
     }
   }
