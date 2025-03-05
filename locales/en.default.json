@@ -1904,7 +1904,31 @@
         "copy_text": "{{paymentMethod}}Copy the code",
         "external": {
           "instructions": "To complete this purchase, please check the payments in the app"
-        }
+        },
+        "header": "{{paymentMethod}}Pay with",
+        "instructions": "{{paymentMethod}}Use the code to complete your purchase",
+        "qr_code": {
+          "instructions": "{{paymentMethod}}Use the code to complete your purchase"
+        },
+        "timer_message": "Payment deadline is{{timeLeft}}is"
+      },
+      "payment_errors": {
+        "amount_too_small": "Minimum payments should be set higher than USD 0.50. Please increase the amount and try again.",
+        "available_methods_updated": "The available payment methods have been updated.",
+        "call_issuer": "The card was rejected. Use a different payment method or contact your bank for more information.",
+        "cannot_verify": "Payment details could not be confirmed. Please check the card details and try again.",
+        "card_declined": "The card was rejected. Try again or use a different payment method.",
+        "checkout_amount_changed": "The payment could not be processed because the amount outstanding was changed at checkout. Please check your order and try again.",
+        "credit_card_processing": "We were unable to process payment due to technical reasons. Try again in a few minutes or use a different payment method.",
+        "decision_rule_block": "There was a problem processing the payment. Please contact the store owner.",
+        "deferred_amount_changed": "The payment could not be processed because the amount of the deferred payment has been changed. Please check your order and try again.",
+        "deferred_date_changed": "The payment could not be processed because the date for the deferred payment has been changed. Please check your order and try again.",
+        "deferred_payment_not_allowed": "Deferred payment is not possible. Please check your order and try again.",
+        "deferred_payment_required": "This order requires a deferred payment. Please check your order and try again.",
+        "development_store_order_limit_reached": "You've reached your development store order limit with this payment processor. To place another order, you must use our test payment gateway service. %{development_store_order_testing_docs_link}Click here for more information.",
+        "development_store_order_testing_docs_link": "Testing orders in the development store",
+        "development_store_with_order_limit": "To place a test order, you must use a test payment gateway service.{development_store_order_testing_docs_link}Click here for more information.",
+        "expired_buyer_action": "The payment method has timed out. Please try again."
       }
     },
     "addresses": {
