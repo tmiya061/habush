@@ -845,7 +845,61 @@
         "shipping": "Edit shipping address"
       },
       "edit_section_accessibility_label": "{{address}}Edit",
-      "loading_accessibility_message": "Loading the address"
+      "loading_accessibility_message": "Loading the address",
+      "loading_addresses_accessibility_message": "Loading the address",
+      "loading_billing_accessibility_message": "Loading billing address",
+      "loading_finished_accessibility_message": "New address page loaded",
+      "loading_shipping_accessibility_message": "Loading the shipping address",
+      "no_addresses_banner": "No address added",
+      "pagination": {
+        "load_more": "Load more",
+        "load_more_accessibility_label": "Load more address"
+      },
+      "save_new_address_accessibility_label": "Save address",
+      "title": "address"
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "one": "{{count}}minutes ago",
+          "other": "{{count}}minutes ago"
+        },
+        "lessThanOneMinuteAgo": "right now",
+        "lessThanOneWeekAgo": "{{weekday}}  {{time}}",
+        "lessThanOneWeekAway": "{{weekday}}  {{time}}",
+        "lessThanOneYearAgo": "{{date}}  {{time}}",
+        "lessThanOneYearAway": "{{date}}  {{time}}",
+        "today": "Today{{time}}",
+        "tomorrow": "Tomorrow{{time}}",
+        "yesterday": "Yesterday{{time}}"
+      },
+      "range": "{{startDate}}~{{endDate}}"
+    },
+    "editor": {
+      "link_new_tab_confirmation": "This link cannot be opened in the editor, but will open in a new window ({{resolved_to_link}}). Click OK to continue."
+    },
+    "enable_javascript": "To view, enable JavaScript in your browser settings or log in using another browser.",
+    "errors": {
+      "address_deletion_error": {
+        "description": "I had a problem deleting this address. Please try again or refresh the page."
+      },
+      "addresses_loading_issue": {
+        "description": "Connection error. Please check your internet connection and try again."
+      },
+      "banner_title": {
+        "one": "{{count}}There are errors",
+        "other": "{{count}}There are errors"
+      },
+      "failed_address_creation": {
+        "description": "There was a problem creating the address. Please refresh this page or check your internet connection."
+      },
+      "failed_address_update": {
+        "description": "There was a problem updating the address. Please refresh this page or check your internet connection."
+      },
+      "load_extension_error": {
+        "description": "Please refresh this page or try again later.",
+        "refresh_button": "Refresh the page"
+      }
     }
   }
 }
