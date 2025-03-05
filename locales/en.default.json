@@ -833,7 +833,27 @@
         "address_zip_too_long": "Postal code is too long (maximum 255 characters)",
         "credit_card_expiry_invalid": "Please enter the correct expiration date",
         "credit_card_month_invalid": "Please enter the valid deadline",
-        "credit_card_name_blank": "Please enter the name exactly as shown on the card"
+        "credit_card_name_blank": "Please enter the name exactly as shown on the card",
+        "credit_card_name_invalid": "Please enter the name exactly as shown on the card",
+        "credit_card_number_blank": "Please enter your card number",
+        "credit_card_number_invalid": "Please enter a valid card number",
+        "credit_card_start_invalid": "Enter a valid card start date",
+        "credit_card_start_month_invalid": "Enter the start month of a valid card",
+        "credit_card_start_year_invalid": "Enter the start year of a valid card",
+        "credit_card_verification_value_blank": "Enter your card's CVV or security code",
+        "credit_card_year_invalid": "Please enter the valid expiry year",
+        "delivery_line_detail_changed": "Delivery details may have been changed. Please check the shipping method and try again.",
+        "delivery_zone_not_found": "No designated areas were found in the designated country.",
+        "email_blank": "Enter your email address",
+        "email_invalid": "Please enter a valid email address",
+        "email_or_phone_blank": "Please enter your email address or phone number",
+        "email_or_phone_invalid": "Please enter a valid email address or mobile number",
+        "gift_card_already_applied": "This gift card has already been used for your order",
+        "gift_card_buying_gift_card": "You cannot use a gift card to purchase another gift card",
+        "gift_card_currency_mismatch": "You can use % for this order{checkout_currency}Only gift cards for",
+        "gift_card_depleted": "This gift card has no balance",
+        "gift_card_disabled": "This gift card is no longer available",
+        "gift_card_expired": "This gift card has expired"
       }
     },
     "addresses": {
