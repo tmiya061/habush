@@ -3158,7 +3158,37 @@
         "product_sold_out": "'%{name}' has already sold out.",
         "selling_plan_not_applicable": "Cannot apply sales plans to variations",
         "selling_plan_not_available_for_company_locations": "If you order B2B, you can only purchase one time.",
-        "shipping_address_invalid": "There was a problem calculating shipping costs. Please continue to check out and select shipping fees before completing your order."
+        "shipping_address_invalid": "There was a problem calculating shipping costs. Please continue to check out and select shipping fees before completing your order.",
+        "shipping_address_not_required": "This shopping cart does not require a shipping address",
+        "stock_problems_html": "One or more items have sold out.<a href='%{link}'>Update Cart</a>.",
+        "too_many_items_in_cart": "No more % in cart{name}You cannot add",
+        "too_many_line_items_error": "Your cart contains %{max}You cannot put more than one item in the box.",
+        "variant_not_found": "Can't find a different model",
+        "variant_requires_selling_plan": "Variations can only be purchased through the sales plan.",
+        "view_lines_limit_reached": "The line is %{limit}Needs less"
+      },
+      "customer": {
+        "denylisted_reset_password": "Your account could not be accessed because your current password is not secure. You will receive an email to update your password.",
+        "invalid_credentials": "Incorrect email or password.",
+        "no_account_found": "Account not found.",
+        "password_reset_error": "Password reset error",
+        "signup_disabled": "Creating a customer account is disabled."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta}Added to",
+          "decrement_fulfilled_line_item": "%{total}% of total{delta}I returned the item",
+          "decrement_item": "%{total}% of total{delta}The item has been deleted",
+          "decrement_return_line_item": "% from returns{delta}Deleted",
+          "increment_item": "%{delta}Added to"
+        }
+      },
+      "order": {
+        "cancel_reason": {
+          "customer": "Customer has changed/cancelled the order",
+          "declined": "Payment has been denied",
+          "fraud": "Scammed Orders"
+        }
       }
     }
   },
