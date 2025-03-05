@@ -729,7 +729,27 @@
           },
           "payment": {
             "credit_card_last_name_required": "\"Last name\" cannot be nil.",
-            "credit_card_update_failed": "Credit card renewal failed."
+            "credit_card_update_failed": "Credit card renewal failed.",
+            "gateway_not_supported": "The Payment Gateway Service does not support saving payment methods.",
+            "gift_cards_not_allowed_for_b2b": "Gift cards are not permitted in B2B stores.",
+            "installments_amount_invalid": "The amount for installment payments is invalid.",
+            "installments_gift_card_not_allowed": "Gift cards cannot be used in installments.",
+            "installments_ineligible_line_item": "Installment payments are invalid for this purchase item.",
+            "installments_test_mode_not_allowed": "Test mode is not allowed.",
+            "installments_unsupported_billing": "This billing address cannot be used in installments.",
+            "installments_unsupported_currency": "This currency cannot be used in installments.",
+            "installments_unsupported_shipping": "Cannot be delivered to this address using installments.",
+            "installments_unsupported_subscriptions": "Subscriptions are not available for installment payments.",
+            "invalid_address_type": "The address type entered is invalid for this payment method.",
+            "invalid_card_source": "This session does not have permission to use this card source.",
+            "manual_payments_not_allowed_for_b2b": "Manual payment methods are not permitted in B2B stores.",
+            "market_manager_blocks_wallet_payments": "Market Manager does not support payment methods.",
+            "method_required": "You need to suggest a payment method.",
+            "missing_retail_attributions": "Manually entered credit card payments require retailer information.",
+            "missing_session_id": "No credit card session information has been entered.",
+            "payment_instrument_not_found": "No payment method found",
+            "paypal_express_address_invalid": "PayPal returned an invalid address.",
+            "positive_amount_expected": "The payment amount must be greater than 0."
           }
         }
       },
