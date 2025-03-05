@@ -281,7 +281,7 @@
       "announcement": "Announcement",
       "menu": "Menu",
       "cart_count": {
-        "one": "{{ count }} item",
+        "one": "{{ count }}items",
         "other": "{{ count }} items"
       }
     },
@@ -314,16 +314,16 @@
       }
     },
     "footer": {
-      "payment": "Payment methods"
+      "payment": "Payment method"
     },
     "featured_blog": {
       "view_all": "View all",
-      "onboarding_title": "Blog post",
-      "onboarding_content": "Give your customers a summary of your blog post"
+      "onboarding_title": "Blog Article",
+      "onboarding_content": "Provide customers with a summary of blog posts"
     },
     "featured_collection": {
       "view_all": "View all",
-      "view_all_label": "View all products in the {{ collection_name }} collection"
+      "view_all_label": "{{ collection_name }}View all products in the collection"
     },
     "collection_list": {
       "view_all": "View all"
@@ -331,7 +331,7 @@
     "collection_template": {
       "empty": "Product not found",
       "title": "collection",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all</a>"
+      "use_fewer_filters_html": "Reduce the number of filters, or<a class=\"{{ class }}\" href=\"{{ link }}\">Remove everything</a>"
     },
     "video": {
       "load_video": "Load video: {{ description }}"
