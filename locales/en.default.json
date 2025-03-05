@@ -1287,8 +1287,52 @@
         "indeterminate_location_fallback": "Location",
         "missing_country_fallback": "country",
         "remove_items_action": {
-          "one": "Delete unavailable items"
-        }
+          "one": "Delete unavailable items",
+          "other": "Delete unavailable items"
+        },
+        "unavailable_line_item": "%{product_name} / %{variant_label}"
+      },
+      "merchant_instruction_errors": {
+        "duplicate_variant_id": "%{position} %{name}% of duplicate variation IDs in merchandise instructions{variant_id}Contains:",
+        "empty_stable_id": "%{position} %{name}The merchandise instruction contains an empty stable ID.",
+        "invalid_stable_id_target": "%{position} %{name}Merchandise instructions are stable ID%{stable_id}, but the stable ID is not in the merchandise line.",
+        "invalid_variant_id_target": "%{position} %{name}Merchandise instructions are Variation ID%{variant_id}, but that variant ID is not in the merchandise line."
+      },
+      "mor_policies": {
+        "privacy_policy": "Privacy Policy of Merchant of Record, responsible for final sales",
+        "terms_and_conditions": "Terms of Use of Merchant of Record, which is responsible for the final sales"
+      },
+      "no_address_location": {
+        "alt_header": "Shipping address not found",
+        "email_us_button_label": "Send an email",
+        "header": "There is no shipping address for this location",
+        "message": "Please feel free to contact us to add an address for this location to complete your checkout.",
+        "title": "Location without an address"
+      },
+      "note": {
+        "length_exceeds_maximum": "Please make the memo size less than 5,000 characters."
+      },
+      "notice_banner": {
+        "all_violations_content": "To update this information and complete your order, please contact us by phone or{{emailLink}}Please contact us at:",
+        "all_violations_email_link": "Email",
+        "calculating_shipping": "We are still calculating shipping costs. Please try again in a few seconds. No claims have been made.",
+        "calculating_taxes": "Taxes are still being calculated. Please try again in a few seconds. No claims have been made yet.",
+        "company_location_changed": "The cart has been updated. Please confirm your order before submitting.",
+        "company_location_changed_product_removed": "Cart has been updated as some products are not available at this location. Please confirm your order before submitting.",
+        "editable_shipping_address_violations_email_link": "Please contact us",
+        "editable_shipping_address_violations_message_footer": "To permanently update the address for this location,{{emailLink}}.",
+        "editable_shipping_address_violations_message_title": "Please update this information to complete your order.",
+        "generic_processing_error": {
+          "body": "No claims have been made yet. Try again or use a different payment method.",
+          "title": "There was a problem processing the order"
+        },
+        "individual_violations_title": {
+          "DeliveryViolations": "Shipping address",
+          "OtherViolations": "Ordering information",
+          "PaymentViolations": "Billing Address",
+          "UnhandledViolations": "Ordering information"
+        },
+        "return_to_cart_link_text": "Return to Cart"
       }
     },
     "addresses": {
