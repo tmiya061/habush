@@ -1145,6 +1145,46 @@
       "unit_price": "{{price}}/unit",
       "vat_invoices": {
         "title": "VAT Invoice"
+      },
+      "zero_duties_tooltip": "This order is shipped from another country. Orders of this amount will not be charged any customs duties."
+    },
+    "orders": {
+      "buy_again": "Repurchase",
+      "buy_again_accessibility_label": "order ({{orderId}}) repurchase",
+      "contact_us": "Please contact us.",
+      "didnt_pick_up_order": "Did you not receive your order",
+      "fulfillment_status_title": "Fulfillment Status:{{status}}",
+      "group_title_label": "{{groupTitle}}Part of",
+      "havent_received_your_delivery": "Have you received the delivery",
+      "if_not_received": {
+        "one": "If you haven't received it,",
+        "other": "If you haven't received it,"
+      },
+      "if_you_didnt_receive_this": "If you have not received this order,",
+      "let_us_know": "Please let me know",
+      "list_layout_accessibility_label": "Layout options",
+      "list_title": "order",
+      "list_title_confirmed_orders_accessibility_label": "Order: Confirmed",
+      "list_title_pending_orders_accessibility_label": "Order: Hold",
+      "list_title_with_pending_orders": "order:",
+      "manage": "management",
+      "manage_accessiblity_label": "order ({{orderId}})",
+      "order_list": {
+        "carousel": {
+          "five_products_accessibility_label": "To order,{{lineItemName1}}Quantity of{{lineItemQuantity1}},{{lineItemName2}}Quantity of{{lineItemQuantity2}},{{lineItemName3}}Quantity of{{lineItemQuantity3}},{{lineItemName4}}Quantity of{{lineItemQuantity4}},{{lineItemName5}}Quantity of{{lineItemQuantity5}}Includes",
+          "four_products_accessibility_label": "To order,{{lineItemName1}}Quantity of{{lineItemQuantity1}},{{lineItemName2}}Quantity of{{lineItemQuantity2}},{{lineItemName3}}Quantity of{{lineItemQuantity3}},{{lineItemName4}}Quantity of{{lineItemQuantity4}}Includes",
+          "next": "to the next",
+          "one_products_accessibility_label": "To order,{{lineItemName1}}Quantity of{{lineItemQuantity1}}Includes",
+          "previous": "before",
+          "six_and_more_products_accessibility_label": "To order,{{lineItemName1}}Quantity of{{lineItemQuantity1}},{{lineItemName2}}Quantity of{{lineItemQuantity2}},{{lineItemName3}}Quantity of{{lineItemQuantity3}},{{lineItemName4}}Quantity of{{lineItemQuantity4}},{{lineItemName5}}Quantity of{{lineItemQuantity5}},{{lineItemName6}}Quantity of{{lineItemQuantity6}}, etc.",
+          "six_products_accessibility_label": "To order,{{lineItemName1}}Quantity of{{lineItemQuantity1}},{{lineItemName2}}Quantity of{{lineItemQuantity2}},{{lineItemName3}}Quantity of{{lineItemQuantity3}},{{lineItemName4}}Quantity of{{lineItemQuantity4}},{{lineItemName5}}Quantity of{{lineItemQuantity5}},{{lineItemName6}}Quantity of{{lineItemQuantity6}}Includes",
+          "three_products_accessibility_label": "To order,{{lineItemName1}}Quantity of{{lineItemQuantity1}},{{lineItemName2}}Quantity of{{lineItemQuantity2}},{{lineItemName3}}Quantity of{{lineItemQuantity3}}Includes",
+          "two_products_accessibility_label": "To order,{{lineItemName1}}Quantity of{{lineItemQuantity1}},{{lineItemName2}}Quantity of{{lineItemQuantity2}}Includes",
+          "view_order_details": "View order details"
+        },
+        "column_headers": {
+          "actions_accessibility_label": "action"
+        }
       }
     }
   }
