@@ -1472,7 +1472,31 @@
         "gift_card_and_discount_placeholder": "Coupon code or gift card",
         "gift_card_and_discount_title": "Coupon code or gift card",
         "gift_card_applied": "Gift card has been applied",
-        "gift_card_ending": "Ends with %{last_characters}Gift Cards"
+        "gift_card_ending": "Ends with %{last_characters}Gift Cards",
+        "gift_card_has_been_applied": "Gift card has been applied",
+        "gift_card_has_been_removed": "Gift card has been deleted",
+        "gift_card_label": "Gift Card",
+        "gift_card_masked": "%{last_characters} ••••",
+        "gift_card_placeholder": "Technique FT RD",
+        "gift_card_savings_notice": "%{gift_card_amount}After gift card",
+        "gift_card_subscriptions_notice": "Gift cards only apply to first payments",
+        "gift_card_title": "Gift Card",
+        "group_title_label": "&quot;%{group_title}Part of",
+        "higher_value_discount_applied": "&quot;<strong style=\"text-transform:uppercase\">%{code}</strong>&quot; cannot be used in conjunction with existing coupon codes.",
+        "information_estimated_taxes_label": "Tax (estimated)",
+        "maximum_discount_code_limit_reached": "You have reached the maximum number of coupon codes you can issue. Please delete your existing codes.<strong style=\"text-transform:uppercase\">%{code}</strong>Please use.",
+        "may_be_charged_on_delivery": "You may be charged at the time of delivery",
+        "more_items_modal": {
+          "clear_search": "Clear search",
+          "empty_results": "&quot;%{searchText}&quot;No results found for &quot;. Check your spelling or use a different word or phrase.",
+          "number_items_shown": "%{totalNumber}% of items{shownNumber}pcs",
+          "search_item": "search"
+        },
+        "multiple_shipping_lines_label": "Shipping Total",
+        "no_pickup_location": "There are no pickup locations available.",
+        "number_items": {
+          "one": "%{count}items"
+        }
       }
     },
     "addresses": {
