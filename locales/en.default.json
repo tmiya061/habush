@@ -2617,8 +2617,18 @@
         },
         "missing_shipping_address_banner": {
           "contact_us": "inquiry",
-          "text_html": "%{contact_us}, add address"
-        }
+          "text_html": "%{contact_us}, add address",
+          "title": "Orders do not have a shipping address."
+        },
+        "no_tracking_number": "This order does not have a tracking number.",
+        "non_shippable_title": "Your order has been completed",
+        "order_number_label": "Order number",
+        "order_status_confirmed_order_local": "We are preparing your order for delivery.",
+        "order_status_confirmed_order_local_payment": "We are preparing your order for delivery.",
+        "order_status_confirmed_order_local_pick_up": "We are preparing your order for delivery.",
+        "order_status_confirmed_order_with_email": "You will receive an email when your order is ready.",
+        "order_status_confirmed_order_with_email_and_phone": "You will receive an email when your order is ready.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "% ordered{date}I made a payment to."
       }
     },
     "addresses": {
