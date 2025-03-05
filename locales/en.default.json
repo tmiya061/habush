@@ -1831,8 +1831,32 @@
           }
         },
         "preview_not_available": {
-          "button": "､､"
-        }
+          "button": "､､",
+          "content": "Don't worry. This easy payment is available to customers.",
+          "title": "Previews are not available"
+        },
+        "proposed_gateway_unavailable": "The proposed payment gateway service is not available",
+        "przelewy24_label": "PRZE WY24",
+        "purchase_options_agreement_label": "One or more items in your cart is a deferred purchase or subscription. By continuing to pay, you agree that your payment method will be automatically charged at the prices and frequency set forth on this page until your payment method expires or you cancel. All cancellations are subject to a %{cancellation_policy_label}applies.",
+        "purchase_options_agreement_label_html": "I understand that one or more items in my cart are deferred purchases or subscriptions. By continuing, I agree to <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Cancellation Policy</a> I agree to and authorize my selected payment method to be charged at the prices, times, and dates set out on this page until my order is fulfilled or, if permitted, canceled by me. ",
+        "purchase_options_agreement_label_wallets": "By continuing to pay you agree to the upcoming fees and cancellation policy listed on this page.",
+        "purchase_options_and_vaulting_agreement_label": "One or more items in your cart are deferred purchases or subscription purchases. By proceeding with your purchase, you agree to be automatically charged at the prices and frequency listed on this page until your payment method expires or you cancel. All cancellations include a %{cancellation_policy_label}applies.",
+        "purchase_options_cancellation_policy_label": "Cancellation policy",
+        "purchase_options_card_update_agreement_label_html": "By updating your payment method, you agree to the Terms of Use and Privacy Policy.<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">Cancellation Policy</a>and authorize payments for subscriptions and deferred purchases in accordance with the terms and conditions.",
+        "purchase_order_number": {
+          "label": "Order number (optional)",
+          "title": "Order number"
+        },
+        "receiver_payment_experience_hint": "After you place your order, we will inform you of the payment details.{due_days}Please make your payment at Multibanco or online within days.",
+        "same_billing_address_checkbox_label": "Use the shipping address as the billing address",
+        "same_billing_address_label": "Same as shipping address",
+        "saved_by_payment_method": "%{payment_method} Saved in",
+        "saved_credit_card": "I saved my credit card",
+        "saved_credit_card_actions": {
+          "delete": "delete",
+          "edit": "edit"
+        },
+        "saved_credit_card_cvv_verification": "Please enter the card security code to verify your identity."
       }
     },
     "addresses": {
