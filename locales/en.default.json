@@ -744,7 +744,49 @@
         "discard": "destruction",
         "discard_changes_modal_title": "Would you like to discard the changes",
         "edit_accessibility_label": "Edit purchase order number",
-        "edit_modal_title": "Edit the purchase order number"
+        "edit_modal_title": "Edit the purchase order number",
+        "empty_state": "No purchase order number",
+        "modal_po_number_input_label": "Order number",
+        "modal_po_number_input_max_length_error": "Purchase order numbers are up to{{maxLength}}It's text.",
+        "save": "keep",
+        "title": "Purchase order number {{poNumber}}"
+      }
+    },
+    "account_information": {
+      "add_button": "addition",
+      "loading_accessibility_message": "Loading account information",
+      "loading_finished_accessibility_message": "Account info loaded",
+      "people": {
+        "pagination": {
+          "load_more": "Load more",
+          "load_more_accessibility_label": "Load more users",
+          "loading_accessibility_label": "Loading users"
+        }
+      },
+      "profile_card": {
+        "cancel": "cancel",
+        "cancel_accessibility_label": "Cancel edit profile",
+        "edit": "edit",
+        "edit_accessibility_label": "Edit profile",
+        "email_help_text": "You cannot change the email address you use to log in",
+        "first_name": "given name",
+        "last_name": "Last name",
+        "no_name_provided_accessibility_label": "No name added",
+        "phone_number_help_text": "You cannot change the phone number used to log in",
+        "save": "keep",
+        "save_accessibility_label": "Save profile",
+        "title": "profile"
+      },
+      "profile_update_confirmation_message": "Profile has been updated",
+      "title": "profile"
+    },
+    "active_inspector": {
+      "extension": {
+        "move_down": "Move the extension to the next location",
+        "move_down_tooltip": "Move to the next position",
+        "move_up": "Move the extension to the previous position",
+        "move_up_tooltip": "Return to previous position",
+        "remove": "Remove extension"
       }
     }
   }
