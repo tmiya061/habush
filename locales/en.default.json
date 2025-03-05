@@ -1970,7 +1970,33 @@
         "debit_card_label": "Debit Card",
         "deferred_payment_label": "Please select your payment method later",
         "direct_payment_terms": "The period is{{translatedName}}The due date for card payment is{{dueDate}}is.",
-        "draft_order_deposit_due_later": "Once your order is confirmed,{{depositAmount}}The remaining balance will be{{translatedName}}You will be required to pay during this period."
+        "draft_order_deposit_due_later": "Once your order is confirmed,{{depositAmount}}The remaining balance will be{{translatedName}}You will be required to pay during this period.",
+        "draft_order_deposit_due_on_fulfillment": "Once your order is confirmed,{{depositAmount}}The remaining balance is due when your order is fulfilled.",
+        "draft_order_payment_due_later_no_terms": "Once your order is confirmed, payment will be qualified.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Once your order is confirmed, you will be charged to your card.",
+        "draft_order_payment_due_later_terms": "Once the order is confirmed{{translatedName}}Enter the period.",
+        "draft_order_payment_due_on_fulfillment": "Once your order is confirmed and fulfilled, the payment date will be",
+        "fixed_direct_payment_terms": "Card payment due date{{dueDate}}is.",
+        "fixed_payment_label": "The payment due date is{{dueDate}}is.",
+        "generic_payment_terms": "The period is{{translatedName}}The payment due date is{{dueDate}}It will be.",
+        "login_prompt": {
+          "no_access": {
+            "link": "Login",
+            "message": "To add and use saved payment methods, you must have an account with access to this location.{{logIn}}Please do."
+          }
+        },
+        "money_order_label": "Postal exchange",
+        "order_deposit_due_now": "{{depositAmount}}The payment is due today. The balance is{{translatedName}}The payment due date is{{dueDate}}is.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}}is due today. The balance is{{dueDate}}You will be required to pay.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}}is due today. The balance will be paid when the order is fulfilled.",
+        "order_deposit_due_on_receipt": "{{depositAmount}}is due today. The remaining balance is due at a later date.",
+        "order_due_on_fulfillment_choose_later": "Once your order is fulfilled, the payment deadline will be.",
+        "order_due_on_fulfillment_payment": "Your card will be charged when your order is fulfilled",
+        "order_due_on_receipt_choose_later": "Payment will be upon receipt."
+      },
+      "payment_summary": {
+        "billing_address_title": "Billing Address",
+        "credit_card_expires_on_notice": "date of expiry:%{month}/%{year}"
       }
     },
     "addresses": {
