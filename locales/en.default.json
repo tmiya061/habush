@@ -821,7 +821,31 @@
       "add_button_text": "addition",
       "address_deleted_notification": "Address has been deleted",
       "back_button": "return",
-      "back_button_accessibility_label": "Return to the address ({{address}})"
+      "back_button_accessibility_label": "Return to the address ({{address}})",
+      "billing_address_dropdown_placeholder": "Billing Address",
+      "cancel_adding_address_accessibility_label": "Cancel add address",
+      "cancel_deletion_button": "cancel",
+      "cancel_deletion_button_accessibility_label": "{{address}}Cancel the deletion of",
+      "default_address": {
+        "title": "Default address",
+        "title_accessibility_label": "Default address: {{address}}"
+      },
+      "delete_button": "delete",
+      "delete_button_accessibility_label": "{{address}}Delete",
+      "delete_confirmation_button": "Delete address",
+      "delete_confirmation_button_accessibility_label": "{{address}}Delete",
+      "delete_confirmation_description": "Existing orders will not be affected.",
+      "delete_confirmation_message": "Delete address ? Existing orders will not be affected.",
+      "delete_confirmation_title": "Would you like to delete your address",
+      "edit_button": "edit",
+      "edit_button_accessibility_label": "{{address}}Edit",
+      "edit_modal_title": {
+        "billing": "Edit billing address",
+        "default": "Edit address",
+        "shipping": "Edit shipping address"
+      },
+      "edit_section_accessibility_label": "{{address}}Edit",
+      "loading_accessibility_message": "Loading the address"
     }
   }
 }
