@@ -2538,7 +2538,29 @@
         "contact_information_title": "Contact Information",
         "contact_us": "inquiry",
         "contact_us_html": "How can we help you? %{contact_us}",
-        "contact_us_lowercase": "inquiry"
+        "contact_us_lowercase": "inquiry",
+        "customer_information_hidden_fields_message": "Log in to see all your information",
+        "customer_information_title": "Order details",
+        "customer_validation_error": "Please enter a valid email address or order number.",
+        "customer_validation_error_phone": "Please enter a valid phone number or order number.",
+        "delivered": "Delivered",
+        "delivered_description_html": "Your order has been delivered to the address you entered. If you have not received it or have any issues, please contact us at %{contact_us}.",
+        "delivered_local_description_html": "If you haven't received your order yet,{let_us_know}.",
+        "delivered_local_title": "Your order has been delivered",
+        "delivered_title": "Your order has been delivered",
+        "delivery_information_label": "Delivery information:",
+        "estimated_arrival": "Estimated delivery date: ",
+        "estimated_delivery": "Current expected delivery date: ",
+        "failed_contact_merchant": "To arrange delivery please click here{company}Please contact us.",
+        "failed_contact_merchant_no_company": "Please contact us to arrange delivery.",
+        "failed_pending_payment_page_title": "There was a problem with the payment",
+        "failed_title": "Unable to deliver your order",
+        "failure": "Delivery failure",
+        "first_payment_complete": "Your first payment has been completed",
+        "fulfillment": {
+          "description_label": "explanation",
+          "fulfilled_table_title": "Products shipped by this"
+        }
       }
     },
     "addresses": {
