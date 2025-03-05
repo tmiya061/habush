@@ -2109,7 +2109,29 @@
           "billing_address_title": "invoice",
           "change_billing_address_link_label": "Change billing address",
           "change_contact_method_link_label": "Change contact information",
-          "change_delivery_method_link_label": "Change delivery method"
+          "change_delivery_method_link_label": "Change delivery method",
+          "change_link_label": "change",
+          "change_payment_method_link_label": "Change payment method",
+          "change_purchase_order_number_label": "Change your order number",
+          "change_shipping_address_link_label": "Change shipping address",
+          "change_shipping_method_link_label": "Change shipping method",
+          "contact_method_title": "contact address",
+          "due_after_order_reviewed_html": "Expiration date after order is confirmed",
+          "no_address": "(No address)",
+          "no_purchase_order_number": "(No purchase order number)",
+          "payment_method_saved_company_location": "Save cards at this location",
+          "payment_method_title": "Payment method",
+          "pick_up_in_store_shipping_method_html": "Store Pickup · %{location_name}",
+          "purchase_order_number_title": "Order number",
+          "review_title_free_order": "Confirm your order and complete it",
+          "shipping_address_title": "Delivery destination",
+          "shipping_method_title": "Shipping method"
+        },
+        "checkout_a_different_way": "Check out differently",
+        "checkout_as_guest": "Buy as a guest",
+        "item_header": {
+          "change_value": "Change the value",
+          "section": "section"
         }
       }
     },
