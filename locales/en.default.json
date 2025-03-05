@@ -2410,7 +2410,35 @@
           "one": "{{count}}items",
           "other": "{{count}}items"
         },
-        "items_unavailable_notice": "Some items are not available."
+        "items_unavailable_notice": "Some items are not available.",
+        "out_of_stock": {
+          "description": "These items have been discontinued and have been removed from your cart.",
+          "items_unavailable": "Some items have been discontinued and have been removed from the cart."
+        },
+        "page_title": "Inventory issues",
+        "price_and_quantity_update": {
+          "description": "The prices and quantities available for sale for these items will be changed and updated in your cart.",
+          "title": "Price and quantity updates"
+        },
+        "price_column_header": "price",
+        "price_update": {
+          "description": "Prices for these items have been changed and updated in your cart.",
+          "title": "Price update"
+        },
+        "product_column_header": "merchandise",
+        "quantity_column_header": "quantity",
+        "quantity_update": {
+          "description": "The available quantity for these products will be changed and updated in your cart.",
+          "page_title": "Quantity update",
+          "title": "Quantity update"
+        },
+        "reduced_label": "Only a few left",
+        "reduced_with_quantity_label": "Only % left{quantity_available}",
+        "remove": "delete",
+        "remove_from_cart_button_label": "Delete from cart",
+        "removed_from_cart_notice": "It has been removed from cart",
+        "return_to_store_label": "Return to store",
+        "sold_out_label": "sold out"
       }
     },
     "addresses": {
