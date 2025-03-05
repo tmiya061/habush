@@ -2893,8 +2893,36 @@
             "payment_terms": "The payment terms have been changed. Please check the order details",
             "shipping_method": "The shipping method for your order has been changed. Please check your selection."
           },
-          "select_different_shipping_address_to_resolve_errors": "The shipping address is invalid. Choose a different address or use your new shipping address."
-        }
+          "select_different_shipping_address_to_resolve_errors": "The shipping address is invalid. Choose a different address or use your new shipping address.",
+          "terminal": "{{walletName}}There was a problem with. Please use a different payment method.",
+          "unavailable": {
+            "description": "{{walletName}}was unavailable. Please use a different payment method or try again later.",
+            "instructions": "&quot;{{walletName}}Something went wrong with &quot;Buy from. Please go back to the store and try again or try another way to find out.",
+            "title": "{{walletName}}is not available",
+            "unavailable_for_country": "{{countryName}}So{{walletName}}is not available. Please choose another payment method to complete your purchase."
+          },
+          "unavailable_terminal": {
+            "instructions": "{{walletName}}is currently unavailable for ordering. Please choose a different checkout method to continue with your purchase."
+          },
+          "unsupported": {
+            "address": "Merchants cannot deliver to the selected shipping address.",
+            "postal_code": "This location is not supported",
+            "wallet_is_unavailable": "{{walletName}}is not available for this address. Please choose a different address or{{walletName}}Please close and complete your purchase"
+          }
+        },
+        "logged_in": "{{email}}Connected to",
+        "payment_in_progress_body": "The payment is being processed. Your order will be completed soon.",
+        "payment_in_progress_title": "Payment processing",
+        "redirect_hint": "{{walletName}}You need to log in.",
+        "redirection_notice": "&quot;{{buttonLabel}}After clicking &quot;, to make a safe payment, {{walletName}}will be redirected to.",
+        "return_to_checkout": "Return to checkout",
+        "return_to_store": "Return to store",
+        "scrim": {
+          "and_return_to_checkout": "After that, return to checkout",
+          "cancel": "cancel",
+          "continue_purchase_in_window": "{{walletName}}Continue purchasing in window"
+        },
+        "shipping_line_label": "postage"
       }
     },
     "addresses": {
