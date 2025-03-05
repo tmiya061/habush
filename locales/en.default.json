@@ -1792,7 +1792,17 @@
           "with_quantities": "{{quantity}}Among{{delta}}I returned the item"
         },
         "order_edit_banner_multiple_items_added": "{{amount}}Added",
-        "order_edit_banner_multiple_items_removed": "{{amount}}Deleted"
+        "order_edit_banner_multiple_items_removed": "{{amount}}Deleted",
+        "order_edit_banner_multiple_items_return_line_item_removed": "From returns{{amount}}Deleted",
+        "order_edit_banner_multiple_items_returned": "{{amount}}I returned the",
+        "order_edit_banner_single_item_added": "Added",
+        "order_edit_banner_single_item_removed": "Deleted",
+        "order_edit_banner_single_item_return_line_item_removed": "Removed from return",
+        "order_edit_banner_single_item_returned": "Returned",
+        "order_edit_banner_subtitle": "{{order_number}}Your order has been updated. Please review these changes and then complete the payment to confirm your order.",
+        "order_edit_banner_title": "{{amount_owed}}Payment is required for",
+        "order_edit_banner_updated_order_label": "Order updated",
+        "pay_in_installments_split_pay_short": "%{amount}4 installments of"
       }
     },
     "addresses": {
