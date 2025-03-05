@@ -1544,7 +1544,45 @@
         "return_restocking_fee_label": "Return fee",
         "return_shipping_fee_label": "Return shipping charges",
         "sale_price": "Sale price",
-        "scroll_order_summary": "Scroll to see more products"
+        "scroll_order_summary": "Scroll to see more products",
+        "shipping_default_value": "It will be calculated in the next step",
+        "shipping_discount_title": "Discount on delivery",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Coupon code is not valid for your shipping address",
+        "shipping_label": "postage",
+        "shipping_pending_message": "Not selected yet",
+        "shipping_pending_value": "—",
+        "shipping_policy_link": "postage",
+        "shopping_cart_label": "shopping cart",
+        "subscriptions": "Subscription",
+        "subtotal_label": "subtotal",
+        "subtotal_label_with_quantity": {
+          "one": "Subtotal %{count} item",
+          "other": "Subtotal %{count} item"
+        },
+        "taxes_label": "Tax",
+        "tip_label": "Support amount",
+        "title": "Order Summary",
+        "total_already_paid_label": "Payment has been made",
+        "total_due_later_label": "Total payment (later)",
+        "total_due_today_label": "Total payment (Today)",
+        "total_label": "total",
+        "total_outstanding_label": "Payment amount",
+        "total_savings": "Total discount",
+        "total_updated_label": "The total amount has been updated:",
+        "total_updated_label_with_price": "Total amount after renewal: %{totalPrice}",
+        "unit_price": {
+          "accessible_separator": "Around",
+          "content_html": "%{per_unit}%{accessible_separator}%{price}"
+        },
+        "updated_shipping_method": "Shipping method updated: %{shipping_method}",
+        "vat_label_html": "%{amount}Including tax",
+        "view_all_items": {
+          "one": "%{count}Show items",
+          "other": "%{count}Show all items"
+        }
+      },
+      "payment": {
+        "account_connected": "Accounts have been linked."
       }
     },
     "addresses": {
