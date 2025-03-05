@@ -1332,7 +1332,49 @@
           "PaymentViolations": "Billing Address",
           "UnhandledViolations": "Ordering information"
         },
-        "return_to_cart_link_text": "Return to Cart"
+        "return_to_cart_link_text": "Return to Cart",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text}, please update the quantity.",
+        "shipping_address_incomplete_title": "There is an incomplete delivery address",
+        "subscription_changed": "One of the subscriptions has been changed.",
+        "violations_title": "{{violation}}is missing or invalid"
+      },
+      "notifications": {
+        "title": "notification"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "The gift card price must be greater than 0.",
+            "gift_card_price_must_not_exceed_limit": "Gift card price is %{gift_card_limit}Cannot exceed .",
+            "subtotal_limit_reached": "The maximum number of items has been reached."
+          }
+        }
+      },
+      "online_store_chat": {
+        "title": "Do you have any questions Chat"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "%{product_name}and another item%{count}Buy Pieces",
+          "other": "%{product_name}and another item%{count}Buy Pieces",
+          "zero": "%{product_name}Buy"
+        }
+      },
+      "order_errors": {
+        "creation_failure": "There was a problem creating the order. Please try again or contact us for more information.",
+        "inventory_reservation_failure": "Some items are not available.",
+        "network_failure": "Order could not be sent due to a network error. Please check the connection and try again."
+      },
+      "order_payment_collection": {
+        "additional_payment_requested": "%{total_outstanding}Payment is required for",
+        "changes_summary": {
+          "added": {
+            "one": "Added",
+            "other": "%{count}Added"
+          },
+          "removed": "Deleted",
+          "return_line_item_removed": "% from returns{count}Deleted"
+        }
       }
     },
     "addresses": {
