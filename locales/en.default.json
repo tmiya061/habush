@@ -1428,8 +1428,56 @@
         "gift_card_resend_text": {
           "one": "Resend the text",
           "other": "Resend the text"
-        }
-      }
+        },
+        "gift_resend_failure": {
+          "one": "I had a problem resending the gift card. Please try again or contact us.",
+          "other": "I had a problem resending the gift card. Please try again or contact us."
+        },
+        "gift_resend_success": {
+          "one": "Gift card has been resent",
+          "other": "Gift card has been resent"
+        },
+        "in_review_description": "We will let you know if we require more information or when your order is confirmed.",
+        "in_review_label": "Under confirmation",
+        "in_review_title": "I'm checking my order",
+        "last_updated": "Last Updated:{{date}}",
+        "multiple_shipments_label": "Multiple shipments",
+        "multiple_statuses_label": "Multiple order status",
+        "no_tracking_number": "There is no tracking number for this package.",
+        "on_its_way_description": "This package is currently being delivered.",
+        "on_its_way_label": "Delivery now",
+        "on_its_way_title": "Your item is being delivered",
+        "out_for_delivery_description": "This package is currently being delivered.",
+        "out_for_delivery_label": "Delivery now",
+        "out_for_delivery_title": "Your package is being delivered",
+        "picked_up_description": "You have completed receiving these items.",
+        "picked_up_label": "Pick up in store",
+        "preparing_for_shipping_description": "These items are currently in preparation for shipping.",
+        "preparing_for_shipping_label": "In preparation for delivery",
+        "ready_for_pickup_description": "You can now pick up these items. Please bring your order confirmation with you when picking up.",
+        "ready_for_pickup_label": "Ready to pick up",
+        "ready_for_pickup_location": "You can pick up the item you ordered locally.",
+        "request_return": "Return Request",
+        "resume_tracking": "Restart tracking",
+        "status_timestamp": "{{date}}Updated to",
+        "submitted_description": "Please check the details of your order and payment method.",
+        "submitted_label": "Sent",
+        "there_was_a_problem_label": "A problem occurred",
+        "track_shipment": "Track your package",
+        "tracking_number": {
+          "one": "tracking number",
+          "other": "tracking number"
+        },
+        "view_order_for_details": "View order details"
+      },
+      "status_mark_as_delivered": "Mark as delivered",
+      "switch_order_type_confirmed_orders_accessibility_label": "Switch order type. Currently displayed are confirmed orders",
+      "switch_order_type_pending_orders_accessibility_label": "Switch order type. Currently displayed are pending orders"
+    },
+    "payment_method_brands": {
+      "americanexpress": "American Express",
+      "applepay": "Ahhh, pai",
+      "bogus": "Bogs"
     }
   }
 }
