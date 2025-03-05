@@ -2081,7 +2081,35 @@
           "medium": {
             "one": "Your order is being processed. %{count}Please wait for about a minute.",
             "other": "Your order is being processed. %{count}Please wait for about a minute."
-          }
+          },
+          "no_auto_refresh_html": "If you are not automatically redirected,{link}.",
+          "refresh_this_page": "Please update this page",
+          "short": "Your order is currently being processed."
+        },
+        "you_will_not_be_charged": "No billing yet",
+        "you_will_receive_confirmation": "We are currently receiving a lot of orders. You will receive a notification via email or text once your order is confirmed. If you do not receive a notification within an hour, please let us know.",
+        "your_order_has_been_received_title": "Thank you for your order."
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "currency_mismatch": "%{shop_currency}Only gift cards from",
+          "duplicate": "Gift cards are already used for your order",
+          "expired": "This gift card has expired",
+          "generic": "Could not add gift card to checkout",
+          "insufficient_funds": "This gift card has no balance",
+          "invalid": "Please enter a valid gift card",
+          "no_longer_available": "This gift card is no longer available for this checkout",
+          "not_available": "This gift card is no longer available",
+          "throttle_limit_exceeded": "The maximum number of attempts allowed has been exceeded. Please try again later."
+        }
+      },
+      "review": {
+        "block_title": "Please check your info",
+        "blocks": {
+          "billing_address_title": "invoice",
+          "change_billing_address_link_label": "Change billing address",
+          "change_contact_method_link_label": "Change contact information",
+          "change_delivery_method_link_label": "Change delivery method"
         }
       }
     },
