@@ -1248,7 +1248,53 @@
           "next_accessibility_label": "Next order",
           "previous": "Go ahead",
           "previous_accessibility_label": "Previous Order"
-        }
+        },
+        "payment_status": {
+          "list_view": {
+            "due": "Payment Term:{{date}}",
+            "due_on_fulfillment": "Payment deadline is at the time of fulfillment",
+            "due_today": "Today is the payment deadline",
+            "due_without_date": "Payment due date",
+            "overdue": "Payment deadline exceeded",
+            "pay_to_confirm": "Make a payment and confirm",
+            "payment_not_due": "unpaid"
+          },
+          "table_view": {
+            "due": "due date:{{date}}",
+            "due_on_fulfillment": "During fulfillment",
+            "due_today": "Today is due",
+            "due_without_date": "unpaid",
+            "overdue": "Exceeded",
+            "paid": "Payment has been made",
+            "pay_to_confirm": "Make a payment and confirm",
+            "payment_not_due": "unpaid"
+          }
+        },
+        "plus_more": "+{{numberOfAdditionalProducts}}",
+        "plus_more_products": "{{numberOfAdditionalProducts}}More than one item",
+        "show_order_actions_accessibility_label": "order ({{name}}) order actions",
+        "sort": {
+          "date": {
+            "newest": "Newest",
+            "oldest": "Oldest"
+          },
+          "location": {
+            "ascending": "Location (A-Z)",
+            "descending": "Location (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Order number (ascending order)",
+            "descending": "Order number (decreased order)"
+          },
+          "order_total": {
+            "ascending": "Total order (ascending order)",
+            "descending": "Total order (decreased order)"
+          }
+        },
+        "sort_by": "Sort: {{option}}",
+        "sort_currently_sorted_by_accessibility_label": "Current sorting:{{option}}",
+        "sort_hide_options_accessibility_label": "Hides sort options for confirmed orders.",
+        "sort_show_options_accessibility_label": "View sort options for confirmed orders."
       }
     }
   }
