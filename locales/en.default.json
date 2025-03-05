@@ -2518,7 +2518,27 @@
       "thank_you": {
         "attempted_delivery": "Absent return",
         "attempted_delivery_description_html": "We have attempted to deliver your order but were unable to do so. Please contact us to arrange an alternative delivery.{contact_us}.",
-        "attempted_delivery_local_description_html": "We were unable to deliver your order. If you would like a different delivery time, please contact us at %{contact_us}Please contact us."
+        "attempted_delivery_local_description_html": "We were unable to deliver your order. If you would like a different delivery time, please contact us at %{contact_us}Please contact us.",
+        "attempted_delivery_local_title": "Absent delivery",
+        "attempted_delivery_title": "We have attempted to deliver your order",
+        "billing_address_title": "Billing Address",
+        "breadcrumbs_confirmed": "Confirmed",
+        "breadcrumbs_in_review": "Under confirmation",
+        "breadcrumbs_submitted": "Sent",
+        "cancelled_description": "Your order is %{date}It was cancelled on . If you have any questions, please feel free to contact us.",
+        "cancelled_page_title": "Cancelled orders",
+        "cancelled_title": "Your order has been cancelled",
+        "choose_payment_method_later": "Please select your payment method later",
+        "company_location_title": "Location",
+        "company_tracking_number": "%{company}-Tracking number:",
+        "confirmation_email_sent_text": "A confirmation email has been sent to: %{email}",
+        "confirmed": "Confirmed",
+        "confirmed_description": "You have received your order. It's currently being prepared. Please see this page for shipping status.",
+        "confirmed_title": "Your order has been confirmed",
+        "contact_information_title": "Contact Information",
+        "contact_us": "inquiry",
+        "contact_us_html": "How can we help you? %{contact_us}",
+        "contact_us_lowercase": "inquiry"
       }
     },
     "addresses": {
