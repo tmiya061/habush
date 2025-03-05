@@ -2024,7 +2024,39 @@
           "one": "% Near Location{count}There are designated pick-up locations",
           "other": "% Near Location{count}There are designated pick-up locations"
         },
-        "open_twenty_four_hours": "24 hours a day"
+        "open_twenty_four_hours": "24 hours a day",
+        "or": "or",
+        "paginator": {
+          "header": {
+            "one": "%{first}Showing - %{count}% of places{last}",
+            "other": "%{first}Showing - %{count}% of places{last}"
+          },
+          "next_accessibility_label": "Next page",
+          "previous_accessibility_label": "Previous page",
+          "selected_page": {
+            "one": "%{count}% of points{first}~%{last}",
+            "other": "%{count}% of points{first}~%{last}"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{count}% of points{pickup_point_index}",
+            "other": "%{count}% of points{pickup_point_index}"
+          }
+        },
+        "search_button": "search",
+        "selector_tab_list": "list",
+        "selector_tab_map": "map",
+        "selector_tabs": "Selector for designated pickup location",
+        "title": "Designated pickup location",
+        "waiting_on_pickup_point_location_notice": "Searching for designated pickup locations..."
+      },
+      "post_purchase": {
+        "components": {
+          "close": "close",
+          "expand": "Show more",
+          "processing": "Under processing...",
+          "submit": "send"
+        },
+        "escape_action": "View Order Confirmation ›"
       }
     },
     "addresses": {
