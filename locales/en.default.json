@@ -2056,7 +2056,33 @@
           "processing": "Under processing...",
           "submit": "send"
         },
-        "escape_action": "View Order Confirmation ›"
+        "escape_action": "View Order Confirmation ›",
+        "escape_confirmation": "I have paid for the order.",
+        "page_title": "After purchase",
+        "title": "After purchase"
+      },
+      "processing": {
+        "action_required": "Action is required",
+        "complete_your_purchase_title": "Complete your purchase",
+        "complete_your_purchase_title_error": "Please enter your payment information accurately",
+        "continue_to_payment_gateway_button_label": "Proceed to payment",
+        "continue_to_payment_gateway_button_label_error": "Please update your payment information",
+        "continue_to_payment_gateway_notice": "Go to payment and enter your payment information.",
+        "continue_to_payment_gateway_notice_error": "Payment information could not be confirmed.",
+        "modal_notice": "{{paymentMethod}}Contacting",
+        "page_title": "Processing your order",
+        "redirecting_notice": "Please wait a moment as we will redirect you.",
+        "redirecting_page_title": "Redirecting...",
+        "redirecting_title": "Redirecting...",
+        "redirecting_to_bank": "{{bank}}Redirecting to",
+        "title": "Order processing",
+        "wait": {
+          "long": "You will receive an email when your order is processed. There are currently many orders.",
+          "medium": {
+            "one": "Your order is being processed. %{count}Please wait for about a minute.",
+            "other": "Your order is being processed. %{count}Please wait for about a minute."
+          }
+        }
       }
     },
     "addresses": {
