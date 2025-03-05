@@ -1294,7 +1294,49 @@
         "sort_by": "Sort: {{option}}",
         "sort_currently_sorted_by_accessibility_label": "Current sorting:{{option}}",
         "sort_hide_options_accessibility_label": "Hides sort options for confirmed orders.",
-        "sort_show_options_accessibility_label": "View sort options for confirmed orders."
+        "sort_show_options_accessibility_label": "View sort options for confirmed orders.",
+        "sort_title": "Sort",
+        "table_view": "View table view",
+        "three_images_accessibility_label": "To order:{{lineItemName1}},{{lineItemName2}},{{lineItemName3}}Includes",
+        "two_images_accessibility_label": "To order:{{lineItemName1}}and{{lineItemName2}}Includes"
+      },
+      "order_status": {
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "new_window_disclaimer": "(Open new window)",
+            "text": "Manage on Amazon"
+          }
+        },
+        "attempted_delivery_description": "Delivery was not possible.",
+        "attempted_delivery_label": "Absent return",
+        "attempted_to_deliver_label": "I tried to deliver",
+        "buy_with_prime_logo_accessibility_label": "Amazon Buy with Prime logo",
+        "canceled_description": "Your order is{{date}}was cancelled.",
+        "canceled_label": "Cancelled",
+        "canceled_title": "Order has been cancelled",
+        "come_back": "Please see this page for shipping status.",
+        "company_tracking_number": "{{company}}-Tracking number:",
+        "complete_label": "completion",
+        "confirmed_description": "Orders have been accepted.",
+        "confirmed_description_digital": "You will receive an email when your order is ready.",
+        "confirmed_description_gift_card_text": "Once your order is ready, you will receive a text.",
+        "confirmed_description_pickup": "You will receive an email when your order is ready to be picked up.",
+        "confirmed_gift_card_additional_description": {
+          "one": "Gift cards will be sent by separate email.",
+          "other": "Each gift card will be sent to you by separate email."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Gift cards will be sent separately by text.",
+          "other": "Gift cards will be sent separately by text."
+        },
+        "confirmed_label": "Confirmed",
+        "confirmed_title": "Order confirmed",
+        "delivered": "{{date}}Arrived",
+        "delivered_description": "This package was delivered.",
+        "delivered_description_digital": {
+          "one": "This item is complete.",
+          "other": "These items are complete."
+        }
       }
     }
   }
