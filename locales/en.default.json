@@ -2182,7 +2182,31 @@
           "one": "%{count}Business days",
           "other": "%{count}Business days"
         },
-        "estimated_delivery_date_range": "%{minimum}from%{maximum}Business days"
+        "estimated_delivery_date_range": "%{minimum}from%{maximum}Business days",
+        "estimated_delivery_time": "%{time}Scheduled for delivery",
+        "estimated_delivery_time_range": "%{min_time}–%{max_time}Scheduled for delivery",
+        "estimated_time": "%{time}Scheduled for delivery on",
+        "estimated_time_range": "%{min_time}~%{max_time}Scheduled for delivery on",
+        "free_rate_label": "free",
+        "invalid_shipping_method_summary": "Enter a valid shipping address to see available shipping methods",
+        "loading_progressive_rates": "Find more prices...",
+        "local_delivery": "Local Delivery",
+        "local_pickup": {
+          "rollup_title": "Store location",
+          "search_address": "Search for an address"
+        },
+        "method_summary": {
+          "incomplete_address_entered": "Enter your full shipping address and see available shipping methods",
+          "incomplete_address_selected": "Please select the full shipping address and see available shipping methods"
+        },
+        "missing_shipping_address": "Shipping address not found",
+        "no_other_methods_available": "There are no other methods available",
+        "no_pickup_location_notice": "At least one item cannot be collected",
+        "no_rates_contact_notice": "Please contact us for more details",
+        "no_rates_for_cart_or_destination_notice": "There is no delivery method available for your cart or address",
+        "no_rates_for_country_notice": "No shipping charges were found for this address.",
+        "one_time_purchase_shipping": "One-time delivery",
+        "optional_shipping_line_delivery_instructions_label": "Delivery Procedure (Optional)"
       }
     },
     "addresses": {
