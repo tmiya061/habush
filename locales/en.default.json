@@ -603,7 +603,33 @@
             "saturday": "Saturday",
             "sunday": "Sunday",
             "thursday": "Thursday",
-            "tuesday": "Tuesday"
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday"
+          }
+        },
+        "display_name": "{{lastName}}  {{firstName}}",
+        "dropzone": {
+          "add_file": "Add a file",
+          "dragged_over": "Drop and upload the file",
+          "invalid_file_type": "File type not supported"
+        },
+        "errors": {
+          "attribution": {
+            "retail_attribution_not_allowed": "Retail attributes are not permitted at this checkout.",
+            "retail_attribution_required": "This checkout requires a retail attribute."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Company contact information is not linked to the company.",
+            "checkout_completion_target_is_invalid_proc": "The target for checkout completion is invalid.",
+            "checkout_completion_target_is_missing": "Checkout completion target has not been entered.",
+            "company_location_required": "To continue, you must select a company location.",
+            "company_purchase_permission_required": "You do not have the authority to place company orders.",
+            "contact_info_does_not_match_customer_account": "The specified customer information must match the logged in customer account.",
+            "customer_account_required": "You must be logged in to continue.",
+            "customer_profile_access_restricted": "Checkout does not have permission to access your customer profile.",
+            "email_domain_is_invalid": "The specified domain cannot be resolved.",
+            "email_required": "You will need an email address to purchase Merchandise with a subscription.",
+            "invalid_customer_profile": "An invalid customer profile has been provided."
           }
         }
       },
