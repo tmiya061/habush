@@ -696,7 +696,55 @@
         "tax_exemptions": "duty free",
         "tax_exemptions_modal_button_accessibility_label": "View all tax exemptions",
         "tax_exemptions_modal_close": "close",
-        "tax_id": "Taxpayer number"
+        "tax_id": "Taxpayer number",
+        "taxes_none": "none"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Hide all",
+          "hide_all_accessibility_label": "Hide all checking orders",
+          "pagination": {
+            "nav_accessibility_label": "Order menu button currently being checked"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}}End",
+          "pending_tab_accessibility_label": {
+            "more_than_pagination_length": "{{count}}You have more than pending orders",
+            "no_pending_orders": "There are no pending orders",
+            "pending_orders": {
+              "one": "{{count}}You have pending orders",
+              "other": "{{count}}You have pending orders"
+            }
+          },
+          "show_all": "View all",
+          "show_all_accessibility_label": "View all orders you are checking",
+          "show_all_orders_in_review": "View all confirmed orders",
+          "show_less_orders_in_review": "Reduce display of orders during reviews",
+          "title": "on hold"
+        },
+        "order_list_column_headers_contact": "contact address",
+        "order_list_column_headers_location": "Location",
+        "order_list_column_headers_status": "status",
+        "removed_company_contact_tooltip": "Removed from the company"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_with_replacement": "Deleting this payment method will affect pre-approved payments for this location. To continue receiving future orders, please change to an alternative payment method.",
+          "description_without_replacement": "This payment method will no longer be available for future purchases from this location."
+        },
+        "payment_details": {
+          "draft_label": "Draft order ({{name}})",
+          "order_label": "order ({{name}})"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Add purchase order number",
+        "add_modal_title": "Add your purchase order number",
+        "cancel": "cancel",
+        "close_modal_accessibility_label": "Close Order Modal",
+        "discard": "destruction",
+        "discard_changes_modal_title": "Would you like to discard the changes",
+        "edit_accessibility_label": "Edit purchase order number",
+        "edit_modal_title": "Edit the purchase order number"
       }
     }
   }
