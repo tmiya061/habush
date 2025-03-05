@@ -793,7 +793,27 @@
         "address_city_contains_mathematical_symbols": "City names cannot contain mathematical symbols",
         "address_city_too_long": "City name is too long (maximum 255 characters)",
         "address_company_blank": "Please enter your company name",
-        "address_company_contains_emojis": "Company names cannot contain emojis"
+        "address_company_contains_emojis": "Company names cannot contain emojis",
+        "address_company_contains_html_tags": "Company names cannot contain HTML tags.",
+        "address_company_contains_mathematical_symbols": "Company names cannot contain mathematical symbols",
+        "address_company_too_long": "Company name is too long (maximum 255 characters)",
+        "address_country_blank": "Select a country/region",
+        "address_country_invalid": "Please select a country/region from the list",
+        "address_country_not_supported": "We do not ship to this country or region. Enter your new shipping address and try again.",
+        "address_first_name_blank": "Please enter your name",
+        "address_first_name_contains_emojis": "Names cannot contain emojis",
+        "address_first_name_contains_html_tags": "Names cannot contain HTML tags.",
+        "address_first_name_contains_mathematical_symbols": "Names cannot contain mathematical symbols",
+        "address_first_name_contains_url": "Name cannot contain URLs",
+        "address_first_name_too_long": "The name is too long (maximum 255 characters)",
+        "address_generic_blank": "Required fields",
+        "address_generic_error": "Field Error",
+        "address_generic_invalid": "Invalid entries",
+        "address_last_name_blank": "Please enter your last name",
+        "address_last_name_contains_emojis": "Last name cannot contain emojis",
+        "address_last_name_contains_html_tags": "Last names cannot contain HTML tags.",
+        "address_last_name_contains_mathematical_symbols": "Last name cannot contain mathematical symbols",
+        "address_last_name_contains_url": "Last name cannot contain URLs"
       }
     },
     "addresses": {
