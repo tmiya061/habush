@@ -1398,7 +1398,31 @@
         },
         "collapse_order_summary": "Hide order summary",
         "collapse_order_summary_short": "Hide",
-        "component_quantity_title": "%{quantity} x%{product_title}"
+        "component_quantity_title": "%{quantity} x%{product_title}",
+        "confirmation_number_label": "Verification Number: %{confirmation_number}",
+        "cost_table_item_column_header": "item",
+        "cost_table_title": "Cost aggregation",
+        "cost_table_value_column_header": "Amount",
+        "custom_discount": "Custom discount",
+        "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>The coupon code has already been used",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>The coupon code is currently unavailable",
+        "deferred_balance_info": {
+          "due_on_fulfillment_title": "{{amount_due}}The balance is due upon fulfillment",
+          "title": "{{amount_due}}The balance due date is{{due_at}}is"
+        },
+        "deferred_payment_info": {
+          "description_html": "For order enquiries, please contact{contact_us}",
+          "due_on_fulfillment_title": "%{amount_due}Payment is due at the time of fulfillment",
+          "due_on_receipt_title": "%{amount_due}Payment of is due for receipt",
+          "paid_today": "Total payment (Today)",
+          "title": "%{amount_due}Payment is due on %{due_at}is"
+        },
+        "deferred_total_due_date_label": "Total Payment: {{date}}",
+        "deposit_label": "payment",
+        "description_label": "detail",
+        "discount_already_applied": "A discount applies to this order. You cannot add another discount.",
+        "discount_and_gift_card_savings_notice": "%{discount_amount}Discount and %{gift_card_amount}After gift card",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong>is not working right now, please contact us and we will help you."
       }
     },
     "addresses": {
