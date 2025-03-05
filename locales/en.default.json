@@ -2868,8 +2868,32 @@
             "phone": "Please enter a valid phone number",
             "postal_code": "Please enter a valid postal code",
             "reduction_code": "Please enter a valid coupon code or gift card",
-            "shipping_address": "Please select a valid shipping option"
-          }
+            "shipping_address": "Please select a valid shipping option",
+            "shipping_option": "Please enter a valid shipping address",
+            "zone": "Please enter a valid prefecture/state"
+          },
+          "missing": {
+            "address1": "Please enter your address",
+            "address2": "Please enter the building name, room number, etc.",
+            "billing_address1": "Please enter your billing address",
+            "billing_address2": "Please enter the building name and room number of the billing address.",
+            "billing_city": "Please enter the city or town of your billing address",
+            "billing_first_name": "Please enter the name of your billing address",
+            "billing_province": "Please select the prefecture/state of your billing address",
+            "billing_zip": "Please enter the postal code for your billing address",
+            "city": "Please enter your city or town",
+            "country": "Select a country/region",
+            "first_name": "Please enter your name",
+            "last_name": "Please enter your last name",
+            "phone": "Please enter your phone number",
+            "province": "Please select your prefecture",
+            "zip": "Please enter your postal code"
+          },
+          "outdated": {
+            "payment_terms": "The payment terms have been changed. Please check the order details",
+            "shipping_method": "The shipping method for your order has been changed. Please check your selection."
+          },
+          "select_different_shipping_address_to_resolve_errors": "The shipping address is invalid. Choose a different address or use your new shipping address."
         }
       }
     },
