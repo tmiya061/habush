@@ -898,8 +898,58 @@
       },
       "load_extension_error": {
         "description": "Please refresh this page or try again later.",
-        "refresh_button": "Refresh the page"
-      }
+        "refresh_button": "Refresh the page",
+        "title": "error"
+      },
+      "load_orders_error": {
+        "description": "Try again or come back later.",
+        "retry_button": "Retry",
+        "title": "Unable to load order"
+      },
+      "load_paypal_error": {
+        "description": "There was a problem loading PayPal. Please try again."
+      },
+      "logout_everywhere": {
+        "description": "There was a problem while logging out. Please try again."
+      },
+      "no_access_to_locations": {
+        "description": "No access to any location"
+      },
+      "not_found": {
+        "description": "Please check the URL or try again later.",
+        "title": "There was a problem loading this page"
+      },
+      "order_not_found": {
+        "description": "This order does not exist or you are not authorized to view the order.",
+        "title": "Order not found"
+      },
+      "profile_update_error": {
+        "description": "There was a problem updating my profile. Please refresh this page or check your internet connection."
+      },
+      "retry_action_label": "Retry"
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "close_menu_accessibility_label": "Close the account menu",
+        "hide_accessibility_label": "Hide the account menu",
+        "label": "account",
+        "loading_message": "Loading the account menu",
+        "nav_accessibility_label": "Account Menu",
+        "open_menu_accessibility_label": "Open Account Menu",
+        "show_accessibility_label": "View account menu"
+      },
+      "action_menu_accessibility_label": "Other operations",
+      "close_menu_accessibility_label": "Close the main menu",
+      "contact_email_subject": "{{shopName}}Contact us through our online store",
+      "contact_link": "Contact Information",
+      "delete_confirmation": {
+        "cancel": "cancel",
+        "delete": "delete"
+      },
+      "dismiss_toast": "close",
+      "document_title": "{{sectionName}} - {{shopName}} - account",
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "go_to_store_link": "Go to store"
     }
   }
 }
