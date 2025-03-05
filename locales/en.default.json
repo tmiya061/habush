@@ -1582,7 +1582,31 @@
         }
       },
       "payment": {
-        "account_connected": "Accounts have been linked."
+        "account_connected": "Accounts have been linked.",
+        "add_credit_card_modal": {
+          "cancel": "cancel",
+          "save": "keep",
+          "title": "Add a card"
+        },
+        "afterpay_label": "Ah F hand r pay",
+        "alternative_payment_currency_total_manual_payment_notice": "Note: The total amount exchanged is %{amount_due}is.",
+        "alternative_payment_currency_total_notice": "Note: %{amount_due}will be charged.",
+        "amazon_payments_abandoned_mfa_challenge": "The payment could not be completed. Try a different payment method or contact your bank or credit card issuer.",
+        "amazon_payments_could_not_enqueue_authorize": "There was a problem processing your payment. Try again or use a different payment method.",
+        "amazon_payments_failed_mfa_challenge": "The payment method you selected was not available. Choose an alternative method or contact your bank or credit card issuer.",
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "You must log in to Amazon. Click \"Order Complete\" and enter it on the next page.",
+        "amazon_payments_logout": "Log out of Amazon Pay",
+        "amount_left_to_pay_label": "Payment deadline:",
+        "apple": {
+          "connect": "Click to connect your Apple Pay account",
+          "not_available": "Apple Pay is not available with this browser. To connect your Apple Pay account, you must use Safari on your Apple device."
+        },
+        "apple_pay_payment_error": "Unable to complete payment. Try again or use a different payment method.",
+        "apply_gift_card_button_label": "Applicable",
+        "bancontact_label": "CTV from my late marriage",
+        "bank_picker_label": "bank",
+        "billing_address_associated_with_mandate": "Use the address associated with your payment method"
       }
     },
     "addresses": {
