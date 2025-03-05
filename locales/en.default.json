@@ -751,7 +751,49 @@
         "pick_up_next_day": "The next day you will be ready to pick up your item in store",
         "pickup_point_method_definition": "Deliver to designated pickup location",
         "retail_method_definition": "Retailer delivery",
-        "ship": "shipping"
+        "ship": "shipping",
+        "ship_to_address": "Deliver to address",
+        "shipping_address": "Shipping address",
+        "subscription_pickup_information": "This delivery method applies to all items in this order, as well as all future orders for this subscription."
+      },
+      "discount_errors": {
+        "generic_error": "Order could not be processed because the coupon code is no longer available. Please check the total number of orders before trying again."
+      },
+      "error_page": {
+        "terminal": {
+          "action": {
+            "cta": "Refresh the page"
+          },
+          "message": "Please refresh this page or try again later",
+          "request_id": "Request ID: {{requestId}}",
+          "title": "I had a problem checking out"
+        }
+      },
+      "failed_payment": {
+        "page_title": "The payment could not be processed",
+        "payment_not_processed_text": "No claims have been made. Go back to your cart and complete the purchase process.",
+        "payment_not_processed_title": "The payment could not be processed",
+        "return_to_cart_button_label": "Return to Cart",
+        "title": "The payment could not be processed"
+      },
+      "field_errors": {
+        "address_address1_blank": "Please enter your address",
+        "address_address1_contains_emojis": "Addresses cannot contain emojis",
+        "address_address1_contains_html_tags": "Addresses cannot contain HTML tags.",
+        "address_address1_contains_mathematical_symbols": "You cannot include mathematical symbols in the first line of an address",
+        "address_address1_too_long": "The first line of the address is too long (maximum 255 characters)",
+        "address_address2_blank": "Please enter the building name, room number, etc.",
+        "address_address2_contains_emojis": "Address 2 cannot contain emojis",
+        "address_address2_contains_html_tags": "Address 2 cannot contain HTML tags.",
+        "address_address2_contains_mathematical_symbols": "You cannot include mathematical symbols in the second line of an address",
+        "address_address2_too_long": "The second line of the address is too long (maximum 255 characters)",
+        "address_city_blank": "Please enter your city or town",
+        "address_city_contains_emojis": "City names cannot contain emojis",
+        "address_city_contains_html_tags": "Municipalities cannot contain HTML tags.",
+        "address_city_contains_mathematical_symbols": "City names cannot contain mathematical symbols",
+        "address_city_too_long": "City name is too long (maximum 255 characters)",
+        "address_company_blank": "Please enter your company name",
+        "address_company_contains_emojis": "Company names cannot contain emojis"
       }
     },
     "addresses": {
