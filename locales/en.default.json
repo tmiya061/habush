@@ -221,9 +221,9 @@
   },
   "templates": {
     "search": {
-      "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
-      "page": "Page",
-      "products": "Products",
+      "no_results": "&quot;{{ terms }}&quot;No results found for &quot;. Check your spelling or use a different word or phrase.",
+      "page": "page",
+      "products": "Product Management",
       "results_pages_with_count": {
         "one": "{{ count }} page",
         "other": "{{ count }} pages"
@@ -247,21 +247,21 @@
       "title": "Search results",
       "search_for": "Search for “{{ terms }}”",
       "suggestions": "Suggestions",
-      "pages": "Pages"
+      "pages": "page"
     },
     "cart": {
-      "cart": "Cart"
+      "cart": "cart"
     },
     "contact": {
       "form": {
         "title": "Contact form",
-        "name": "Name",
+        "name": "name",
         "email": "Email",
-        "phone": "Phone number",
-        "comment": "Comment",
+        "phone": "telephone number",
+        "comment": "comment",
         "send": "Send",
-        "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
-        "error_heading": "Please adjust the following:"
+        "post_success": "Thank you for your inquiry. We will reply as soon as possible.",
+        "error_heading": "Please check the following:"
       }
     },
     "404": {
@@ -3269,8 +3269,15 @@
         "one_hour": "Preparation usually takes 1 hour",
         "twenty_four_hours": "Preparation usually takes 24 hours",
         "two_hours": "Preparation usually takes 2 hours",
-        "two_to_four_days": "Preparation usually takes 2-4 days"
+        "two_to_four_days": "Preparation usually takes 2-4 days",
+        "two_to_four_hours": "Preparation usually takes 4 hours",
+        "zero_to_two_hours": "Preparation usually takes 2 hours"
       }
+    },
+    "subscriptions": {
+      "buyer_consent_cart": "One or more items in your cart are subscriptions or deferred purchases. By continuing, you agree to the following terms and conditions:{cancellationPolicyLink}You agree to and authorize us to charge your selected payment method at the prices, frequencies, and dates set forth on this page until your order is fulfilled or, if permitted, canceled.",
+      "buyer_consent_product": "This item is a subscription or deferred purchase. By continuing, you agree to the following:{cancellationPolicyLink}You agree to and authorize us to charge your selected payment method at the prices, frequencies, and dates set forth on this page until your order is fulfilled or, if permitted, canceled.",
+      "cancellation_policy": "Cancellation policy"
     }
   },
   "customer_accounts": {
