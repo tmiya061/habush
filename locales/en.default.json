@@ -2473,8 +2473,52 @@
             "one": "This item will be removed from your cart as there is no delivery method available at your address.",
             "other": "These items will be removed from your cart as there are no delivery methods available at your address."
           },
-          "status_column_header": "Cannot be delivered"
+          "status_column_header": "Cannot be delivered",
+          "title": "Cannot be delivered"
         }
+      },
+      "store_credit_errors": {
+        "generic_error": "There was a problem with store credits. Please try again or reload the page."
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "day",
+            "other": "%{count}day"
+          },
+          "month": {
+            "one": "month",
+            "other": "%{count}months"
+          },
+          "week": {
+            "one": "week",
+            "other": "%{count}week"
+          },
+          "year": {
+            "one": "year",
+            "other": "%{count}year"
+          }
+        },
+        "recurring_totals": "%{interval}Per %{total_price}",
+        "recurring_totals_with_initial_order_shipping_discount": "First payment (%{total_price_with_discount}),moreover%{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ",after that%{total_price}of%{count}Installment payment",
+            "other": ", then % respectively{total_price}of%{count}Installment payment"
+          }
+        },
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "%{total_price}First payment of",
+            "other": "First %{count}Each payment is %{total_price}"
+          },
+          "following_cycles": ",after that%{interval}Per %{total_price}"
+        }
+      },
+      "thank_you": {
+        "attempted_delivery": "Absent return",
+        "attempted_delivery_description_html": "We have attempted to deliver your order but were unable to do so. Please contact us to arrange an alternative delivery.{contact_us}.",
+        "attempted_delivery_local_description_html": "We were unable to deliver your order. If you would like a different delivery time, please contact us at %{contact_us}Please contact us."
       }
     },
     "addresses": {
