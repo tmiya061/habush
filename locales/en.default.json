@@ -1450,7 +1450,29 @@
         },
         "due_on_fulfillment": "During fulfillment",
         "duties_and_taxes_label": "Customs duties and taxes",
-        "duties_included_label": "The total amount includes taxes and duties. There is no additional charge when it is delivered."
+        "duties_included_label": "The total amount includes taxes and duties. There is no additional charge when it is delivered.",
+        "duties_label": "Customs",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Coupon code requires eligible customers",
+        "enter_shipping_address": "Enter your shipping address",
+        "error_duties_tooltip": "As this order is shipped from another country, customs duties and taxes may be charged at the time of delivery.",
+        "estimated_tax_label": "Scheduled tax payment",
+        "estimated_taxes_finalization_tooltip_content": "After placing your order, you will receive an email or a short message to confirm your final tax and total amount.",
+        "estimated_taxes_label": "Estimated tax amount",
+        "expand_component_information": {
+          "one": "%{count}Showing items",
+          "other": "%{count}Showing items"
+        },
+        "expand_order_summary": "View order summary and enter coupon",
+        "expand_order_summary_short": "display",
+        "free_shipping_discount_label": "Free shipping",
+        "free_shipping_total_label": "free",
+        "free_total_label": "free",
+        "full_price": "Total price: %{price}",
+        "gift_card_and_discount_label": "Coupon code or gift card",
+        "gift_card_and_discount_placeholder": "Coupon code or gift card",
+        "gift_card_and_discount_title": "Coupon code or gift card",
+        "gift_card_applied": "Gift card has been applied",
+        "gift_card_ending": "Ends with %{last_characters}Gift Cards"
       }
     },
     "addresses": {
