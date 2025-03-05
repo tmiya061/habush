@@ -72,41 +72,41 @@
     "button_label": "Subscribe"
   },
   "accessibility": {
-    "skip_to_text": "Skip to content",
+    "skip_to_text": "Go to content",
     "skip_to_product_info": "Skip to product information",
-    "close": "Close",
-    "unit_price_separator": "per",
-    "vendor": "Vendor:",
-    "error": "Error",
-    "refresh_page": "Choosing a selection results in a full page refresh.",
+    "close": "close",
+    "unit_price_separator": "Around",
+    "vendor": "Seller:",
+    "error": "error",
+    "refresh_page": "Selecting the selection results will completely refresh the page.",
     "link_messages": {
-      "new_window": "Opens in a new window.",
-      "external": "Opens external website."
+      "new_window": "It will open in a new window.",
+      "external": "Open an external website."
     },
     "loading": "Loading...",
-    "total_reviews": "total reviews",
-    "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
+    "total_reviews": "Total number of reviews",
+    "star_reviews_info": "{{ rating_max }}Out of 10 stars{{ rating_value }}t",
     "collapsible_content_title": "Collapsible content",
-    "complementary_products": "Complementary products"
+    "complementary_products": "Included products"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Read more: {{ title }}",
+      "read_more_title": "read more: {{ title }}",
       "comments": {
-        "one": "{{ count }} comment",
-        "other": "{{ count }} comments"
+        "one": "{{ count }}Comments",
+        "other": "{{ count }}Comments"
       },
-      "moderated": "Please note, comments need to be approved before they are published.",
+      "moderated": "Please note that comments must be approved before publication.",
       "comment_form_title": "Leave a comment",
-      "name": "Name",
+      "name": "name",
       "email": "Email",
-      "message": "Comment",
-      "post": "Post comment",
-      "back_to_blog": "Back to blog",
+      "message": "comment",
+      "post": "Post a comment",
+      "back_to_blog": "Return to blog",
       "share": "Share this article",
-      "success": "Your comment was posted successfully! Thank you!",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated."
+      "success": "A comment has been posted. thank you.",
+      "success_moderated": "A comment has been posted. The blog is managed and will be published after a while."
     }
   },
   "onboarding": {
@@ -381,7 +381,7 @@
       "title": "Account",
       "details": "Account details",
       "view_addresses": "View addresses",
-      "return": "Return to Account details"
+      "return": "Return to account details"
     },
     "account_fallback": "Account",
     "activate_account": {
