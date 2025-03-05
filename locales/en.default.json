@@ -3105,8 +3105,38 @@
     "filters": {
       "availability": {
         "value": {
-          "in_stock": "in stock"
+          "in_stock": "in stock",
+          "out_of_stock": "Out of stock"
         }
+      },
+      "boolean": {
+        "false_label": "no",
+        "true_label": "yes"
+      }
+    },
+    "links": {
+      "learn_more": "Learn more",
+      "powered_by_shopify": "Powell d by Tokoro day"
+    },
+    "notices": {
+      "address": {
+        "created": "The address was created successfully",
+        "deleted": "The address was successfully deleted.",
+        "error_creating": "Failed to create address.",
+        "error_deleting": "Failed to delete address.",
+        "error_updating": "Failed to update address.",
+        "updated": "The address has been updated successfully."
+      },
+      "cart": {
+        "all_items_in_cart": "%{count}% of pieces{name}is in your cart.",
+        "bundle_requires_components": "Bundle product &quot;%{name}&quot; cannot be added to cart.",
+        "buyer_cannot_purchase_for_company_locations": "Not available for purchase at this location",
+        "cart_too_large": "The cart is too big.",
+        "changed": "I changed my cart",
+        "digital_product_not_available_for_company_locations": "This item cannot be added to a B2B order",
+        "empty_update": "You cannot update empty carts",
+        "generic_error": "Cart error",
+        "gift_card_price_must_be_greater_than_zero": "Bundle product &quot;%{name}&quot; cannot be added to cart."
       }
     }
   },
