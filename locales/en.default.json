@@ -1477,7 +1477,47 @@
     "payment_method_brands": {
       "americanexpress": "American Express",
       "applepay": "Ahhh, pai",
-      "bogus": "Bogs"
+      "bogus": "Bogs",
+      "dankort": "Definitely RT",
+      "dinersclub": "Diners Club",
+      "discover": "Jisko Vel",
+      "elo": "Oh",
+      "forbrugsforeningen": "ForeB GS ForeHuman",
+      "googlepay": "Wow, oh",
+      "hipercard": "Non-performed rd",
+      "jcb": "JCB",
+      "laser": "A back",
+      "maestro": "Previous",
+      "mastercard": "Magic S Hand R",
+      "paypal": "Pay Pal",
+      "shoppay": "First P Pay",
+      "storecredit": "Store Credits",
+      "unionpay": "Sea urchin sound wave y",
+      "visa": "Visa",
+      "visaelectron": "Visabaya, CT theory"
+    },
+    "payment_methods": {
+      "add_payment_method": {
+        "billing_address": {
+          "add_billing_address_button": "Newly added",
+          "add_billing_address_button_accessibility_label": "Add a new billing address",
+          "choose_billing_address_from_list_button": "Select from the list",
+          "choose_billing_address_from_list_button_accessibility_label": "Please select your billing address from the list",
+          "default_checkbox": "Set as the default payment method",
+          "missing_billing_address_error_message": "Please specify your billing address",
+          "title": "Billing Address"
+        },
+        "payment_method_added_confirmation": "Payment methods have been added",
+        "title": "Add a payment method"
+      },
+      "add_payment_method_banner": "Add payment methods for speedy checkout and pre-approved services",
+      "add_payment_method_button": "Added payment method",
+      "apple_pay": {
+        "errors": {
+          "generic": "There was a problem with Apple Pay. Try again or use a different payment method.",
+          "missing_billing_address": "You will need a billing address to use Apple Pay. Please add one to your account."
+        }
+      }
     }
   }
 }
