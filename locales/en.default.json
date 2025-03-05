@@ -2712,7 +2712,35 @@
         "resend_gift_cards_by_email": "Resend the email",
         "resend_gift_cards_by_text": "Resend a text message",
         "return_to_store_link_label": "Continue shopping",
-        "shipping_address_map_title": "Google Maps has pinned the following delivery address: %{address}"
+        "shipping_address_map_title": "Google Maps has pinned the following delivery address: %{address}",
+        "shipping_address_title": "Shipping address",
+        "shipping_information_title": "Shipping Information",
+        "shipping_method_title": "Shipping method",
+        "shop_phone_description": "You will receive a text with a link to the Shop app to track your orders.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scan on your mobile phone"
+          },
+          "sms": {
+            "title": "Or send a link to your mobile phone"
+          }
+        },
+        "subscriptions_management": {
+          "button_label": "Manage your subscription",
+          "description": "Go to your account and view and manage your subscriptions.",
+          "title": "Subscription"
+        },
+        "thank_you_confirmed_order_with_draft": "We will let you know if we require more information or when your order is confirmed.",
+        "thank_you_confirmed_order_with_draft_payment": "We will let you know if we require more information or when your order is confirmed.",
+        "thank_you_confirmed_order_with_draft_pick_up": "We will let you know if we require more information or when your order is confirmed.",
+        "thank_you_confirmed_order_with_email": "You will receive a confirmation email with your order number soon.",
+        "thank_you_confirmed_order_with_email_and_phone": "You will receive a confirmation email with your order number soon.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "% ordered{date}I made a payment to.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "You will receive an email when your order is ready to be picked up.",
+        "thank_you_confirmed_order_with_email_payment": "% ordered{date}I made a payment to.",
+        "thank_you_confirmed_order_with_email_pick_up": "You will receive an email when your order is ready to be picked up.",
+        "thank_you_confirmed_order_with_missing": "To receive confirmation of your order, please contact us by email or phone.",
+        "thank_you_confirmed_order_with_missing_payment": "To receive confirmation of your order, please contact us by email or phone."
       }
     },
     "addresses": {
