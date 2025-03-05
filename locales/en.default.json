@@ -1336,6 +1336,38 @@
         "delivered_description_digital": {
           "one": "This item is complete.",
           "other": "These items are complete."
+        },
+        "delivered_description_gift_card": {
+          "one": "The gift card was sent via email.",
+          "other": "The gift card was sent via email."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "Gift cards were texted.",
+          "other": "Gift cards were texted."
+        },
+        "delivered_label": "Delivered",
+        "delivered_title": "Your package has been delivered",
+        "delivery_promise": {
+          "claim_shop_cash_cta": {
+            "download_shop_app_label": "Download Shop",
+            "has_shop_app_label": "Request a Shop Cash",
+            "no_shop_app_label": "{{appDownloadLink}}Request Shop Cash by"
+          },
+          "details_modal": {
+            "delivery_by_label": "{{date}}Delivery by",
+            "delivery_guarantee_label": "Delivery Guaranteed",
+            "delivery_guaranteed_by_label": "{{date}}Guaranteed delivery to",
+            "modal_accessiblity_label": "Delivery Promise Details",
+            "shop_cash_claim": {
+              "claim_shop_cash_description": "You can use Shop Cash for your next purchase using the Shop app.",
+              "claim_shop_cash_title": "Scan to Shop Cash{{amount}}Request",
+              "expired_label": "This order has expired its 30-day warranty and is not subject to a delay in shipping charge.",
+              "may_be_eligible_label": "Shop ensures speedy and reliable delivery. If your order is late, you can request a Shop Cash.",
+              "may_be_eligible_not_authorized_label": "This order may be delayed and you may be able to charge a Shop Cash. Please log in to view details.",
+              "no_longer_guaranteed_label": "These items no longer have a shipping warranty.",
+              "no_shop_cash_label": "This order has not been paid via Shop Pay and is not subject to late shipping charges."
+            }
+          }
         }
       }
     }
