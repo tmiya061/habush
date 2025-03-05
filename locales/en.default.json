@@ -520,9 +520,9 @@
   },
   "shopify": {
     "sentence": {
-      "words_connector": ",",
-      "two_words_connector": "and",
-      "last_word_connector": ",and"
+      "words_connector": ", ",
+      "two_words_connector": " and ",
+      "last_word_connector": ",and "
     },
     "checkout": {
       "general": {
@@ -3241,7 +3241,36 @@
       "order": "order %{name}",
       "products": "merchandise",
       "reset_account": "Reset your account",
-      "search": "search"
+      "search": "search",
+      "search_results": {
+        "one": "search: &quot;%{terms}&quot;Search results %{count}subject",
+        "other": "search: &quot;%{terms}&quot;Search results %{count}subject"
+      },
+      "shopping_cart": "shopping cart"
+    },
+    "pagination": {
+      "next": "Next",
+      "previous": "before"
+    },
+    "search": {
+      "error": "An error occurred loading search results. Please refresh the page or try again later.",
+      "sorting": {
+        "price_ascending": "Lowest price",
+        "price_descending": "Highest price",
+        "relevance": "Relevance"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "five_or_more_days": "Preparation usually takes more than 5 days",
+        "four_hours": "Preparation usually takes 4 hours",
+        "immediately": "Ready to pick up",
+        "next_day": "Ready to pick up the next day",
+        "one_hour": "Preparation usually takes 1 hour",
+        "twenty_four_hours": "Preparation usually takes 24 hours",
+        "two_hours": "Preparation usually takes 2 hours",
+        "two_to_four_days": "Preparation usually takes 2-4 days"
+      }
     }
   },
   "customer_accounts": {
