@@ -678,6 +678,32 @@
             "discount_title_too_long": "The discount title must be 255 characters or less.",
             "discounts_not_allowed_for_b2b": "Discounts are not permitted in B2B stores.",
             "unsupported_expectation": "The discount items provided include expectations that the policy cannot interpret."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "The amount received must be in store currency."
+          },
+          "inventory": {
+            "changing_behavior_not_allowed": "This client is not authorized to change inventory behavior.",
+            "missing_quantity_value": "The Quantity field for the Buyer Inventory field is not entered.",
+            "only_one_inventory_behavior_allowed": "Currently, only one inventory behavior is permitted per checkout."
+          },
+          "line_item_limit_reached": "The maximum number of items has been reached.",
+          "merchandise": {
+            "bundle_products_not_supported_for_b2b": "You cannot add bundled items to B2B orders at this location.",
+            "bundle_requires_components": "Merchandise in this bundle does not have components.",
+            "duplicated_stable_id": "The stable-ID of this merchandise item is the same as another item.",
+            "gift_card_code_changed": "Gift card codes to meet formatting rules{{proposed_code}}of{{formatted_code}}has been changed to.",
+            "gift_card_invalid": "Gift Card Code{{code}}is invalid.",
+            "gift_card_not_supported": "This checkout is not compatible with gift cards.",
+            "gift_card_not_unique": "code{{code}}Gift cards occur multiple times at this checkout. The code is formatted before comparison.",
+            "gift_card_quantity_mismatch": "If you specify a gift card code, the quantity of the item must match the number of gift card codes.",
+            "gift_card_used": "Gift Card Code{{code}}is already assigned to a gift card. The code is formatted before being compared.",
+            "gift_card_with_attributes_not_supported": "Gift cards with custom attributes are not available at this checkout.",
+            "gift_card_with_components_not_supported": "Gift cards with components are not available at this checkout.",
+            "inventory_not_found": "No inventory was found for this merchandise.",
+            "maximum_quantity_exceeded": "The quantity of some items exceeds the maximum allowed.",
+            "merchandise_not_applicable": "Product variations cannot be purchased.",
+            "merchandise_not_found": "No product found."
           }
         }
       },
