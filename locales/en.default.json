@@ -334,16 +334,16 @@
       "use_fewer_filters_html": "Reduce the number of filters, or<a class=\"{{ class }}\" href=\"{{ link }}\">Remove everything</a>"
     },
     "video": {
-      "load_video": "Load video: {{ description }}"
+      "load_video": "Load a video: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "Load slide",
+      "load_slide": "Load a slide",
       "previous_slideshow": "Previous slide",
       "next_slideshow": "Next slide",
-      "pause_slideshow": "Pause slideshow",
-      "play_slideshow": "Play slideshow",
+      "pause_slideshow": "Pause the slideshow",
+      "play_slideshow": "Play the slideshow",
       "carousel": "Carousel",
-      "slide": "Slide"
+      "slide": "slide"
     },
     "page": {
       "title": "Page Title"
