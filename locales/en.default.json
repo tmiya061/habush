@@ -1541,9 +1541,45 @@
         "name_on_card_placeholder": "Card holder",
         "tooltip": {
           "card_security_notice": "All transactions are secure and encrypted.",
-          "card_verification_value_explanation": "This is a 3-digit security code on the back of the card. The American Express Card is a four-digit code on the front."
+          "card_verification_value_explanation": "This is a 3-digit security code on the back of the card. The American Express Card is a four-digit code on the front.",
+          "card_verification_value_explanation_amex": "It is a four-digit code on the front of the card",
+          "card_verification_value_explanation_other": "This is a 3-digit security code on the back of the card",
+          "tooltip_accessibility_label": "detail"
         }
-      }
+      },
+      "card_update_consent": "This payment method will be saved for future purchases.",
+      "credit_or_debit_card_title": "Credit/Debit Card",
+      "default": "Defaults",
+      "delete_payment_method_button": "delete",
+      "delete_payment_method_button_accessibility_label": "{{paymentMethodName}}Delete",
+      "digital_wallet_title": "Digital wallet",
+      "edit_payment_method": {
+        "billing_address": "Billing Address",
+        "billing_address_add_new": "Add new",
+        "billing_address_choose_from_list": "Select from the list",
+        "cancel_edit_payment_method_button": "cancel",
+        "future_purchases_notice": "This payment method will be saved for future purchases.",
+        "generic_error": "There was a problem during the update. Please try again.",
+        "payment_method_updated_toast": "Payment method has been updated",
+        "save_payment_method_button": "keep",
+        "title": "Edit payment method"
+      },
+      "edit_payment_method_brand_button_accessibility_label": "{{paymentMethodName}}Edit",
+      "edit_payment_method_button_accessibility_label": "The last number is{{lastDigits}}of{{paymentMethodName}}Edit",
+      "expiration_warning_button_accessibility_label": "The last number is{{lastDigits}}of{{paymentMethodName}}Display expiration warning for",
+      "expired": "This card has expired",
+      "expires_soon": "This card will expire soon",
+      "generic_card": "card",
+      "google_pay": {
+        "errors": {
+          "generic": "There was a problem with Google Pay. Try again or use a different payment method.",
+          "missing_billing_address": "Google Pay requires a billing address. Please add one to your account."
+        },
+        "iframe_title_accessibility_label": "Add Google Pay payment methods",
+        "loading": "Loading Google Pay",
+        "loading_accessibility_message": "Loading Google Pay"
+      },
+      "no_payment_methods_banner": "No payment method added"
     }
   }
 }
