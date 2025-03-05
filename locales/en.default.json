@@ -448,42 +448,42 @@
       "total": "total",
       "total_refunded": "Refunded",
       "fulfilled_at_html": "Shipping Date: {{ date }}",
-      "track_shipment": "Track shipment",
+      "track_shipment": "Track your package",
       "tracking_url": "Tracking link",
-      "tracking_company": "Carrier",
-      "tracking_number": "Tracking number",
+      "tracking_company": "Delivery company",
+      "tracking_number": "tracking number",
       "subtotal": "subtotal",
-      "total_duties": "Duties"
+      "total_duties": "Customs"
     },
     "orders": {
-      "title": "Order history",
-      "order_number": "Order",
-      "order_number_link": "Order number {{ number }}",
-      "date": "Date",
+      "title": "Order History",
+      "order_number": "order",
+      "order_number_link": "Order number{{ number }}",
+      "date": "date",
       "payment_status": "Payment status",
-      "fulfillment_status": "Fulfillment status",
-      "total": "Total",
-      "none": "You haven't placed any orders yet."
+      "fulfillment_status": "Shipping status",
+      "total": "total",
+      "none": "No orders yet."
     },
     "recover_password": {
       "title": "Reset your password",
-      "subtext": "We will send you an email to reset your password",
-      "success": "We've sent you an email with a link to update your password."
+      "subtext": "Send an email to reset your password",
+      "success": "I've sent an email with a link to update my password."
     },
     "register": {
-      "title": "Create account",
-      "first_name": "First name",
+      "title": "Create an account",
+      "first_name": "given name",
       "last_name": "Last name",
       "email": "Email",
-      "password": "Password",
+      "password": "password",
       "submit": "Create"
     },
     "reset_password": {
-      "title": "Reset account password",
-      "subtext": "Enter a new password",
-      "password": "Password",
-      "password_confirm": "Confirm password",
-      "submit": "Reset password"
+      "title": "Reset your account password",
+      "subtext": "Please enter your new password",
+      "password": "password",
+      "password_confirm": "Check your password",
+      "submit": "Reset your password"
     }
   },
   "gift_cards": {
@@ -543,6 +543,14 @@
         "expand_notice_label": "See more",
         "continue_to_shipping_method": "Proceed to select shipping method",
         "continue_to_payment_method": "Proceed to payment"
+      }
+    }
+  },
+  "customer_accounts": {
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Company Name",
+        "company_card_section_accessibility_label": "company"
       }
     }
   }
