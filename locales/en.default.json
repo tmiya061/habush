@@ -2384,7 +2384,33 @@
           "problem_loading": "I had a problem loading Shop Pay",
           "try_again_later": "Please check the connection, close this window and try again later."
         },
-        "return_to_store": "{{shopName}}Return to"
+        "return_to_store": "{{shopName}}Return to",
+        "return_to_store_simple": "Return to store",
+        "title": "Shop Pay Check-out"
+      },
+      "shop_policies": {
+        "contact_information": "Contact Information",
+        "cookie_preferences": "Cookie Settings",
+        "legal_notice": "Description based on the Specified Commercial Transactions Act",
+        "privacy_policy": "Privacy Policy",
+        "purchase_options_cancellation_policy": "Cancellation policy",
+        "purchase_options_policy": "Purchase Options Policy",
+        "refund_policy": "Refund Policy",
+        "shipping_policy": "Shipping Policy",
+        "subscription_policy": "Cancellation policy",
+        "terms_of_sale": "Terms of Sale",
+        "terms_of_service": "terms of service"
+      },
+      "stock": {
+        "continue_cta_label": "Continue checkout",
+        "continue_shopping_button_label": "continue",
+        "empty_cart_label": "The contents of the cart are empty",
+        "go_back_to_cart_button_label": "Return to Cart",
+        "item_label": {
+          "one": "{{count}}items",
+          "other": "{{count}}items"
+        },
+        "items_unavailable_notice": "Some items are not available."
       }
     },
     "addresses": {
