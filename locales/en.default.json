@@ -1422,7 +1422,35 @@
         "description_label": "detail",
         "discount_already_applied": "A discount applies to this order. You cannot add another discount.",
         "discount_and_gift_card_savings_notice": "%{discount_amount}Discount and %{gift_card_amount}After gift card",
-        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong>is not working right now, please contact us and we will help you."
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong>is not working right now, please contact us and we will help you.",
+        "discount_code_applied": "Coupon code has been applied",
+        "discount_code_aria_text": "Coupon code",
+        "discount_discovery": {
+          "add_code": "Add a discount",
+          "merchandise_quantity_label": {
+            "one": "%{count}items",
+            "other": "%{count}items"
+          }
+        },
+        "discount_has_been_applied": "Discounts have been applied",
+        "discount_has_been_removed": "Discount removed",
+        "discount_label": "Coupon code",
+        "discount_not_found": "No discount found matching code entered",
+        "discount_order_stacking": {
+          "one": "Order discount",
+          "other": "Order discount"
+        },
+        "discount_placeholder": "Coupon code",
+        "discount_requires_customer_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>Please enter your shipping details to apply the coupon code",
+        "discount_savings_notice": "%{discount_amount}After discount",
+        "discount_title": "discount",
+        "discount_title_stacking": {
+          "one": "discount",
+          "other": "discount"
+        },
+        "due_on_fulfillment": "During fulfillment",
+        "duties_and_taxes_label": "Customs duties and taxes",
+        "duties_included_label": "The total amount includes taxes and duties. There is no additional charge when it is delivered."
       }
     },
     "addresses": {
