@@ -1606,7 +1606,35 @@
         "apply_gift_card_button_label": "Applicable",
         "bancontact_label": "CTV from my late marriage",
         "bank_picker_label": "bank",
-        "billing_address_associated_with_mandate": "Use the address associated with your payment method"
+        "billing_address_associated_with_mandate": "Use the address associated with your payment method",
+        "billing_address_associated_with_mandate_info": "If you wish to change your billing address, please delete your credit card information and enter it again.",
+        "billing_address_description": "Please select an address that matches your card or payment method.",
+        "billing_address_description_no_shipping_address": "Please enter an address that matches your card or payment method.",
+        "billing_address_invalid_phone": "{{label}}  {{last_digits}}Please update your billing address phone number and continue.",
+        "billing_address_invalid_phone_no_card": "Please update your billing address phone number and continue.",
+        "billing_address_not_supported_for_payment_method_error": "This billing address and currency cannot be used using the specified payment method. Try using a different payment method.",
+        "billing_address_title": "Billing Address",
+        "billing_must_match_shipping_notice": "The billing address and shipping address for your payment method must match.",
+        "blik_label": "B",
+        "brand_not_available": "In this store{{brand}}is not accepted. Please try a different card.",
+        "business_customer_vaulting_payment_label": "Save this card at checkout and get %{company}authorizes you to charge this card for future purchases at this location. All contacts assigned to this location can use this card.",
+        "card_change_label": "change",
+        "card_expiration_month_label": "Expiration date (Mon)",
+        "card_expiration_year_label": "Expiration date (year)",
+        "card_expired": "Expired",
+        "card_expiry_date_explanation": "Card expiration date input format: month (two digits)/Gregorian calendar (last two digits)",
+        "card_expiry_label": "Expiration date (month/year)",
+        "card_expiry_placeholder": "Expiration date (month/year)",
+        "card_fields": {
+          "errors": {
+            "invalid": {
+              "verification_value": "Enter a valid CVV or security code"
+            },
+            "required": {
+              "issue_date": "Please enter a valid issue date"
+            }
+          }
+        }
       }
     },
     "addresses": {
