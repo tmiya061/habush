@@ -3070,8 +3070,42 @@
             "link_text": "Start a free trial"
           },
           "store_owner": {
-            "caption": "Can't access the store? %{forgot_your_store_link}Try the feature out. If you want to re-enable your store contacts,{shopify_support_link}Please visit:"
+            "caption": "Can't access the store? %{forgot_your_store_link}Try the feature out. If you want to re-enable your store contacts,{shopify_support_link}Please visit:",
+            "header": "Are you a store owner ?",
+            "shopify_support_link_text": "Shopify Support"
           }
+        },
+        "heros": {
+          "no_storefront": "There is no website in this store yet.",
+          "store_not_exist": "This store does not exist.",
+          "store_unavailable": "very sorry. This store is currently unavailable."
+        },
+        "links": {
+          "explore_other_stores": "Find other stores",
+          "start_free_trial": "Start a free trial"
+        },
+        "owner_ctas": {
+          "add_storefront": "%{admin_link}You can add an Online Store channel to set up your website. If you don't have access to your store,{forgot_your_store_link}Try the page.",
+          "admin_link_text": "Management screen",
+          "fix_domain": "Complete the new URL setup and click %{domain_settings_link}Click Connect your domain and click{domain}Enter:<br>If you can't access the store,{forgot_your_store_link}Try the page.",
+          "fix_domain_link_text": "Domain Settings",
+          "forgot_your_store_link_text": "Unsubscribe from the store",
+          "header": "Are you a store owner"
+        },
+        "title": "Create an e-commerce site and sell it online! Shopify's e-commerce software"
+      },
+      "taken": "is already in use",
+      "too_long": "is too long (at most %{count}(Less than one character)",
+      "too_short": "is too short (at least %{count}(More than one character)",
+      "verify_email": "Email %{customer_email}has been sent to. Please click the link in the email to verify your email address."
+    },
+    "feed": {
+      "more": "moreover"
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "in stock"
         }
       }
     }
