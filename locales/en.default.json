@@ -2232,7 +2232,29 @@
         "shipping_method_first_shipment_group_title": {
           "one": "First shipping",
           "other": "First shipping"
-        }
+        },
+        "shipping_method_notice": "  ",
+        "shipping_method_one_time_purchase_group_title": "One-time purchase",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Regular shipping",
+          "other": "Regular shipping"
+        },
+        "shipping_method_subscription_group_title": "Subscription",
+        "shipping_method_title": "Shipping method",
+        "shipping_rate_discounted_amount": "Original price: %{original_amount}. New price: %{amount}",
+        "shipping_used_as_billing_notice": "It is also used as the billing address for this order.",
+        "split_shipping_merchandise_quantity_label_additional": "moreover%{quantity}pcs",
+        "split_shipping_merchandise_quantity_label_inline": "%{merchandise_title} ×%{quantity}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "quantity:%{quantity}",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity}items",
+        "split_shipping_merchandise_shipment_number": "luggage:%{number}/%{total}",
+        "split_shipping_more_shipping_options": "View shipping options",
+        "split_shipping_multiple_shipment_label": "Multiple delivery",
+        "split_shipping_multiple_shipment_notice": "Ordered items will arrive in multiple packages",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Your order is %{quantity}Delivered in individual packages",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity}Pieces of luggage",
+        "split_shipping_option_custom": "custom",
+        "split_shipping_option_fastest": "Fastest"
       }
     },
     "addresses": {
