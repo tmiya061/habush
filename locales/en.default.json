@@ -286,20 +286,20 @@
       }
     },
     "cart": {
-      "title": "Your cart",
+      "title": "Your Cart",
       "caption": "Cart items",
-      "remove_title": "Remove {{ title }}",
+      "remove_title": "{{ title }}Delete",
       "estimated_total": "total",
-      "new_estimated_total": "New estimated total",
-      "note": "Order special instructions",
+      "new_estimated_total": "New estimated total amount",
+      "note": "Special instructions and comments regarding orders",
       "checkout": "Go to the purchase procedure",
       "empty": "The cart is empty",
       "cart_error": "An error occurred while updating the cart. Please try again.",
       "cart_quantity_error_html": "This item is{{ quantity }}You can only add this to your cart.",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes, Discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
-      "taxes_included_but_shipping_at_checkout": "Tax included and shipping and discounts calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> and discounts calculated at checkout.",
-      "taxes_and_shipping_at_checkout": "Taxes, discounts and shipping calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes, discounts, and<a href=\"{{ link }}\">Shipping Fee</a>will be calculated at check-out",
+      "taxes_included_but_shipping_at_checkout": "Shipping fees and discounts are calculated at checkout, including tax",
+      "taxes_included_and_shipping_policy_html": "tax included.<a href=\"{{ link }}\">Shipping Fee</a>and discounts will be calculated at checkout",
+      "taxes_and_shipping_at_checkout": "Taxes, discounts and shipping charges are calculated at checkout",
       "headings": {
         "product": "merchandise",
         "price": "price",
@@ -307,7 +307,7 @@
         "quantity": "quantity",
         "image": "Product image"
       },
-      "update": "Update",
+      "update": "update",
       "login": {
         "title": "Do you have an account ?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a>This will allow for a quicker check-out."
@@ -329,8 +329,8 @@
       "view_all": "View all"
     },
     "collection_template": {
-      "empty": "No products found",
-      "title": "Collection",
+      "empty": "Product not found",
+      "title": "collection",
       "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all</a>"
     },
     "video": {
