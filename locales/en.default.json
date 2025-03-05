@@ -1880,7 +1880,31 @@
         "subscription_agreement_cancelled": "Cancellation policy",
         "subscription_agreement_label": "One or more items in your cart are deferred purchases or subscription purchases. By continuing to pay, you agree that your payment method will be automatically charged at the prices and frequency set forth on this page until your payment method expires or you cancel. All cancellations are subject to a %{cancelled}applies.",
         "subscription_agreement_label_html": "I understand that I agree to the subscription. The subscription will be terminated or <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Cancelled</a>It will be updated at the listed price and frequency until. ",
-        "subscription_card_update_agreement_label": "Changing your payment method will renew your subscription and recurring payments."
+        "subscription_card_update_agreement_label": "Changing your payment method will renew your subscription and recurring payments.",
+        "subscription_heading": "Subscription agreement",
+        "supported_card_brands_more_label": "etc.",
+        "swish_label": "Sweish",
+        "taxes_not_included": "Tax not included",
+        "technical_error": "Due to technical issues, we are currently unable to process payments. Please try again in a few minutes.",
+        "title": "Payment",
+        "twint_label": "Harvest T",
+        "update_payment_method": "Update payment methods",
+        "use_different_credit_card_label": "Use a different card",
+        "use_location_billing_address_label": "Use the billing address for your location",
+        "use_location_shipping_address_label": "Use the shipping address for your location",
+        "use_order_billing_address_label": "Use the billing address for your order",
+        "vaulting_agreement_label": "Enter your payment details for a quick checkout{company}Save it.",
+        "vipps_label": "Vi PS",
+        "waiting_on_payment_methods": "Getting available payment methods...",
+        "waiting_on_taxes_message": "If the tax amount is not calculated within a few seconds, please refresh the page.",
+        "waiting_on_taxes_notice": "Calculate tax"
+      },
+      "payment_challenge_modal": {
+        "close": "Complete the assignment",
+        "copy_text": "{{paymentMethod}}Copy the code",
+        "external": {
+          "instructions": "To complete this purchase, please check the payments in the app"
+        }
       }
     },
     "addresses": {
