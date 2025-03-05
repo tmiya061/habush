@@ -2989,9 +2989,39 @@
         "opt_out": {
           "opt_in_html": "For tracking opening<a style='text-decoration:underline;' href='%{link}'>Opt-in</a>I will.",
           "opted_out_html": "<b>I have opted out of email open tracking.</b>",
-          "preview_bar": "We preview what will be displayed when you opt out of email unpacking."
+          "preview_bar": "We preview what will be displayed when you opt out of email unpacking.",
+          "visibility": "Shopify will no longer be able to confirm whether you have opened your email."
+        },
+        "track": {
+          "status_html": "<b>Email open tracking reported.</b>",
+          "visibility": "Shopify only checks if you have opened your email as part of your email open rate tally."
+        },
+        "updated_policy": {
+          "opt_out_html": "If you do not want to share this information,<a style='text-decoration:underline;' href='%{link}'>Unsubscribe</a>You can.",
+          "status_html": "<b>Email open tracking reported.</b>",
+          "visibility": "Shopify has updated its policy to allow you to track email opens. Email opening rates will be reported anonymously. Shopify only checks if you have opened your email as part of your email open rate tally."
         }
+      },
+      "subscribed": {
+        "confirmation": "Thank you for subscribing to our mailing list.",
+        "disclaimer": "You can unsubscribe at any time.",
+        "unsubscribe": "Unsubscribe"
+      },
+      "unsubscribed": {
+        "confirmation": "I have unsubscribed from the mailing list.",
+        "disclaimer": "We have accepted registration for unsubscribe from emails. Thank you for subscribing.",
+        "preview": "We preview what will be displayed when you unsubscribe."
       }
+    },
+    "errors": {
+      "bad_domain": "Contains invalid domain name",
+      "blank": "You must enter",
+      "blocked_address": "This location is not supported",
+      "contains_html_tags": "It cannot contain HTML tags",
+      "contains_spaces": "starts or ends with spaces.",
+      "credit_card_session_expired": "Your credit card authorization has expired. Please enter your payment information again. Your card will not be charged.",
+      "customer_already_used_once_per_customer_discount_notice": "This discount is at the maximum number of uses.",
+      "discount_disabled": "You cannot use this discount"
     }
   },
   "customer_accounts": {
