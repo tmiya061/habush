@@ -626,9 +626,43 @@
             "description_due_on_fulfillment_partially_paid": "Some of this order has been paid and has a balance. Payment deadline is when all items in this order are fulfilled.",
             "description_due_on_receipt": "You will receive an invoice when the payment deadline is reached.",
             "description_due_on_receipt_partially_paid": "Some of this order has been paid and has a balance. You will receive an invoice when the payment deadline is reached.",
-            "description_overdue": "Payment is late."
-          }
-        }
+            "description_overdue": "Payment is late.",
+            "description_partially_paid": "Some of this order has been paid and has a balance.",
+            "description_waiting_for_manual_payment": "The payment for this order is pending. Once payment is received, your balance will be updated.",
+            "title": "Payment due date",
+            "title_due_on_fulfillment": "Payment deadline is at the time of fulfillment",
+            "title_due_on_receipt": "Payment deadline has not yet arrived",
+            "title_with_date": "Payment Term: {{date}}"
+          },
+          "refund": {
+            "description_full_refund": "This order was fully refunded.",
+            "description_multiple_refunds": "This order has been partially refunded.",
+            "description_single_refund": "This order has been partially refunded.",
+            "title": "Refunded",
+            "title_with_date": "{{date}}Refunded to"
+          },
+          "title": "Payment status"
+        },
+        "subtitle": "Sent date: {{date}}",
+        "title": "order ({{name}})"
+      },
+      "location_selection": {
+        "clear_search": "Clear search",
+        "continue_to_store": "Continue the store",
+        "description": "If you already have items in your cart, changing your location may affect the price and quantity of your cart.",
+        "list_accessibility_label": "Location List",
+        "list_item_accessibility_label": "{{name}}: {{address}}",
+        "list_item_without_address_accessibility_label": "{{name}}: No address",
+        "list_loading_accessibility_message": "Loading a list of locations",
+        "list_loading_address_accessibility_message": "{{locationName}}Loading addresses for",
+        "list_loading_finished_accessibility_message": "Location list loaded",
+        "loading_store_accessibility_message": "Moved to store",
+        "no_location_description": "{{company}}You are no longer authorized to place orders for. Individual orders can still be placed.",
+        "no_location_title": "Personal orders only",
+        "no_locations_found": "Location not found",
+        "search": "Search for location",
+        "search_location_title": "Select location",
+        "selection_cancel_button": "cancel"
       }
     }
   }
