@@ -1727,7 +1727,41 @@
       "closeModal": "close",
       "closeNotification": "close",
       "december": "December",
-      "decrease": "{{type}}Decrease in"
+      "decrease": "{{type}}Decrease in",
+      "dropzoneDraggedOver": "Drop and upload the file",
+      "dropzoneInvalidFileType": "File type not supported",
+      "expandNotification": "Show more",
+      "expandSheet": "Expanding",
+      "february": "February",
+      "friday": "Friday",
+      "fridayAbbreviation": "Friday",
+      "inRange": "Within range",
+      "increase": "{{type}}Increase in",
+      "january": "January",
+      "july": "July",
+      "june": "June",
+      "mapClusterTitle": {
+        "one": "{{number}}Cluster of markers",
+        "other": "{{number}}Cluster of markers"
+      },
+      "march": "March",
+      "maximumReached": "{{value}}reached the maximum value of",
+      "may": "May",
+      "minimumReached": "{{value}}The minimum value of",
+      "monday": "Monday",
+      "mondayAbbreviation": "Monday",
+      "month": {
+        "one": "month",
+        "other": "month"
+      },
+      "november": "November",
+      "october": "October",
+      "processing": "Under processing...",
+      "qrCode": "QR Code",
+      "rangeEnd": "Range end",
+      "rangeStart": "Range start",
+      "removeItem": "{{label}}Delete",
+      "removeTag": "Delete tag"
     }
   }
 }
