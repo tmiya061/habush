@@ -289,11 +289,11 @@
       "title": "Your cart",
       "caption": "Cart items",
       "remove_title": "Remove {{ title }}",
-      "estimated_total": "Estimated total",
+      "estimated_total": "total",
       "new_estimated_total": "New estimated total",
       "note": "Order special instructions",
       "checkout": "Go to the purchase procedure",
-      "empty": "Your cart is empty",
+      "empty": "The cart is empty",
       "cart_error": "An error occurred while updating the cart. Please try again.",
       "cart_quantity_error_html": "This item is{{ quantity }}You can only add this to your cart.",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes, Discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
@@ -301,16 +301,16 @@
       "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> and discounts calculated at checkout.",
       "taxes_and_shipping_at_checkout": "Taxes, discounts and shipping calculated at checkout",
       "headings": {
-        "product": "Product",
-        "price": "Price",
-        "total": "Total",
-        "quantity": "Quantity",
+        "product": "merchandise",
+        "price": "price",
+        "total": "total",
+        "quantity": "quantity",
         "image": "Product image"
       },
       "update": "Update",
       "login": {
-        "title": "Have an account?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> to check out faster."
+        "title": "Do you have an account ?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a>This will allow for a quicker check-out."
       }
     },
     "footer": {
