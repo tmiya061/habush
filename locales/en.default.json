@@ -504,18 +504,18 @@
   "recipient": {
     "form": {
       "checkbox": "Send this as a gift",
-      "expanded": "Gift card recipient form expanded",
+      "expanded": "We have developed a gift card recipient form",
       "collapsed": "I folded the recipient form for gift card cards",
       "email_label": "Recipient email",
       "email_label_optional_for_no_js_behavior": "Recipient email (optional)",
       "email": "Email",
       "name_label": "Recipient name (optional)",
-      "name": "Name",
+      "name": "name",
       "message_label": "Message (optional)",
-      "message": "Message",
-      "max_characters": "{{ max_chars }} characters max",
-      "send_on": "YYYY-MM-DD",
-      "send_on_label": "Send on (optional)"
+      "message": "message",
+      "max_characters": "maximum{{ max_chars }}character",
+      "send_on": "Ahhhh md",
+      "send_on_label": "Sent date (optional)"
     }
   },
   "shopify": {
@@ -544,6 +544,27 @@
         "continue_to_shipping_method": "Proceed to select shipping method",
         "continue_to_payment_method": "Proceed to payment"
       }
+    },
+    "addresses": {
+      "confirm": "Can I delete this address",
+      "county": "county",
+      "emirate": "Emirates",
+      "governorate": "Administrative Regions",
+      "pincode": "PIN code",
+      "postal_code": "post code",
+      "postcode": "post code",
+      "prefecture": "prefectures",
+      "province": "prefectures",
+      "region": "region",
+      "state": "state",
+      "state_and_territory": "State/region",
+      "zip_code": "post code"
+    },
+    "attributes": {
+      "body": "body",
+      "email": "Email",
+      "first_name": "given name",
+      "last_name": "Last name"
     }
   },
   "customer_accounts": {
