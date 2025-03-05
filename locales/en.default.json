@@ -655,7 +655,29 @@
             "destination_address_required": "To continue, please enter your shipping address.",
             "external_delivery_promise_error": "Error getting external delivery promise.",
             "fulfillment_constraints_not_satisfied": "One or more fulfillment constraint rules are not met.",
-            "invalid_origin_location_id": "No locations found that match the location ID of the inventory source."
+            "invalid_origin_location_id": "No locations found that match the location ID of the inventory source.",
+            "invalid_signature": "Invalid discount signature.",
+            "local_pickup_delivery_line_detail_changed": "To continue, you will need to change your current store pick-up and delivery strategy.",
+            "local_pickup_no_delivery_strategy_available": "There are no available store pickup and delivery strategies.",
+            "must_fulfill_from_constraint_not_satisfied": "The fulfillment constraint rule is not met because the item cannot be fulfilled from the requested location.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "The fulfillment constraint rule is not met because items cannot be fulfilled from the same location.",
+            "only_one_delivery_line_allowed": "Your cart can only contain one delivery item.",
+            "options_instructions_invalid": "The specified procedure does not match the expected type.",
+            "origin_location_id_not_allowed": "The requested delivery method does not correspond to the original location ID.",
+            "origin_location_id_required": "You will need the original location ID to request a RETAIL delivery method.",
+            "out_of_stock_at_origin_location": "It is out of stock in its original location.",
+            "pickup_points_unavailable": "The designated pickup location is currently unavailable.",
+            "prefetch_shipping_rates_used": "Pre-set shipping fees should never be returned.",
+            "wrong_number_of_delivery_lines": "You must specify delivery items for each product group."
+          },
+          "discount": {
+            "additional_requested_discount_code_discarded": "Any other coupon codes requested have been discarded.",
+            "allocations_mismatch": "The expected discount allocation does not match the actual discount allocation.",
+            "custom_discount_not_honoured": "The custom discount provided was not fulfilled.",
+            "discount_code_not_honoured": "<strong style=\"text-transform:uppercase\">%{discount_rejection_message}</strong>",
+            "discount_title_too_long": "The discount title must be 255 characters or less.",
+            "discounts_not_allowed_for_b2b": "Discounts are not permitted in B2B stores.",
+            "unsupported_expectation": "The discount items provided include expectations that the policy cannot interpret."
           }
         }
       },
