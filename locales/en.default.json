@@ -695,7 +695,39 @@
         "unavailable_label": "Not available"
       },
       "customer_account": {
-        "have_an_account_label": "Do you have an account"
+        "have_an_account_label": "Do you have an account",
+        "incomplete_address": "The selected address is incomplete. %{update_address_link}Or choose a different address.",
+        "invalid_address": "The selected address is invalid. %{update_address_link}Or choose a different address.",
+        "invalid_shipping_method_summary": "Please select a valid shipping address and see available shipping methods",
+        "not_user_label": "%{first_name}Isn't it right?",
+        "rollup_label": "account",
+        "save_my_information_label": "Save this information for the next time",
+        "saved_address_modal_title": "Use your saved address",
+        "saved_address_option_description": {
+          "one": "The saved address{{count}}There are pieces available.",
+          "other": "The saved address{{count}}There are pieces available."
+        },
+        "saved_address_option_link": "Use a saved address",
+        "sign_in_link_label": "Login",
+        "sign_out_link_label": "Log out"
+      },
+      "customer_payment_methods": {
+        "delete_customer_mandate": {
+          "generic_error": "There was a problem processing the request.",
+          "success_message": "Your payment method has been properly deleted"
+        },
+        "page_title": "Payment method",
+        "title": "Payment method",
+        "update_card_button_label": "Update your card"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "label": "Cannot be delivered",
+          "message": {
+            "one": "This item will be removed from your cart as there is no delivery method available at your address.",
+            "other": "These items will be removed from your cart as there are no delivery methods available at your address."
+          }
+        }
       }
     },
     "addresses": {
