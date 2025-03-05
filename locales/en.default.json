@@ -2780,7 +2780,39 @@
         "thank_you_title_payments_app_pending_buyer_action_required": "Orders accepted",
         "thank_you_title_payments_app_pending_default": "The payment is being processed",
         "thank_you_title_review": "Order information has been submitted for review",
-        "title": "Thank you for your purchase!"
+        "title": "Thank you for your purchase!",
+        "track_shipment": "Check the delivery status",
+        "tracking_number": "tracking number:",
+        "unfulfilled_items_description": "We are currently preparing to ship these products.",
+        "unfulfilled_items_title": "In preparation for delivery",
+        "updated_time": "%{time_ago}Update before",
+        "vat_invoices": {
+          "title": "VAT Invoice"
+        },
+        "view_business_customer_account": "View your account"
+      },
+      "throttle": {
+        "cart_summary_heading": "Your Cart",
+        "estimated_wait_time": {
+          "calculating": "Calculating the estimated waiting time",
+          "less_than_one": "Estimated waiting time: less than 1 minute",
+          "one": "{{count}}Please wait a minute",
+          "other": "{{count}}Please wait a minute"
+        },
+        "footer": {
+          "body": "Items in your cart will not be reserved until check-out is complete.",
+          "heading": "This page will be updated automatically, so please do not update it."
+        },
+        "inventory": {
+          "partial_inventory_banner": "Some of the items in your cart are sold out and cannot be purchased at check-out.",
+          "sold_out": {
+            "heading": "The items in the cart are sold out",
+            "link": "Return to store",
+            "no_storefront_body": "Unfortunately, the item you want is no longer available.",
+            "storefront_body": "Return to the store and continue shopping"
+          }
+        },
+        "last_checked": "(Last check: {{time}})"
       }
     },
     "addresses": {
