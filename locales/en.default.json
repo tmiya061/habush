@@ -2254,7 +2254,41 @@
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Your order is %{quantity}Delivered in individual packages",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity}Pieces of luggage",
         "split_shipping_option_custom": "custom",
-        "split_shipping_option_fastest": "Fastest"
+        "split_shipping_option_fastest": "Fastest",
+        "split_shipping_option_free": "Free shipping",
+        "split_shipping_option_lowest_price": "Lowest price",
+        "split_shipping_option_recommended": "recommendation",
+        "split_shipping_shipment_notice": "Your order is %{quantity_shipments}Delivered by",
+        "split_shipping_shipment_number": "Baggage Number: %{number}",
+        "split_shipping_shipped_by_shop": "%{shop_name}Shipped by",
+        "split_shipping_shipping_label": "method",
+        "subscription_delivery_description": {
+          "first_n_order_free": {
+            "one": "First order is free",
+            "other": "First %{count}One order is free"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "After%{count}Free shipping on this delivery and % for subsequent deliveries{recurring_order_shipping_price}",
+            "other": "After%{count}Free shipping on this delivery and % for subsequent deliveries{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "%{count}Free shipping on this delivery and % for subsequent deliveries{recurring_order_shipping_price}",
+            "other": "%{count}Free shipping on this delivery and % for subsequent deliveries{recurring_order_shipping_price}"
+          },
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (% per delivery{per_delivery_price}), followed by %{recurring_order_shipping_price}Continued",
+          "first_order_shipping_price_included": "Includes the first order, then %{recurring_order_shipping_price}Continued",
+          "free_for_first_n_order": {
+            "one": "For first orders",
+            "other": "First %{count}For orders"
+          },
+          "free_shipping_cycles": {
+            "one": "After%{count}Free shipping on deliveries",
+            "other": "After%{count}Free shipping on deliveries"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "%{count}Free shipping on deliveries"
+          }
+        }
       }
     },
     "addresses": {
