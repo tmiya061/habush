@@ -1495,7 +1495,33 @@
         "multiple_shipping_lines_label": "Shipping Total",
         "no_pickup_location": "There are no pickup locations available.",
         "number_items": {
-          "one": "%{count}items"
+          "one": "%{count}items",
+          "other": "%{count}items"
+        },
+        "order_name_label": "order %{name}",
+        "order_total_label": "Order Total",
+        "order_total_updated_label": "Updated Total",
+        "original_price": "Original price",
+        "paid_label": "Payment has been made",
+        "partial_total_label": "total",
+        "payment_due_label": "Payment due date",
+        "payment_terms_totals": {
+          "due_later": "Total Payment: %{due_at}",
+          "due_later_checkout_to_draft": "Total payment (later)",
+          "due_on_fulfillment": "Total payment at the time of fulfillment",
+          "due_on_receipt": "Total payment of receipt",
+          "due_today": "Total payment (Today)",
+          "total_paid": "Total payment"
+        },
+        "percent_off_shipping": "%{percent}% Off Shipping",
+        "pickup_label": "Store pickup",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Deliver to address",
+          "ship_to_address_instead_html": "Alternative %{link}"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Items cannot be picked up in the store",
+          "other": "Items cannot be picked up in the store"
         }
       }
     },
