@@ -665,7 +665,37 @@
         "prefecture_placeholder": "prefectures",
         "province_label": "prefectures",
         "province_placeholder": "prefectures",
-        "region_label": "region"
+        "region_label": "region",
+        "region_none": "Not selected",
+        "region_placeholder": "region",
+        "ship_to_company": "{{companyName}}Ship to",
+        "shipping_used_as_billing_notice": "It is also used as the billing address for this order.",
+        "state_and_territory_label": "State/region",
+        "state_and_territory_placeholder": "State/region",
+        "state_label": "state",
+        "state_placeholder": "state",
+        "stored_addresses_label": "Address saved",
+        "title": "information",
+        "zip_code_label": "post code",
+        "zip_code_placeholder": "post code"
+      },
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "one": "This product is not available in your country/region.",
+          "other": "These products are not available in your country/region."
+        },
+        "products_not_available": {
+          "one": "This item will be removed from your cart as it is not available in your country/region.",
+          "other": "These products will be removed from your cart as they are not available in your country/region."
+        },
+        "title": {
+          "one": "Products not available",
+          "other": "Products not available"
+        },
+        "unavailable_label": "Not available"
+      },
+      "customer_account": {
+        "have_an_account_label": "Do you have an account"
       }
     },
     "addresses": {
