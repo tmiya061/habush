@@ -982,8 +982,46 @@
         "removed_with_quantity": "{{quantity}}Deleted",
         "return_line_item_removed": "Removed from return",
         "return_line_item_removed_with_quantities": "From returns{{delta}}Deleted",
-        "returned": "Returned"
-      }
+        "returned": "Returned",
+        "returned_with_quantities": "{{total}}Among{{delta}}I returned the item",
+        "updated_at": "{{date}}The order was updated on"
+      },
+      "error_duties_tooltip": "As this order is shipped from another country, customs duties and taxes may be charged at the time of delivery.",
+      "fees": {
+        "restocking_fee": "Return fee",
+        "return_shipping_fee": "Return shipping charges"
+      },
+      "fully_refunded_label": "Refunded",
+      "group_title_label": "{{groupTitle}}Part of",
+      "grouped_view_components": {
+        "collapse_line_items": "{{count}}Hide items",
+        "expand_line_items": "{{count}}Showing items",
+        "line_item_summary": "{{refundableQuantity}} x {{productTitle}}",
+        "line_item_summary_accessibility_label": "{{productTitle}},quantity:{{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "{{productTitle}}Bundle Items"
+      },
+      "hide_items": "Hide items",
+      "hide_order_summary": "Hide order summary",
+      "image_gallery": {
+        "load_more_items": {
+          "one": "moreover{{count}}Load items",
+          "other": "moreover{{count}}Load items"
+        },
+        "next": "Show next items",
+        "previous": "View previous item",
+        "product_name_and_quantity": "{{productName}}Quantity:{{quantity}}"
+      },
+      "loading": "Loading order details",
+      "loading_finished_accessibility_message": "Order details have been loaded",
+      "location": "Location",
+      "log_in": "Login",
+      "log_in_to_a_different_account": "Please log in to another account",
+      "logged_in_account_no_permission_to_order": "{{email}}You are logged in as. This account does not have permission to manage this order.",
+      "login_to_view_all_order_details": "Please log in to view all order details.",
+      "marketing_checkbox_label": "Get news and offers via email",
+      "marketing_checkmark_label": "Signed up to receive email news and offers",
+      "marketing_description": "You will receive a marketing email soon. You can unsubscribe at any time.",
+      "marketing_section_title": "News and offers"
     }
   }
 }
