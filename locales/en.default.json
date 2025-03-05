@@ -1365,8 +1365,34 @@
               "may_be_eligible_label": "Shop ensures speedy and reliable delivery. If your order is late, you can request a Shop Cash.",
               "may_be_eligible_not_authorized_label": "This order may be delayed and you may be able to charge a Shop Cash. Please log in to view details.",
               "no_longer_guaranteed_label": "These items no longer have a shipping warranty.",
-              "no_shop_cash_label": "This order has not been paid via Shop Pay and is not subject to late shipping charges."
-            }
+              "no_shop_cash_label": "This order has not been paid via Shop Pay and is not subject to late shipping charges.",
+              "redeemed_label": "This order has already been charged for Shop Cash due to delayed arrival."
+            },
+            "title": "Shipping with the following applied:"
+          },
+          "promise_line": {
+            "mixed_brands_label": "Guaranteed shipping",
+            "modal_accessibility_button_label": "Delivery Promise Details",
+            "not_delivered_by_label": "{{date}}Not delivered by",
+            "single_brand_label": "Shipping with the following applied:"
+          }
+        },
+        "delivery_promise_v2": {
+          "details_modal": {
+            "active_delivery_guarantee_label": "{{date}}Delivery by",
+            "claim_shop_cash_button_label": "Request a Shop Cash",
+            "claimed_shop_cash_description": "Due to the delay in the arrival of this order,{{amount}}I was charged the appropriate Shop Cash.",
+            "delivered_after_description": "Due to the delay in the arrival of the order,{{amount}}You can claim the equivalent Shop Cash.",
+            "delivered_after_label": "{{date}}Delivered later than",
+            "eligible_to_claim_shop_cash_description": "Due to the delay in the arrival of the order,{{amount}}You can claim the equivalent Shop Cash.",
+            "expired_badge_label": "Expired",
+            "expired_delivery_guarantee_description": "The 30-day Shop Promise warranty on this order has expired.",
+            "learn_more_button_label": "For more information click here",
+            "order_includes_guarantees_description": "Shop guarantees fast and reliable delivery.{{date}}If it's later than that, request Shop Cash.",
+            "order_includes_guarantees_label": "The order is{{deliveryAgreementsCount}}Covered by warranty",
+            "scan_to_claim_shop_cash_label": "Scan to Shop Cash{{amount}}Request",
+            "title": "Delivery Guaranteed",
+            "view_balance_in_shop_button_label": "Check your balance on the Shop"
           }
         }
       }
