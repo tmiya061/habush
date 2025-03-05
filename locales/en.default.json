@@ -1579,7 +1579,47 @@
         "loading": "Loading Google Pay",
         "loading_accessibility_message": "Loading Google Pay"
       },
-      "no_payment_methods_banner": "No payment method added"
+      "no_payment_methods_banner": "No payment method added",
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Add PayPal payment methods",
+        "loading_accessibility_message": "Loading PayPal"
+      },
+      "payment_delete": {
+        "delete_and_replace_button": "Delete and change",
+        "delete_and_replace_button_accessibility_label": "{{currentPaymentMethodName}}Delete it and{{newPaymentMethodName}}Change it to",
+        "deleted_successfully": "The payment method has been successfully deleted.",
+        "description_with_replacement": "Deleting this payment method will affect pre-approved payments. To continue receiving future orders, you have the option to change to a different payment method.",
+        "description_without_replacement": "This payment method will no longer be available for future purchases.",
+        "error_when_deleting": "Sorry, I was unable to delete this payment method due to a problem. Please try again later or refresh the page.",
+        "loading_available_payment_methods_accessibility_label": "Loading available payment methods",
+        "payment_method_selector_no_alternative_payment": "No alternative method",
+        "payment_method_selector_placeholder": "Please select an alternative payment method (optional)",
+        "replace_method_with_new_method_description": "{{currentPaymentMethodName}}is deleted,{{newPaymentMethodName}}will be changed to.",
+        "title": "Delete payment method",
+        "warning_message_with_replacement": {
+          "with_pending_orders": "If you delete this payment method, it will be deleted from your account and will not be available for future purchases. Unless you choose a different payment method, you will still be billed for the outstanding balance of your existing orders for this payment method.",
+          "with_pending_orders_and_subscriptions": "Deleting this payment method will affect pre-approved payments. Unless you choose a different payment method, you will still be billed for the outstanding balance of your existing orders for this payment method. By choosing a different payment method, you can accept orders for future subscription orders without interruption.",
+          "with_subscriptions": "Deleting this payment method will affect pre-approved payments. To continue receiving your future orders, please change to a different payment method."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders": "If you delete this payment method, it will be deleted from your account and will not be available for future purchases. Even in that case, the outstanding balance of existing orders will be billed.",
+          "with_pending_orders_and_subscriptions": "Deleting this payment method will affect pre-approved payments. The outstanding balances of existing orders will continue to be charged for this payment method, but no future subscription orders will be received. To continue accepting subscription orders, please add a different payment method.",
+          "with_subscriptions": "Deleting this payment method will affect pre-approved payments. To continue accepting future orders, please add a different payment method."
+        }
+      },
+      "payment_details": {
+        "billing_title": "Billing Address",
+        "card_info_title": "Card information",
+        "checkout_card_banner": "This payment method is only available for pre-approved payments. If you are logged in to this store, it will not be displayed at checkout.",
+        "close_payment_modal": "close",
+        "close_payment_modal_accessibility_label": "Close Payment Method Details Modal",
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}",
+        "credit_card_details_accessibility_label": "Last digit of card:{{lastDigits}}",
+        "default_checkbox": "Set as default",
+        "default_checkbox_accessibility_label": "Set this payment method as default",
+        "edit_payment_method_button": "edit",
+        "edit_payment_method_button_accessibility_label": "{{lastDigits}}Edit payment methods that end in"
+      }
     }
   }
 }
