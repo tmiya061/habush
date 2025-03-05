@@ -1106,7 +1106,45 @@
       },
       "shipment_timeline": {
         "expand_events_accessibility_label": "View order shipping details",
-        "expand_events_label": "View details"
+        "expand_events_label": "View details",
+        "hide_events_accessibility_label": "Hide order shipping details",
+        "hide_events_label": "Hide details"
+      },
+      "shipping": {
+        "address": "Shipping address",
+        "address_map_marker": "Shipping address",
+        "free": "free",
+        "free_shipping_discount": "Free shipping",
+        "method": "Shipping method",
+        "one_time": "One-time delivery",
+        "subscription": "How to ship your subscription",
+        "summary": "Shipping"
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Download Shop and track packages",
+        "real_time_delivery_updates": "Once your order is delivered, the Shop will send you a real-time delivery status.",
+        "title_header": "Scan on your mobile phone",
+        "track_order_with_shop": "Track your orders on the Shop"
+      },
+      "shop_pay": {
+        "learn_more": "Learn more",
+        "order_completed_with": "Complete your order at:"
+      },
+      "show_items": "View items",
+      "show_order_summary": "View order summary",
+      "subtitle": "Check date: {{date}}",
+      "subtotal": "subtotal",
+      "summary_list_title_accessibility_label": "Order Items",
+      "summary_title": "Order Summary",
+      "summary_totals_title_accessibility_label": "Order Total",
+      "taxes": "Tax",
+      "taxes_included": "{{amount}}Including tax",
+      "tip": "Support amount",
+      "title": "order ({{name}})",
+      "total": "total",
+      "unit_price": "{{price}}/unit",
+      "vat_invoices": {
+        "title": "VAT Invoice"
       }
     }
   }
