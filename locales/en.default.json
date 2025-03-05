@@ -749,7 +749,27 @@
             "missing_session_id": "No credit card session information has been entered.",
             "payment_instrument_not_found": "No payment method found",
             "paypal_express_address_invalid": "PayPal returned an invalid address.",
-            "positive_amount_expected": "The payment amount must be greater than 0."
+            "positive_amount_expected": "The payment amount must be greater than 0.",
+            "saved_payment_methods_cvv_verification_disabled": "The selected payment method requires CVV authentication, but it is not enabled in this shop. Please choose a different payment method.",
+            "saved_payment_methods_not_allowed": "Reserved payment methods are not permitted.",
+            "saved_payment_methods_not_enabled": "Reserved payment methods are not valid for this shop.",
+            "shop_cash_gift_card_not_allowed": "Gift cards are not available to purchase at Shop Cash.",
+            "shop_cash_not_allowed": "If you use Shop Cash, you must use Shop Pay.",
+            "shop_cash_not_available": "Shop Cash is not available at this checkout.",
+            "shop_cash_not_enabled": "Shop Cash is not valid for this shop.",
+            "shop_cash_not_found": "Shop Cash not found.",
+            "shop_cash_unsupported_checkout_source": "This checkout is not available in Shop Cash.",
+            "shop_cash_unsupported_currency": "This currency is not available in Shop Cash.",
+            "shop_cash_unsupported_shipping": "Shop Cash is not available for merchandise without delivery.",
+            "shop_cash_unsupported_subscriptions": "Shop Cash is not available for subscriptions.",
+            "store_credit_account_mismatch": "Your store credit account does not match the buyer's identity.",
+            "store_credit_account_not_found": "Store credit account not found.",
+            "store_credit_buying_gift_card": "You cannot use store credit to purchase gift cards.",
+            "store_credit_insufficient_funds": "I'm running out of funds for my store credit account.",
+            "store_credit_mismatched_currency": "The currency of your store credit account does not match the currency of your checkout.",
+            "store_credit_not_enabled": "Store credits are not valid for this shop.",
+            "subscription_terms_not_accepted": "Terms of subscription have not been accepted.",
+            "total_amount_mismatch": "The total payment amount does not match the total payment amount."
           }
         }
       },
