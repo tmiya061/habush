@@ -1928,7 +1928,27 @@
         "development_store_order_limit_reached": "You've reached your development store order limit with this payment processor. To place another order, you must use our test payment gateway service. %{development_store_order_testing_docs_link}Click here for more information.",
         "development_store_order_testing_docs_link": "Testing orders in the development store",
         "development_store_with_order_limit": "To place a test order, you must use a test payment gateway service.{development_store_order_testing_docs_link}Click here for more information.",
-        "expired_buyer_action": "The payment method has timed out. Please try again."
+        "expired_buyer_action": "The payment method has timed out. Please try again.",
+        "expired_card": "The card has expired. Please choose a different payment method.",
+        "generic_error": "There was a problem processing your payment. Try again or use a different payment method.",
+        "insufficient_funds": "The settlement was denied due to insufficient funds. Try again or use a different payment method.",
+        "invalid_cvc": "Please enter a valid security code",
+        "invalid_expiry_date": "Please enter the correct expiration date",
+        "invalid_number": "Please enter a valid card number",
+        "invalid_shipping_address": "The payment could not be processed because the shipping address could not be found. Please check your shipping address and try again.",
+        "method_not_available": "The requested payment method is not available. Choose a different payment method and try again.",
+        "missing_shipping_address": "The payment could not be processed because there is no shipping address. Please add your shipping address and try again.",
+        "multiple_deferred_payment_not_allowed": "Only one deferred payment can be used per request. Please check your request and try again.",
+        "order_total_changed": "The order total has been changed. Please check and try again.",
+        "pay_later_failed": "An error occurred while processing payments with Pay later. Choose a different payment method and try again.",
+        "payment_above_threshold": "The payment amount exceeds the limits in this region. Please try again after reducing the total amount",
+        "payment_method_billing_address": "No billing has been made due to a problem with the billing address for the selected payment method. Please check your address and try again, or use a different payment method.",
+        "payment_processing": "We were unable to process payment due to technical reasons. Try again or use a different payment method.",
+        "payment_processing_no_retry": "Due to technical reasons, payments could not be processed. Try using a different payment method.",
+        "paypal_invalid_token": "PayPal was not available. Try again or use a different checkout option.",
+        "paypal_zero_amount": "%{amount}We don't accept PayPal for orders at . Please make sure your order is correct and check out with a method other than PayPal.",
+        "pick_up_card": "The card was rejected. Try again or use a different payment method.",
+        "processing_error": "A problem occurred during payment processing. Try again or use a different payment method."
       }
     },
     "addresses": {
