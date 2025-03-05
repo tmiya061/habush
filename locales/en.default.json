@@ -1642,10 +1642,48 @@
           "date_label": "date",
           "event_label": "event",
           "events": {
-            "adjustment": "Adjustment"
-          }
-        }
-      }
+            "adjustment": "Adjustment",
+            "order_cancellation": "Cancel order",
+            "order_payment": "Order payment",
+            "order_refund": "Order refund",
+            "payment_failure": "Payment failure",
+            "payment_returned": "Payment refund",
+            "tax_finalization": "Tax confirmed"
+          },
+          "expirable_amount_label": "Total expiry amount",
+          "expirable_amounts_button": "display",
+          "expirable_amounts_info": "Early expiration amounts will be applied first upon checkout",
+          "expirable_balance_info": "Some of the balances will expire in the future",
+          "expiration_date_label": "date of expiry",
+          "expired_amounts_button": "Show expiry amounts",
+          "pagination": {
+            "load_more_accessibility_label": "Read more expiry amounts",
+            "load_more_label": "Load more"
+          },
+          "title": "Expired store credits"
+        },
+        "expirable_amounts_button": "Show expiry amounts",
+        "expirable_amounts_label": "Expired amount",
+        "label": "Store Credits"
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
+      },
+      "title": "Payment method"
+    },
+    "profile_preview_bar": {
+      "actions_button": "action",
+      "close_preview": "Close preview",
+      "customize_button": "Customization",
+      "hide_bar": "Hide the bar",
+      "navigate_to_admin": "Guide to the admin screen",
+      "not_available": "Profile data is not available",
+      "previewing": "Previewing:",
+      "saved_at": "{{date}}of{{time}}Saved to",
+      "viewing": "Displayed:"
+    },
+    "settings": {
+      "loading_accessibility_message": "Loading page settings"
     }
   }
 }
