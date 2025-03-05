@@ -2286,7 +2286,41 @@
             "other": "After%{count}Free shipping on deliveries"
           },
           "free_shipping_cycles_delivery_not_included": {
-            "one": "%{count}Free shipping on deliveries"
+            "one": "%{count}Free shipping on deliveries",
+            "other": "%{count}Free shipping on deliveries"
+          },
+          "initial_order_discounted": "First shipping fee %{discounted_shipping_cost}, 2nd time onwards%{frequency_description}",
+          "max_cycles_base_shipping": {
+            "one": "After%{count}% of deliveries{shipping_price}",
+            "other": "After%{count}Deliveries are %{shipping_price}"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count}% of deliveries{shipping_price}",
+            "other": "After%{count}Deliveries are %{shipping_price}"
+          },
+          "multiple_subscriptions_shipping_price_label": "% per delivery{shipping_price}",
+          "prepaid_delivery_frequency": {
+            "one": "%{count}For deliveries",
+            "other": "%{count}For deliveries"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "First %{cycle}Free shipping for the first order, 100% after that{recurring_order_shipping_price}",
+            "other": "First %{cycle}Free shipping for 10 days, then %{recurring_order_shipping_price}"
+          },
+          "prepaid_initial_order_discounted": "First shipping fee (%{discounted_shipping_price})%{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "First shipping fee (%{discounted_shipping_price})%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "First shipping fee (%{discounted_shipping_price})%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}),moreover%{billing_cycle}Per %{shipping_price}",
+          "prepaid_initial_order_discounted_with_renewal": "First shipping fee (%{discounted_shipping_price})%{prepaid_delivery_frequency},moreover%{billing_cycle}Per %{shipping_price}",
+          "prepaid_order_no_cycle": {
+            "one": "After%{count}Delivery is %{shipping_price}, and any subsequent deliveries are %{recurring_order_shipping_price}",
+            "other": "After%{count}% of deliveries{shipping_price} (%{per_delivery_cost}), and % for subsequent deliveries{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{count}Delivery is %{shipping_price}, and any subsequent deliveries are %{recurring_order_shipping_price}",
+            "other": "%{count}% of deliveries{shipping_price} (%{per_delivery_cost}), and % for subsequent deliveries{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "After%{count}Delivery is %{shipping_price}"
           }
         }
       }
