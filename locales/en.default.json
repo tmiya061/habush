@@ -1683,7 +1683,51 @@
       "viewing": "Displayed:"
     },
     "settings": {
-      "loading_accessibility_message": "Loading page settings"
+      "loading_accessibility_message": "Loading page settings",
+      "log_out_everywhere": {
+        "button": "Log out anywhere",
+        "description": "If you lose your device or have security concerns, please log out anywhere to ensure your account is secure.",
+        "title": "Log out anywhere",
+        "warning_message": "You will be logged out on this device."
+      },
+      "title": "setting"
+    },
+    "shop_ads": {
+      "button": "Search on the Shop",
+      "next_button": "to the next",
+      "previous_button": "Go ahead",
+      "subtitle": "Available for a limited time only",
+      "title": "Limited offer from Shop"
+    },
+    "shop_policies": {
+      "legal_notice": "Description based on the Specified Commercial Transactions Act",
+      "privacy_policy": "Privacy Policy",
+      "refund_policy": "Refund Policy",
+      "shipping_policy": "Shipping Policy",
+      "subscription_policy": "Cancellation policy",
+      "terms_of_sale": "Terms of Sale",
+      "terms_of_service": "terms of service"
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Please try again after a while",
+        "message": "Too many attempts"
+      }
+    },
+    "ui_components": {
+      "addFile": "Add a file",
+      "april": "April",
+      "august": "August",
+      "autocompleteOptionsAvailable": {
+        "one": "Available{{count}}items",
+        "other": "{{count}} Available"
+      },
+      "clipboardCopied": "I've copied it",
+      "clipboardFailedToCopy": "Copy failed",
+      "closeModal": "close",
+      "closeNotification": "close",
+      "december": "December",
+      "decrease": "{{type}}Decrease in"
     }
   }
 }
