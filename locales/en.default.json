@@ -1220,7 +1220,35 @@
         },
         "list_view": "Show list view",
         "more_than_four_products_accessibility_label": "To order:{{lineItemName1}},{{lineItemName2}},{{lineItemName3}}, and{{numberOfAdditionalProducts}}There are more than items.",
-        "more_than_three_products_accessibility_label": "To order:{{lineItemName1}},{{lineItemName2}}, and more products{{numberOfAdditionalProducts}}There are pieces available."
+        "more_than_three_products_accessibility_label": "To order:{{lineItemName1}},{{lineItemName2}}, and more products{{numberOfAdditionalProducts}}There are pieces available.",
+        "no_filtered_results_description": "Delete or adjust filters to confirm your order",
+        "no_filtered_results_title": "No filter results",
+        "no_order_banner": "To test the extension on the Order Status page, create an order.",
+        "one_images_accessibility_label": "To order:{{lineItemName1}}Includes",
+        "order_link": "View your orders ({{name}})",
+        "order_number": "order ({{name}})",
+        "order_status_and_message": "{{orderStatus}}~{{message}}",
+        "order_status_message": {
+          "list_view": {
+            "estimated_delivery": "Scheduled date:{{date}}",
+            "last_updated": "Last Updated:{{date}}",
+            "view_order_for_details": "View order details"
+          },
+          "table_view": {
+            "estimated_delivery": "Estimated Delivery Date:{{date}}",
+            "last_updated": "{{date}}"
+          }
+        },
+        "orders_title": "Confirmed",
+        "pagination": {
+          "load_more": "Load more",
+          "load_more_accessibility_label": "Load more orders",
+          "nav_accessibility_label": "Order Menu Button",
+          "next": "to the next",
+          "next_accessibility_label": "Next order",
+          "previous": "Go ahead",
+          "previous_accessibility_label": "Previous Order"
+        }
       }
     }
   }
