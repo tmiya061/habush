@@ -3136,7 +3136,29 @@
         "digital_product_not_available_for_company_locations": "This item cannot be added to a B2B order",
         "empty_update": "You cannot update empty carts",
         "generic_error": "Cart error",
-        "gift_card_price_must_be_greater_than_zero": "Bundle product &quot;%{name}&quot; cannot be added to cart."
+        "gift_card_price_must_be_greater_than_zero": "Bundle product &quot;%{name}&quot; cannot be added to cart.",
+        "gift_card_recipient_validation_error": "The recipient of the specified gift card is invalid",
+        "gift_card_with_components_not_supported": "Bundle product &quot;%{name}&quot; cannot be added to cart.",
+        "invalid_input": "%{parameter} The parameter is invalid.",
+        "items_changed": "One or more products have been changed.",
+        "less_than_minimum": "The minimum value for this item is %{min}is.",
+        "link_expired": "The link is broken",
+        "link_no_longer_exists": "The links no longer exist.",
+        "maximum_available_quantity_reached": "The maximum number of this item is already in your cart.",
+        "merchandise_line_transformers": {
+          "run_error": "An error occurred in the cart."
+        },
+        "missing_parameters": "The parameter is invalid",
+        "more_than_maximum": "The maximum value for this item is %{max}is.",
+        "not_respect_step": "This item is %{step}You can only add increments of .",
+        "only_n_added_to_cart": "Item % depending on availability{quantity}Only points added to cart.",
+        "only_n_items_available": "%{count}% of pieces{name}You can only add it to your cart.",
+        "only_one_added_to_cart": "Due to listing status, only one item has been added to your cart.",
+        "product_not_available": "Products are not available",
+        "product_sold_out": "'%{name}' has already sold out.",
+        "selling_plan_not_applicable": "Cannot apply sales plans to variations",
+        "selling_plan_not_available_for_company_locations": "If you order B2B, you can only purchase one time.",
+        "shipping_address_invalid": "There was a problem calculating shipping costs. Please continue to check out and select shipping fees before completing your order."
       }
     }
   },
