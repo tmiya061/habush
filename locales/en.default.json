@@ -813,7 +813,27 @@
         "address_last_name_contains_emojis": "Last name cannot contain emojis",
         "address_last_name_contains_html_tags": "Last names cannot contain HTML tags.",
         "address_last_name_contains_mathematical_symbols": "Last name cannot contain mathematical symbols",
-        "address_last_name_contains_url": "Last name cannot contain URLs"
+        "address_last_name_contains_url": "Last name cannot contain URLs",
+        "address_last_name_too_long": "The last name is too long (maximum 255 characters)",
+        "address_phone_blank": "Please enter a valid phone number",
+        "address_phone_contains_emojis": "Phone numbers cannot contain emojis",
+        "address_phone_invalid": "Please enter a valid phone number",
+        "address_province_blank": "Please select your prefecture",
+        "address_province_invalid": "Please select a valid state",
+        "address_suggestion_did_you_mean_html": "%{html}Isn't it?",
+        "address_zip_blank": "Please enter your postal code",
+        "address_zip_blocked_address": "This location is not supported",
+        "address_zip_contains_emojis": "Postcodes cannot contain emojis",
+        "address_zip_contains_mathematical_symbols": "Postcodes cannot contain mathematical symbols",
+        "address_zip_invalid": "Please enter a valid postal code",
+        "address_zip_invalid_for_country": "%{country}Please enter a valid postal code",
+        "address_zip_invalid_for_country_and_province": "%{country}, %{province}Please enter a valid postal code",
+        "address_zip_invalid_for_province": "%{province}Please enter a valid postal code",
+        "address_zip_not_supported": "This location is not supported",
+        "address_zip_too_long": "Postal code is too long (maximum 255 characters)",
+        "credit_card_expiry_invalid": "Please enter the correct expiration date",
+        "credit_card_month_invalid": "Please enter the valid deadline",
+        "credit_card_name_blank": "Please enter the name exactly as shown on the card"
       }
     },
     "addresses": {
