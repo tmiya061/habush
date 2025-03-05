@@ -1996,7 +1996,35 @@
       },
       "payment_summary": {
         "billing_address_title": "Billing Address",
-        "credit_card_expires_on_notice": "date of expiry:%{month}/%{year}"
+        "credit_card_expires_on_notice": "date of expiry:%{month}/%{year}",
+        "express_payment_gateway_label": "Express",
+        "free_label": "free",
+        "gift_card_current_balance_notice": "Current Balance %{amount}",
+        "manual_payment_gateway_label": "Manual"
+      },
+      "pickup_point": {
+        "address_label": "address",
+        "business_hours": "Opening hours",
+        "change": "Change location",
+        "could_not_resolve_address": "The address could not be determined. Try again or use a different address",
+        "geolocation": {
+          "errors": {
+            "permission_denied": "Could not retrieve location. Please try again.",
+            "permission_not_allowed": "Allow location sharing.",
+            "unsuported_by_browser": "Your browser does not support geolocation acquisition. Try again or use a different browser."
+          },
+          "shared_location_button": "Use current location"
+        },
+        "location_is_currently_closed": "Closed",
+        "no_business_hours": "Business hours are not available",
+        "no_pickup_points_found": "There is no designated pickup location",
+        "no_pickup_points_near_location": "No designated pickup location found near the location",
+        "no_pickup_points_near_you": "No designated pickup location found near the selected address",
+        "number_of_pickup_points_near_location": {
+          "one": "% Near Location{count}There are designated pick-up locations",
+          "other": "% Near Location{count}There are designated pick-up locations"
+        },
+        "open_twenty_four_hours": "24 hours a day"
       }
     },
     "addresses": {
