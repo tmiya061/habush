@@ -3187,7 +3187,33 @@
         "cancel_reason": {
           "customer": "Customer has changed/cancelled the order",
           "declined": "Payment has been denied",
-          "fraud": "Scammed Orders"
+          "fraud": "Scammed Orders",
+          "inventory": "Products not available",
+          "other": "others",
+          "staff": "Staff mistakes"
+        },
+        "cash_on_delivery": "Cash on delivery",
+        "financial_status": {
+          "authorized": "Authorized",
+          "expired": "Expired",
+          "paid": "Payment has been made",
+          "partially_paid": "Partial payment has been made",
+          "partially_refunded": "Partial refund",
+          "pending": "on hold",
+          "refunded": "Refunded",
+          "unpaid": "unpaid",
+          "voided": "invalid"
+        },
+        "fulfillment_status": {
+          "complete": "completion",
+          "fulfilled": "Shipped",
+          "partial": "A part",
+          "restocked": "Stock has been restocked",
+          "unfulfilled": "Not shipped"
+        },
+        "not_available": "This order is not available",
+        "transaction_status": {
+          "error": "error"
         }
       }
     }
