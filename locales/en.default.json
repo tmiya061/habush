@@ -3041,7 +3041,39 @@
       "invalid_for_card_type": "is not valid",
       "invalid_for_country": "teeth%{country}is not valid in",
       "invalid_for_country_and_province": "teeth%{province}and%{country}is not valid in",
-      "invalid_format": "Incorrect format"
+      "invalid_format": "Incorrect format",
+      "invalid_province_in_country": "teeth%{country}Not valid in the territories of",
+      "invalid_region_in_country": "teeth%{country}Not valid in your region",
+      "invalid_start_date_or_issue_number_for_debit": "A start date or issue number is required.",
+      "invalid_state_in_country": "teeth%{country}Not valid in any state",
+      "invalid_type": "We are sorry. This type of card is not accepted.",
+      "less_than_or_equal_to": "teeth%{count}Must be less than or equal to",
+      "not_supported": "is not supported",
+      "password_mismatch": "must match the password you entered",
+      "product_not_available": "The product is not published for this customer.",
+      "reset_password_html": "This email address is already associated with an account. If this account belongs to you,<a href=\"/account/login#recover\">Reset password</a>You can also do this.",
+      "shop_404": {
+        "ctas": {
+          "editions": {
+            "caption": "You can see the latest news on over 100 products, allowing you to do more productive, creative work and excel at commerce more than you could have imagined.",
+            "header": "Check out Shopify Editions",
+            "link_text": "Find the latest editions"
+          },
+          "open_a_store": {
+            "caption": "Start a 3-day free trial. You can continue for the next three months for $1 per month.",
+            "header": "Open a new Shopify store",
+            "link_text": "Sign up now"
+          },
+          "sell_in_person": {
+            "caption": "Get the features you need to start running or scale your retail store.",
+            "header": "Store sales",
+            "link_text": "Start a free trial"
+          },
+          "store_owner": {
+            "caption": "Can't access the store? %{forgot_your_store_link}Try the feature out. If you want to re-enable your store contacts,{shopify_support_link}Please visit:"
+          }
+        }
+      }
     }
   },
   "customer_accounts": {
