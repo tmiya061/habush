@@ -1021,7 +1021,53 @@
       "marketing_checkbox_label": "Get news and offers via email",
       "marketing_checkmark_label": "Signed up to receive email news and offers",
       "marketing_description": "You will receive a marketing email soon. You can unsubscribe at any time.",
-      "marketing_section_title": "News and offers"
+      "marketing_section_title": "News and offers",
+      "mobile_summary_toggle_button": {
+        "closed": "Hide order summary",
+        "open": "View order summary"
+      },
+      "no_data": "none",
+      "no_data_provided": "-",
+      "no_data_provided_accessibility_label": "{{fieldName}}is blank",
+      "not_applicable": "Not applicable",
+      "ok_duties_tooltip": "This order is shipped from another country, so customs duties are added to the total order amount.",
+      "order_details": "Order details",
+      "order_details_skeleton_accessibility_label": "Please log in to view all order details.",
+      "pagination": {
+        "load_more": "Load more",
+        "load_more_accessibility_label": "Load more items",
+        "loading_accessibility_label": "Item is loading"
+      },
+      "paid_amount": "Payment has been made",
+      "paid_with_shop_pay_installments_card": {
+        "description": "Keep your payment schedules in mind using reminders in the Shop app.",
+        "desktop_qr_code_content": {
+          "description": "Get Shop Pay installment reminders.",
+          "title": "Scan the Remander"
+        },
+        "paid_with_shop_pay_installments": "Payment was made in installments with Shop Pay",
+        "payment_reminders_button": "Get payment reminders"
+      },
+      "partially_refunded_label": "Partial refund",
+      "payment": {
+        "card_payment_details": "Ends with{{lastDigits}} - {{formattedTransactionAmount}}",
+        "card_payment_short_details": "{{paymentTypeLabel}} •••• {{lastDigits}}",
+        "emv_details": {
+          "aid": "Application ID:",
+          "auth": "Approval:",
+          "source": "sauce:"
+        },
+        "gift_card_payment_details": "Ends with{{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "bank_deposit": "Bank Transfer - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Cash on delivery - {{formattedTransactionAmount}}",
+          "manual": "Manual - {{formattedTransactionAmount}}",
+          "money_order": "Postal money order - {{formattedTransactionAmount}}"
+        },
+        "payment_type": {
+          "bank_deposit": "Bank transfer"
+        }
+      }
     }
   }
 }
