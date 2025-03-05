@@ -2648,7 +2648,27 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Once payment is complete, you will receive a confirmation email. Use the Shop app to track your orders.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "To receive confirmation of your order, please contact us by email or phone.",
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "To receive confirmation of your order, please contact us by email or phone.",
-        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "To receive confirmation of your order, please contact us by email or phone."
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "To receive confirmation of your order, please contact us by email or phone.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Once payment is complete, you will receive a confirmation text message. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Once payment is complete, you will receive a confirmation text message. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Once payment is complete, you will receive a confirmation text message. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "You will receive a confirmation email soon. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "You will receive a confirmation email soon. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "You will receive a confirmation email soon. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "You will receive a confirmation email soon. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "You will receive a confirmation email soon. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "You will receive a confirmation email soon. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "To receive confirmation of your order, please contact us by email or phone.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "To receive confirmation of your order, please contact us by email or phone.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "To receive confirmation of your order, please contact us by email or phone.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "You will receive a confirmation text message soon. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "You will receive a confirmation text message soon. Use the Shop app to track your orders.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "You will receive a confirmation text message soon. Use the Shop app to track your orders.",
+        "order_status_updates_with_email": "Get the latest delivery and delivery information by email.",
+        "order_status_updates_with_email_and_phone": "Get the latest delivery and delivery information by email.",
+        "order_status_updates_with_missing": "Choose how you want to get delivery status updates.",
+        "order_status_updates_with_phone": "Get text with the latest delivery and delivery information.",
+        "order_updates_current_step_prefix": "Current Steps: "
       }
     },
     "addresses": {
