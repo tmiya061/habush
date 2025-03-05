@@ -1515,7 +1515,33 @@
       "apple_pay": {
         "errors": {
           "generic": "There was a problem with Apple Pay. Try again or use a different payment method.",
-          "missing_billing_address": "You will need a billing address to use Apple Pay. Please add one to your account."
+          "missing_billing_address": "You will need a billing address to use Apple Pay. Please add one to your account.",
+          "not_available": "Apple Pay is not available on this device."
+        },
+        "loading": "Loading Apple Pay"
+      },
+      "back_button": "return",
+      "back_button_accessibility_label": "{{paymentMethodStepTitle}}Back to",
+      "card_fields": {
+        "card_expiry_label": "Expiration date (month/year)",
+        "card_expiry_placeholder": "Expiration date (month/year)",
+        "card_number_label": "Card Number",
+        "card_number_placeholder": "Card Number",
+        "card_start_label": "Publication date (month/year)",
+        "card_start_placeholder": "Publication date (month/year)",
+        "card_verification_value_label": "Security Code",
+        "card_verification_value_placeholder": "Security Code",
+        "field_errors": {
+          "credit_card_expiry_invalid": "Enter the valid card expiration date",
+          "credit_card_name_invalid": "Please enter the name exactly as shown on the card",
+          "credit_card_number_invalid": "Please enter a valid card number",
+          "credit_card_verification_value_blank": "Enter your card's CVV or security code"
+        },
+        "name_on_card_label": "Card holder",
+        "name_on_card_placeholder": "Card holder",
+        "tooltip": {
+          "card_security_notice": "All transactions are secure and encrypted.",
+          "card_verification_value_explanation": "This is a 3-digit security code on the back of the card. The American Express Card is a four-digit code on the front."
         }
       }
     }
