@@ -1656,7 +1656,31 @@
         "card_update_label": "Update your card",
         "card_vaulted_company_location": "The card in this location has been saved",
         "card_verification_confirm": "Please enter the card security code to verify your identity.",
-        "card_verification_value_explanation": "This is a 3-digit security code on the back of the card. The American Express Card is a four-digit code on the front."
+        "card_verification_value_explanation": "This is a 3-digit security code on the back of the card. The American Express Card is a four-digit code on the front.",
+        "card_verification_value_explanation_amex": "It is a four-digit code on the front of the card",
+        "card_verification_value_explanation_other": "This is a 3-digit security code on the back of the card",
+        "card_verification_value_label": "Security Code",
+        "card_verification_value_placeholder": "Security Code",
+        "cashapppay_label": "っていっていっていっていっていっていっていっています",
+        "change_currency_section_description": "Select currency options",
+        "clear": "delete",
+        "credit_card_start_month": "Published month",
+        "credit_card_start_year": "Year published",
+        "credit_card_vaulting_sign_in_banner_button_label": "Login",
+        "credit_card_vaulting_sign_in_banner_info": "Log in or create an account and save your credit card information for future purchases.",
+        "credit_card_vaulting_sign_in_banner_title": "Save your credit card information",
+        "custom_onsite_payment_method_modal": {
+          "title": "Customize your on-site payment confirmation"
+        },
+        "delete_credit_card_modal": {
+          "cancel": "cancel",
+          "confirmation": "Ends with{{lastDigits}}of{{brandName}}Are you sure you want to delete it?",
+          "delete": "delete",
+          "title": "Delete a card"
+        },
+        "delete_customer_mandate_modal_body": "If you delete this card, you will need to re-add it before using it for payment.",
+        "delete_customer_mandate_modal_cancel": "cancel",
+        "delete_customer_mandate_modal_confirm": "Remove the card"
       }
     },
     "addresses": {
