@@ -565,7 +565,41 @@
       },
       "billing": {
         "add_address": "Use a different address",
-        "address_confirm": "Are you sure you want to delete this address from your account ?"
+        "address_confirm": "Are you sure you want to delete this address from your account ?",
+        "address_delete": "Delete address",
+        "address_edit": "Edit address",
+        "address_form": {
+          "add_address": "Add address",
+          "cancel": "cancel",
+          "save": "keep"
+        },
+        "address_more": "Other actions to this address",
+        "billing_address_title": "Billing destination",
+        "delete": "delete",
+        "edit": "edit",
+        "same_as_shipping": "Same as shipping address"
+      },
+      "captcha": {
+        "errors": {
+          "not_solved": "Complete CAPTCHA to continue"
+        },
+        "title": "Complete CAPTCHA to continue"
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "There was a problem processing the request. Please contact the store owner."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Country/region has been updated. Please enter your shipping address and continue checking out."
+      },
+      "change_country": {
+        "cart_and_currency_updated_based_on_country": "Cart and currency have been updated based on the country you are sending to.",
+        "cart_updated_based_on_country": "Cart has been updated based on the country of delivery."
+      },
+      "change_currency": {
+        "card_provider_fx_charges_warning": "% depending on card provider{currency_code}Fees may be charged on transactions.",
+        "change_currency_link": "%{currency_name}Change to",
+        "conversion_rate": "1%{from_currency_code} = %{rate}%{to_currency_code}",
+        "credit_card_will_be_charged_html": "%{amount}will be charged to your credit card."
       }
     },
     "addresses": {
