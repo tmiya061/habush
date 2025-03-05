@@ -949,7 +949,41 @@
       "dismiss_toast": "close",
       "document_title": "{{sectionName}} - {{shopName}} - account",
       "generic_accessibility_label": "{{label}}: {{value}}",
-      "go_to_store_link": "Go to store"
+      "go_to_store_link": "Go to store",
+      "loading_message": "Loading",
+      "log_out_link": "Log out",
+      "logout_overlay_label": "I'm logged out...",
+      "nav_label_accessibility_label": "Main Menu",
+      "navigation_accessibility_message": "{{sectionName}}Moved to",
+      "open_menu_accessibility_label": "Open the main menu",
+      "orders_link_label": "order",
+      "settings_link": "setting",
+      "shop_logo_accessibility_label": "{{shopName}}Logo",
+      "subscriptions_link_label": "Subscription"
+    },
+    "order_details": {
+      "addresses_section_title": "Billing and delivery",
+      "adjusted_payment": "Adjusted payment",
+      "adjusted_total": "Adjusted Total",
+      "billing_address": "Billing Address",
+      "card_ending_with": "Last 4 digits{{lastDigits}}",
+      "cash_rounding": "Cache rounding",
+      "company": "company",
+      "contact": "contact address",
+      "contact_information": "Contact Information",
+      "discount": "discount",
+      "duties": "Customs",
+      "duties_and_taxes_included": "The total amount includes customs duties and taxes. There is no additional charge when it is delivered.",
+      "edit_summary": {
+        "added": "Added",
+        "added_with_quantity": "{{quantity}}Added",
+        "removed": "Deleted",
+        "removed_with_quantities": "{{total}}Among{{delta}}The item has been deleted",
+        "removed_with_quantity": "{{quantity}}Deleted",
+        "return_line_item_removed": "Removed from return",
+        "return_line_item_removed_with_quantities": "From returns{{delta}}Deleted",
+        "returned": "Returned"
+      }
     }
   }
 }
