@@ -629,7 +629,33 @@
             "customer_profile_access_restricted": "Checkout does not have permission to access your customer profile.",
             "email_domain_is_invalid": "The specified domain cannot be resolved.",
             "email_required": "You will need an email address to purchase Merchandise with a subscription.",
-            "invalid_customer_profile": "An invalid customer profile has been provided."
+            "invalid_customer_profile": "An invalid customer profile has been provided.",
+            "lost_access_to_company": "Customers no longer have access to any company.",
+            "missing_contact_method": "There is no valid contact method.",
+            "personal_order_not_allowed": "This shop does not allow personal orders.",
+            "phone_number_does_not_match_expected_pattern": "Please enter the correct format phone number."
+          },
+          "captcha": {
+            "job_already_queued": "Captcha validation for this captcha token has already been added to the queue.",
+            "job_enqueue_failed": "Failed to add captcha validation job to queue.",
+            "metadata_mismatch": "The captcha provider and type entered do not match the expected value.",
+            "metadata_missing": "This checkout requires captcha to be entered.",
+            "token_expired": "The captcha token entered has expired. To continue checkout, please enter your new captcha.",
+            "token_invalid": "The captcha token entered is invalid. To continue checkout, please enter your new captcha.",
+            "token_missing": "You will need a captcha token to complete this checkout.",
+            "token_not_valid_for_session": "The captcha entered is not available for this checkout."
+          },
+          "checkout_source": {
+            "revoked": "This check-out is not available."
+          },
+          "delivery": {
+            "auto_fulfill_not_allowed": "This session does not have permission to override fulfillment behavior.",
+            "auto_fulfill_required": "You will need automatic fulfillment to request a RETAIL delivery method.",
+            "delivery_strategy_conditions_not_satisfied": "Delivery strategies are available at this location, but the conditions are not met.",
+            "destination_address_required": "To continue, please enter your shipping address.",
+            "external_delivery_promise_error": "Error getting external delivery promise.",
+            "fulfillment_constraints_not_satisfied": "One or more fulfillment constraint rules are not met.",
+            "invalid_origin_location_id": "No locations found that match the location ID of the inventory source."
           }
         }
       },
