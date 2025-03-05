@@ -599,7 +599,43 @@
         "card_provider_fx_charges_warning": "% depending on card provider{currency_code}Fees may be charged on transactions.",
         "change_currency_link": "%{currency_name}Change to",
         "conversion_rate": "1%{from_currency_code} = %{rate}%{to_currency_code}",
-        "credit_card_will_be_charged_html": "%{amount}will be charged to your credit card."
+        "credit_card_will_be_charged_html": "%{amount}will be charged to your credit card.",
+        "currency_button_label": "%{currency} (%{currency_symbol})",
+        "currency_not_supported_by_shop": "The selected currency is no longer available. All prices in %{currency_code}It is now displayed as:",
+        "payment_total_label": "Total payment"
+      },
+      "clipboard": {
+        "copied": "I've copied it",
+        "failed_to_copy": "Copy failed"
+      },
+      "company_location": {
+        "location_title": "O cation"
+      },
+      "contact": {
+        "address1_label": "address",
+        "address2_label": "Building name, room number etc.",
+        "address_title": "address",
+        "available_addresses_label": "Available addresses",
+        "change_company_location_link_label": "Change company location",
+        "change_location_link_label": "Change location",
+        "city_label": "municipalities",
+        "civic_number_warning": "If applicable, please also enter the address",
+        "company_attention_label": "Company/Destination",
+        "company_contact_info": "{{companyName}} · {{contact}}",
+        "company_label": "company",
+        "contact_method_title": "contact address",
+        "country_code": "Country/Regional Code",
+        "country_label": "Country/region",
+        "county_label": "county",
+        "county_placeholder": "county",
+        "delivery_option_title": "Delivery method",
+        "different_shipping_address_label": "Deliver to a different address",
+        "different_shipping_address_text": "Use a one-off address for this order",
+        "email_label": "email address",
+        "email_or_phone_label": "Email address or mobile phone number",
+        "email_or_phone_placeholder": "Email address or mobile phone number",
+        "email_placeholder": "email address",
+        "emirate_label": "Emirates"
       }
     },
     "addresses": {
