@@ -1948,7 +1948,29 @@
         "paypal_invalid_token": "PayPal was not available. Try again or use a different checkout option.",
         "paypal_zero_amount": "%{amount}We don't accept PayPal for orders at . Please make sure your order is correct and check out with a method other than PayPal.",
         "pick_up_card": "The card was rejected. Try again or use a different payment method.",
-        "processing_error": "A problem occurred during payment processing. Try again or use a different payment method."
+        "processing_error": "A problem occurred during payment processing. Try again or use a different payment method.",
+        "processing_error_checkout_as_guest": "There was a problem processing your payment. Please try again with a different payment method or{{checkout_as_guest_link}}.",
+        "rejected_transaction": "The payment was denied. Try again or use a different payment method.",
+        "risky": "There was a problem processing the payment. Try again or use a different payment method.",
+        "selected_payment_method": "No billing has been made due to a problem with the payment method selected. Try again or use a different payment method.",
+        "shipping_must_match_billing": "Your billing address must match your shipping address. Please use a different payment method.",
+        "subscription_agreement_blank": "To purchase a subscription, you must save your payment details. To continue, confirm that you agree or remove the subscription item from your order.",
+        "successful_offsite_with_gift_card_error": "There was a problem processing gift card payment. Try again or use a different payment method.",
+        "test_mode_live_card": "This store cannot accept actual orders or actual payments.",
+        "three_d_secure_failed": "Payment could not be confirmed. Try again or use a different payment method.",
+        "three_d_secure_failed_duplicate": "3D secure authentication of credit card failed because processing of another credit card is already in progress.",
+        "three_d_secure_failed_payment_method": "The card could not be authenticated. Try again or add another card.",
+        "three_d_secure_throttled": "There are too many attempts. Please wait before entering again.",
+        "transient_error": "A problem occurred during payment processing. Please refresh this page or check your internet connection."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Bank transfer",
+        "cash_on_delivery_label": "Cash on delivery",
+        "credit_card_label": "Credit Card",
+        "debit_card_label": "Debit Card",
+        "deferred_payment_label": "Please select your payment method later",
+        "direct_payment_terms": "The period is{{translatedName}}The due date for card payment is{{dueDate}}is.",
+        "draft_order_deposit_due_later": "Once your order is confirmed,{{depositAmount}}The remaining balance will be{{translatedName}}You will be required to pay during this period."
       }
     },
     "addresses": {
