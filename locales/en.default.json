@@ -769,7 +769,42 @@
             "store_credit_mismatched_currency": "The currency of your store credit account does not match the currency of your checkout.",
             "store_credit_not_enabled": "Store credits are not valid for this shop.",
             "subscription_terms_not_accepted": "Terms of subscription have not been accepted.",
-            "total_amount_mismatch": "The total payment amount does not match the total payment amount."
+            "total_amount_mismatch": "The total payment amount does not match the total payment amount.",
+            "unauthorized_capture_method": "Setting the payment confirmation method is not permitted.",
+            "unexpected_retail_attributions": "The retailer information entered when making a credit card is unknown.",
+            "wallet_content_missing": "No wallet content has been entered."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "This draft order does not exist in the current shop.",
+            "location_not_exist": "This location does not exist in the current shop.",
+            "point_of_sale_device_not_exist": "This POS device is not present in the current shop.",
+            "staff_member_not_exist": "This staff is not present in the current shop.",
+            "unresolvable_target_merchandise_lines": "The proposed sales attributes are unresolved considering the current deal situation."
+          },
+          "session_identifier_not_unique_error": "There was something wrong with your order. Please check out again.",
+          "session_is_already_finished": "This checkout session is already confirmed.",
+          "tax": {
+            "allocated_required": "The Assigned field is not filled.",
+            "delivery_discount_terms_must_be_defined": "You must define delivery disscant conditions.",
+            "delivery_price_is_abstract": "The related delivery prices are not specific.",
+            "delivery_tax_exemption_not_supported": "Tax-free delivery items are currently not available.",
+            "delivery_terms_must_be_defined": "You must define delivery terms.",
+            "line_splits_not_supported": "The Merchandise Item field must be split into a single item component of the seller proposal.",
+            "merchandise_discount_terms_must_be_defined": "You must define a merchandise dissant condition.",
+            "merchandise_terms_must_be_defined": "You must define the merchandise conditions.",
+            "new_tax_must_be_accepted": "The tax related to orders has been changed. Please check and try again.",
+            "proposed_allocations_required": "The Suggested Assignment field is not filled in.",
+            "tax_exemption_not_supported": "Tax-free is not available for current opportunity sessions.",
+            "tax_inclusivity_mismatch": "Please re-opt the deal with the specific totalTaxAndDutyAmount or totalAmountIncludedInTarget values.",
+            "unresolvable_tax_terms": "The proposed terms are unresolved considering the current deal situation.",
+            "value_required": "The Value field is not entered."
+          },
+          "tip": {
+            "currency_change_reset": "Due to currency changes, the chip has been reset.",
+            "not_accepted_by_shop": "The shop does not accept chips.",
+            "only_one_tip_line_allowed": "Multiple items cannot be used.",
+            "tips_not_allowed_for_b2b": "Chip is not permitted in B2B stores.",
+            "tips_not_allowed_for_deferred_purchase_options": "Tips are not available for deferred purchase options yet."
           }
         }
       },
