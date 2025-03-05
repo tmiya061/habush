@@ -225,28 +225,28 @@
       "page": "page",
       "products": "Product Management",
       "results_pages_with_count": {
-        "one": "{{ count }} page",
-        "other": "{{ count }} pages"
+        "one": "{{ count }}page",
+        "other": "{{ count }}page"
       },
       "results_suggestions_with_count": {
-        "one": "{{ count }} suggestion",
-        "other": "{{ count }} suggestions"
+        "one": "{{ count }}Candidates",
+        "other": "{{ count }}Candidates"
       },
       "results_products_with_count": {
-        "one": "{{ count }} product",
-        "other": "{{ count }} products"
+        "one": "{{ count }}items",
+        "other": "{{ count }}items"
       },
       "results_with_count": {
-        "one": "{{ count }} result",
-        "other": "{{ count }} results"
+        "one": "{{ count }}Results",
+        "other": "{{ count }}Results"
       },
       "results_with_count_and_term": {
-        "one": "{{ count }} result found for “{{ terms }}”",
-        "other": "{{ count }} results found for “{{ terms }}”"
+        "one": "&quot;{{ terms }}&quot; search results{{ count }}subject",
+        "other": "&quot;{{ terms }}&quot; search results{{ count }}subject"
       },
       "title": "Search results",
-      "search_for": "Search for “{{ terms }}”",
-      "suggestions": "Suggestions",
+      "search_for": "&quot;{{ terms }}Search for",
+      "suggestions": "candidate",
       "pages": "page"
     },
     "cart": {
