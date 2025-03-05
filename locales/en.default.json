@@ -786,8 +786,42 @@
         "move_down_tooltip": "Move to the next position",
         "move_up": "Move the extension to the previous position",
         "move_up_tooltip": "Return to previous position",
-        "remove": "Remove extension"
+        "remove": "Remove extension",
+        "remove_tooltip": "delete",
+        "select": "{{extensionName}}Select the extension named",
+        "unselect": "{{extensionName}}Deselect the extension named"
       }
+    },
+    "address_form": {
+      "attention": "address",
+      "attention_company": "Company/Destination",
+      "attention_help_text": "Personal or department name",
+      "auto_complete_close_accessibility_label": "Close candidates",
+      "auto_complete_title": "candidate",
+      "billing_address": "Used as billing address",
+      "cancel": "cancel",
+      "cancel_accessibility_label": "address ({{address}}) to cancel editing",
+      "creation_success_notification": "Address added",
+      "default_address": "This is the default address",
+      "default_address_creation_success_notification": "Added default address",
+      "default_address_update_success_notification": "Default address has been updated",
+      "loading_add_form_accessibility_message": "Loading a new address form",
+      "loading_edit_form_accessibility_message": "Edit address form loaded",
+      "loading_finished_accessibility_message": "The address form has been loaded",
+      "loading_form_accessibility_message": "Loading the address form",
+      "save": "keep",
+      "save_accessibility_label": "address ({{address}} Save",
+      "section_title_accessibility_label": "Add an address",
+      "update_success_notification": "The address has been updated"
+    },
+    "addresses": {
+      "add_address_banner": "Add an address to use when checking out",
+      "add_button": "Add address",
+      "add_button_accessibility_label": "Add address",
+      "add_button_text": "addition",
+      "address_deleted_notification": "Address has been deleted",
+      "back_button": "return",
+      "back_button_accessibility_label": "Return to the address ({{address}})"
     }
   }
 }
