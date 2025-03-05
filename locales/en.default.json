@@ -543,6 +543,29 @@
         "expand_notice_label": "See more",
         "continue_to_shipping_method": "Proceed to select shipping method",
         "continue_to_payment_method": "Proceed to payment"
+      },
+      "address_management": {
+        "confirm_address_deletion": "address ({{address}}) Are you sure you want to delete it?"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Easy payment",
+        "hide_more_options": "Hide other options",
+        "or": "or",
+        "or_check_out_another_way": "Or check out another way",
+        "or_pay_another_way": "Or pay in another way",
+        "or_pay_with_credit_card": "Or pay with a credit card",
+        "show_more_options": "View other options"
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "There was a problem processing your order. Please try again in a few minutes."
+      },
+      "b2b_errors": {
+        "log_out_link_text": "Log out",
+        "lost_b2b_purchasing_permissions": "You are no longer authorized to place B2B orders. Instead,{logout_url}Please place your personal order."
+      },
+      "billing": {
+        "add_address": "Use a different address",
+        "address_confirm": "Are you sure you want to delete this address from your account ?"
       }
     },
     "addresses": {
@@ -564,7 +587,18 @@
       "body": "body",
       "email": "Email",
       "first_name": "given name",
-      "last_name": "Last name"
+      "last_name": "Last name",
+      "password": "password",
+      "password_confirmation": "Reconfirm your password",
+      "signature": "address"
+    },
+    "cart": {
+      "discounts_with_count": "%{count}Discount applied"
+    },
+    "challenge": {
+      "error": "Your answer is incorrect. Please try again.",
+      "message": "To continue, please tell me you are not a robot.",
+      "submit_button_text": "send"
     }
   },
   "customer_accounts": {
