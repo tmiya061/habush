@@ -703,7 +703,33 @@
             "inventory_not_found": "No inventory was found for this merchandise.",
             "maximum_quantity_exceeded": "The quantity of some items exceeds the maximum allowed.",
             "merchandise_not_applicable": "Product variations cannot be purchased.",
-            "merchandise_not_found": "No product found."
+            "merchandise_not_found": "No product found.",
+            "merchandise_variant_not_found": "No product variations found.",
+            "minimum_quantity_not_met": "The quantity of some items does not meet the required minimum amount.",
+            "mixed_currencies": "Checkout includes items in different currency.",
+            "only_value_constraint": "Only accurate values ​​are allowed in merchandise inputs.",
+            "price_mismatch": "The previous asking price for this merchandise has been updated as it is invalid.",
+            "product_not_published": "The product has not been published.",
+            "product_not_published_in_buyer_location": "The item is not published at the buyer's location.",
+            "quantity_increment_not_met": "The quantity of some products does not meet the order standard value.",
+            "quantity_rules_not_met": "The quantity of some products does not meet the order standard value.",
+            "selling_plan_mismatch": "The subscription has been updated.",
+            "selling_plan_not_supported": "Subscriptions are not available.",
+            "selling_plan_not_supported_b2b": "Subscriptions are not available for B2B checkout.",
+            "title_empty": "Merchandise name is blank.",
+            "title_too_long": "Merchandise title is too long."
+          },
+          "non_negotiable": {
+            "invalid_signature": "{{target_terms}}The signature is invalid.",
+            "missing_non_negotiable_terms": "The buyer's proposal includes non-negotiable_terms."
+          },
+          "only_empty_terms_accepted": "This policy accepts only default conditions.",
+          "optional_duties": {
+            "optional_duties_not_permitted": "Refusal of customs is not permitted at this checkout."
+          },
+          "payment": {
+            "credit_card_last_name_required": "\"Last name\" cannot be nil.",
+            "credit_card_update_failed": "Credit card renewal failed."
           }
         }
       },
