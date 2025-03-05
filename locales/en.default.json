@@ -1218,7 +1218,41 @@
         "paginator": {
           "accessibility_label": "Pagination of store pickup list",
           "label": {
-            "one": "%{count}% of stores{first}~%{last}"
+            "one": "%{count}% of stores{first}~%{last}",
+            "other": "%{count}% of stores{first}~%{last}"
+          },
+          "next": "Next page",
+          "previous": "Previous page"
+        },
+        "reveal_more_label": {
+          "one": "%{count}Show more locations",
+          "other": "%{count}Show more locations"
+        },
+        "search_button": "Find the store",
+        "toggle_location": "Change location",
+        "your_location": "Location"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Additional Information"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Get great deals by email",
+        "accept_shop_pay_marketing_checkbox_label": "Sign up for news and offers from this store",
+        "accept_sms_checkbox_label": "Receive news and offers via text",
+        "disclaimer": {
+          "description_html": "  ",
+          "privacy_policy": "Privacy Policy",
+          "terms_of_service": "terms of service"
+        },
+        "pending_accept_marketing_checkbox_label": "I have sent an email. Check out our subscriptions to news and offers.",
+        "post_accept_marketing_checkbox_label": "We are subscribing to email information for great deals",
+        "sms": {
+          "disclaimer": {
+            "description_html": "By signing up by text, you consent to receiving periodic automated marketing messages, including cart reminders, at the phone number you provided. Consent is not a condition of purchase. To unsubscribe, reply STOP. For assistance, reply HELP. Message frequency varies. Message and data rates may apply. %{privacy_policy_link}and%{terms_of_service_link}Display.",
+            "description_transactional_html": "Receive order confirmations and delivery updates via text message. To unsubscribe, reply STOP. For assistance, reply HELP. Message frequency varies. Message and data charges may apply. %{privacy_policy_modal_link}and%{terms_of_service_modal_link}Please see.",
+            "privacy_policy": "Privacy Policy"
           }
         }
       }
