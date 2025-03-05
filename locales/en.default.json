@@ -2320,9 +2320,41 @@
             "other": "%{count}% of deliveries{shipping_price} (%{per_delivery_cost}), and % for subsequent deliveries{recurring_order_shipping_price}"
           },
           "prepaid_order_one_cycle": {
-            "one": "After%{count}Delivery is %{shipping_price}"
-          }
-        }
+            "one": "After%{count}Delivery is %{shipping_price}",
+            "other": "After%{count}% of deliveries{shipping_price} (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{count}Delivery is %{shipping_price}",
+            "other": "%{count}% of deliveries{shipping_price} (%{per_delivery_cost})"
+          },
+          "prepaid_shipping_price_label": "% per delivery{shipping_price} x%{delivery_interval_count}",
+          "recurring_order_shipping_price": "After %{recurring_order_shipping_price}Continued",
+          "shipping_price_included": "Included",
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "every day",
+              "other": "%{count}Daily"
+            },
+            "month": {
+              "one": "monthly",
+              "other": "%{count}Monthly"
+            },
+            "week": {
+              "one": "Every week",
+              "other": "%{count}Weekly"
+            },
+            "year": {
+              "one": "Every year",
+              "other": "%{count}Yearly"
+            }
+          },
+          "subscription_free_with_frequency_label": "Free Shipping (%{delivery_frequency})"
+        },
+        "subscription_local_delivery": "Local Delivery Subscription",
+        "subscription_pickup": "Subscription pickup",
+        "subscription_shipping": "How to ship your subscription",
+        "title": "Shipping",
+        "two_day_delivery": "Delivery in 2 days (%{time})"
       }
     },
     "addresses": {
