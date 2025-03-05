@@ -2559,8 +2559,40 @@
         "first_payment_complete": "Your first payment has been completed",
         "fulfillment": {
           "description_label": "explanation",
-          "fulfilled_table_title": "Products shipped by this"
-        }
+          "fulfilled_table_title": "Products shipped by this",
+          "product_image_label": "Product image",
+          "quantity_label": "quantity",
+          "unfulfilled_table_title": "Products currently being prepared for shipping"
+        },
+        "gift_card_confirmation_by_email": "If you have not received your gift card, please resend your email or contact us.",
+        "gift_card_confirmation_by_email_typ": {
+          "one": "You will receive an email with a gift card within a few minutes.",
+          "other": "You will receive an email with a gift card within a few minutes."
+        },
+        "gift_card_confirmation_by_text": "If you have not received your gift card, please resend the text or contact us.",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "You will receive a text with a gift card within a few minutes.",
+          "other": "You will receive a text with a gift card within a few minutes."
+        },
+        "gift_card_email_title": {
+          "one": "Gift cards have been sent via email",
+          "other": "Gift cards have been sent via email"
+        },
+        "gift_card_resend_failure": {
+          "one": "I had a problem resending the gift card. Please try again or contact us.",
+          "other": "I had a problem resending the gift card. Please try again or contact us."
+        },
+        "gift_card_resent_confirmation": {
+          "one": "The gift card has been resent.",
+          "other": "The gift card has been resent."
+        },
+        "gift_card_sent_confirmation": "Gift card has been sent",
+        "gift_card_text_title": {
+          "one": "Gift card was sent via text message",
+          "other": "Gift card was sent via text message"
+        },
+        "gift_card_title": "Gift Card",
+        "in_store_purchase": "Purchase in store"
       }
     },
     "addresses": {
