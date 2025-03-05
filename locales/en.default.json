@@ -1802,7 +1802,37 @@
         "order_edit_banner_subtitle": "{{order_number}}Your order has been updated. Please review these changes and then complete the payment to confirm your order.",
         "order_edit_banner_title": "{{amount_owed}}Payment is required for",
         "order_edit_banner_updated_order_label": "Order updated",
-        "pay_in_installments_split_pay_short": "%{amount}4 installments of"
+        "pay_in_installments_split_pay_short": "%{amount}4 installments of",
+        "pay_with_payment_method": "%{payment_method} Pay with",
+        "payment_flexibility_terms_id_mismatch": "Flexible payment condition ID mismatch",
+        "payment_method": "Payment method",
+        "payment_method_not_available_for_shipping_address_error": "This is a payment method that cannot be used at the selected shipping address. Please choose a different payment method.",
+        "payment_method_saved": "The payment method has been saved",
+        "payment_method_update_failed": "Failed to update payment method.",
+        "paypal": {
+          "connect": "Click to link your PayPal account"
+        },
+        "paypal_disconnect": "Cancellation",
+        "paypal_label": "Pay Pal",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "The total amount may not include taxes, shipping costs, late fees, or some discounts. We will continue to check out the amount you will be paying today.",
+          "order_contains_subscriptions": "Subscription"
+        },
+        "paypal_wallet_label": "PayPal wallet",
+        "pending_payment": {
+          "due_notice": "%{amount_due}The payment due date is %{due_date}is.",
+          "multibanco": {
+            "amount": "Amount",
+            "buyer_action_info": "%{amount_due}You will be charged the following:",
+            "entity": "entity",
+            "find_nearest_atm": "Find your nearest ATM",
+            "instruction_html": "Use the details below to make a payment at Multibanco or online. If you have any questions or would like to update your payment information,{contact_us}.",
+            "reference": "Reference"
+          }
+        },
+        "preview_not_available": {
+          "button": "､､"
+        }
       }
     },
     "addresses": {
