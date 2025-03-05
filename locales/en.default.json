@@ -10,13 +10,13 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Enter store using password:",
-      "login_password_button": "Enter using password",
-      "login_form_password_label": "Password",
+      "login_form_heading": "Enter your password to access the store.",
+      "login_password_button": "Enter your password to access it",
+      "login_form_password_label": "password",
       "login_form_password_placeholder": "Your password",
-      "login_form_error": "Wrong password!",
-      "login_form_submit": "Enter",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
+      "login_form_error": "The password is incorrect.",
+      "login_form_submit": "Enter the store",
+      "admin_link_html": "Are you a store owner?<a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
     },
     "social": {
@@ -40,7 +40,7 @@
     "continue_shopping": "Continue shopping",
     "pagination": {
       "label": "Pagination",
-      "page": "Page {{ number }}",
+      "page": "{{ number }}page",
       "next": "Next page",
       "previous": "Previous page"
     },
@@ -49,9 +49,9 @@
       "reset": "Clear search term"
     },
     "cart": {
-      "view": "View cart ({{ count }})",
-      "view_empty_cart": "View cart",
-      "item_added": "Item added to your cart"
+      "view": "View Cart ({{ count }})",
+      "view_empty_cart": "View Cart",
+      "item_added": "Items added to cart"
     },
     "share": {
       "close": "Close share",
@@ -1761,7 +1761,21 @@
       "rangeEnd": "Range end",
       "rangeStart": "Range start",
       "removeItem": "{{label}}Delete",
-      "removeTag": "Delete tag"
+      "removeTag": "Delete tag",
+      "saturday": "Saturday",
+      "saturdayAbbreviation": "Saturday",
+      "september": "September",
+      "showNextMonth": "Next month ({{year}}{{month}})",
+      "showPreviousMonth": "Last month ({{year}}{{month}})",
+      "submit": "send",
+      "sunday": "Sunday",
+      "sundayAbbreviation": "Sunday",
+      "thursday": "Thursday",
+      "thursdayAbbreviation": "Thursday",
+      "tuesday": "Tuesday",
+      "tuesdayAbbreviation": "Tuesday",
+      "wednesday": "Wednesday",
+      "wednesdayAbbreviation": "Wednesday"
     }
   }
 }
