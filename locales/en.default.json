@@ -1373,8 +1373,32 @@
             "other": "%{count}Added"
           },
           "removed": "Deleted",
-          "return_line_item_removed": "% from returns{count}Deleted"
-        }
+          "return_line_item_removed": "% from returns{count}Deleted",
+          "returned": "%{count}I returned the",
+          "subtracted": "%{count}Deleted"
+        },
+        "checkout_review_and_pay": "%{order_name}Your order has been updated. Please review these changes and then complete the payment to confirm your order.",
+        "custom_line_item_description": "order%{order_name}Payment amount",
+        "order_review_and_pay": "The order has been updated. After confirming, please complete payment and confirm your order.",
+        "order_updated_on": "%{last_edited_at}The order was updated on.",
+        "pay_now": "Pay now"
+      },
+      "order_summary": {
+        "alternative_payment_currency_total": "Charge: %{amount_due}",
+        "amount_off_shipping": "%{amount}Off Shipping",
+        "applied_discount_message": "%{amount}was discounted from the total",
+        "applied_free_shipping_discount_label": "Applied",
+        "apply_discount_button_label": "Applicable",
+        "calculating": "Under calculation...",
+        "calculating_shipping": "Under calculation...",
+        "cart_does_not_meet_discount_requirements_notice": "Coupon Code:<strong style=\"text-transform:uppercase\">%{code}</strong>&quot; is not available for items in your cart",
+        "collapse_component_information": {
+          "one": "%{count}Hide items",
+          "other": "%{count}Hide items"
+        },
+        "collapse_order_summary": "Hide order summary",
+        "collapse_order_summary_short": "Hide",
+        "component_quantity_title": "%{quantity} x%{product_title}"
       }
     },
     "addresses": {
