@@ -2812,7 +2812,41 @@
             "storefront_body": "Return to the store and continue shopping"
           }
         },
-        "last_checked": "(Last check: {{time}})"
+        "last_checked": "(Last check: {{time}})",
+        "line_to_check_out": "Check out soon",
+        "merchandise": {
+          "available": "Available for sale",
+          "sold_out": "sold out"
+        },
+        "time_to_checkout_title": "Check-out time - {{shopName}}",
+        "title": "queue",
+        "too_many_attempts": {
+          "description": "Please try again after a while",
+          "message": "Too many attempts"
+        }
+      },
+      "tips": {
+        "add_tip": "Supporting the store",
+        "custom_label": "Custom chips",
+        "description": "%{shop_name}Show your support for the team",
+        "message": "thank you very much.",
+        "no_tip_label": "none",
+        "preset_label": "%{tip_percent}%",
+        "presets_description": "Select the chip percentage",
+        "title": "Supporting the store",
+        "update_tip": "Update the amount"
+      },
+      "vaulted": {
+        "change_button": "change"
+      },
+      "wallets": {
+        "call_to_action": "{{walletName}}Payment by",
+        "connect_shipping_methods": "{{method1}}and{{method2}}",
+        "errors": {
+          "detour": {
+            "currency_change": "{{walletName}}You cannot use a different address on your order. Please use your original address or try a different payment method."
+          }
+        }
       }
     },
     "addresses": {
