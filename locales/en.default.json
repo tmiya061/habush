@@ -2688,7 +2688,31 @@
         "out_for_delivery_title": "Orders are on delivery",
         "page_title": "%{display_name},thank you.",
         "page_title_no_name": "thank you. customer!",
-        "payment_information_title": "Payment information"
+        "payment_information_title": "Payment information",
+        "payment_method_title": "Payment method",
+        "pick_up_in_store_marker": {
+          "current": "The current location of the product",
+          "shipping": "Pickup location"
+        },
+        "picked_up_description_html": "Your order is %{date}to%{location_name}It was picked up at.",
+        "picked_up_title": "Your order has been received",
+        "print_link_label": "Print receipt",
+        "purchase_order_number_title": "Purchase Order Number #%{purchase_order_number}",
+        "qr_code": {
+          "send_link_to_phone": "Or send a link to your mobile phone",
+          "title": "Track on your mobile phone"
+        },
+        "re-order": "Reorder the same item",
+        "ready_for_delivery": "Delivery ready",
+        "ready_for_delivery_description": "Your order has been prepared.",
+        "ready_for_delivery_title": "We are preparing your order for delivery",
+        "ready_for_pickup_description": "You are ready to pick up your order. Please bring your order confirmation with you when picking up.",
+        "ready_for_pickup_title": "Your order is ready to be picked up",
+        "resend_gift_cards": "Resend your gift card",
+        "resend_gift_cards_by_email": "Resend the email",
+        "resend_gift_cards_by_text": "Resend a text message",
+        "return_to_store_link_label": "Continue shopping",
+        "shipping_address_map_title": "Google Maps has pinned the following delivery address: %{address}"
       }
     },
     "addresses": {
