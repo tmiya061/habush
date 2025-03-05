@@ -1252,8 +1252,42 @@
           "disclaimer": {
             "description_html": "By signing up by text, you consent to receiving periodic automated marketing messages, including cart reminders, at the phone number you provided. Consent is not a condition of purchase. To unsubscribe, reply STOP. For assistance, reply HELP. Message frequency varies. Message and data rates may apply. %{privacy_policy_link}and%{terms_of_service_link}Display.",
             "description_transactional_html": "Receive order confirmations and delivery updates via text message. To unsubscribe, reply STOP. For assistance, reply HELP. Message frequency varies. Message and data charges may apply. %{privacy_policy_modal_link}and%{terms_of_service_modal_link}Please see.",
-            "privacy_policy": "Privacy Policy"
-          }
+            "privacy_policy": "Privacy Policy",
+            "terms_of_service": "terms of service"
+          },
+          "get_offers_by_text": "Receive your offer via text",
+          "mobile_phone_number": "mobile number"
+        },
+        "unsubscribe": {
+          "description": "We will now refrain from notifying customers of cart reminders.",
+          "title": "Your registration has been cancelled."
+        }
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "examination",
+          "link_label": "{{partnerDisplayName}}Terms of Use",
+          "separator": "  "
+        }
+      },
+      "markets": {
+        "invalid_market_manager_error": "Check your contact information before completing your payment"
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "all_products_one": "The items in your cart are %{location_name}We cannot ship to.",
+          "all_products_other": "The items in your cart are %{location_name}We cannot ship to.",
+          "some_products_one": "This product is %{location_name}We cannot ship to.",
+          "some_products_other": "These products are %{location_name}We cannot ship to."
+        },
+        "cart_updated": "The cart has been updated.",
+        "change_address_only": "Please change your delivery address to continue.",
+        "change_address_or_remove": "Change your delivery address?{remove_action}.",
+        "empty_cart_action": "Empty cart and return to the store",
+        "indeterminate_location_fallback": "Location",
+        "missing_country_fallback": "country",
+        "remove_items_action": {
+          "one": "Delete unavailable items"
         }
       }
     },
