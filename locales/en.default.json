@@ -1706,7 +1706,31 @@
           "one": "%{count}You have expired cards, which you can view and edit in your account.",
           "other": "%{count}You have expired cards, which you can view and edit in your account."
         },
-        "expired_payment_method": "The selected payment method has expired"
+        "expired_payment_method": "The selected payment method has expired",
+        "expiry_long": "(date of expiry: %{month}/%{year})",
+        "expiry_short": "(date of expiry: %{month}/%{year})",
+        "express_checkout_free_order": "There is no charge for free orders",
+        "fact_billing_address_label": "Billing Address",
+        "free_order_notice_html": "Your order is <strong>free</strong>Yes. No payment is required.",
+        "ftd_vault_credit_card_label": "Save this credit card info to my account for speedy checkout",
+        "generic_incorrect_card_info": "Payment details could not be confirmed. Please check the card details and try again.",
+        "gift_card_balance_label": "balance:",
+        "gift_card_checkbox_label": "Apply gift cards",
+        "gift_card_code_label": "Gift Card Code",
+        "gift_card_store_credit": {
+          "add_label": "Add gift cards and store credits",
+          "manage_label": "Manage gift cards and store credits"
+        },
+        "gift_card_wrapper": {
+          "add_label": "Add a gift card",
+          "apply_another_gift_card_label": "Apply a different gift card",
+          "apply_gift_card_label": "Apply gift cards",
+          "gift_card_label": "Gift Card (%{identifier})",
+          "heading": "Gift Card",
+          "manage_label": "Manage gift cards",
+          "payment_tag": "Gift Card"
+        },
+        "gift_cards_unavailable": "Your gift card is no longer available for this order and has been deleted"
       }
     },
     "addresses": {
