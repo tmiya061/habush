@@ -3021,7 +3021,27 @@
       "contains_spaces": "starts or ends with spaces.",
       "credit_card_session_expired": "Your credit card authorization has expired. Please enter your payment information again. Your card will not be charged.",
       "customer_already_used_once_per_customer_discount_notice": "This discount is at the maximum number of uses.",
-      "discount_disabled": "You cannot use this discount"
+      "discount_disabled": "You cannot use this discount",
+      "discount_expired": "This discount is expired",
+      "discount_limit_reached": "This discount is at the maximum number of uses.",
+      "discount_not_found": "No discount found that matched the code you entered",
+      "email_domain_invalid": "Provider not supported",
+      "empty": "Cannot be left blank",
+      "expired": "Expired",
+      "full_name_required": "Enter your first and last name",
+      "gift_card_already_applied": "The code is already applied to your payment",
+      "gift_card_code_invalid": "The code is not valid",
+      "gift_card_currency_mismatch": "Gift cards are %{gift_card_currency}is.%{checkout_currency}Please contact us to reissue it.",
+      "gift_card_depleted": "There is no balance left on this gift card",
+      "gift_card_disabled": "The gift card is invalid",
+      "gift_card_expired": "Gift card has expired",
+      "invalid": "Invalid",
+      "invalid_email": "Must be a valid email address",
+      "invalid_expiry_year": "is not a valid expiry date",
+      "invalid_for_card_type": "is not valid",
+      "invalid_for_country": "teeth%{country}is not valid in",
+      "invalid_for_country_and_province": "teeth%{province}and%{country}is not valid in",
+      "invalid_format": "Incorrect format"
     }
   },
   "customer_accounts": {
