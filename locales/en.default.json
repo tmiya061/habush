@@ -1522,7 +1522,29 @@
         "pickup_unavailable_banner_title": {
           "one": "Items cannot be picked up in the store",
           "other": "Items cannot be picked up in the store"
-        }
+        },
+        "price_after_discount_aria_text": "Discount Price",
+        "price_before_discount_aria_text": "Original price",
+        "price_label": "price",
+        "price_per_item": {
+          "accessibility_label": "% Per Item{price}",
+          "label": "%{price}/unit"
+        },
+        "product_change_label": "change",
+        "product_image_label": "Product image",
+        "product_image_quantity_label": "quantity",
+        "quantity_label": "quantity",
+        "recurring_payments": "Regular payments",
+        "recurring_subtotal_label": "Regular subtotal",
+        "recurring_total_label": "Regular Total",
+        "recurring_total_multiple_label": "This order will result in a recurring billing of multiple items.",
+        "recurring_total_tooltip": "Shipping costs, taxes, duties and applicable discounts are not included.",
+        "remove_discount_label": "Eliminate discounts",
+        "remove_gift_card_label": "Erase gift cards",
+        "return_restocking_fee_label": "Return fee",
+        "return_shipping_fee_label": "Return shipping charges",
+        "sale_price": "Sale price",
+        "scroll_order_summary": "Scroll to see more products"
       }
     },
     "addresses": {
