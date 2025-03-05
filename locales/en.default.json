@@ -662,7 +662,41 @@
         "no_locations_found": "Location not found",
         "search": "Search for location",
         "search_location_title": "Select location",
-        "selection_cancel_button": "cancel"
+        "selection_cancel_button": "cancel",
+        "selection_confirmation_button": "Select location",
+        "title": "Which location do you want to buy ?",
+        "try_new_search": "Try a new search"
+      },
+      "locations": {
+        "contact_email": "Email",
+        "contact_list_title": "member",
+        "contact_name": "name",
+        "contact_permissions": "authority",
+        "contact_phone_number": "telephone number",
+        "deposit_percentage": "{{percentage}}Deposit of",
+        "location_picker_accessibility_label": "Location Name:{{locationName}}",
+        "location_picker_label": "Location name",
+        "multiple_tax_exemptions": "others{{taxExemptionsCount}}Countries",
+        "multiple_tax_exemptions_and": "and",
+        "net_payment_terms_description": "{{name}}: {{numberOfDays}}Payment due within days",
+        "own_role_contact_name": "you",
+        "pagination": {
+          "load_more": "Load more",
+          "load_more_accessibility_label": "Load more locations"
+        },
+        "payment_details_title": "Payment details",
+        "payment_terms": "Payment period",
+        "permissions_label": "Your authority",
+        "permissions_title": "authority",
+        "section_title": "Location",
+        "shipping_address_required": "Add your shipping address to this location and start your order.",
+        "staff_and_permissions_title": "Staff and authority",
+        "tax_details_title": "Tax details",
+        "tax_exemption_not_applicable": "Not applicable",
+        "tax_exemptions": "duty free",
+        "tax_exemptions_modal_button_accessibility_label": "View all tax exemptions",
+        "tax_exemptions_modal_close": "close",
+        "tax_id": "Taxpayer number"
       }
     }
   }
