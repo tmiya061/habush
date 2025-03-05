@@ -2956,6 +2956,42 @@
       "error": "Your answer is incorrect. Please try again.",
       "message": "To continue, please tell me you are not a robot.",
       "submit_button_text": "send"
+    },
+    "checkpoint": {
+      "error": "Captcha authentication failed",
+      "message": "Resolve Captcha and continue",
+      "submit_button_text": "send"
+    },
+    "collections": {
+      "sorting": {
+        "az": "Alphabetical order, A-Z",
+        "best_selling": "bestseller",
+        "date_ascending": "Oldest products order",
+        "date_descending": "Newest",
+        "manual": "Recommended",
+        "price_ascending": "Lowest price",
+        "price_descending": "Highest price",
+        "za": "Alphabetical order, Z-A"
+      }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "no_longer_track": {
+          "privacy_policy": "After sending this email, Shopify will update its privacy policy and will no longer be able to track the opening.",
+          "status_html": "<b>Going forward, Shopify will no longer be able to track whether or not emails have been opened.</b>"
+        },
+        "opt_in": {
+          "opt_out_html": "If you don't want to share this information, you can opt out of email open tracking.<a style='text-decoration:underline;' href='%{link}'>Opt-out</a>You can.",
+          "opted_in_html": "<b>I have opted in to email open tracking.</b>",
+          "preview_bar": "We preview what will be displayed when you opt in to open email tracking.",
+          "visibility": "Email opening rates will be reported anonymously. Shopify only checks if you have opened your email as part of your email open rate tally."
+        },
+        "opt_out": {
+          "opt_in_html": "For tracking opening<a style='text-decoration:underline;' href='%{link}'>Opt-in</a>I will.",
+          "opted_out_html": "<b>I have opted out of email open tracking.</b>",
+          "preview_bar": "We preview what will be displayed when you opt out of email unpacking."
+        }
+      }
     }
   },
   "customer_accounts": {
