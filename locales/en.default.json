@@ -849,8 +849,16 @@
         },
         "stepper": {
           "decrease": "{{type}}Decrease in",
-          "increase": "{{type}}Increase in"
-        }
+          "increase": "{{type}}Increase in",
+          "maximum_reached": "{{value}}reached the maximum value of",
+          "minimum_reached": "{{value}}The minimum value of"
+        },
+        "submit": "send",
+        "submit_for_review_button_label": "Send for confirmation",
+        "submit_for_review_notice_label": "Payment will not be made until your order is confirmed",
+        "submit_order_button_label": "Submit your order",
+        "title": "Check-out - {{shopName}}",
+        "tooltip_accessibility_label": "detail"
       },
       "address_management": {
         "confirm_address_deletion": "address ({{address}}) Are you sure you want to delete it?"
@@ -1191,6 +1199,28 @@
         "split_cart_international_shipping_not_supported": "For international shipping, all items must be delivered the same way. Update your delivery method or create multiple orders.",
         "tips_invalid_tip_amount": "%{amount}Please enter a tip of less than",
         "vaulting_agreement_blank": "The remaining balance of this order will be settled at a later date, so you will need to save your card."
+      },
+      "local_pickup": {
+        "all_stores_far_away": {
+          "description": "Select a store or %{ship_to_address_link}Please do.",
+          "ship_to_address_link": "Delivery to address",
+          "title": "The nearest store is %{distance}More than"
+        },
+        "cancel": "cancel",
+        "could_not_resolve_address": "The address could not be determined. Try again or use a different address",
+        "location_address_search_label": "address",
+        "location_information": {
+          "one": "%{address}There are % of stores near you with stock{count}There are places",
+          "other": "%{address}There are % of stores near you with stock{count}There are places"
+        },
+        "no_stores_found": "Store not found",
+        "or": "or",
+        "paginator": {
+          "accessibility_label": "Pagination of store pickup list",
+          "label": {
+            "one": "%{count}% of stores{first}~%{last}"
+          }
+        }
       }
     },
     "addresses": {
