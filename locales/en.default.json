@@ -2158,7 +2158,31 @@
           "save": "keep"
         },
         "address_more": "Other actions to this address",
-        "address_update": "Update your address"
+        "address_update": "Update your address",
+        "arrives_time": "arrival: %{time}",
+        "arrives_time_range": "arrival: %{min_time}–%{max_time}",
+        "cheapest_rate_label": "Cheapest",
+        "default_description": "Delivery in 1 business day",
+        "delete": "delete",
+        "delivery": "%{time}Delivery to",
+        "delivery_date_range": "%{min_time}~%{max_time}",
+        "delivery_title": "Delivery address",
+        "delivery_today": "Same-day delivery (%{time})",
+        "delivery_tomorrow": "Next day delivery (%{time})",
+        "different_shipping_method_summary": "Enter a different shipping address to see available shipping methods",
+        "duties_and_taxes_options": {
+          "ddp_caption": "There is no additional charge when delivery",
+          "ddp_title": "Pay now",
+          "ddu_caption": "Additional charges may apply",
+          "ddu_title": "Cash on delivery"
+        },
+        "duties_and_taxes_title": "Customs duties and taxes",
+        "edit": "edit",
+        "estimated_delivery_date": {
+          "one": "%{count}Business days",
+          "other": "%{count}Business days"
+        },
+        "estimated_delivery_date_range": "%{minimum}from%{maximum}Business days"
       }
     },
     "addresses": {
