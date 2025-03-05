@@ -529,7 +529,7 @@
         "page_title": "payment",
         "error_page_title": "error",
         "skip_to_content": "Skip to content",
-        "breadcrumb": "breadcrumb trail",
+        "breadcrumb": "Breadcrumbs",
         "continue_button_label": "continue",
         "complete_purchase_button_label": "Order completed",
         "pay_now_button_label": "pay now",
@@ -541,8 +541,31 @@
         "close_modal_label": "close",
         "close_notice_label": "close",
         "expand_notice_label": "See more",
-        "continue_to_shipping_method": "Proceed to select shipping method",
-        "continue_to_payment_method": "Proceed to payment"
+        "continue_to_shipping_method": "Proceed to select a shipping method",
+        "continue_to_payment_method": "Proceed to payment",
+        "autocomplete_close": "Close candidates",
+        "autocomplete_multi_item": "{{number}} Available",
+        "autocomplete_powered_by_google": "Powered by {{brandName}}",
+        "autocomplete_selection": "{{number}} pcs {{total}} In",
+        "autocomplete_single_item": "1 unit available",
+        "autocomplete_title": "candidate",
+        "autocomplete_zero_item": "There are no items available",
+        "back_button_label": "Returns",
+        "back_to_cart": "Return to Cart",
+        "back_to_contact_information": "Return to information",
+        "back_to_payment_method": "Return to payment",
+        "back_to_shipping_method": "Back to delivery",
+        "checkout_context": {
+          "step_one": "%{shop_name} - Payment"
+        },
+        "choose_billing_address": "Please select your billing address",
+        "choose_delivery_strategy": "Choose a delivery method",
+        "choose_payment_method": "Please select a payment method",
+        "choose_shipping_method": "Please select a shipping method",
+        "confirm_order_button_label": "Confirm your order",
+        "contact_us_html": "Please contact us for more details",
+        "continue_to_payment_plans_button_label": "Proceed to payment plan",
+        "continue_to_review": "Confirm your order"
       },
       "address_management": {
         "confirm_address_deletion": "address ({{address}}) Are you sure you want to delete it?"
