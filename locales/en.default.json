@@ -565,7 +565,47 @@
         "confirm_order_button_label": "Confirm your order",
         "contact_us_html": "Please contact us for more details",
         "continue_to_payment_plans_button_label": "Proceed to payment plan",
-        "continue_to_review": "Confirm your order"
+        "continue_to_review": "Confirm your order",
+        "datepicker": {
+          "in_range": "Within range",
+          "range_end": "Range end",
+          "range_start": "Range start",
+          "show_next_month": "Next month ({{year}}{{month}})",
+          "show_previous_month": "Last month ({{year}}{{month}})"
+        },
+        "dates": {
+          "months": {
+            "april": "April",
+            "august": "August",
+            "december": "December",
+            "february": "February",
+            "january": "January",
+            "july": "July",
+            "june": "June",
+            "march": "March",
+            "may": "May",
+            "november": "November",
+            "october": "October",
+            "september": "September"
+          },
+          "weekdays": {
+            "friday": "Friday",
+            "monday": "Monday",
+            "saturday": "Saturday",
+            "sunday": "Sunday",
+            "thursday": "Thursday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday"
+          },
+          "weekdays_abbreviation": {
+            "friday": "Friday",
+            "monday": "Monday",
+            "saturday": "Saturday",
+            "sunday": "Sunday",
+            "thursday": "Thursday",
+            "tuesday": "Tuesday"
+          }
+        }
       },
       "address_management": {
         "confirm_address_deletion": "address ({{address}}) Are you sure you want to delete it?"
