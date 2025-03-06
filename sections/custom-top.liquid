@@ -50,6 +50,27 @@
       </div>
     </div>
   </section>
+
+    <style>
+    .product-inner .memo-main {
+      width: 286px;
+    }
+      .product-inner .memo {
+        width: 286px;
+      }
+      
+    @media screen and (max-width: 767px) {
+       .product-inner .memo-main {
+          width: 100%;
+      }
+    }
+    @media screen and (max-width: 1070px) {
+        .product-inner .item {
+          margin-left: 70px;
+        }
+    }
+    </style>
+  
   <section id="product">
     {% comment %} <a class="bnr-gift" href="/products/horidays"><img src="{{ 'bnr-gift.png' | file_url }}" type="image/png" alt="ギフトバナー" class="lazyload" width="179"></a> {% endcomment %}
     <div class="section-container">
@@ -121,6 +142,8 @@
       </picture>
     </div>
   </section>
+
+
 
   <section id="story">
     <div class="story-entry">
