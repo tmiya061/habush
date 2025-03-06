@@ -68,9 +68,8 @@
         </div>
         <div class="info">
           <p class="memo-main">
-            サトウキビからつくった59度のアルコールに<br class="for-pc">
-            浸けて抽出し、香り高い13種類（または8種類）<br class="for-pc">
-            のハーブ酒（泡盛ベース）と合わせたハブ酒。
+            <!-- {{ section.settings.top_product_explain }} -->
+            サトウキビからつくった59度のアルコールに<br class='for-pc'>浸けて抽出し、香り高い13種類（または8種類）<br class='for-pc'>のハーブ酒（泡盛ベース）と合わせたハブ酒。
           </p>
           <div class="sp-flex justify-content-center flex">
             <p class="head en for-sp">Price - Info</p>
@@ -88,59 +87,27 @@
                   show_badges: true,
                 -%}
               </div>
-
-              <!-- <p class="price"><span class="en">¥4,400</span>(税込)</p> -->
               <p class="detail">
-                内容量 500ml<br>
-                アルコール度数 35度
+                {{ section.settings.top_product_capacity }}
               </p>
               <p class="memo">
-                これはお酒です。<br>
-                20歳未満の者の飲酒は法律で<br class="for-sp">
-                禁止されています。
+                {{ section.settings.top_product_remark }}
               </p>
             </div>
           </div>
           {% if all_products.habush.available %}
             <p class="purchase_btn modal_btn" data-target="modal-04">
-              <span> カートに入れる&emsp;&RightArrow; </span>
+              <span> {{ section.settings.top_product_add_cart }} </span>
             </p>
           {% else %}
             <p class="purchase_btn modal_btn --disable" data-target="modal-04">
-              <span> 売り切れ&emsp;&RightArrow; </span>
+              <span> {{ section.settings.top_product_sold_out }} </span>
             </p>
           {% endif %}
-
           <p class="purchase_btn --black modal_btn" data-target="modal-05">
-            <span>商品詳細をみる&emsp;&RightArrow;</span>
+            <span> {{ section.settings.top_product_detail }} </span>
           </p>
         </div>
-
-        <!--
-          <div class="info">
-            <div class="sp-flex justify-content-center flex">
-              <p class="head en">Price - Info</p>
-              <p class="memo">
-                サトウキビからつくった59度のアルコールに<br class="for-pc"
-                >浸けて抽出し、香り高い13種類（または8種類）<br class="for-pc"
-                >のハーブ酒（泡盛ベース）と合わせたハブ酒。
-              </p>
-              <div class="flex-item">
-                <p class="price"><span class="en">¥4,400</span>(送料別)</p>
-                <p class="detail">
-                  内容量 500ml<br>
-                  アルコール度数 35度
-                </p>
-                <p class="memo">
-                  これはお酒です。<br>
-                  20歳未満の者の飲酒は法律で<br class="for-sp">
-                  禁止されています。
-                </p>
-              </div>
-            </div>
-            <p class="purchase_btn modal_btn" data-target="modal-03">商品詳細をみる →</p>
-          </div>
-        -->
       </div>
     </div>
     <div class="product-bg">
@@ -155,58 +122,6 @@
       </picture>
     </div>
   </section>
-
-  <!--
-    <section id="product2">
-      <div class="section-container">
-        <div class="product-inner justify-content-between align-items-center wow animate__animated animate__fadeInUp">
-          <h2 class="logo">
-            <picture class="first">
-              <source srcset="{{ 'logo_n.webp' | file_url }}" type="image/webp">
-              <img src="{{ 'logo_n.png' | file_url }}" type="image/png" alt="HABUSH" class="lazyload" width="179">
-            </picture>
-            <picture class="second">
-              <img src="{{ 'text_limited.png' | file_url }}" type="image/png" alt="HABUSH" class="lazyload" width="118">
-            </picture>
-          </h2>
-          <div class="item">
-            <picture>
-              <source srcset="{{ 'item.webp' | file_url }}" type="image/webp">
-              <img src="{{ 'item.png' | file_url }}" type="image/png" alt="" class="lazyload" width="338">
-            </picture>
-          </div>
-          <div class="info">
-            <p class="memo-main">
-              サトウキビからつくった59度のアルコールに<br class="for-pc">
-              浸けて抽出し、香り高い13種類（または8種類）<br class="for-pc">
-              のハーブ酒（泡盛ベース）と合わせたハブ酒。
-            </p>
-            <div class="sp-flex justify-content-center flex">
-              <p class="head en for-sp">Price - Info</p>
-              <div class="flex-item">
-                <p class="price"><span class="en">¥35,000</span>(送料別)</p>
-                <p class="detail">
-                  内容量 500ml<br>
-                  アルコール度数 35度
-                </p>
-              </div>
-            </div>
-            <p class="purchase_btn modal_btn" data-target="modal-04"><span>商品詳細をみる&emsp;&RightArrow;</span></p>
-          </div>
-        </div>
-      </div>
-      <div class="product-bg">
-        <picture>
-          <img
-            src="{{ 'product-limited_bg.png' | file_url }}"
-            type="image/png"
-            alt=""
-            class="wow animate__animated animate__zoomIn2 animate__delay-1s lazyload"
-          >
-        </picture>
-      </div>
-    </section>
-  -->
 
   <section id="story">
     <div class="story-entry">
@@ -238,29 +153,12 @@
     </div>
     <div id="story-main" class="story-main">
       <h2 class="copy rellax" data-rellax-speed="1">
-        Energy Shot<br>
-        <span>f</span>or You
+        {{ section.settings.top_shot_title }}
       </h2>
       <div class="story-inner justify-content-between wow animate__animated animate__fadeInUp">
-        <p class="head en">Okinawa - Japan</p>
+        <p class="head en">{{ section.settings.top_shot_head }}</p>
         <p class="text">
-          ハーブの香り、ほのかな甘さ。<br>
-          一口飲めば、カラダが芯からアツくなってくる。<br>
-          <br>
-          沖縄で大切にされてきた伝統的な薬膳酒「ハブ酒」は、<br>
-          滋養強壮パワーはそのままに飲みやすい「HABUSH」<br class="for-sp">
-          として生まれ変わりました。<br>
-          <br>
-          沖縄で「ヌチグスイ（命薬）」と呼ばれる<br class="for-sp">
-          「薬になるほどの効果がある食べ物や飲み物」を<br>
-          目指し、十三種類のハーブエキスや、<br class="for-sp">
-          命の源である成分を多く含むハブエキスを配合。<br>
-          職人たちが1本1本丁寧に仕上げています。<br>
-          <br>
-          Awichがプロデュースするのは、<br class="for-sp">
-          刺激を求める大人たちのエネルギッシュな夜の時間。<br>
-          セクシーに、スタイリッシュに、<br class="for-sp">
-          エネルギッシュに、楽しい夜を演出します。<br>
+          {{ section.settings.top_shot_text2 }}
         </p>
       </div>
       <span class="story-bg"></span>
@@ -296,15 +194,27 @@
         <div><img src="{{ 'process.svg' | file_url }}" alt="PROCESS" width="339"></div>
         <div><img src="{{ 'process.svg' | file_url }}" alt="PROCESS" width="339"></div>
       </div>
-      <a class="process__img-wrap" href="/pages/process" id="imageContainer"></a>
-      <a class="process__img-wrap2" href="/pages/process" id="imageContainer2"></a>
+      {% if request.path contains '/en' %}
+        <a class="process__img-wrap" href="/en/pages/process" id="imageContainer"></a>
+        <a class="process__img-wrap2" href="/en/pages/process" id="imageContainer2"></a>
+      {% else %}
+        <a class="process__img-wrap" href="/pages/process" id="imageContainer"></a>
+        <a class="process__img-wrap2" href="/pages/process" id="imageContainer2"></a>
+      {% endif %}
     </div>
 
     <div class="process__more-wrap">
-      <a class="process__more" href="/pages/process">
-        <span class="en">MORE</span>
-        <img src="{{ 'icon_arrow.png' | file_url }}" alt="矢印のアイコン" width="20" height="20" loading="lazy">
-      </a>
+      {% if request.path contains '/en' %}
+        <a class="process__more" href="/en/pages/process">
+          <span class="en">MORE</span>
+          <img src="{{ 'icon_arrow.png' | file_url }}" alt="矢印のアイコン" width="20" height="20" loading="lazy">
+        </a>
+      {% else %}
+        <a class="process__more" href="/pages/process">
+          <span class="en">MORE</span>
+          <img src="{{ 'icon_arrow.png' | file_url }}" alt="矢印のアイコン" width="20" height="20" loading="lazy">
+        </a>
+      {% endif %}
     </div>
   </section>
 
@@ -323,11 +233,11 @@
       <div><img src="{{ 'recipe_title.png' | file_url }}" alt="RECIPE" width="258"></div>
       <div><img src="{{ 'recipe_title.png' | file_url }}" alt="RECIPE" width="258"></div>
     </div>
-    <div class="recipe__scrollbar">Match with a Variety of Tastes</div>
+    <div class="recipe__scrollbar">{{ section.settings.top_recipe_head }}</div>
 
     <div class="recipe__swiper recipe__container">
       <div class="swiper-wrapper recipe__container-inner">
-        <a href="/pages/recipe" class="recipe__slide swiper-slide" slide="0" onclick="saveSlideAttribute(this)">
+        <a href="{% if request.path contains '/en' %}/en{% endif %}/pages/recipe" class="recipe__slide swiper-slide" slide="0" onclick="saveSlideAttribute(this)">
           <div class="picture">
             <img src="{{ 'recipe-main1.png' | file_url }}" alt="コーヒーの画像" width="258">
           </div>
@@ -340,7 +250,7 @@
                 width="190"
                 height="45"
               >
-              <p>&plus; ブラックコーヒー</p>
+              <p>&plus; {{ section.settings.top_recipe_coffee }} </p>
             </div>
             <img
               class="arrow"
@@ -351,14 +261,14 @@
             >
           </div>
         </a>
-        <a href="/pages/recipe" class="recipe__slide swiper-slide" slide="1" onclick="saveSlideAttribute(this)">
+        <a href="{% if request.path contains '/en' %}/en{% endif %}/pages/recipe" class="recipe__slide swiper-slide" slide="1" onclick="saveSlideAttribute(this)">
           <div class="picture">
             <img src="{{ 'recipe-main2.png' | file_url }}" alt="コーラの画像" width="258">
           </div>
           <div class="title-wrap">
             <div class="title title2">
               <img class="text" src="{{ 'text_habucoke.svg' | file_url }}" alt="HABU COKE" width="325" height="75">
-              <p>&plus; コーラ</p>
+              <p>&plus; {{ section.settings.top_recipe_cora }} </p>
             </div>
             <img
               class="arrow"
@@ -369,14 +279,14 @@
             >
           </div>
         </a>
-        <a href="/pages/recipe" class="recipe__slide swiper-slide" slide="2" onclick="saveSlideAttribute(this)">
+        <a href="{% if request.path contains '/en' %}/en{% endif %}/pages/recipe" class="recipe__slide swiper-slide" slide="2" onclick="saveSlideAttribute(this)">
           <div class="picture">
             <img src="{{ 'recipe-main3.png' | file_url }}" alt="トニックウォーターの画像" width="258">
           </div>
           <div class="title-wrap">
             <div class="title title3">
               <img class="text" src="{{ 'text_habutonic.svg' | file_url }}" alt="HABU TONIC" width="325" height="75">
-              <p>&plus; トニックウォーター</p>
+              <p>&plus; {{ section.settings.top_recipe_water }}</p>
             </div>
             <img
               class="arrow"
@@ -387,14 +297,14 @@
             >
           </div>
         </a>
-        <a href="/pages/recipe" class="recipe__slide swiper-slide" slide="3" onclick="saveSlideAttribute(this)">
+        <a href="{% if request.path contains '/en' %}/en{% endif %}/pages/recipe" class="recipe__slide swiper-slide" slide="3" onclick="saveSlideAttribute(this)">
           <div class="picture">
             <img src="{{ 'recipe-main4.png' | file_url }}" alt="エナジードリンクの画像" width="258">
           </div>
           <div class="title-wrap">
             <div class="title title4">
               <img class="text" src="{{ 'text_habuenegy.svg' | file_url }}" alt="HABU ENERGY" width="325" height="75">
-              <p>&plus; エナジードリンク</p>
+              <p>&plus; {{ section.settings.top_recipe_energy }}</p>
             </div>
             <img
               class="arrow"
@@ -405,7 +315,7 @@
             >
           </div>
         </a>
-        <a href="/pages/recipe" class="recipe__slide swiper-slide" slide="4" onclick="saveSlideAttribute(this)">
+        <a href="{% if request.path contains '/en' %}/en{% endif %}/pages/recipe" class="recipe__slide swiper-slide" slide="4" onclick="saveSlideAttribute(this)">
           <div class="picture">
             <img src="{{ 'recipe-main5.png' | file_url }}" alt="さんぴん茶の画像" width="258">
           </div>
@@ -418,7 +328,7 @@
                 width="325"
                 height="75"
               >
-              <p>&plus; さんぴん茶</p>
+              <p>&plus; {{ section.settings.top_recipe_sanpin_tea }}</p>
             </div>
             <img
               class="arrow"
@@ -429,14 +339,14 @@
             >
           </div>
         </a>
-        <a href="/pages/recipe" class="recipe__slide swiper-slide" slide="5" onclick="saveSlideAttribute(this)">
+        <a href="{% if request.path contains '/en' %}/en{% endif %}/pages/recipe" class="recipe__slide swiper-slide" slide="5" onclick="saveSlideAttribute(this)">
           <div class="picture">
             <img src="{{ 'recipe-main6.png' | file_url }}" alt="牛乳の画像" width="258">
           </div>
           <div class="title-wrap">
             <div class="title title6">
               <img class="text" src="{{ 'text_habumilk.svg' | file_url }}" alt="HABU MILK" width="325" height="75">
-              <p>&plus; 牛乳</p>
+              <p>&plus; {{ section.settings.top_recipe_milk }}</p>
             </div>
             <img
               class="arrow"
@@ -447,14 +357,14 @@
             >
           </div>
         </a>
-        <a href="/pages/recipe" class="recipe__slide swiper-slide" slide="6" onclick="saveSlideAttribute(this)">
+        <a href="{% if request.path contains '/en' %}/en{% endif %}/pages/recipe" class="recipe__slide swiper-slide" slide="6" onclick="saveSlideAttribute(this)">
           <div class="picture">
             <img src="{{ 'recipe-main7.png' | file_url }}" alt="飲むヨーグルトの画像" width="258">
           </div>
           <div class="title-wrap">
             <div class="title title7">
               <img class="text" src="{{ 'text_habuyogur.svg' | file_url }}" alt="HABU YOGUR" width="325" height="75">
-              <p>&plus; 飲むヨーグルト</p>
+              <p>&plus; {{ section.settings.top_recipe_yogurt }}</p>
             </div>
             <img
               class="arrow"
@@ -465,14 +375,14 @@
             >
           </div>
         </a>
-        <a href="/pages/recipe" class="recipe__slide swiper-slide" slide="7" onclick="saveSlideAttribute(this)">
+        <a href="{% if request.path contains '/en' %}/en{% endif %}/pages/recipe" class="recipe__slide swiper-slide" slide="7" onclick="saveSlideAttribute(this)">
           <div class="picture">
             <img src="{{ 'recipe-main8.png' | file_url }}" alt="グレープフルーツジュースの画像" width="258">
           </div>
           <div class="title-wrap">
             <div class="title title8">
               <img class="text" src="{{ 'text_habudog.svg' | file_url }}" alt="HAB DOG" width="325" height="75">
-              <p>&plus; グレープフルーツ</p>
+              <p>&plus; {{ section.settings.top_recipe_grapefruit }}</p>
             </div>
             <img
               class="arrow"
@@ -485,14 +395,9 @@
         </a>
       </div>
     </div>
-    <!--
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    -->
 
     <div class="recipe__more">
-      <a class="recipe__more-btn" href="/pages/recipe">
+      <a class="recipe__more-btn" href="{% if request.path contains '/en' %}/en{% endif %}/pages/recipe">
         <span class="en">MORE</span>
         <img src="{{ 'icon-arrow-white.png' | file_url }}" alt="矢印のアイコン" width="20" height="20">
       </a>
@@ -507,11 +412,7 @@
         </h2>
         <div class="info">
           <p>
-            INSTAGRAM<br>
-            PHOTO<br>
-            <br>
-            HABUSH.JP<br>
-            <br>
+            {{ section.settings.top_sns }}
             <a href="https://www.instagram.com/habush.jp/" target="_blank" class="lazyload" rel="noopener noreferrer">
               <img src="{{ 'sns-icon.png' | file_url }}" alt="" width="42" class="lazyload">
             </a>
@@ -549,7 +450,8 @@
     </div>
   </section>
 
-  <section id="topic">
+  {% unless request.path contains '/en' %}
+  <section id="topic" class="en-none">
     <div class="section-container justify-content-between c_topTopic__container">
       <div class="left-content wow animate__animated animate__fadeInUp">
         <h2 class="head">
@@ -600,7 +502,7 @@
           {% if article_count > 3 %}
             <div class="c_topTopic__more">
               <a href="/blogs/topic">
-                <span>MORE</span>
+                <span>{{ section.settings.text_more }}</span>
                 <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
               </a>
             </div>
@@ -654,7 +556,7 @@
             {% if article_count > 3 %}
               <div class="c_topTopic__more">
                 <a href="/blogs/topic/tagged/{{ topic_tag | handle }}">
-                  <span>MORE</span>
+                  <span>{{ section.settings.text_more }}</span>
                   <img class="arrow" src="{{ 'arrow-up.png' | file_url }}" alt="上矢印" width="16">
                 </a>
               </div>
@@ -665,52 +567,8 @@
       </div>
     </div>
   </section>
+  {% endunless %}
 
-  {% comment %}
-    <section id="contact">
-      <form method="post" action="mail.php">
-        <div class="section-container justify-content-between">
-          <div class="left-content">
-            <h2 class="head wow animate__animated animate__fadeInUp">
-              <img src="{{ 'contact-header.svg' | file_url }}" alt="CONTACT" width="226">
-              <p>取引のお問い合わせ</p>
-            </h2>
-          </div>
-          <div class="right-content wow animate__animated animate__fadeInUp">
-            <table class="formTable">
-              <tr>
-                <th>お名前 ・</th>
-                <td><input size="20" type="text" name="お名前" placeholder="例）山田 太郎"></td>
-              </tr>
-              <tr>
-                <th>メール ・</th>
-                <td><input size="30" type="text" name="メール" placeholder="例）info@habush.jp"></td>
-              </tr>
-              <tr>
-                <th>ご用件 ・</th>
-                <td>
-                  <select name="ご用件">
-                    <option value="">選択してください</option>
-                    <option value="卸・酒店">卸・酒店</option>
-                    <option value="飲食">飲食</option>
-                    <option value="取材">取材</option>
-                    <option value="その他">その他</option>
-                  </select>
-                </td>
-              </tr>
-              <tr>
-                <th>お問い合わせ内容 ・</th>
-                <td><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <p class="text-center contact_btn">
-          <input type="submit" value="送信する　→">
-        </p>
-      </form>
-    </section>
-  {% endcomment %}
 </main>
 
 {% schema %}
@@ -722,7 +580,139 @@
       "type": "text",
       "id": "mv_text",
       "label": "タイトル"
-    }
+    },
+    {
+      "type": "header",
+      "content": "top product"
+    },
+    {
+      "type": "textarea",
+      "id": "top_product_explain",
+      "label": "商品説明",
+      "default": "サトウキビからつくった59度のアルコールに<br class='for-pc'>浸けて抽出し、香り高い13種類（または8種類）<br class='for-pc'>のハーブ酒（泡盛ベース）と合わせたハブ酒。"
+    },
+    {
+      "type": "textarea",
+      "id": "top_product_capacity",
+      "label": "商品容量",
+      "default": "内容量 500ml<br>アルコール度数 35度"
+    },
+    {
+      "type": "textarea",
+      "id": "top_product_remark",
+      "label": "商品容量",
+      "default": "これはお酒です。<br>20歳未満の者の飲酒は法律で<br class='for-sp'>禁止されています。"
+    },
+    {
+      "type": "textarea",
+      "id": "top_product_add_cart",
+      "label": "カートに入れる",
+      "default": "カートに入れる&emsp;&RightArrow;"
+    },
+    {
+      "type": "textarea",
+      "id": "top_product_sold_out",
+      "label": "カートに入れる",
+      "default": "売り切れ&emsp;&RightArrow;"
+    },
+    {
+      "type": "textarea",
+      "id": "top_product_detail",
+      "label": "商品詳細をみる",
+      "default": "商品詳細をみる&emsp;&RightArrow;"
+    },
+    {
+      "type": "header",
+      "content": "Energy shot for you"
+    },
+    {
+      "type": "textarea",
+      "id": "top_shot_title",
+      "label": "タイトル",
+      "default": "Energy Shot<br><span>f</span>or You"
+    },
+    {
+      "type": "textarea",
+      "id": "top_shot_head",
+      "label": "見出し",
+      "default": "Okinawa - Japan"
+    },
+    {
+      "type": "textarea",
+      "id": "top_shot_text2",
+      "label": "商品詳細をみる",
+      "default": "ハーブの香り、ほのかな甘さ。<br>一口飲めば、カラダが芯からアツくなってくる。<br><br>沖縄で大切にされてきた伝統的な薬膳酒「ハブ酒」は、<br>滋養強壮パワーはそのままに飲みやすい「HABUSH」<br class='for-sp'>として生まれ変わりました。<br><br>沖縄で「ヌチグスイ（命薬）」と呼ばれる<br class='for-sp'>「薬になるほどの効果がある食べ物や飲み物」を<br>目指し、十三種類のハーブエキスや、<br class='for-sp'>命の源である成分を多く含むハブエキスを配合。<br>職人たちが1本1本丁寧に仕上げています。<br><br>Awichがプロデュースするのは、<br class='for-sp'>刺激を求める大人たちのエネルギッシュな夜の時間。<br>セクシーに、スタイリッシュに、<br class='for-sp'>エネルギッシュに、楽しい夜を演出します。"
+    },
+    {
+      "type": "header",
+      "content": "top recipe"
+    },
+    {
+      "type": "textarea",
+      "id": "top_recipe_head",
+      "label": "レシピ 見出し",
+      "default": "Match with a Variety of Tastes"
+    },
+    {
+      "type": "textarea",
+      "id": "top_recipe_coffee",
+      "label": "コーヒー",
+      "default": "ブラックコーヒー"
+    },
+    {
+      "type": "textarea",
+      "id": "top_recipe_cora",
+      "label": "コーラ",
+      "default": "コーラ"
+    },
+    {
+      "type": "textarea",
+      "id": "top_recipe_water",
+      "label": "トニックウォーター",
+      "default": "トニックウォーター"
+    },
+    {
+      "type": "textarea",
+      "id": "top_recipe_energy",
+      "label": "エナジードリンク",
+      "default": "エナジードリンク"
+    },
+    {
+      "type": "textarea",
+      "id": "top_recipe_sanpin_tea",
+      "label": "さんぴん茶",
+      "default": "さんぴん茶"
+    },
+    {
+      "type": "textarea",
+      "id": "top_recipe_milk",
+      "label": "牛乳",
+      "default": "牛乳"
+    },
+    {
+      "type": "textarea",
+      "id": "top_recipe_yogurt",
+      "label": "ヨーグルト",
+      "default": "ヨーグルト"
+    },
+    {
+      "type": "textarea",
+      "id": "top_recipe_grapefruit",
+      "label": "グレープフルーツ",
+      "default": "グレープフルーツ"
+    },
+    {
+      "type": "textarea",
+      "id": "top_sns",
+      "label": "SNS 英語テキスト",
+      "default": "INSTAGRAM<br>PHOTO<br><br>HABUSH.JP<br><br>"
+    },
+    {
+      "type": "textarea",
+      "id": "text_more",
+      "label": "more",
+      "default": "more"
+    },
   ],
   "presets": [
     {
