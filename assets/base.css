@@ -3638,3 +3638,7 @@ body.is-preload.js-show {
 .follow_btn.--en {
    background-image:url(cta_en.png);
 }
+.follow_btn.--en:hover {
+     background-image:url(cta_en.png);
+}
+
