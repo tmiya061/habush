@@ -3634,3 +3634,7 @@ body.is-preload {
 body.is-preload.js-show {
     opacity: 1;
 }
+
+.follow_btn.--en {
+   background-image:url(cta_en.png);
+}
