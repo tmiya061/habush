@@ -3509,3 +3509,128 @@ details-disclosure > details {
 #transcySwitcherContainer {
   display: none !important;
 }
+
+
+#transcySwitcherContainer {
+    display: none;
+}
+#transcySwitcherContainer.js-show {
+    display: block;
+}
+
+body {
+    position: relative;
+}
+
+html .transcy-switcher-container.transcy-switcher-position__floating.transcy-switcher-position__top_right {
+    position: absolute !important;
+    top: 120px !important;
+    right: 40px !important;
+}
+
+@media (max-width: 767px) {
+    html .transcy-switcher-container.transcy-switcher-position__floating.transcy-switcher-position__top_right {
+        top: 60px !important;
+        right: 5px !important;
+    }
+}
+
+html .transcy-switcher-item-primary.transcy-switcher-active .transcy-icon-arrow svg path {
+    fill: #fff !important;
+}
+
+html .transcy-switcher-container {
+    z-index: 100 !important;
+}
+
+html .transcy-switcher-container .transcy-label,
+html .transcy-switcher-container .transcy-custom-select {
+    color: #272727 !important;
+}
+
+html .transcy-switcher-item-primary:hover {
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+html .transcy-switcher-item-primary {
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition: opacity 0.3s ease;
+}
+
+@media (max-width: 767px) {
+    html .transcy-switcher-item-primary {
+        font-size: 14px !important;
+    }
+}
+
+@media (any-hover: hover) {
+    html .transcy-switcher-item-primary:hover {
+        border-radius: 0 !important;
+        background-color: transparent !important;
+        color: #fff !important;
+        border: none !important;
+        box-shadow: none !important;
+        opacity: 0.6;
+    }
+    html .transcy-switcher-item-primary:hover .transcy-icon svg path {
+        fill: #fff !important;
+    }
+}
+
+html .transcy-switcher-item-primary.transcy-switcher-active {
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+html .transcy-switcher-item-primary .transcy-flag {
+    display: none;
+}
+
+html .transcy-switcher-item-primary .transcy-icon svg path {
+    fill: #fff !important;
+}
+
+html .transcy-select-currency-items,
+html .transcy-select-language-items,
+html .transcy-select-country-items {
+    left: unset !important;
+    right: 0 !important;
+}
+
+html .transcy-switcher-content,
+html .transcy-select-items,
+html .transcy-switcher .transcy-select__field,
+html .transcy-btn-apply button {
+    border-radius: 0 !important;
+}
+
+html .transcy-btn-apply button {
+    background: #272727 !important;
+    border: 1px solid #fff !important;
+    transition: opacity 0.3s ease;
+}
+
+@media (any-hover: hover) {
+    html .transcy-btn-apply button:hover {
+        opacity: 0.6;
+    }
+}
+
+body.is-preload {
+    opacity: 0;
+}
+
+body.is-preload.js-show {
+    opacity: 1;
+}
