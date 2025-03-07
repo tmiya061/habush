@@ -732,6 +732,31 @@
       <div class="c-modal_bg js-modal-close"></div>
       <div class="js-can-scroll c-modal_content _lg">
         <span class="crossーclose"></span>
+        {% if request.path contains '/en' %}
+        <div class="c-modal_content_inner">
+          <img src="{{ 'mark.png' | file_url }}" alt="" class="mark">
+          <h3>Are you 21 years old or older?</h3>
+          <ul class="d-flex justify-content-center">
+            <li class="yes_btn">
+              <!-- <a href="https://awichmerch.thebase.in/items/69187993" class="en"> -->
+              <a href="/en/cart/add?id=47170814214439&quantity=1" class="en">
+                <picture class="">
+                  <source srcset="{{ 'yes_btn.svg' | file_url }}" media="(min-width: 768px)">
+                  <img src="{{ 'yes_btn_sp.svg' | file_url }}" alt="Yes">
+                </picture>
+              </a>
+            </li>
+            <li class="no_btn en">
+              <a href="https://google.com" class="en">
+                <picture class="">
+                  <source srcset="{{ 'no_btn.svg' | file_url }}" media="(min-width: 768px)">
+                  <img src="{{ 'no_btn_sp.svg' | file_url }}" alt="No">
+                </picture>
+              </a>
+            </li>
+          </ul>
+        </div>
+        {% else %}}
         <div class="c-modal_content_inner">
           <img src="{{ 'mark.png' | file_url }}" alt="" class="mark">
           <h3>あなたは、20歳以上ですか？</h3>
@@ -755,6 +780,7 @@
             </li>
           </ul>
         </div>
+        {% endif %}}
       </div>
     </div>
     <!-- /modal-03 -->
