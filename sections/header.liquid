@@ -7,21 +7,28 @@
 {% endif %}
 <header class="{% if template == 'page.recipe' %}preload-main{% endif %} {% if template == 'page.process' %}preload-main{% endif %}">
   <div class="header-container d-flex">
+    {% if request.path contains '/en' %}
+    <a href="/en" class="symbol animate__animated animate__fadeIn animate__delay-1s">
+      <picture>
+        <source srcset="{{ 'symbol.webp' | file_url }}" type="image/webp">
+        <img src="{{ 'symbol.png' | file_url }}?1" alt="" width="70">
+      </picture>
+    </a>
+    {% else %}
     <a href="/" class="symbol animate__animated animate__fadeIn animate__delay-1s">
       <picture>
         <source srcset="{{ 'symbol.webp' | file_url }}" type="image/webp">
         <img src="{{ 'symbol.png' | file_url }}?1" alt="" width="70">
       </picture>
     </a>
+    {% endif %}
     <div class="header-text-wrap animate__animated animate__fadeIn animate__delay-1s">
       <div class="header-text">
-        <p class="en">SPECIALQUALITY</p>
+        <p class="en">{{ section.settings.header_menu_side_text1 }}</p>
       </div>
       <div class="header-text">
         <p class="en">
-          Awamori<br>
-          Habu extract<br>
-          13 kinds of herbs
+          {{ section.settings.header_menu_side_text2 }}
         </p>
       </div>
 
@@ -49,25 +56,45 @@
       <nav class="g-nav">
         {% if template == 'index' %}
         <ul>
-          <li><a href="/">TOP</a></li>
-          <li><a href="/collections/all">PRODUCT</a></li>
-          <li><a href="#story-main">BRAND STORY</a></li>
-          <li><a href="/pages/process">PROCESS</a></li>
-          <li><a href="/pages/recipe">RECIPE</a></li>
-          <li><a href="#sns">SNS</a></li>
-          <li><a href="/blogs/topic">TOPICS</a></li>
-          <li><a href="#info">CONTACT</a></li>
+          {% if request.path contains '/en' %}
+            <li><a href="/en">{{ section.settings.header_list1 }}</a></li>
+            <li><a href="/en/collections/all">{{ section.settings.header_list2 }}</a></li>
+            <li><a href="/en#story-main">{{ section.settings.header_list3 }}</a></li>
+            <li><a href="/en/pages/process">{{ section.settings.header_list4 }}</a></li>
+            <li><a href="/en/pages/recipe">{{ section.settings.header_list5 }}</a></li>
+            <li><a href="/en#sns">{{ section.settings.header_list6 }}</a></li>
+            <li><a href="/en#info">{{ section.settings.header_list8 }}</a></li>
+          {% else %}
+            <li><a href="/">{{ section.settings.header_list1 }}</a></li>
+            <li><a href="/collections/all">{{ section.settings.header_list2 }}</a></li>
+            <li><a href="#story-main">{{ section.settings.header_list3 }}</a></li>
+            <li><a href="/pages/process">{{ section.settings.header_list4 }}</a></li>
+            <li><a href="/pages/recipe">{{ section.settings.header_list5 }}</a></li>
+            <li><a href="#sns">{{ section.settings.header_list6 }}</a></li>
+            <li><a href="/blogs/topic">{{ section.settings.header_list7 }}</a></li>
+            <li><a href="#info">{{ section.settings.header_list8 }}</a></li>
+          {% endif %}
         </ul>
         {% else %}
         <ul>
-          <li><a href="/">TOP</a></li>
-          <li><a href="/collections/all">PRODUCT</a></li>
-          <li><a href="{{ shop.url }}#story-main">BRAND STORY</a></li>
-          <li><a href="/pages/process">PROCESS</a></li>
-          <li><a href="/pages/recipe">RECIPE</a></li>
-          <li><a href="{{ shop.url }}#sns">SNS</a></li>
-          <li><a href="/blogs/topic">TOPICS</a></li>
-          <li><a href="#info">CONTACT</a></li>
+          {% if request.path contains '/en' %}
+            <li><a href="/en">{{ section.settings.header_list1 }}</a></li>
+            <li><a href="/en/collections/all">{{ section.settings.header_list2 }}</a></li>
+            <li><a href="{{ shop.url }}/en#story-main">{{ section.settings.header_list3 }}</a></li>
+            <li><a href="/en/pages/process">{{ section.settings.header_list4 }}</a></li>
+            <li><a href="/en/pages/recipe">{{ section.settings.header_list5 }}</a></li>
+            <li><a href="{{ shop.url }}/en#sns">{{ section.settings.header_list6 }}</a></li>
+            <li><a href="/en#info">{{ section.settings.header_list8 }}</a></li>
+          {% else %}
+            <li><a href="/">{{ section.settings.header_list1 }}</a></li>
+            <li><a href="/collections/all">{{ section.settings.header_list2 }}</a></li>
+            <li><a href="{{ shop.url }}#story-main">{{ section.settings.header_list3 }}</a></li>
+            <li><a href="/pages/process">{{ section.settings.header_list4 }}</a></li>
+            <li><a href="/pages/recipe">{{ section.settings.header_list5 }}</a></li>
+            <li><a href="{{ shop.url }}#sns">{{ section.settings.header_list6 }}</a></li>
+            <li><a href="/blogs/topic">{{ section.settings.header_list7 }}</a></li>
+            <li><a href="#info">{{ section.settings.header_list8 }}</a></li>
+          {% endif %}
         </ul>
         {% endif %}
       </nav>
@@ -75,3 +102,88 @@
   </div>
   <span class="nav-open-mask"></span>
 </header>
+
+
+{% schema %}
+{
+  "name": "トップデザイン",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "mv_text",
+      "label": "タイトル"
+    },
+    {
+      "type": "textarea",
+      "id": "header_menu_side_text1",
+      "label": "SPECIALQUALITY",
+      "default": "SPECIALQUALITY"
+    },
+    {
+      "type": "textarea",
+      "id": "header_menu_side_text2",
+      "label": "Awamori",
+      "default": "Awamori<br>Habu extract<br>13 kinds of herbs"
+    },
+    {
+      "type": "header",
+      "content": "ヘッダーリスト"
+    },
+    {
+      "type": "textarea",
+      "id": "header_list1",
+      "label": "TOP",
+      "default": "TOP"
+    },
+    {
+      "type": "textarea",
+      "id": "header_list2",
+      "label": "PRODUCT",
+      "default": "PRODUCT"
+    },
+    {
+      "type": "textarea",
+      "id": "header_list3",
+      "label": "BRAND STORY",
+      "default": "BRAND STORY"
+    },
+    {
+      "type": "textarea",
+      "id": "header_list4",
+      "label": "PROCESS",
+      "default": "PROCESS"
+    },
+    {
+      "type": "textarea",
+      "id": "header_list5",
+      "label": "RECIPE",
+      "default": "RECIPE"
+    },
+    {
+      "type": "textarea",
+      "id": "header_list6",
+      "label": "SNS",
+      "default": "SNS"
+    },
+    {
+      "type": "textarea",
+      "id": "header_list7",
+      "label": "TOPICS",
+      "default": "TOPICS"
+    },
+    {
+      "type": "textarea",
+      "id": "header_list8",
+      "label": "CONTACT",
+      "default": "CONTACT"
+    },
+  ],
+  "presets": [
+    {
+      "name": "トップデザイン",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}
