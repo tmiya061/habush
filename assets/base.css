@@ -3511,12 +3511,12 @@ details-disclosure > details {
 } */
 
 
-#transcySwitcherContainer {
+/* #transcySwitcherContainer {
     display: none;
-}
-#transcySwitcherContainer.js-show {
+} */
+/* #transcySwitcherContainer.js-show {
     display: block;
-}
+} */
 
 body {
     position: relative;
