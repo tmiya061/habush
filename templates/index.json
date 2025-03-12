@@ -1,9 +1,37 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "9ad903de-37f8-41f9-b1f6-a066934e204e": {
       "type": "custom-top",
       "settings": {
-        "mv_text": ""
+        "top_product_explain": "サトウキビからつくった59度のアルコールに<br class=\"for-pc\">浸けて抽出し、香り高い13種類（または8種類）<br class=\"for-pc\">のハーブ酒（泡盛ベース）と合わせたハブ酒。",
+        "top_product_capacity": "内容量 500ml<br>アルコール度数 35度",
+        "top_product_remark": "これはお酒です。<br>20歳未満の者の飲酒は法律で<br class=\"for-sp\">禁止されています。",
+        "top_product_add_cart": "カートに入れる&emsp;&RightArrow;",
+        "top_product_sold_out": "売り切れ&emsp;&RightArrow;",
+        "top_product_detail": "商品詳細をみる&emsp;&RightArrow;",
+        "top_shot_title": "Energy Shot<br><span>f</span>or You",
+        "top_shot_head": "Okinawa - Japan",
+        "top_shot_text2": "ハーブの香り、ほのかな甘さ。<br>一口飲めば、カラダが芯からアツくなってくる。<br><br>沖縄で大切にされてきた伝統的な薬膳酒「ハブ酒」は、<br>滋養強壮パワーはそのままに飲みやすい「HABUSH」<br class=\"for-sp\">として生まれ変わりました。<br><br>沖縄で「ヌチグスイ（命薬）」と呼ばれる<br class=\"for-sp\">「薬になるほどの効果がある食べ物や飲み物」を目指し、十三種類のハーブエキスや、<br class=\"for-sp\">命の源である成分を多く含むハブエキスを配合。<br>職人たちが1本1本丁寧に仕上げています。<br><br>Awichがプロデュースするのは、<br class=\"for-sp\">刺激を求める大人たちのエネルギッシュな夜の時間。<br>セクシーに、スタイリッシュに、<br class=\"for-sp\">エネルギッシュに、楽しい夜を演出します。",
+        "top_recipe_head": "Match with a Variety of Tastes",
+        "top_recipe_coffee": "ブラックコーヒー",
+        "top_recipe_cora": "コーラ",
+        "top_recipe_water": "トニックウォーター",
+        "top_recipe_energy": "エナジードリンク",
+        "top_recipe_sanpin_tea": "さんぴん茶",
+        "top_recipe_milk": "牛乳",
+        "top_recipe_yogurt": "ヨーグルト",
+        "top_recipe_grapefruit": "グレープフルーツ",
+        "top_sns": "INSTAGRAM<br>PHOTO<br><br>HABUSH.JP<br><br>",
+        "text_more": "more"
       }
     }
   },
