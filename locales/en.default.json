@@ -181,7 +181,8 @@
       "view_full_details": "View details",
       "xr_button": "Show in space",
       "xr_button_label": "Display in Space and Load Items in Augmented Reality Window",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping Fee</a>will be calculated at checkout."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping Fee</a>will be calculated at checkout.",
+      "include_taxes": "<tc>  </tc>"
     },
     "modal": {
       "label": "Media Gallery"
